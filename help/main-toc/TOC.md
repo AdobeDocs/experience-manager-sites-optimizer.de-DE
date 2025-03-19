@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Dies ist eine Beschreibung für das Benutzerhandbuch, das auf der Landingpage angezeigt wird.
-source-git-commit: 5d57d42623343ef5b968a4dc4368cc9ea4932d9d
+source-git-commit: fbcd038d52f4761fc328404c410ef25534071f22
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '81'
 ht-degree: 39%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 39%
    + [Interaktion](/help/opportunity-types/engagement.md)
    + [Site-Zustand](/help/opportunity-types/site-health.md)
    + [Sicherheitsstatus](/help/opportunity-types/security-posture.md)
-   + [Formularoptimierung](/help/opportunity-types/form-optimization.md)
 + Dokumentation{#documentation}
    + [Überblick](/help/documentation/overview.md)
    + [Grundlagen](/help/documentation/basics.md)
@@ -35,8 +34,6 @@ ht-degree: 39%
       + [Ungültige oder fehlende Metadaten](/help/documentation/opportunities/invalid-or-missing-metadata.md)
       + [Fehlende oder ungültige strukturierte Daten](/help/documentation/opportunities/missing-invalid-structured-data.md)
       + [Fehlender ALT-Text](/help/documentation/opportunities/missing-alt-text.md)
-      + [Niedrige Konversionen](/help/documentation/opportunities/low-conversions.md)
-      + [Niedrige Ansichten](/help/documentation/opportunities/low-views.md)
       + [Sitemap-Probleme](/help/documentation/opportunities/sitemap-issues.md)
       + [Website-Berechtigungen](/help/documentation/opportunities/website-permissions.md)
       + [Website-Schwachstellen](/help/documentation/opportunities/website-vulnerabilities.md)
