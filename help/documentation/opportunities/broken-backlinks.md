@@ -2,7 +2,7 @@
 title: Fehlerhafte Backlinks Opportunity-Dokumentation
 description: Erfahren Sie mehr über die defekte Backlinks-Opportunity und wie Sie sie zur Verbesserung der Traffic-Akquise verwenden können.
 badgeTrafficAcquisition: label="Traffic-Akquise" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Traffic-Akquise"
-source-git-commit: d2f8df0515265f6bc983cf906e07e9bf7230becf
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 1%
@@ -60,9 +60,9 @@ Sie können Einträge mit der fehlerhaften Ziel-URL ignorieren. Durch Auswahl **
 
 >[!ENDTABS]
 
+## Automatische Optimierung
 
-## [!BADGE Ultimate automatisch optimieren]{type=Positive tooltip="Ultimate"}
-
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Beschädigte Backlinks automatisch optimieren](./assets/broken-backlinks/auto-optimize.png){align="center"}
 

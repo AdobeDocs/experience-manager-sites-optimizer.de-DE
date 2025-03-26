@@ -2,7 +2,7 @@
 title: Fehlende oder ungültige strukturierte Daten - Dokumentation
 description: Erfahren Sie mehr über die fehlende oder ungültige Möglichkeit für strukturierte Daten und wie Sie damit die Traffic-Erfassung verbessern können.
 badgeTrafficAcquisition: label="Traffic-Akquise" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Traffic-Akquise"
-source-git-commit: 0a333a4055e59c49d3266d8c3ed55d7e60771923
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 3%
@@ -41,8 +41,9 @@ Die Opportunity „Ungültige oder fehlende strukturierte Daten“ bietet auch K
 * **Probleme** - Ein Feld, das die Anzahl der Probleme und ein Dropdown-Menü mit allen Problemen enthält.
 * **Vorschlagsfeld** - Eine von KI generierte Beschreibung und Vorschläge für geeignete strukturierte Datenaktualisierungen. Sie können nach unten scrollen, um zusätzliche Vorschläge und Probleme zu erhalten.
 
-## [!BADGE Ultimate automatisch optimieren]{type=Positive tooltip="Ultimate"}
+## Automatische Optimierung
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Automatisch vorgeschlagene fehlende oder ungültige strukturierte Daten optimieren](./assets/missing-or-invalid-structured-data/auto-optimize.png){align="center"}
 

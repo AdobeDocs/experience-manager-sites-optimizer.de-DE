@@ -2,7 +2,7 @@
 title: Dokumentation zu wichtigen Web-Opportunities
 description: Erfahren Sie mehr über die wichtigsten Opportunities im Web und wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.
 badgeSiteHealth: label="Site-Zustand" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Site-Zustand"
-source-git-commit: 81343812472477448fd0ee8be89bd6ae784a9e61
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -42,8 +42,9 @@ Die Gelegenheit zu Core Web Vitals bietet KI-generierte Fehlerbehebungsvorschlä
 
 Jede Kategorie kann mehrere Probleme enthalten. Scrollen Sie daher nach unten, um die vollständige Liste der Probleme und Empfehlungen anzuzeigen.  Darüber hinaus gibt es für jede Metrik zwei Leistungsmessungen für Mobilgeräte und Desktops.
 
-## [!BADGE Ultimate automatisch optimieren]{type=Positive tooltip="Ultimate"}
+## Automatische Optimierung
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Opportunity für zentrale Web-Vitalfunktionen automatisch optimieren](./assets/core-web-vitals/auto-optimize.png){align="center"}
 

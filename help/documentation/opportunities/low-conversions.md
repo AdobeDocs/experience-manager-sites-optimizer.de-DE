@@ -2,7 +2,7 @@
 title: Dokumentation zu Opportunities mit geringer Konversionsrate
 description: Erfahren Sie mehr über die niedrige Konversionsrate und wie Sie damit die Formularinteraktion auf Ihrer Website verbessern können.
 badgeFormOptimization: label="Formularoptimierung" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Formularoptimierung"
-source-git-commit: f83926c9136e3d83be56faa403bc9609b2ee09df
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 1%
@@ -50,8 +50,9 @@ Klicken Sie auf die einzelnen Varianten, um sie auf der rechten Seite des Bildsc
 
 >[!ENDTABS]
 
-## [!BADGE Ultimate automatisch optimieren]{type=Positive tooltip="Ultimate"}
+## Automatische Optimierung
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Automatische Optimierung niedriger Konversionen](./assets/low-conversions/auto-optimize.png){align="center"}
 

@@ -2,7 +2,7 @@
 title: Fehlende ALT-Text-Dokumentation
 description: Erfahren Sie mehr über die fehlende ALT-Text-Opportunity und wie Sie sie zur Verbesserung der Interaktion mit Ihrer Website verwenden können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
-source-git-commit: 84f922b5d0f788c1affe47a9013ed640947d0ec4
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -57,8 +57,9 @@ Sie können festlegen, dass Einträge in der Opportunity-Liste ignoriert werden.
 
 >[!ENDTABS]
 
-## [!BADGE Ultimate automatisch optimieren]{type=Positive tooltip="Ultimate"}
+## Automatische Optimierung
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Automatisch zu optimierenden fehlenden Alternativtext](./assets/missing-alt-text/auto-optimize.png){align="center"}
 

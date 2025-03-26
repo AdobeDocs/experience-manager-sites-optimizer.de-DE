@@ -2,7 +2,7 @@
 title: Sitemap-Probleme Opportunity-Dokumentation
 description: Erfahren Sie mehr über die Probleme mit der Sitemap und wie Sie damit die Traffic-Akquise verbessern können.
 badgeTrafficAcquisition: label="Traffic-Akquise" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Traffic-Akquise"
-source-git-commit: d812a49e4b49d329717586b9f3c7a235aff3e69a
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 1%
@@ -75,8 +75,9 @@ Jedes Sitemap[Problem, das die Filterkriterien erfüllt](#auto-identify) wird in
 
 Vorschläge enthalten normalerweise einen aktualisierten Site-Pfad, um den Sitemap-Eintrag zu korrigieren. In einigen Fällen können sie auch detailliertere Anweisungen bereitstellen, z. B. die Angabe des richtigen Umleitungsziels.
 
-## [!BADGE Ultimate automatisch optimieren]{type=Positive tooltip="Ultimate"}
+## Automatische Optimierung
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Sitemap-Probleme automatisch optimieren](./assets/sitemap-issues/auto-optimize.png){align="center"}
 

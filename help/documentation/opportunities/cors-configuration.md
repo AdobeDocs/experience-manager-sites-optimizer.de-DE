@@ -2,7 +2,7 @@
 title: Dokumentation zu CORS-Konfigurationsmöglichkeiten
 description: Erfahren Sie mehr über die Möglichkeiten der CORS-Konfiguration und zur Identifizierung und Behebung von Sicherheitslücken an der Site.
 badgeSecurityPosture: label="Sicherheitsstatus" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Sicherheitsstatus"
-source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 3%
@@ -32,9 +32,9 @@ Die automatische Identifizierung überprüft Ihre Website auf CORS-Fehlkonfigura
 Automatische Vorschläge für (**) Code** Dateien und deren **Zeilen** die überprüft werden sollen und für die möglicherweise laxe CORS-Richtlinien festgelegt werden.
 
 
-## [!BADGE Ultimate automatisch optimieren]{type=Positive tooltip="Ultimate"}
+## Automatische Optimierung
 
-
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 >[!BEGINTABS]
 

@@ -2,7 +2,7 @@
 title: Website-Zugriffsberechtigungen - Opportunity-Dokumentation
 description: Erfahren Sie mehr über die Website-Berechtigungschance und wie Sie damit die Sicherheit von auf Ihrer Website erhöhen können.
 badgeSecurityPosture: label="Sicherheitsstatus" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Sicherheitsstatus"
-source-git-commit: 5d1ae616ddde74f69b73ba5b44297c14b2dea36b
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 2%
@@ -33,7 +33,9 @@ Die **Opportunity für Websiteberechtigungen** identifiziert und listet automati
 
 Der automatische Vorschlag bietet KI-generierte Empfehlungen im Feld **Vorgeschlagene Berechtigungen** mit denen Sie alle gekennzeichneten Berechtigungen durch sichere Alternativen ersetzen können.
 
-## [!BADGE Ultimate automatisch optimieren]{type=Positive tooltip="Ultimate"}
+## Automatische Optimierung
+
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Website-Berechtigungen automatisch optimieren](./assets/website-permissions/auto-optimize.png){align="center"}
 

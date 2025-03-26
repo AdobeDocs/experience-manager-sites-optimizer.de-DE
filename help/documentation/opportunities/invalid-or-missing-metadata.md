@@ -2,7 +2,7 @@
 title: Ungültige oder fehlende Metadaten-Opportunity-Dokumentation
 description: Erfahren Sie mehr über die ungültige oder fehlende Metadaten-Opportunity und wie Sie sie zur Verbesserung der Traffic-Akquise verwenden können.
 badgeTrafficAcquisition: label="Traffic-Akquise" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Traffic-Akquise"
-source-git-commit: 850c1ed49d4ee117ece19c865a329f13b69bc8dc
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 2%
@@ -64,8 +64,9 @@ Sie können Einträge mit fehlerhaften oder ungültigen Zielmetadaten ignorieren
 
 >[!ENDTABS]
 
-## [!BADGE Ultimate automatisch optimieren]{type=Positive tooltip="Ultimate"}
+## Automatische Optimierung
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Vorgeschlagene ungültige oder fehlende Metadaten automatisch optimieren](./assets/missing-or-invalid-metadata/auto-optimize.png){align="center"}
 

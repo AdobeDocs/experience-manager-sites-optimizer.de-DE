@@ -2,7 +2,7 @@
 title: Dokumentation zu Opportunities mit hoher Absprungrate
 description: Erfahren Sie mehr über die niedrige Ansichtsmöglichkeit und wie Sie damit die Formularinteraktion auf Ihrer Website verbessern können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
-source-git-commit: 393feffe477eff99a026b7ad7cad5531c20254ea
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -50,7 +50,9 @@ Klicken Sie auf die einzelnen Varianten, um sie auf der rechten Seite des Bildsc
 
 >[!ENDTABS]
 
-## [!BADGE Ultimate automatisch optimieren]{type=Positive tooltip="Ultimate"}
+## Automatische Optimierung
+
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Automatische Optimierung einer hohen Absprungrate](./assets/high-bounce-rate/auto-optimize.png){align="center"}
 

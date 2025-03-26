@@ -2,7 +2,7 @@
 title: Dokumentation zu Opportunity für niedrige Ansichten
 description: Erfahren Sie mehr über die niedrige Ansichtsmöglichkeit und wie Sie damit die Formularinteraktion auf Ihrer Website verbessern können.
 badgeFormOptimization: label="Formularoptimierung" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Formularoptimierung"
-source-git-commit: 258024606c732a4f4d4fe21a9ee36e1e2d3572f5
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 1%
@@ -50,8 +50,9 @@ Klicken Sie auf die einzelnen Varianten, um sie auf der rechten Seite des Bildsc
 
 >[!ENDTABS]
 
-## [!BADGE Ultimate automatisch optimieren]{type=Positive tooltip="Ultimate"}
+## Automatische Optimierung
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Niedrige Ansichten automatisch optimieren](./assets/low-views/auto-optimize.png){align="center"}
 

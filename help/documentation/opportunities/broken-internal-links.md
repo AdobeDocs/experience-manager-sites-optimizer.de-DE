@@ -2,7 +2,7 @@
 title: Beschädigte interne Links Opportunity-Dokumentation
 description: Erfahren Sie mehr über die Opportunity mit fehlerhaften Links und wie Sie sie zur Verbesserung der Interaktion mit Ihrer Website verwenden können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
-source-git-commit: 40ed1b3d60bd4eb1e5410c8c76a7d45856a3d79b
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -61,8 +61,9 @@ Sie können Einträge mit den fehlerhaften URLs ignorieren. Wenn Sie auf das **I
 >[!ENDTABS]
 
 
-## [!BADGE Ultimate automatisch optimieren]{type=Positive tooltip="Ultimate"}
+## Automatische Optimierung
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 <!---![Auto-optimize suggested invalid or missing metadata](./assets/broken-internal-links/auto-optimize.png){align="center"}-->
 

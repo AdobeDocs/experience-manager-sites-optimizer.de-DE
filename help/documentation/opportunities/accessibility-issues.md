@@ -2,7 +2,7 @@
 title: Dokumentation zu Opportunity-Problemen mit Barrierefreiheit
 description: Erfahren Sie mehr über Probleme mit der Barrierefreiheit und wie Sie damit die Sicherheit von auf Ihrer Website erhöhen können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
-source-git-commit: fd439ce1e5191005fd79c81aef790f3cc7550e94
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 2%
@@ -34,7 +34,9 @@ Die **Gelegenheit zu Barrierefreiheitsproblemen** zeigt Probleme mit der Barrier
 
 Der automatische Vorschlag bietet KI-generierte Empfehlungen im Feld **So beheben Sie das Problem**, das Hinweise zu Maßnahmen zur Behebung des Problems enthält.
 
-## [!BADGE Ultimate automatisch optimieren]{type=Positive tooltip="Ultimate"}
+## Automatische Optimierung
+
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Probleme mit der Barrierefreiheit automatisch optimieren](./assets/accessibility-issues/auto-optimize.png){align="center"}
 

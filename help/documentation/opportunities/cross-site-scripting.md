@@ -2,7 +2,7 @@
 title: Cross-Site-Scripting-Opportunity-Dokumentation
 description: Erfahren Sie mehr über die Cross-Site-Scripting-Möglichkeit und lernen Sie, Schwachstellen in der Site-Sicherheit zu identifizieren und zu beheben.
 badgeSecurityPosture: label="Sicherheitsstatus" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Sicherheitsstatus"
-source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 4%
@@ -29,8 +29,9 @@ Das Cross-Site-Scripting identifiziert und behebt Schwachstellen im Code Ihrer S
 
 * **Vorgeschlagene Behebung** - Ein von KI generierter Vorschlag zur Behebung der Sicherheitslücke.
 
-## [!BADGE Ultimate automatisch optimieren]{type=Positive tooltip="Ultimate"}
+## Automatische Optimierung
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 >[!BEGINTABS]
 

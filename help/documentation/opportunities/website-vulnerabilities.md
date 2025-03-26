@@ -2,7 +2,7 @@
 title: Dokumentation zu Website-Schwachstellen und Opportunities
 description: Erfahren Sie mehr über die Website-Schwachstellen und wie Sie damit die Sicherheit von auf Ihrer Website erhöhen können.
 badgeSecurityPosture: label="Sicherheitsstatus" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Sicherheitsstatus"
-source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 1%
@@ -52,7 +52,9 @@ Sie können Einträge aus der Liste der Schwachstellen ignorieren. Wenn Sie auf 
 >[!ENDTABS]
 
 
-## [!BADGE Ultimate automatisch optimieren]{type=Positive tooltip="Ultimate"}
+## Automatische Optimierung
+
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Website-Schwachstellen automatisch optimieren](./assets/website-vulnerabilities/auto-optimize.png){align="center"}
 
