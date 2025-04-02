@@ -2,7 +2,7 @@
 title: Dokumentation zu Opportunity-Problemen mit Barrierefreiheit
 description: Erfahren Sie mehr über Probleme mit der Barrierefreiheit und wie Sie damit die Sicherheit von auf Ihrer Website erhöhen können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
+source-git-commit: c52b60fb483009856cb6976eddbf86141d0846fc
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 2%
@@ -22,7 +22,7 @@ Die Opportunity mit Problemen im Zusammenhang mit der Barrierefreiheit identifiz
 
 Die **Gelegenheit zu Barrierefreiheitsproblemen** zeigt Probleme mit der Barrierefreiheit auf Ihrer Website auf und umfasst Folgendes:
 
-* **Probleme** - DAS spezifische Problem mit der Barrierefreiheit, das gefunden wurde.
+* **Probleme** - Das spezifische Problem mit der Barrierefreiheit.
 * **Richtlinien** - Die [WCAG-Richtlinien-ID](https://www.w3.org/TR/WCAG21/) des Problems verstößt gegen .
 * **Nutzerwirkung** - Eine Bewertung der Auswirkungen auf Nutzer mit Behinderungen.
 * **Fehlgeschlagene Elemente** - Die HTML-Elemente auf der Web-Seite, die von dem Problem betroffen sind.
