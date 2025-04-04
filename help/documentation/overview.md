@@ -2,9 +2,9 @@
 title: Dokumentation zu Sites Optimizer
 description: Dokumentation zu Experience Manager Sites Optimizer.
 source-git-commit: a0b7fcae81bee2bce5ed1d3186026f4577708512
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 13%
 
 ![Sites Optimizer](./assets/overview/hero.png){align="center"}
 
-Willkommen in der Dokumentation zu Sites Optimizer. Hier finden Sie Informationen zur Verwendung von Sites Optimizer zur Optimierung Ihrer AEM-Sites.
+Willkommen bei der Dokumentation zu Sites Optimizer. Hier finden Sie Informationen zur Verwendung von Sites Optimizer zur Optimierung Ihrer AEM-Sites.
 
-## Grundlagen von Site Optimizer
+## Grundlagen zu Sites Optimizer
 
-In der AEM Sites Optimizer-Dokumentation erfahren Sie mehr über die wichtigsten UI-Komponenten, einschließlich des Startseiten-Dashboards, der Einstellungskonfigurationen und der Liste mit Opportunitys für Optimierungseinblicke.
+In der Dokumentation zu AEM Sites Optimizer erfahren Sie mehr über die wichtigsten Komponenten der Benutzeroberfläche, einschließlich des Startseiten-Dashboards, der Einstellungskonfigurationen und der Liste mit Möglichkeiten für Erkenntnisse zur Optimierung.
 
 <!-- CARDS 
 
@@ -47,11 +47,11 @@ In der AEM Sites Optimizer-Dokumentation erfahren Sie mehr über die wichtigsten
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./basics.md" target="_blank" rel="referrer" title="Grundlagen">Grundlagen</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Grundlagen von Sites Optimizer und wie Sie darin navigieren.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über Grundlegendes zu Sites Optimizer und darüber, wie Sie darin navigieren.</p>
                 </div>
                 <a href="./basics.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>
@@ -68,13 +68,13 @@ In der AEM Sites Optimizer-Dokumentation erfahren Sie mehr über die wichtigsten
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./opportunities/overview.md" target="_blank" rel="referrer" title="Opportunitys">Opportunities</a>
+                        <a href="./opportunities/overview.md" target="_blank" rel="referrer" title="Opportunitys">Möglichkeiten</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über alle verfügbaren Site Optimizer-Möglichkeiten und wie Sie diese verwenden können, um die Leistung Ihrer Site zu verbessern.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über alle verfügbaren Möglichkeiten in Sites Optimizer und darüber, wie Sie sie zur Verbesserung der Leistung Ihrer Site einsetzen können.</p>
                 </div>
                 <a href="./opportunities/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>
@@ -93,11 +93,11 @@ In der AEM Sites Optimizer-Dokumentation erfahren Sie mehr über die wichtigsten
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./settings.md" target="_blank" rel="referrer" title="Einstellungen">Einstellungen</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie, wie Sie Sites Optimizer-Einstellungen konfigurieren und mit anderen Tools integrieren.</p>
+                    <p class="is-size-6">Erfahren Sie, wie Sie die Einstellungen für Sites Optimizer konfigurieren und mit anderen Tools integrieren.</p>
                 </div>
                 <a href="./settings.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>

@@ -1,19 +1,19 @@
 ---
-title: Optimieren des Sicherheitszustands mit Sites Optimizer
+title: Optimieren des Sicherheitsstatus mit Sites Optimizer
 description: Erfahren Sie, wie Sie die Sicherheit Ihrer Site mit Sites Optimizer verbessern können.
 source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
 
-# Sicherheitslage - Chancen
+# Sicherheitsstatus – Opportunitys
 
-![Chancen für die Sicherheitslage](./assets/security-posture/hero.png){align="center"}
+![Sicherheitsstatus – Opportunitys](./assets/security-posture/hero.png){align="center"}
 
-Die Aufrechterhaltung eines soliden Sicherheitszustands in AEM Sites Optimizer ist für den Schutz digitaler Erlebnisse und Benutzerdaten von entscheidender Bedeutung. Durch Ermittlung von Verbesserungsmöglichkeiten wie CORS-Konfiguration, Cross-Site-Scripting, Website-Berechtigungen und Website-Schwachstellen können Teams proaktiv potenzielle Sicherheitsrisiken beheben und die Einhaltung von Best Practices sicherstellen. Durch die Stärkung der Sicherheitsmaßnahmen werden nicht nur sensible Informationen geschützt, sondern auch das Vertrauen der Benutzer und die Zuverlässigkeit der Website gestärkt. Durch die Nutzung der Erkenntnisse von AEM Sites Optimizer können Unternehmen ihre Sicherheitsstrategie kontinuierlich überwachen und verbessern, Risiken reduzieren und eine sichere digitale Umgebung gewährleisten.
+Ein solider Sicherheitsstatus in AEM Sites Optimizer ist für den Schutz digitaler Erlebnisse und Benutzerdaten von entscheidender Bedeutung. Durch Ermittlung von Verbesserungsmöglichkeiten – Opportunitys – wie CORS-Konfiguration, Cross-Site-Scripting, Website-Berechtigungen und Website-Schwachstellen können Teams proaktiv auf potenzielle Sicherheitsrisiken eingehen und die Einhaltung von Best Practices sicherstellen. Im Zuge besserer Sicherheitsmaßnahmen werden nicht nur sensible Informationen geschützt, sondern auch das Vertrauen der Benutzenden und die Zuverlässigkeit der Website gestärkt. Organisationen können anhand der von AEM Sites Optimizer bereitgestellten Erkenntnisse ihren Sicherheitsstatus kontinuierlich überwachen und verbessern, Risiken reduzieren und für eine sichere digitale Umgebung sorgen.
 
 ## Opportunitys
 
@@ -51,11 +51,11 @@ Die Aufrechterhaltung eines soliden Sicherheitszustands in AEM Sites Optimizer i
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/cors-configuration.md" target="_blank" rel="referrer" title="CORS-Konfiguration">CORS-Konfiguration</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeiten der CORS-Konfiguration und zur Identifizierung und Behebung von Sicherheitslücken an der Site.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Opportunity „CORS-Konfiguration“ und finden Sie heraus, wie Sie Sicherheitsschwachstellen auf der Site identifizieren und beheben.</p>
                 </div>
                 <a href="../documentation/opportunities/cors-configuration.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>
@@ -74,11 +74,11 @@ Die Aufrechterhaltung eines soliden Sicherheitszustands in AEM Sites Optimizer i
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/cross-site-scripting.md" target="_blank" rel="referrer" title="Cross-Site-Scripting">Cross-Site-Scripting</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Cross-Site-Scripting-Möglichkeit und lernen Sie, Schwachstellen in der Site-Sicherheit zu identifizieren und zu beheben.</p>
+                    <p class="is-size-6">Informieren Sie sich über die Möglichkeit von Cross-Site-Scripting und über das Erkennen und Beheben von Sicherheitsschwachstellen auf Websites.</p>
                 </div>
                 <a href="../documentation/opportunities/cross-site-scripting.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>
@@ -97,11 +97,11 @@ Die Aufrechterhaltung eines soliden Sicherheitszustands in AEM Sites Optimizer i
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/website-permissions.md" target="_blank" rel="referrer" title="Website-Berechtigungen">Website-Berechtigungen</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Website-Berechtigungschance und wie Sie damit die Sicherheit von auf Ihrer Website erhöhen können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Opportunity „Website-Berechtigungen“ und finden Sie heraus, wie Sie damit die Sicherheit auf Ihrer Website erhöhen können.</p>
                 </div>
                 <a href="../documentation/opportunities/website-permissions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>
@@ -120,11 +120,11 @@ Die Aufrechterhaltung eines soliden Sicherheitszustands in AEM Sites Optimizer i
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities//website-vulnerabilities.md" target="_blank" rel="referrer" title="Website-Schwachstellen">Website-Schwachstellen</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Website-Schwachstellen und wie Sie damit die Sicherheit von auf Ihrer Website erhöhen können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Opportunity „Website-Schwachstellen“ und finden Sie heraus, wie Sie damit die Sicherheit auf Ihrer Website erhöhen können.</p>
                 </div>
                 <a href="../documentation/opportunities//website-vulnerabilities.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>

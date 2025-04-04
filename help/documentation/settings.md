@@ -1,10 +1,10 @@
 ---
 title: Sites Optimizer-Einstellungen
-description: Erfahren Sie, wie Sie Sites Optimizer-Einstellungen konfigurieren und mit anderen Tools integrieren.
+description: Erfahren Sie, wie Sie die Einstellungen für Sites Optimizer konfigurieren und mit anderen Tools integrieren.
 source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
@@ -13,12 +13,12 @@ ht-degree: 2%
 
 ![Sites Optimizer-Einstellungen](./assets/settings/hero.png){align="center"}
 
-Site Optimizer-Einstellungen sind der zentrale Hub für die Konfiguration Ihres Sites Optimizer-Erlebnisses.
+Sites Optimizer-Einstellungen sind der zentrale Hub für die Konfiguration Ihres Sites Optimizer-Erlebnisses.
 
 ## Google Search Console
 
-![Site-Optimizer-Einstellungen für die Google-Suchkonsole](./assets/settings/google-search-console.png){align="center"}
+![Sites Optimizer-Einstellungen für die Google Search Console](./assets/settings/google-search-console.png){align="center"}
 
-Der Google Search Console-Einstellungen-Connector in AEM Sites Optimizer ermöglicht die Analyse von wichtigen SEO-Metriken wie Such-Ranking, Clickthrough-Raten und Core Web Vitals. Wenn Sie die Google Search Console verbinden, können Sie die JSON-Analyse nutzen, um Optimierungsmöglichkeiten zu entdecken und die Site-Performance zu verbessern.
+Der Connector für die Google Search Console-Einstellungen in AEM Sites Optimizer ermöglicht die Analyse von wichtigen SEO-Metriken wie Platzierungen in Suchergebnissen, Klickraten und Core Web Vitals. Durch das Aufrechterhalten der Verbindung mit der Google Search Console können Sie die JSON-Analyse nutzen, um Optimierungsmöglichkeiten zu entdecken und die Site-Leistung zu verbessern.
 
-Um diesen Connector einzurichten, benötigen Sie Anmeldeinformationen mit Administratorzugriff auf die Google-Suchkonsole für die Domain.
+Für die Einrichtung dieses Connectors benötigen Sie Anmeldeinformationen mit Administratorzugriff auf die Google Search Console für die Domain.
