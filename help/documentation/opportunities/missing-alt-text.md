@@ -1,59 +1,59 @@
 ---
-title: Fehlende ALT-Text-Dokumentation
-description: Erfahren Sie mehr über die fehlende ALT-Text-Opportunity und wie Sie sie zur Verbesserung der Interaktion mit Ihrer Website verwenden können.
+title: Dokumentation zu fehlendem Alternativtext
+description: Erfahren Sie mehr über die Möglichkeit „Fehlender Alternativtext“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 0%
+ht-degree: 99%
 
 ---
 
 
-# Fehlende Alternativtext-Opportunity
+# Möglichkeit „Fehlender Alternativtext“
 
-![Fehlende Alternativtext-Opportunity](./assets/missing-alt-text/hero.png){align="center"}
+![Möglichkeit „Fehlender Alternativtext“](./assets/missing-alt-text/hero.png){align="center"}
 
-Die fehlende Alternativtext-Opportunity identifiziert Bilder ohne beschreibenden Alternativtext auf Ihrer Website. Suchmaschinen können Bilder ohne Alternativtext nicht richtig indizieren oder verstehen, was die Auffindbarkeit Ihres Inhalts und das potenzielle Suchranking erheblich reduziert und letztendlich die Reichweite Ihrer Zielgruppe einschränkt. Darüber hinaus werden Personen mit Sehbehinderungen, die sich darauf verlassen, dass Bildschirmlesehilfen Web-Inhalte verstehen, durch das Fehlen von Alternativtext für Bilder ausgeschlossen, wodurch effektiv Barrieren für den Zugriff auf Informationen geschaffen werden.
+Die Möglichkeit „Fehlender Alternativtext“ identifiziert Bilder ohne beschreibenden Alternativtext auf Ihrer Website. Suchmaschinen können Bilder ohne Alternativtext nicht richtig indizieren oder verstehen, was die Auffindbarkeit Ihrer Inhalte und die potenzielle Platzierung in Suchergebnissen erheblich reduziert und letztendlich das Erreichen Ihrer Zielgruppe einschränkt. Darüber hinaus werden Personen mit Sehbehinderungen, die sich auf Bildschirmlesehilfen verlassen, um Web-Inhalte zu verstehen, durch fehlenden Alternativtext bei Bildern ausgeschlossen, wodurch effektiv Barrieren für den Zugriff auf Informationen geschaffen werden.
 
-Die fehlende Alternativtext-Gelegenheit zeigt oben auf der Seite eine Zusammenfassung an, einschließlich einer Zusammenfassung des Problems und seiner Auswirkungen auf Ihre Site und Ihr Unternehmen.
+Die Möglichkeit „Fehlender Alternativtext“ zeigt oben auf der Seite eine Übersicht an, die eine Zusammenfassung des Problems und dessen Auswirkungen auf Ihre Site und Ihr Geschäft enthält.
 
-* **Projizierter Traffic-Verlust** - Der geschätzte Traffic-Verlust aufgrund des fehlenden Alternativtexts.
-* **Projizierter Traffic-Wert** - Der geschätzte Wert des verlorenen Traffics.
+* **Prognostizierter Traffic-Verlust**: Der geschätzte Traffic-Verlust aufgrund von fehlendem Alternativtext.
+* **Prognostizierter Traffic-Wert**: Der geschätzte Wert des verlorenen Traffics.
 
-Es gibt auch ein zusätzliches Feld, das die Gründe, Einblicke und Vorschläge im Zusammenhang mit der Opportunity anzeigt.
+Es gibt außerdem ein zusätzliches Feld, das die Gründe, Erkenntnisse und Vorschläge im Zusammenhang mit der Möglichkeit anzeigt.
 
-## Automatisch identifizieren
+## Automatische Identifizierung
 
-![Automatisch fehlenden ALT-Text identifizieren](./assets/missing-alt-text/auto-identify.png){align="center"}
+![Automatisches Identifizieren von fehlendem Alternativtext](./assets/missing-alt-text/auto-identify.png){align="center"}
 
-Die fehlende Alternativtext-Opportunity listet alle Bilder auf Ihrer Website auf, denen Alt-Text fehlt. Dieser Abschnitt enthält die folgenden Kategorien:
+Die Möglichkeit „Fehlender Alternativtext“ führt alle Bilder auf Ihrer Website auf, bei denen der Alternativtext fehlt. Dieser Abschnitt enthält die folgenden Kategorien:
 
-* **Seite** - Der Pfad zu der Seite, die den fehlenden ALT-Text enthält.
-* **Bild** - Dem Bild fehlt der beschreibende Alternativtext.
-* **Vorschlag** - Ein von KI generierter Vorschlag für den Alternativtext.
+* **Seite**: Der Pfad zu der Seite mit dem fehlenden Alternativtext.
+* **Bild**: Das Bild, bei dem der beschreibende Alternativtext fehlt.
+* **Vorschlag**: Ein KI-generierter Vorschlag für den Alternativtext. 
 
-## Automatisch vorschlagen
+## Automatische Vorschläge
 
-![Automatisch fehlenden Alternativtext vorschlagen](./assets/missing-alt-text/auto-suggest.png){align="center"}
+![Automatische Vorschläge für fehlenden Alternativtext](./assets/missing-alt-text/auto-suggest.png){align="center"}
 
-Der automatische Vorschlag bietet KI-generierte Vorschläge für den Alternativtext der Bilder. Die KI-generierten Vorschläge sollen Ihnen dabei helfen, schnell Alternativtext zu Bildern hinzuzufügen, ohne jedes Bild manuell analysieren zu müssen.
+Das automatische Vorschlagen bietet KI-generierte Vorschläge für den Alternativtext von Bildern. Die KI-generierten Vorschläge sollen Ihnen dabei helfen, schnell Alternativtext zu Bildern hinzuzufügen, ohne jedes Bild manuell analysieren zu müssen.
 
 >[!BEGINTABS]
 
->[!TAB Fehlenden ALT-Text bearbeiten]
+>[!TAB Fehlenden Alternativtext bearbeiten]
 
-![Fehlenden ALT-Text bearbeiten](./assets/missing-alt-text/edit-alt-text-value.png){align="center"}
+![Fehlenden Alternativtext bearbeiten](./assets/missing-alt-text/edit-alt-text-value.png){align="center"}
 
-Wenn Sie mit dem KI-generierten Vorschlag nicht einverstanden sind, können Sie den vorgeschlagenen Alternativtext bearbeiten, indem Sie auf das Symbol **Bearbeiten** klicken. Auf diese Weise können Sie den Text, den Sie für die beste Anpassung an das Bild halten, manuell anpassen. Das Bearbeitungsfenster enthält Folgendes:
+Wenn Sie mit dem KI-generierten Vorschlag nicht einverstanden sind, können Sie den vorgeschlagenen Alternativtext bearbeiten, indem Sie das **Symbol „Bearbeiten“** auswählen. Auf diese Weise können Sie manuell den Text eingeben, der Ihrer Meinung nach am besten für das Bild geeignet ist. Das Bearbeitungsfenster enthält Folgendes:
 
-* **Seitenpfad** - Ein schreibgeschütztes Feld, das den Pfad zu der Seite anzeigt, auf der das Problem mit dem fehlenden ALT-Text auftritt. Klicken Sie auf den Pfeil neben dem Pfad, um die entsprechende Seite zu öffnen.
-* **Bild** - Eine schreibgeschützte Vorschau des Bildes, für die ALT-Text erforderlich ist.
-* **ALT-Text für Target** - Ein bearbeitbares Feld, in dem Sie manuell einen beschreibenden ALT-Text für das Bild eingeben können. Stellen Sie sicher, dass der Alternativtext den Inhalt und den Zweck des Bildes klar und deutlich vermittelt. Schließen Sie Schlüsselwörter ggf. auf natürliche Weise ein, ohne sie zu überlasten.
+* **Seitenpfad**: Ein schreibgeschütztes Feld, das den Pfad zu der Seite anzeigt, auf der das Problem mit dem fehlenden Alternativtext auftritt. Klicken Sie auf den Pfeil neben dem Pfad, um die entsprechende Seite zu öffnen.
+* **Bild**: Eine schreibgeschützte Vorschau des Bildes, für das ein Alternativtext erforderlich ist.
+* **Ziel-Alternativtext**: Ein bearbeitbares Feld, in dem Sie manuell einen beschreibenden Alternativtext für das Bild eingeben können. Stellen Sie sicher, dass der Alternativtext den Inhalt und den Zweck des Bildes klar und deutlich vermittelt. Schließen Sie ggf. auf natürliche Weise Keywords ein, ohne sie jedoch im Übermaß zu verwenden.
 
 >[!TAB Einträge ignorieren]
 
-Sie können festlegen, dass Einträge in der Opportunity-Liste ignoriert werden. Wenn Sie auf das **Ignorieren** klicken, wird der Eintrag aus der Liste entfernt. Ignorierte Einträge können über die Registerkarte **Ignoriert** oben auf der Opportunity-Seite erneut aktiviert werden.
+Sie können Einträge aus der Liste der Möglichkeiten ignorieren. Durch das Auswählen des **Symbols „Ignorieren“** wird der Eintrag aus der Liste entfernt. Ignorierte Einträge können über die Registerkarte **Ignoriert** oben auf der Seite der Möglichkeiten erneut aktiviert werden.
 
 >[!ENDTABS]
 
@@ -61,9 +61,9 @@ Sie können festlegen, dass Einträge in der Opportunity-Liste ignoriert werden.
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Automatisch zu optimierenden fehlenden Alternativtext](./assets/missing-alt-text/auto-optimize.png){align="center"}
+![Automatisches Optimieren von fehlendem Alternativtext](./assets/missing-alt-text/auto-optimize.png){align="center"}
 
-Sites Optimizer Ultimate bietet jetzt die Möglichkeit, eine automatische Optimierung für die Probleme bereitzustellen, die durch die fehlende Alternativtext-Opportunity gefunden wurden. <!--- TBD-need more in-depth and opportunity specific information here. What does the auto-optimization do?-->
+Sites Optimizer Ultimate ermöglicht es, eine automatische Optimierung für die von der Möglichkeit „Fehlender Alternativtext“ gefundenen Probleme bereitzustellen.<!--- TBD-need more in-depth and opportunity specific information here. What does the auto-optimization do?-->
 
 >[!BEGINTABS]
 
@@ -71,7 +71,7 @@ Sites Optimizer Ultimate bietet jetzt die Möglichkeit, eine automatische Optimi
 
 {{auto-optimize-deploy-optimization-slack}}
 
->[!TAB Bestätigung anfordern]
+>[!TAB Genehmigung anfordern]
 
 {{auto-optimize-request-approval}}
 

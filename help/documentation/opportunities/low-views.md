@@ -1,32 +1,32 @@
 ---
-title: Dokumentation zu Opportunity für niedrige Ansichten
-description: Erfahren Sie mehr über die niedrige Ansichtsmöglichkeit und wie Sie damit die Formularinteraktion auf Ihrer Website verbessern können.
+title: Dokumentation zur Möglichkeit „Wenig Ansichten“
+description: Erfahren Sie mehr über die Möglichkeit „Wenig Ansichten“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.
 badgeFormOptimization: label="Formularoptimierung" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Formularoptimierung"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 1%
+ht-degree: 99%
 
 ---
 
 
-# Niedrige Opportunity-Ansichten
+# Möglichkeit „Wenig Ansichten“
 
-![Niedrige Opportunity-Ansichten](./assets/low-views/hero.png){align="center"}
+![Möglichkeit „Wenig Ansichten“](./assets/low-views/hero.png){align="center"}
 
-Die Opportunity für niedrige Ansichten identifiziert Formulare auf Ihrer Website, die niedrige Ansichtsraten haben. Diese Gelegenheit hilft Ihnen zu verstehen, welche Formulare nicht gut funktionieren, und bietet Vorschläge, wie Sie ihre Interaktionsraten verbessern können. Durch die Optimierung der Ansichten Ihrer Formulare können Sie die Anzahl der Formularübermittlungen erhöhen und die Gesamtleistung Ihrer Website verbessern.
+Die Möglichkeit „Wenig Ansichten“ identifiziert Formulare mit niedrigen Ansichtsraten auf Ihrer Website. Mit dieser Möglichkeit können Sie nachvollziehen, welche Formulare nicht gut funktionieren. Sie bietet Vorschläge zur Verbesserung ihrer Interaktionsraten. Durch das Optimieren der Ansichten Ihrer Formulare können Sie die Anzahl der Formularübermittlungen erhöhen und die Gesamtleistung Ihrer Website verbessern.
 
-## Automatisch identifizieren
+## Automatische Identifizierung
 
-![Niedrige Ansichten automatisch identifizieren](./assets/low-views/auto-identify.png){align="center"}
+![Automatisches Identifizieren von wenig Ansichten](./assets/low-views/auto-identify.png){align="center"}
 
-Jede Web-Seite mit einem Formular mit niedrigen Ansichten wird als eigene **niedrige Ansichten** aufgeführt. Eine kurze Zusammenfassung der Opportunity und eine KI-Begründung finden Sie oben auf der Opportunity-Seite.
+Jede Web-Seite mit einem Formular mit wenig Ansichten wird als eigene Möglichkeit **Wenig Ansichten** aufgeführt. Eine kurze Zusammenfassung der Möglichkeit und eine KI-Begründung finden Sie oben auf der Seite der Möglichkeiten.
 
-## Automatisch vorschlagen
+## Automatische Vorschläge
 
-![Niedrige Ansichten automatisch vorschlagen](./assets/low-views/auto-suggest.png){align="center"}
+![Automatische Vorschläge bei wenig Ansichten](./assets/low-views/auto-suggest.png){align="center"}
 
-Auto-Suggest bietet von KI generierte Web-Seiten-Varianten, die die Ansicht Ihrer Formulare verbessern sollen. Jede Variante zeigt die **Erhöhung der Projektkonversionsrate** basierend auf ihrem Potenzial zur Verbesserung der Formularinteraktion an, sodass Sie die effektivsten Vorschläge priorisieren können.
+Das automatische Vorschlagen bietet KI-generierte Varianten von Web-Seiten, mit denen die Zahl der Aufrufe Ihrer Formulare erhöht werden soll. Jede Variante zeigt die **prognostizierte Zunahme der Konversionsrate** basierend auf ihrem Potenzial zur Verbesserung der Formularinteraktion an, sodass Sie die effektivsten Vorschläge priorisieren können.
 
 >[!BEGINTABS]
 
@@ -34,19 +34,19 @@ Auto-Suggest bietet von KI generierte Web-Seiten-Varianten, die die Ansicht Ihre
 
 ![Kontrollvarianten](./assets/low-views/control-variation.png){align="center"}
 
-Die Kontrollvariante ist das Originalformular, das derzeit auf Ihrer Website live ist. Diese Variante wird als Grundlage verwendet, um die Leistung der vorgeschlagenen Varianten zu vergleichen.
+Die Kontrollvariante ist das Originalformular, das derzeit auf Ihrer Website live ist. Diese Variante wird als Baseline verwendet, um die Leistung der vorgeschlagenen Varianten zu vergleichen.
 
 >[!TAB Vorgeschlagene Varianten]
 
 ![Vorgeschlagene Varianten](./assets/low-views/suggested-variations.png){align="center"}
 
-Bei den vorgeschlagenen Varianten handelt es sich um von KI generierte Web-Seitenvarianten, mit denen die Ansichten Ihrer Formulare erhöht werden sollen. Jede Variante zeigt die **projizierte Erhöhung der Konversionsrate** basierend auf ihrem Potenzial zur Verbesserung der Formularinteraktion an, sodass Sie die effektivsten Vorschläge priorisieren können.
+Die vorgeschlagenen Varianten sind KI-generierte Varianten von Web-Seiten, mit denen die Zahl der Aufrufe Ihrer Formulare erhöht werden soll. Jede Variante zeigt die **prognostizierte Zunahme der Konversionsrate** basierend auf ihrem Potenzial zur Verbesserung der Formularinteraktion an, sodass Sie die effektivsten Vorschläge priorisieren können.
 
 Klicken Sie auf die einzelnen Varianten, um sie auf der rechten Seite des Bildschirms in der Vorschau anzuzeigen. Oben in der Vorschau stehen die folgenden Aktionen und Informationen zur Verfügung:
 
-* **Änderungen** - Eine kurze Zusammenfassung der Änderungen in dieser Variante der **Kontrolle**.
-* **Projizierte Erhöhung der Konversionsrate** - Die geschätzte Zunahme der Formularinteraktion, wenn diese Variante implementiert ist.
-* **Bearbeiten** - Klicken Sie, um die Variante beim AEM-Authoring zu bearbeiten.
+* **Änderungen**: Eine kurze Zusammenfassung der Änderungen in dieser Variante im Vergleich zur **Kontrollvariante**.
+* **Prognostizierte Zunahme der Konversionsrate**: Die geschätzte Zunahme bei der Formularinteraktion, wenn diese Variante implementiert wird.
+* **Bearbeiten**: Klicken Sie hier, um die Variante im AEM-Authoring zu bearbeiten.
 
 >[!ENDTABS]
 
@@ -54,20 +54,20 @@ Klicken Sie auf die einzelnen Varianten, um sie auf der rechten Seite des Bildsc
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Niedrige Ansichten automatisch optimieren](./assets/low-views/auto-optimize.png){align="center"}
+![Automatisches Optimieren bei wenig Ansichten](./assets/low-views/auto-optimize.png){align="center"}
 
-Sites Optimizer Ultimate bietet zusätzlich die Möglichkeit, eine automatische Optimierung für die Probleme bereitzustellen, die durch die niedrige Ansichtsmöglichkeit verursacht werden.
+Sites Optimizer Ultimate ermöglicht es, eine automatische Optimierung für die von der Möglichkeit „Wenig Ansichten“ gefundenen Probleme bereitzustellen.
 
 >[!BEGINTABS]
 
 >[!TAB Mehrere testen]
 
 
->[!TAB Veröffentlichen ausgewählt]
+>[!TAB Ausgewählte veröffentlichen]
 
 {{auto-optimize-deploy-optimization-slack}}
 
->[!TAB Bestätigung anfordern]
+>[!TAB Genehmigung anfordern]
 
 {{auto-optimize-request-approval}}
 

@@ -1,53 +1,53 @@
 ---
-title: Fehlende oder ungültige strukturierte Daten - Dokumentation
-description: Erfahren Sie mehr über die fehlende oder ungültige Möglichkeit für strukturierte Daten und wie Sie damit die Traffic-Erfassung verbessern können.
+title: Dokumentation zu fehlenden oder ungültigen strukturierten Daten
+description: Erfahren Sie mehr über die Möglichkeit „Fehlende oder ungültige strukturierte Daten“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise verwenden können.
 badgeTrafficAcquisition: label="Traffic-Akquise" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Traffic-Akquise"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 3%
+ht-degree: 99%
 
 ---
 
 
-# Fehlende oder ungültige Gelegenheit für strukturierte Daten
+# Möglichkeit „Fehlende oder ungültige strukturierte Daten“
 
-![Fehlende oder ungültige Opportunity für strukturierte Daten](./assets/missing-or-invalid-structured-data/hero.png){align="center"}
+![Möglichkeit „Fehlende oder ungültige strukturierte Daten“](./assets/missing-or-invalid-structured-data/hero.png){align="center"}
 
-Die Opportunity Fehlende oder ungültige strukturierte Daten identifiziert fehlende oder fehlerhaft strukturierte Daten im JSON-LD-standardisierten Format. Strukturierte Daten sind eine Möglichkeit, wichtige Informationen auf Ihrer Website zu organisieren, zu beschreiben und zu kennzeichnen. Dies hilft Suchmaschinen, den Inhalt Ihrer Seiten zu interpretieren, und verbessert die Sichtbarkeit in den Suchergebnissen. Bessere Suchergebnisse können dazu führen, dass mehr Benutzer mit Ihrer Website interagieren.
+Die Möglichkeit „Fehlende oder ungültige strukturierte Daten“ identifiziert fehlende oder fehlerhafte strukturierte Daten im standardisierten Json-LD-Format. Strukturierte Daten sind eine Möglichkeit zum Organisieren, Beschreiben und Kennzeichnen von wichtigen Informationen auf Ihrer Website. Dies hilft Suchmaschinen, den Inhalt Ihrer Seiten zu interpretieren, und verbessert die Sichtbarkeit in den Suchergebnissen. Bessere Suchergebnisse können dazu führen, dass mehr Benutzende mit Ihrer Website interagieren.
 
-Die fehlende oder ungültige strukturierte Datengelegenheit zeigt oben auf der Seite eine Zusammenfassung an, die eine Zusammenfassung des Problems und dessen Auswirkungen auf Ihre Site und Ihr Unternehmen enthält.
+Die Möglichkeit „fehlende oder ungültige strukturierte Daten“ zeigt oben auf der Seite eine Übersicht an, die eine Zusammenfassung des Problems und dessen Auswirkungen auf Ihre Site und Ihr Geschäft enthält.
 
-* **Projizierter Traffic-**: Der geschätzte Traffic-Verlust aufgrund fehlerhafter strukturierter Daten.
-* **Projizierter Traffic-Wert** - Der geschätzte Wert des verlorenen Traffics.
+* **Prognostizierter Traffic-Verlust**: Der geschätzte Traffic-Verlust aufgrund von fehlerhaften strukturierten Daten.
+* **Prognostizierter Traffic-Wert**: Der geschätzte Wert des verlorenen Traffics.
 
-## Automatisch identifizieren
+## Automatische Identifizierung
 
-![Fehlende oder ungültige strukturierte Daten automatisch identifizieren](./assets/missing-or-invalid-structured-data/auto-identify.png){align="center"}
+![Automatisches Identifizieren von fehlenden oder ungültigen strukturierten Daten](./assets/missing-or-invalid-structured-data/auto-identify.png){align="center"}
 
-Die Opportunity Fehlende oder ungültige strukturierte Daten listet alle auf Ihren Seiten erkannten Probleme auf und enthält die folgenden Kategorien:
+Die Möglichkeit „Fehlende oder ungültige strukturierte Daten“ führt alle auf Ihren Seiten erkannten Probleme auf und umfasst die folgenden Kategorien:
 
-* **Seite mit Problemen** - Die Seite, die die ungültigen oder fehlenden strukturierten Daten enthält.
-* **Problem und von KI vorgeschlagene Lösung** - Gibt den Typ des Problems mit strukturierten Daten an, das sich auf die Seite auswirkt.
-* **Vorschlag** - Ein KI-generierter Vorschlag für geeignete strukturierte Datenaktualisierungen. Weitere Informationen finden Sie im folgenden Abschnitt.
+* **Seite mit Problemen**: Die Seite, die die ungültigen oder fehlenden strukturierten Daten enthält.
+* **Problem und dessen von der KI vorgeschlagene Lösung**: Gibt den Typ des Problems mit strukturierten Daten an, das die Seite beeinträchtigt.
+* **Vorschlag**: Ein KI-generierter Vorschlag für geeignete Aktualisierungen für strukturierte Daten. Weitere Informationen finden Sie im folgenden Abschnitt.
 
-## Automatisch vorschlagen
+## Automatische Vorschläge
 
 ![Automatische Vorschläge für fehlende oder ungültige strukturierte Daten](./assets/missing-or-invalid-structured-data/auto-suggest.png){align="center"}
 
-Die Opportunity „Ungültige oder fehlende strukturierte Daten“ bietet auch KI-generierte Vorschläge zum Ändern oder Aktualisieren der strukturierten Daten. Wenn Sie auf die Schaltfläche Vorschläge klicken, wird ein neues Fenster angezeigt, das Folgendes enthält:
+Die Möglichkeit „Ungültige oder fehlende strukturierte Daten“ bietet außerdem KI-generierte Vorschläge zum Ändern oder Aktualisieren der strukturierten Daten. Wenn Sie auf die Schaltfläche „Vorschläge“ klicken, wird ein neues Fenster angezeigt, das Folgendes enthält:
 
-* **Seitenpfad** - Ein Feld, das den Pfad zur Seite mit ungültigen oder fehlenden strukturierten Daten enthält.
-* **Probleme** - Ein Feld, das die Anzahl der Probleme und ein Dropdown-Menü mit allen Problemen enthält.
-* **Vorschlagsfeld** - Eine von KI generierte Beschreibung und Vorschläge für geeignete strukturierte Datenaktualisierungen. Sie können nach unten scrollen, um zusätzliche Vorschläge und Probleme zu erhalten.
+* **Seitenpfad**: Ein Feld, das den Pfad zu der Seite mit ungültigen oder fehlenden strukturierten Daten enthält.
+* **Probleme**: Ein Feld, das die Anzahl der Probleme und ein Dropdown-Menü mit einer Auflistung aller Probleme enthält.
+* **Feld „Vorschläge“**: Eine KI-generierte Beschreibung und Vorschläge für geeignete Aktualisierungen für strukturierte Daten. Sie können nach unten scrollen, um zusätzliche Vorschläge und Probleme anzuzeigen.
 
 ## Automatische Optimierung
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Automatisch vorgeschlagene fehlende oder ungültige strukturierte Daten optimieren](./assets/missing-or-invalid-structured-data/auto-optimize.png){align="center"}
+![Automatisches Optimieren fehlender oder ungültiger strukturierter Daten](./assets/missing-or-invalid-structured-data/auto-optimize.png){align="center"}
 
-Sites Optimizer Ultimate bietet jetzt die Möglichkeit, eine automatische Optimierung für die Probleme bereitzustellen, die bei der ungültigen oder fehlenden Gelegenheit für strukturierte Daten festgestellt wurden. <!--- TBD-need more in-depth and opportunity specific information here. What does the auto-optimization do?-->
+Sites Optimizer Ultimate ermöglicht es, eine automatische Optimierung für die von der Möglichkeit „Ungültige oder fehlende strukturierte Daten“ gefundenen Probleme bereitzustellen. <!--- TBD-need more in-depth and opportunity specific information here. What does the auto-optimization do?-->
 
 >[!BEGINTABS]
 
@@ -55,7 +55,7 @@ Sites Optimizer Ultimate bietet jetzt die Möglichkeit, eine automatische Optimi
 
 {{auto-optimize-deploy-optimization-slack}}
 
->[!TAB Bestätigung anfordern]
+>[!TAB Genehmigung anfordern]
 
 {{auto-optimize-request-approval}}
 

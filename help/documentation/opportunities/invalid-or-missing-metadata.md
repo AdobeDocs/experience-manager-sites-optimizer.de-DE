@@ -1,66 +1,66 @@
 ---
-title: Ungültige oder fehlende Metadaten-Opportunity-Dokumentation
-description: Erfahren Sie mehr über die ungültige oder fehlende Metadaten-Opportunity und wie Sie sie zur Verbesserung der Traffic-Akquise verwenden können.
+title: Dokumentation zur Möglichkeit „Ungültige oder fehlende Metadaten“
+description: Erfahren Sie mehr über die Möglichkeit „Ungültige oder fehlende Metadaten“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise verwenden können.
 badgeTrafficAcquisition: label="Traffic-Akquise" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Traffic-Akquise"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 2%
+ht-degree: 99%
 
 ---
 
 
-# Ungültige oder fehlende Metadaten-Opportunity
+# Möglichkeit „Ungültige oder fehlende Metadaten“
 
-![Ungültige oder fehlende Metadaten-Opportunity](./assets/missing-or-invalid-metadata/hero.png){align="center"}
+![Möglichkeit „Ungültige oder fehlende Metadaten“](./assets/missing-or-invalid-metadata/hero.png){align="center"}
 
-Die Gelegenheit zu ungültigen oder fehlenden Metadaten identifiziert fehlende oder fehlerhafte Metadaten auf Ihren Web-Seiten. Das Beheben von Metadatenproblemen verbessert die SEO, indem die Sichtbarkeit von Inhalten, das Such-Ranking und die Benutzerinteraktion verbessert werden. Diese Probleme können durch Faktoren wie fehlende oder ungültige Tags, zu lange oder zu kurze Beschreibungen usw. verursacht werden.
+Die Möglichkeit „Ungültige oder fehlende Metadaten“ identifiziert fehlende oder fehlerhafte Metadaten auf Ihren Web-Seiten. Das Beheben von Metadatenproblemen verbessert die SEO, indem es die Sichtbarkeit von Inhalten, die Platzierung in Suchergebnissen und die Benutzerinteraktion erhöht. Diese Probleme können durch Faktoren wie fehlende oder ungültige Tags, zu lange oder zu kurze Beschreibungen usw. verursacht werden.
 
-Bei einer ungültigen oder fehlenden Metadaten-Opportunity wird oben auf der Seite eine Zusammenfassung angezeigt, die eine Zusammenfassung des Problems und dessen Auswirkungen auf Ihre Site und Ihr Unternehmen enthält.
+Die Möglichkeit „Ungültige oder fehlende Metadaten“ zeigt oben auf der Seite eine Übersicht an, die eine Zusammenfassung des Problems und dessen Auswirkungen auf Ihre Site und Ihr Geschäft enthält.
 
-* **Projizierter Traffic-**: Der geschätzte Traffic-Verlust aufgrund fehlerhafter Metadaten.
-* **Projizierter Traffic-Wert** - Der geschätzte Wert des verlorenen Traffics.
+* **Prognostizierter Traffic-Verlust**: Der geschätzte Traffic-Verlust aufgrund von fehlerhaften Metadaten.
+* **Prognostizierter Traffic-Wert**: Der geschätzte Wert des verlorenen Traffics.
 
-## Automatisch identifizieren
+## Automatische Identifizierung
 
-![Ungültige oder fehlende Metadaten automatisch identifizieren](./assets/missing-or-invalid-metadata/auto-identify.png){align="center"}
+![Automatisches Identifizieren von ungültigen oder fehlenden Metadaten](./assets/missing-or-invalid-metadata/auto-identify.png){align="center"}
 
-Die Opportunity „Ungültige oder fehlende Metadaten“ listet alle fehlerhaften Metadaten auf Ihren Seiten auf und umfasst Folgendes:
+Die Möglichkeit „Ungültige oder fehlende Metadaten“ führt alle fehlerhaften Metadaten auf Ihren Seiten auf, einschließlich der Folgenden: 
 
-* **Seite** - Die Seite, die die ungültigen oder fehlenden Metadaten enthält.
-* **Problem** - Gibt die Art des Problems an, das sich auf das Metadaten-Tag auswirkt. Diese reichen von fehlenden Titeln bis hin zu doppelten H1-Titeln usw.
-* **Value** - Der aktuelle Metadaten-Tag-Wert, der geändert werden muss.
-* **Vorschlag** - Ein von KI generierter Vorschlag für geeignete Tag-Aktualisierungen. Weitere Informationen finden Sie im folgenden Abschnitt.
+* **Seite**: Die Seite, mit den ungültigen oder fehlenden Metadaten.
+* **Problem**: Gibt die Art des Problems an, das sich auf das Metadaten-Tag auswirkt. Diese reichen von fehlenden Titeln bis hin zu H1-Duplikaten usw.
+* **Wert**: Der aktuelle Wert des Metadaten-Tags, der geändert werden muss.
+* **Vorschlag**: Ein KI-generierter Vorschlag für geeignete Tag-Aktualisierungen. Weitere Informationen finden Sie im folgenden Abschnitt.
 
-## Automatisch vorschlagen
+## Automatische Vorschläge
 
 ![Automatische Vorschläge für ungültige oder fehlende Metadaten](./assets/missing-or-invalid-metadata/auto-suggest.png){align="center"}
 
-Die Gelegenheit zu ungültigen oder fehlenden Metadaten bietet auch KI-generierte Vorschläge zum Ändern oder Aktualisieren der Metadaten-Tags. Diese Vorschläge basieren auf dem ursprünglichen -Tag, das die fehlerhaften Metadaten enthielt, und dem Inhalt der vorgeschlagenen Aktualisierung.
+Die Möglichkeit „Ungültige oder fehlende Metadaten“ bietet außerdem KI-generierte Vorschläge zum Ändern oder Aktualisieren der Metadaten-Tags. Diese Vorschläge basieren auf dem ursprünglichen Tag, das die fehlerhaften Metadaten enthielt, und dem Inhalt der vorgeschlagenen Aktualisierung.
 
 >[!BEGINTABS]
 
 >[!TAB KI-Begründung]
 
-Durch Auswahl **Symbols „Informationen** erhalten Sie eine KI-Begründung für die vorgeschlagene Aktualisierung.
+Durch das Auswählen des **Symbols „Informationen“** erhalten Sie eine KI-Begründung für die vorgeschlagene Aktualisierung.
 
->[!TAB  Bearbeiten des vorgeschlagenen Metadatenwerts]
+>[!TAB  Vorgeschlagenen Metadatenwert bearbeiten]
 
-![Vorgeschlagene ungültige oder fehlende Metadaten bearbeiten](./assets/missing-or-invalid-metadata/edit-suggested-metadata-value.png){align="center"}
+![Bearbeiten von vorgeschlagenen ungültigen oder fehlenden Metadaten](./assets/missing-or-invalid-metadata/edit-suggested-metadata-value.png){align="center"}
 
-Wenn Sie mit dem KI-generierten Vorschlag nicht einverstanden sind, können Sie den vorgeschlagenen Metadatenwert bearbeiten, indem Sie auf das **Bearbeiten** klicken. Auf diese Weise können Sie den Wert, den Sie für die Metadaten für am besten geeignet halten, manuell eingeben. Das Bearbeitungsfenster enthält Folgendes:
+Wenn Sie mit dem KI-generierten Vorschlag nicht einverstanden sind, können Sie den vorgeschlagenen Metadatenwert bearbeiten, indem Sie auf das **Symbol „Bearbeiten“** klicken. Auf diese Weise können Sie manuell den Wert eingeben, der Ihrer Meinung nach am besten für die Metadaten geeignet ist. Das Bearbeitungsfenster enthält Folgendes:
 
-* **Path** - Der Pfad zu der Seite, die die Metadaten enthält (oder nicht vorhanden ist).
-* **Problembeschreibung** - Gibt die Art des Problems an, das sich auf das Metadaten-Tag auswirkt, sowie eine kurze Beschreibung.
-* **Vorschlag für Tag-Wert** - Der von KI generierte Vorschlag zum Ändern oder Aktualisieren des Metadaten-Tags. Beispielsweise, wie viele Zeichen die Tag-Aktualisierung enthalten soll usw.
+* **Pfad**: Der Pfad zu der Seite, die die Metadaten enthält (oder auf der Metadaten fehlen).
+* **Problembeschreibung**: Gibt die Art des Problems an, das sich auf das Metadaten-Tag auswirkt, sowie eine kurze Beschreibung.
+* **Vorschlag für den Tag-Wert**: Der KI-generierte Vorschlag zum Ändern oder Aktualisieren des Metadaten-Tags. Beispielsweise, wie viele Zeichen die Tag-Aktualisierung enthalten soll usw.
 * **Ursprünglicher Tag-**: Der ursprüngliche Tag-Wert.
-* **Target-Tag-**: Bearbeiten Sie dieses Feld und fügen Sie den gewünschten Tag-Wert manuell hinzu. Wenn Sie **Speichern** auswählen, ist dies der Wert, der auf die vorgeschlagene Aktualisierung angewendet wird.
-* **Vorschlag** - Der von KI generierte Vorschlag zum Ändern des Werts.
-* **Speichern** - Speichert und wendet den Wert im Feld **Target-Tag-**&quot; an.
+* **Ziel-Tag-Wert**: Bearbeiten Sie dieses Feld und fügen Sie den gewünschten Tag-Wert manuell hinzu. Wenn Sie **Speichern** auswählen, ist dies der Wert, der auf die vorgeschlagene Aktualisierung angewendet wird.
+* **Vorschlag**: Der KI-generierte Vorschlag zum Ändern des Werts.
+* **Speichern**: Speichert den Wert und wendet ihn im Feld **Ziel-Tag-Wert** an.
 
 >[!TAB Einträge ignorieren]
 
-Sie können Einträge mit fehlerhaften oder ungültigen Zielmetadaten ignorieren. Wenn Sie auf das **Ignorieren** klicken, wird der Eintrag aus der Opportunity-Liste entfernt. Ignorierte Einträge können über die Registerkarte **Ignoriert** oben auf der Opportunity-Seite erneut aktiviert werden.
+Sie können Einträge mit den anvisierten fehlerhaften oder ungültigen Metadaten ignorieren. Durch das Auswählen des **Symbols „Ignorieren“** wird der Eintrag aus der Liste der Möglichkeiten entfernt. Ignorierte Einträge können über die Registerkarte **Ignoriert** oben auf der Seite der Möglichkeiten erneut aktiviert werden.
 
 >[!ENDTABS]
 
@@ -68,9 +68,9 @@ Sie können Einträge mit fehlerhaften oder ungültigen Zielmetadaten ignorieren
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Vorgeschlagene ungültige oder fehlende Metadaten automatisch optimieren](./assets/missing-or-invalid-metadata/auto-optimize.png){align="center"}
+![Automatisches Optimieren von vorgeschlagenen ungültigen oder fehlenden Metadaten](./assets/missing-or-invalid-metadata/auto-optimize.png){align="center"}
 
-Sites Optimizer Ultimate bietet jetzt die Möglichkeit, eine automatische Optimierung für die Probleme bereitzustellen, die durch die ungültige oder fehlende Metadaten-Opportunity gefunden wurden. <!--- TBD-need more in-depth and opportunity specific information here. What does the auto-optimization do?-->
+Sites Optimizer Ultimate ermöglicht es, eine automatische Optimierung für die von der Möglichkeit „Ungültige oder fehlende Daten“ gefundenen Probleme bereitzustellen.<!--- TBD-need more in-depth and opportunity specific information here. What does the auto-optimization do?-->
 
 >[!BEGINTABS]
 
@@ -78,7 +78,7 @@ Sites Optimizer Ultimate bietet jetzt die Möglichkeit, eine automatische Optimi
 
 {{auto-optimize-deploy-optimization-slack}}
 
->[!TAB Bestätigung anfordern]
+>[!TAB Genehmigung anfordern]
 
 {{auto-optimize-request-approval}}
 

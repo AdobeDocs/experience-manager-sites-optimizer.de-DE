@@ -1,33 +1,33 @@
 ---
-title: Cross-Site-Scripting-Opportunity-Dokumentation
-description: Erfahren Sie mehr über die Cross-Site-Scripting-Möglichkeit und lernen Sie, Schwachstellen in der Site-Sicherheit zu identifizieren und zu beheben.
+title: Dokumentation zur Möglichkeit von Cross-Site-Scripting
+description: Informieren Sie sich über die Möglichkeit von Cross-Site-Scripting und über das Erkennen und Beheben von Sicherheitsschwachstellen auf Websites.
 badgeSecurityPosture: label="Sicherheitsstatus" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Sicherheitsstatus"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 4%
+ht-degree: 98%
 
 ---
 
 
-# Cross-Site-Scripting-Möglichkeit
+# Möglichkeit von Cross-Site-Scripting
 
-![Site-übergreifende Opportunity](./assets/cross-site-scripting/hero.png){align="center"}
+![Cross-Site-Möglichkeit](./assets/cross-site-scripting/hero.png){align="center"}
 
-Das Cross-Site-Scripting identifiziert und behebt Schwachstellen im Code Ihrer Site, die von Angreifern ausgenutzt werden könnten, um bösartige Skripte in Web-Seiten einzuschleusen, die von anderen Benutzern angesehen werden. Diese Skripte können vertrauliche Informationen stehlen, z. B. Sitzungs-Cookies, oder Aktionen im Namen des Benutzers ausführen, z. B. das Ändern des Benutzerkennworts.
+Die Möglichkeit „Cross-Site-Scripting“ identifiziert und behebt Schwachstellen im Code Ihrer Site, die von Angreifenden ausgenutzt werden könnten, um bösartige Skripte in Web-Seiten einzuschleusen, die von anderen Benutzenden angesehen werden. Diese Skripte können vertrauliche Informationen wie etwa Sitzungs-Cookies stehlen oder Aktionen im Namen der Benutzenden ausführen, z. B. ihr Passwort ändern.
 
-## Automatisch identifizieren
+## Automatische Identifizierung
 
-![Site-übergreifende Opportunity automatisch identifizieren](./assets/cross-site-scripting/auto-identify.png){align="center"}
+![Automatisches Identifizieren der Cross-Site-Möglichkeit](./assets/cross-site-scripting/auto-identify.png){align="center"}
 
-* **Anfälliger Code** - Jeder Code, der für Cross-Site-Scripting-Angriffe anfällig ist.
-* **Link zur Reproduktion** - Der Link zur Seite, auf der die Sicherheitslücke gefunden wurde.
+* **Anfälliger Code**: Jeder Code, der für Cross-Site-Scripting-Angriffe anfällig ist.
+* **Zu reproduzierende Verknüpfung**: Der Link zu der Seite, auf der die Sicherheitslücke gefunden wurde.
 
-## Automatisch vorschlagen
+## Automatische Vorschläge
 
-![Site-übergreifende Opportunity automatisch vorschlagen](./assets/cross-site-scripting/auto-suggest.png){align="center"}
+![Automatische Vorschläge der Cross-Site-Möglichkeit](./assets/cross-site-scripting/auto-suggest.png){align="center"}
 
-* **Vorgeschlagene Behebung** - Ein von KI generierter Vorschlag zur Behebung der Sicherheitslücke.
+* **Vorgeschlagene Fehlerbehebung**: Ein KI-generierter Vorschlag zur Behebung der Sicherheitslücke.
 
 ## Automatische Optimierung
 
@@ -39,7 +39,7 @@ Das Cross-Site-Scripting identifiziert und behebt Schwachstellen im Code Ihrer S
 
 {{auto-optimize-deploy-optimization-slack}}
 
->[!TAB Bestätigung anfordern]
+>[!TAB Genehmigung anfordern]
 
 {{auto-optimize-request-approval}}
 

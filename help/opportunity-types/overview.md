@@ -1,23 +1,23 @@
 ---
-title: Sites Optimizer Opportunity-Typen
-description: Erfahren Sie mehr über die wichtigsten Opportunity-Typen in Sites Optimizer und wie sie Ihnen helfen können, die Leistung Ihrer Site zu verbessern.
+title: Arten von Möglichkeiten in Sites Optimizer
+description: Erfahren Sie mehr über die wichtigsten Arten von Möglichkeiten in Sites Optimizer und wie sie Ihnen dabei helfen können, die Leistung Ihrer Site zu verbessern.
 source-git-commit: fbcd038d52f4761fc328404c410ef25534071f22
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 13%
+ht-degree: 71%
 
 ---
 
 
-# Opportunity-Typen
+# Arten von Möglichkeiten
 
-![Opportunities-Typen](./assets/overview/hero.png){align="center"}
+![Arten von Möglichkeiten](./assets/overview/hero.png){align="center"}
 
-AEM Sites Optimizer bietet wertvolle Einblicke und Empfehlungen, mit denen Sie die Leistung, Benutzerfreundlichkeit und Sicherheit Ihrer Website verbessern können. Diese Erkenntnisse sind in wichtigen Opportunity-Bereichen gruppiert: Interaktion, Traffic-Akquise, Sicherheitslage und Site-Health. Jede Kategorie zeigt spezifische Möglichkeiten zur Verbesserung Ihrer Site auf, sei es durch eine verbesserte Besucherinteraktion, eine verbesserte Auffindbarkeit, eine erhöhte Sicherheit oder die Aufrechterhaltung der Site-Stabilität.
+AEM Sites Optimizer bietet wertvolle Erkenntnisse und Empfehlungen, mit denen Sie die Leistung, Benutzerfreundlichkeit und Sicherheit Ihrer Website verbessern können. Diese Erkenntnisse sind in wichtigen Opportunity-Bereichen gruppiert: Interaktion, Traffic-Akquise, Sicherheitslage und Site-Health. Jede Kategorie zeigt spezifische Möglichkeiten zur Verbesserung Ihrer Site auf, sei es durch eine verbesserte Besucherinteraktion, eine verbesserte Auffindbarkeit, eine erhöhte Sicherheit oder die Aufrechterhaltung der Site-Stabilität.
 
-Durch die Nutzung dieser Möglichkeiten wird das Benutzererlebnis verbessert, die richtige Zielgruppe angesprochen und Ihre Site sicher und zuverlässig gehalten. Die Verbesserung der Interaktion und der Traffic-Akquise steigert die Interaktion und Sichtbarkeit, während ein starker Sicherheitszustand und der Zustand der Website dazu beitragen, Vertrauen und Stabilität zu gewährleisten.  Erkunden Sie die unten stehenden Links, um die nach Kategorie geordneten Möglichkeiten zu sehen, und entdecken Sie Möglichkeiten, Ihre Site zu verbessern.
+Durch das Nutzen dieser Möglichkeiten können Sie das Anwendererlebnis verbessern, die richtige Zielgruppe ansprechen und dafür sorgen, dass Ihre Site sicher und zuverlässig bleibt. Die Verbesserung der Interaktion und der Traffic-Akquise steigert die Interaktion und Sichtbarkeit, während ein starker Sicherheitszustand und der Zustand der Website dazu beitragen, Vertrauen und Stabilität zu gewährleisten.  Erkunden Sie die unten stehenden Links, um die nach Kategorie geordneten Möglichkeiten zu sehen, und entdecken Sie Wege zum Verbessern Ihrer Site.
 
-## Opportunity-Typen
+## Arten von Möglichkeiten
 
 <!-- CARDS 
 
@@ -48,11 +48,11 @@ Durch die Nutzung dieser Möglichkeiten wird das Benutzererlebnis verbessert, di
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./engagement.md" target="_blank" rel="referrer" title="Interaktion">Interaktion</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie, wie Sie die Interaktion mit Sites Optimizer verbessern können.</p>
+                    <p class="is-size-6">Erfahren Sie, wie Sie mit Sites Optimizer die Interaktion verbessern können.</p>
                 </div>
                 <a href="./engagement.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>
@@ -69,13 +69,13 @@ Durch die Nutzung dieser Möglichkeiten wird das Benutzererlebnis verbessert, di
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./security-posture.md" target="_blank" rel="referrer" title="Sicherheitsstatus">Sicherheitslage</a>
+                        <a href="./security-posture.md" target="_blank" rel="referrer" title="Sicherheitsstatus">Sicherheitsstatus</a>
                     </p>
                     <p class="is-size-6">Erfahren Sie, wie Sie die Sicherheit Ihrer Site mit Sites Optimizer verbessern können.</p>
                 </div>
                 <a href="./security-posture.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>
@@ -92,13 +92,13 @@ Durch die Nutzung dieser Möglichkeiten wird das Benutzererlebnis verbessert, di
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./site-health.md" target="_blank" rel="referrer" title="Site-Zustand">Site-Status</a>
+                        <a href="./site-health.md" target="_blank" rel="referrer" title="Site-Zustand">Site-Zustand</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie, wie Sie den Zustand Ihrer Site mit Sites Optimizer verbessern können.</p>
+                    <p class="is-size-6">Erfahren Sie, wie Sie mit Sites Optimizer den Zustand Ihrer Site verbessern können.</p>
                 </div>
                 <a href="./site-health.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>
@@ -117,11 +117,11 @@ Durch die Nutzung dieser Möglichkeiten wird das Benutzererlebnis verbessert, di
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./traffic-acquisition.md" target="_blank" rel="referrer" title="Traffic-Akquise">Traffic-Akquise</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie, wie Sie die Traffic-Akquise mit Sites Optimizer steigern können.</p>
+                    <p class="is-size-6">Erfahren Sie, wie Sie mit Sites Optimizer die Traffic-Akquise steigern können.</p>
                 </div>
                 <a href="./traffic-acquisition.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>

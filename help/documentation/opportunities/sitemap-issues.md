@@ -1,85 +1,85 @@
 ---
-title: Sitemap-Probleme Opportunity-Dokumentation
-description: Erfahren Sie mehr über die Probleme mit der Sitemap und wie Sie damit die Traffic-Akquise verbessern können.
+title: Dokumentation zur Möglichkeit „Sitemap-Probleme“
+description: Erfahren Sie mehr über die Möglichkeit „Sitemap-Probleme“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.
 badgeTrafficAcquisition: label="Traffic-Akquise" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Traffic-Akquise"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 1%
+ht-degree: 99%
 
 ---
 
 
-# Sitemap-Probleme - Opportunity
+# Möglichkeit „Sitemap-Probleme“
 
-![Sitemap-Probleme Opportunity](./assets/sitemap-issues/hero.png){align="center"}
+![Möglichkeit „Sitemap-Probleme“](./assets/sitemap-issues/hero.png){align="center"}
 
-Eine vollständige und genaue Sitemap hilft Suchmaschinen, Website-Seiten effizient zu durchsuchen und zu indizieren und so eine bessere Sichtbarkeit der Suchergebnisse sicherzustellen. Die Sitemap-Opportunity identifiziert potenzielle Probleme mit Ihrer Sitemap. Durch Beheben dieser Probleme können die Suchmaschinenindizierung und die Auffindbarkeit von Inhalten auf Ihrer Site erheblich verbessert werden.
+Eine vollständige und genaue Sitemap hilft Suchmaschinen dabei, die Seiten der Website effizient zu durchsuchen und zu indizieren, wodurch eine bessere Sichtbarkeit der Suchergebnisse gewährleistet wird. Die Möglichkeit „Sitemap“ identifiziert potenzielle Probleme mit Ihrer Sitemap. Durch Beheben dieser Probleme können die Suchmaschinenindizierung und die Auffindbarkeit von Inhalten auf Ihrer Site erheblich verbessert werden.
 
-Oben auf der Seite wird eine Zusammenfassung angezeigt, die eine Zusammenfassung des Problems und dessen Auswirkungen auf Ihre Site und Ihr Unternehmen enthält.
+Oben auf der Seite wird eine Zusammenfassung angezeigt, die einen Überblick über das Problem und seine Auswirkungen auf Ihre Site und Ihr Geschäft enthält.
 
-* **Projizierter Traffic-Verlust** - Der geschätzte Traffic-Verlust aufgrund von Sitemap-Problemen.
-* **Projizierter Traffic-Wert** - Der geschätzte Wert des verlorenen Traffics.
+* **Prognostizierter Traffic-Verlust**: Der geschätzte Traffic-Verlust aufgrund von Sitemap-Problemen.
+* **Prognostizierter Traffic-Wert**: Der geschätzte Wert des verlorenen Traffics.
 
-## Automatisch identifizieren
+## Automatische Identifizierung
 
 Sitemap-Probleme können anhand der folgenden Kriterien gefiltert werden:
 
-* **Sitemap mit Problemen** - Die analysierte Sitemap-URL mit potenziellen Problemen.
-* **Problemtyp** - Der in der Sitemap identifizierte Problemtyp:
-   * **Client-Fehler** - Einträge, die keine `200 Success` Antwort zurückgeben.
-   * **Umleitungen** - Fehlerhafte oder falsch konfigurierte Umleitungen.
+* **Sitemap mit Problemen**: Die URL der analysierten Sitemap mit potenziellen Problemen.
+* **Problemtyp**: Der in der Sitemap identifizierte Problemtyp:
+   * **Client-Fehler**: Einträge, die keine Antwort vom Typ `200 Success` zurückgeben.
+   * **Umleitungen**: Fehlerhafte oder falsch konfigurierte Umleitungen.
 
 >[!BEGINTABS]
 
 >[!TAB Client-Fehler]
 
-![Sitemap-Client-Fehler automatisch identifizieren](./assets/sitemap-issues/auto-identify-client-errors.png){align="center"}
+![Automatisches Identifizieren von Client-Fehlern in der Sitemap](./assets/sitemap-issues/auto-identify-client-errors.png){align="center"}
 
-Wenn URLs in Ihrer Sitemap diese zurückgeben, können Suchmaschinen davon ausgehen, dass Ihre Sitemap veraltet ist oder dass Seiten versehentlich entfernt wurden. Client gibt an, dass die Anfrage des Clients (Browser oder Crawler) ungültig war. Häufige Optionen sind:
+Wenn URLs in Ihrer Sitemap diese zurückgeben, gehen Suchmaschinen ggf. davon aus, dass Ihre Sitemap veraltet ist oder dass Seiten versehentlich entfernt wurden. Der Client gibt an, dass die Anfrage des Clients (Browser oder Crawler) ungültig war. Häufige Fehler sind:
 
-* **404 Nicht gefunden** - Die angeforderte Seite existiert nicht.
-* **403 Verboten** - Der Server verweigert den Zugriff auf die angeforderte Seite.
-* **410 Gone** - Die Seite wurde absichtlich entfernt und wird nicht mehr zurückgegeben.
-* **401 Nicht autorisiert** - Authentifizierung ist erforderlich, wird aber nicht bereitgestellt.
+* **404 Nicht gefunden**: Die angeforderte Seite existiert nicht.
+* **403 Verboten**: Der Server verweigert den Zugriff auf die angeforderte Seite.
+* **410 Verschwunden**: Die Seite wurde absichtlich dauerhaft entfernt.
+* **401 Nicht autorisiert**: Authentifizierung ist erforderlich, wird aber nicht bereitgestellt.
 
-Diese Fehler können SEO schaden, insbesondere wenn wichtige Seiten **404 oder 410** zurückgeben, da Suchmaschinen sie deindizieren können.
+Diese Fehler können der SEO schaden, insbesondere wenn wichtige Seiten **404 oder 410** zurückgeben, da sie dann von Suchmaschinen möglicherweise aus dem Index entfernt werden.
 
 Jedes Problem wird in einer Tabelle angezeigt, wobei die Spalte **Seite** den betroffenen Sitemap-Eintrag angibt:
 
-* **Seite** - Die URL des Sitemap-Eintrags mit einem Problem.
+* **Seite**: Die URL des Sitemap-Eintrags mit einem Problem.
 
 >[!TAB Umleitungen]
 
-![Sitemap-Client-Fehler automatisch identifizieren](./assets/sitemap-issues/auto-identify-redirects.png){align="center"}
+![Automatisches Identifizieren von Client-Fehlern in der Sitemap](./assets/sitemap-issues/auto-identify-redirects.png){align="center"}
 
-Sitemaps sollten nur endgültige Ziel-URLs enthalten, nicht solche, die umleiten. Weiterleitungen sollen Benutzende und Crawler zum richtigen Ort führen, können aber Probleme verursachen, wenn sie falsch konfiguriert sind:
+Sitemaps sollten nur endgültige Ziel-URLs enthalten und keine URLs mit Umleitungen. Umleitungen haben zwar das Ziel, Benutzende und Crawler zum richtigen Ort zu führen, können bei falscher Konfiguration jedoch Probleme verursachen:
 
-* **302 Gefunden (temporäre Umleitung)** - Kann SEO-Probleme verursachen, wenn versehentlich anstelle eines **301 verwendet**.
-* **307 Temporary Redirect** - Ähnlich wie 302, behält jedoch die HTTP-Methode bei.
-* **Redirect-Schleifen** - Wenn eine Seite zurück zu sich selbst umleitet oder eine Endlosschleife erstellt.
-* **Beschädigte Weiterleitungen** - Wenn eine Weiterleitung zu einer nicht vorhandenen oder 4xx-Seite führt.
+* **302 Gefunden (temporäre Umleitung)**: Kann SEO-Probleme verursachen, wenn dies versehentlich anstelle von **301** verwendet wird.
+* **307 temporäre Umleitung**: Ähnlich wie 302, behält jedoch die HTTP-Methode bei.
+* **Umleitungsschleifen**: Wenn eine Seite eine Umleitung zurück zu sich selbst enthält oder eine Endlosschleife erstellt.
+* **Fehlerhafte Weiterleitungen**: Wenn eine Weiterleitung zu einer nicht vorhandenen oder 4xx-Seite führt.
 
 Jedes Problem wird in einer Tabelle angezeigt, wobei die Spalte **Seite** den betroffenen Sitemap-Eintrag angibt:
 
-* **Seite** - Die URL des Sitemap-Eintrags mit einem Problem.
+* **Seite**: Die URL des Sitemap-Eintrags mit einem Problem.
 
 >[!ENDTABS]
 
-## Automatisch vorschlagen
+## Automatische Vorschläge
 
-Jedes Sitemap[Problem, das die Filterkriterien erfüllt](#auto-identify) wird in einer Tabelle mit den folgenden Spalten aufgeführt:
+Jedes Sitemap-Problem, [das die Filterkriterien erfüllt](#auto-identify), wird in einer Tabelle mit den folgenden Spalten aufgeführt:
 
-* **Seite** - Die URL des Sitemap-Eintrags mit einem Problem.
-* **Vorschlag** - Die empfohlene Lösung für das Problem.
+* **Seite**: Die URL des Sitemap-Eintrags mit einem Problem.
+* **Vorschlag**: Die empfohlene Fehlerbehebung für das Problem.
 
-Vorschläge enthalten normalerweise einen aktualisierten Site-Pfad, um den Sitemap-Eintrag zu korrigieren. In einigen Fällen können sie auch detailliertere Anweisungen bereitstellen, z. B. die Angabe des richtigen Umleitungsziels.
+Vorschläge enthalten normalerweise einen aktualisierten Site-Pfad, um den Sitemap-Eintrag zu korrigieren. In einigen Fällen können sie auch detailliertere Anweisungen bieten, z. B. die Angabe des richtigen Umleitungsziels.
 
 ## Automatische Optimierung
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Sitemap-Probleme automatisch optimieren](./assets/sitemap-issues/auto-optimize.png){align="center"}
+![Automatisches Optimieren von Sitemap-Problemen](./assets/sitemap-issues/auto-optimize.png){align="center"}
 
 Sites Optimizer Ultimate bietet nun die Möglichkeit, automatische Optimierungen von Sitemaps bereitzustellen.
 
@@ -89,7 +89,7 @@ Sites Optimizer Ultimate bietet nun die Möglichkeit, automatische Optimierungen
 
 {{auto-optimize-deploy-optimization-slack}}
 
->[!TAB Bestätigung anfordern]
+>[!TAB Genehmigung anfordern]
 
 {{auto-optimize-request-approval}}
 

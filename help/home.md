@@ -4,7 +4,7 @@ description: Steigern Sie die Performance Ihrer Website mit Sites Optimizer - ve
 source-git-commit: 80d1bb016dedcff9b3b6293008b43070ff24867c
 workflow-type: tm+mt
 source-wordcount: '140'
-ht-degree: 5%
+ht-degree: 87%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 5%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3455085/?learn=on&enablevpops)
 
-Adobe Experience Manager (AEM) Sites Optimizer ist ein Cloud-basierter Service, der die Leistung von Websites analysiert und verbessert, die auf AEM basieren. Es identifiziert Bereiche, in denen das Laden von Seiten, die Verwendung von Komponenten und die Bereitstellung von Inhalten verbessert werden können, wodurch Sie die Leistung Ihrer Website verbessern und die Wartungs- und Aktualisierungskosten senken können. Durch die Verwendung von Sites Optimizer können Sie ein reibungsloses und zuverlässiges Online-Erlebnis gewährleisten, was für die Aufrechterhaltung von Interaktionen und Konversionen wichtig ist.
+Adobe Experience Manager (AEM) Sites Optimizer ist ein Cloud-basierter Dienst, der die Leistung von auf AEM basierenden Websites analysiert und verbessert. Er identifiziert Bereiche, in denen das Laden von Seiten, die Verwendung von Komponenten und die Bereitstellung von Inhalten verbessert werden können. Dies ermöglicht es Ihnen, die Leistung Ihrer Website zu verbessern und die Wartungs- und Aktualisierungskosten zu senken. Durch die Verwendung von Sites Optimizer können Sie ein reibungsloses und zuverlässiges Online-Erlebnis gewährleisten – ein wichtiger Faktor für die Aufrechterhaltung von Interaktionen und Konversionen.
 
 ## Erste Schritte mit Sites Optimizer
 
@@ -33,8 +33,8 @@ Adobe Experience Manager (AEM) Sites Optimizer ist ein Cloud-basierter Service, 
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./opportunity-types/overview.md" title="Opportunity-Typen" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="opportunity-types/assets/overview/hero.png" alt="Opportunity-Typen"
+                    <a href="./opportunity-types/overview.md" title="Arten von Möglichkeiten" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="opportunity-types/assets/overview/hero.png" alt="Arten von Möglichkeiten"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -42,13 +42,13 @@ Adobe Experience Manager (AEM) Sites Optimizer ist ein Cloud-basierter Service, 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./opportunity-types/overview.md" target="_blank" rel="referrer" title="Opportunity-Typen">Opportunity-Typen</a>
+                        <a href="./opportunity-types/overview.md" target="_blank" rel="referrer" title="Arten von Möglichkeiten">Arten von Möglichkeiten</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die verfügbaren Site Optimizer-Möglichkeiten und wie Sie diese verwenden können, um die Leistung Ihrer Site zu verbessern.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die verfügbaren Möglichkeiten in Sites Optimizer und darüber, wie Sie sie zur Verbesserung der Leistung Ihrer Site einsetzen können.</p>
                 </div>
                 <a href="./opportunity-types/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>
@@ -67,11 +67,11 @@ Adobe Experience Manager (AEM) Sites Optimizer ist ein Cloud-basierter Service, 
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./documentation/overview.md" target="_blank" rel="referrer" title="Dokumentation">Dokumentation</a>
                     </p>
-                    <p class="is-size-6">In der Sites Optimizer-Dokumentation erfahren Sie mehr über alle zugehörigen Funktionen.</p>
+                    <p class="is-size-6">Lesen Sie die Dokumentation zu Sites Optimizer, um mehr über alle darin enthaltenen Funktionen zu erfahren.</p>
                 </div>
                 <a href="./documentation/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>

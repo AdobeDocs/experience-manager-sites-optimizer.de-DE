@@ -1,41 +1,41 @@
 ---
-title: Beschädigte interne Links Opportunity-Dokumentation
-description: Erfahren Sie mehr über die Opportunity mit fehlerhaften Links und wie Sie sie zur Verbesserung der Interaktion mit Ihrer Website verwenden können.
+title: Dokumentation zur Möglichkeit „Interne fehlerhafte Links“
+description: Erfahren Sie mehr über die Möglichkeit „Fehlerhafte interne Links“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 0%
+ht-degree: 99%
 
 ---
 
 
-# Ungültige oder fehlende Metadaten-Opportunity
+# Möglichkeit „Ungültige oder fehlende Metadaten“
 
-![Gelegenheit für fehlerhafte interne Links](./assets/broken-internal-links/hero.png){align="center"}
+![Möglichkeit „Fehlerhafte interne Links“](./assets/broken-internal-links/hero.png){align="center"}
 
-Beschädigte interne Links beeinträchtigen die Fähigkeit der Suchmaschine, Ihre Site zu indizieren, und beeinträchtigen sowohl das Benutzererlebnis als auch die Suchmaschinenoptimierung. Um dieses Problem zu beheben, zeigt die Opportunity Beschädigte interne Links fehlerhafte URLs auf und bietet Vorschläge für gültige Link-Aktualisierungen. Die Auseinandersetzung mit diesen Problemen wird die Benutzerinteraktion verbessern und eine reibungslose Navigation und Zugänglichkeit gewährleisten.
+Fehlerhafte interne Links beeinträchtigen neben der Fähigkeit einer Suchmaschine, Ihre Site zu indizieren, auch das Anwendererlebnis sowie die Suchmaschinen-Optimierung. Um dieses Problem zu beheben, zeigt die Möglichkeit „Fehlerhafte interne Links“ fehlerhafte URLs auf und bietet Vorschläge für Aktualisierungen auf gültige Links. Durch das Beheben dieser Probleme verbessern Sie die Benutzerinteraktion und gewährleisten eine reibungslose Navigation und Barrierefreiheit.
 
-Die Opportunity Beschädigte interne Links zeigt oben auf der Seite eine Zusammenfassung an, die eine Zusammenfassung des Problems und dessen Auswirkungen auf Ihre Site und Ihr Unternehmen enthält.
+Die Möglichkeit „Fehlerhafte interne Links“ zeigt oben auf der Seite eine Übersicht an, die eine Zusammenfassung des Problems und dessen Auswirkungen auf Ihre Site und Ihr Geschäft enthält.
 
-* **Projizierter Traffic-Verlust** - Der geschätzte Traffic-Verlust aufgrund beschädigter interner Links.
-* **Projizierter Traffic-Wert** - Der geschätzte Wert des verlorenen Traffics.
+* **Prognostizierter Traffic-Verlust**: Der geschätzte Traffic-Verlust aufgrund von fehlerhaften internen Links.
+* **Prognostizierter Traffic-Wert**: Der geschätzte Wert des verlorenen Traffics.
 
-## Automatisch identifizieren
+## Automatische Identifizierung
 
 <!---![Auto-identify broken internal links](./assets/missing-or-invalid-metadata/auto-identify.png){align="center"}-->
 
-Die Opportunity Beschädigte interne Links identifiziert und listet alle beschädigten internen Links auf Ihren Seiten automatisch auf und umfasst Folgendes:
+Die Möglichkeit „Fehlerhafte interne Links“ identifiziert automatisch alle fehlerhaften internen Links auf Ihren Seiten und listet sie auf, einschließlich:
 
-* **Verweisende Seite** - Die Seite, die den fehlerhaften Link enthält.
-* **Beschädigte Ziel-URL** - Der beschädigte interne Link.
-* **Vorschlag** - Ein von KI generierter Vorschlag zur Aktualisierung des fehlerhaften Links. Weitere Informationen finden Sie im Abschnitt Automatische Vorschläge .
+* **Referrer-Seite**: Die Seite, die den fehlerhaften Link enthält.
+* **Fehlerhafte Ziel-URL**: Der fehlerhafte Link.
+* **Vorschlag**: Ein KI-generierter Vorschlag zum Aktualisieren des fehlerhaften Links. Weitere Informationen finden Sie im Abschnitt zu automatischen Vorschlägen.
 
-## Automatisch vorschlagen
+## Automatische Vorschläge
 
 <!--![Auto-suggest broken internal links](./assets/broken-internal-links/auto-suggest.png){align="center"}-->
 
-Die Opportunity Beschädigte interne Links bietet KI-generierte Vorschläge zur Aktualisierung der beschädigten Links. Diese Vorschläge basieren auf der anvisierten fehlerhaften URL und bieten einen geeigneten Ersatz. Die Auswahl **Symbols „Informationen** liefert eine von KI generierte Begründung für die vorgeschlagene Aktualisierung.
+Die Möglichkeit „Fehlerhafte interne Links“ bietet KI-generierte Vorschläge für die Aktualisierung der fehlerhaften Links. Diese Vorschläge basieren auf der anvisierten fehlerhaften URL und bieten einen geeigneten Ersatz. Durch das Auswählen des **Symbols „Informationen“** erhalten Sie eine KI-Begründung für die vorgeschlagene Aktualisierung.
 
 
 >[!BEGINTABS]
@@ -44,19 +44,19 @@ Die Opportunity Beschädigte interne Links bietet KI-generierte Vorschläge zur 
 
 <!--[AI rationale of broken internal links](./assets/broken-internal-links/auto-suggest-ai-rationale.png) -->
 
-Wählen Sie das Symbol **information** aus, um die KI-Begründung für die vorgeschlagene URL anzuzeigen. Die Begründung erklärt, warum die KI der Ansicht ist, dass die vorgeschlagene URL am besten für den fehlerhaften Link geeignet ist. Dies kann Ihnen dabei helfen, den Entscheidungsfindungsprozess der KI zu verstehen und eine fundierte Entscheidung darüber zu treffen, ob der Vorschlag akzeptiert oder abgelehnt wird.
+Wählen Sie das Symbol **Informationen** aus, um die KI-Begründung für die vorgeschlagene URL anzuzeigen. Die Begründung erklärt, warum die KI der Ansicht ist, dass die vorgeschlagene URL am besten für den fehlerhaften Link geeignet ist. Dies kann Ihnen dabei helfen, den Entscheidungsfindungsprozess der KI nachzuvollziehen und eine fundierte Entscheidung darüber zu treffen, ob Sie den Vorschlag akzeptieren oder ablehnen sollen.
 
 >[!TAB Ziel-URL bearbeiten]
 
 <!--![Edit suggested URL of broken internal links](./assets/broken-internal-links/edit-target-url.png){align="center"}-->
 
-Wenn Sie mit dem von der KI generierten Vorschlag nicht einverstanden sind, können Sie den vorgeschlagenen Link-Wert bearbeiten, indem Sie auf das Symbol **Bearbeiten** klicken. Auf diese Weise können Sie den gewünschten Link manuell eingeben. Das Bearbeitungsfenster enthält den **fehlerhaften Zielpfad** des Links, den **gewünschten Zielpfad** in dem Sie den Link manuell bearbeiten können, sowie ein Feld mit dem KI-generierten Vorschlag. Klicken Sie nach Abschluss der Bearbeitung auf **Speichern**, um den fehlerhaften Link-Eintrag zu aktualisieren. Ein gelber Punkt im Eintragsfeld zeigt an, dass der Link bearbeitet wurde.
+Wenn Sie mit dem KI-generierten Vorschlag nicht einverstanden sind, können Sie den vorgeschlagenen Link-Wert bearbeiten, indem Sie das **Symbol „Bearbeiten“** auswählen. Auf diese Weise können Sie den gewünschten Link manuell eingeben. Das Bearbeitungsfenster enthält den **fehlerhaften Zielpfad** des Links, den **gewünschten Zielpfad**, in dem Sie den Link manuell bearbeiten können, sowie ein Feld mit dem KI-generierten Vorschlag. Wenn Sie mit der Bearbeitung fertig sind, klicken auf **Speichern**, um den Eintrag für den fehlerhaften Link zu speichern. Ein gelber Punkt im Eintragsfeld zeigt an, dass der Link bearbeitet wurde.
 
 >[!TAB Einträge ignorieren]
 
 <!--![Ignore broken links](./assets/broken-internal-links/ignore.png){align="center"}-->
 
-Sie können Einträge mit den fehlerhaften URLs ignorieren. Wenn Sie auf das **Ignorieren** klicken, wird der Eintrag aus der Opportunity-Liste entfernt. Ignorierte Einträge können über die Registerkarte **Ignoriert** oben auf der Opportunity-Seite erneut aktiviert werden.
+Sie können Einträge mit den anvisierten fehlerhaften URLs ignorieren. Durch das Auswählen des **Symbols „Ignorieren“** wird der Eintrag aus der Liste der Opportunitys entfernt. Ignorierte Einträge können über die Registerkarte **Ignoriert** oben auf der Seite der Möglichkeiten erneut aktiviert werden.
 
 >[!ENDTABS]
 
@@ -67,7 +67,7 @@ Sie können Einträge mit den fehlerhaften URLs ignorieren. Wenn Sie auf das **I
 
 <!---![Auto-optimize suggested invalid or missing metadata](./assets/broken-internal-links/auto-optimize.png){align="center"}-->
 
-Sites Optimizer Ultimate bietet nun die Möglichkeit, eine automatische Optimierung für die fehlerhaften Links bereitzustellen, die bei der Opportunity gefunden wurden. <!--- TBD-need more in-depth and opportunity specific information here. What does the auto-optimization do?-->
+Sites Optimizer Ultimate ermöglicht es, eine automatische Optimierung für die von der Möglichkeit gefundenen fehlerhaften Links bereitzustellen. <!--- TBD-need more in-depth and opportunity specific information here. What does the auto-optimization do?-->
 
 
 >[!BEGINTABS]
@@ -76,7 +76,7 @@ Sites Optimizer Ultimate bietet nun die Möglichkeit, eine automatische Optimier
 
 {{auto-optimize-deploy-optimization-slack}}
 
->[!TAB Bestätigung anfordern]
+>[!TAB Genehmigung anfordern]
 
 {{auto-optimize-request-approval}}
 
