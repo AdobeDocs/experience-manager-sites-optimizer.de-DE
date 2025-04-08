@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Dies ist eine Beschreibung für das Benutzerhandbuch, die auf der Landingpage angezeigt wird.
-source-git-commit: fbcd038d52f4761fc328404c410ef25534071f22
+source-git-commit: 85a97362b5078dd33e84fab5671f153c423b3420
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 # Experience Manager Sites Optimizer {#content}
 
 + [Sites Optimizer](/help/home.md)
-+ Opportunity-Typen{#opportunity-types}
++ Arten von Möglichkeiten{#opportunity-types}
    + [Überblick](/help/opportunity-types/overview.md)
    + [Traffic-Akquise](/help/opportunity-types/traffic-acquisition.md)
    + [Interaktion](/help/opportunity-types/engagement.md)
