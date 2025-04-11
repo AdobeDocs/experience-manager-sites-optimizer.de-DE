@@ -2,7 +2,7 @@
 title: Dokumentation zu Möglichkeiten in Sites Optimizer
 description: Erfahren Sie mehr über alle verfügbaren Möglichkeiten in Sites Optimizer und darüber, wie Sie sie zur Verbesserung der Leistung Ihrer Site einsetzen können.
 source-git-commit: fbcd038d52f4761fc328404c410ef25534071f22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
 ht-degree: 100%
 

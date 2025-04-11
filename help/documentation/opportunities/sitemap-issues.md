@@ -3,9 +3,9 @@ title: Dokumentation zur Möglichkeit „Sitemap-Probleme“
 description: Erfahren Sie mehr über die Möglichkeit „Sitemap-Probleme“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.
 badgeTrafficAcquisition: label="Traffic-Akquise" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Traffic-Akquise"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

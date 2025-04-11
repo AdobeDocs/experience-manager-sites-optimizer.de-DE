@@ -3,9 +3,9 @@ title: Dokumentation zur Möglichkeit „CORS-Konfiguration“
 description: Erfahren Sie mehr über die Opportunity „CORS-Konfiguration“ und finden Sie heraus, wie Sie Sicherheitsschwachstellen auf der Site identifizieren und beheben.
 badgeSecurityPosture: label="Sicherheitsstatus" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Sicherheitsstatus"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

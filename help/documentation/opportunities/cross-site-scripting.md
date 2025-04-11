@@ -3,9 +3,9 @@ title: Dokumentation zur Möglichkeit von Cross-Site-Scripting
 description: Informieren Sie sich über die Möglichkeit von Cross-Site-Scripting und über das Erkennen und Beheben von Sicherheitsschwachstellen auf Websites.
 badgeSecurityPosture: label="Sicherheitsstatus" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Sicherheitsstatus"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '132'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

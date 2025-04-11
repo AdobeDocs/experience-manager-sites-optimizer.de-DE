@@ -2,9 +2,9 @@
 title: Arten von Möglichkeiten in Sites Optimizer
 description: Erfahren Sie mehr über die wichtigsten Arten von Möglichkeiten in Sites Optimizer und wie sie Ihnen dabei helfen können, die Leistung Ihrer Site zu verbessern.
 source-git-commit: fbcd038d52f4761fc328404c410ef25534071f22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 71%
 
 ![Arten von Möglichkeiten](./assets/overview/hero.png){align="center"}
 
-AEM Sites Optimizer bietet wertvolle Erkenntnisse und Empfehlungen, mit denen Sie die Leistung, Benutzerfreundlichkeit und Sicherheit Ihrer Website verbessern können. Diese Erkenntnisse sind in wichtigen Opportunity-Bereichen gruppiert: Interaktion, Traffic-Akquise, Sicherheitslage und Site-Health. Jede Kategorie zeigt spezifische Möglichkeiten zur Verbesserung Ihrer Site auf, sei es durch eine verbesserte Besucherinteraktion, eine verbesserte Auffindbarkeit, eine erhöhte Sicherheit oder die Aufrechterhaltung der Site-Stabilität.
+AEM Sites Optimizer bietet wertvolle Erkenntnisse und Empfehlungen, mit denen Sie die Leistung, Benutzerfreundlichkeit und Sicherheit Ihrer Website verbessern können. Diese Erkenntnisse sind in die folgenden wichtigen Möglichkeitenbereiche gruppiert: Interaktion, Traffic-Akquise, Sicherheitsstatus und Site-Zustand. Jede Kategorie zeigt spezifische Möglichkeiten zum Verbessern Ihrer Site auf, z. B. durch Erhöhen der Besucherinteraktion, Verbessern der Auffindbarkeit, Stärken der Sicherheit oder Gewährleisten der Site-Stabilität.
 
-Durch das Nutzen dieser Möglichkeiten können Sie das Anwendererlebnis verbessern, die richtige Zielgruppe ansprechen und dafür sorgen, dass Ihre Site sicher und zuverlässig bleibt. Die Verbesserung der Interaktion und der Traffic-Akquise steigert die Interaktion und Sichtbarkeit, während ein starker Sicherheitszustand und der Zustand der Website dazu beitragen, Vertrauen und Stabilität zu gewährleisten.  Erkunden Sie die unten stehenden Links, um die nach Kategorie geordneten Möglichkeiten zu sehen, und entdecken Sie Wege zum Verbessern Ihrer Site.
+Durch das Nutzen dieser Möglichkeiten können Sie das Anwendererlebnis verbessern, die richtige Zielgruppe ansprechen und dafür sorgen, dass Ihre Site sicher und zuverlässig bleibt. Die Verbesserung des Engagements und der Traffic-Akquise steigert die Interaktion und Sichtbarkeit, während ein starker Sicherheitsstatus und ein guter Site-Zustand dazu beitragen, Vertrauen und Stabilität sicherzustellen. Erkunden Sie die unten stehenden Links, um die nach Kategorie geordneten Möglichkeiten zu sehen, und entdecken Sie Wege zum Verbessern Ihrer Site.
 
 ## Arten von Möglichkeiten
 

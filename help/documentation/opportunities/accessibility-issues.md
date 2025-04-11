@@ -3,9 +3,9 @@ title: Dokumentation zur Möglichkeit „Probleme mit der Barrierefreiheit“
 description: Erfahren Sie mehr über die Möglichkeit „Probleme mit der Barrierefreiheit“ und finden Sie heraus, wie Sie damit die Sicherheit auf Ihrer Website erhöhen können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
 source-git-commit: c52b60fb483009856cb6976eddbf86141d0846fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '253'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Die Möglichkeit „Probleme mit der Barrierefreiheit“ identifiziert, wie gut 
 
 Die **Möglichkeit „Probleme mit der Barrierefreiheit“** identifiziert Probleme mit der Barrierefreiheit auf Ihrer Website und listet Folgendes auf:
 
-* **Probleme** - Das spezifische Problem mit der Barrierefreiheit.
+* **Probleme**: Das spezifische Problem mit der Barrierefreiheit, das gefunden wurde.
 * **Richtlinien**: Die [ID der WCAG-Richtlinien](https://www.w3.org/TR/WCAG21/), gegen die das Problem verstößt.
 * **Auswirkung auf Benutzende**: Eine Bewertung der Auswirkungen auf Benutzende mit Behinderungen.
 * **Fehlgeschlagene Elemente**: Die HTML-Elemente auf der Web-Seite, die von dem Problem betroffen sind.
