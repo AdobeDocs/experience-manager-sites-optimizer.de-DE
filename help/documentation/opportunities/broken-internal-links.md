@@ -2,15 +2,15 @@
 title: Dokumentation zur Möglichkeit „Interne fehlerhafte Links“
 description: Erfahren Sie mehr über die Möglichkeit „Fehlerhafte interne Links“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: c2bd3f7dc998b103ecdd02c239b1ea0312db20f1
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 99%
 
 ---
 
 
-# Möglichkeit „Ungültige oder fehlende Metadaten“
+# Beschädigte interne Links - Opportunity
 
 ![Möglichkeit „Fehlerhafte interne Links“](./assets/broken-internal-links/hero.png){align="center"}
 
