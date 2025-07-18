@@ -2,10 +2,10 @@
 title: Dokumentation zu fehlenden oder ungültigen strukturierten Daten
 description: Erfahren Sie mehr über die Möglichkeit „Fehlende oder ungültige strukturierte Daten“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise verwenden können.
 badgeTrafficAcquisition: label="Traffic-Akquise" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Traffic-Akquise"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
-source-wordcount: '361'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Die Möglichkeit „fehlende oder ungültige strukturierte Daten“ zeigt oben a
 
 Die Möglichkeit „Fehlende oder ungültige strukturierte Daten“ führt alle auf Ihren Seiten erkannten Probleme auf und umfasst die folgenden Kategorien:
 
-* **Seite mit Problemen**: Die Seite, die die ungültigen oder fehlenden strukturierten Daten enthält.
+* **Seite mit Problemen** - Die Seite, die ungültige oder fehlende strukturierte Daten enthält.
 * **Problem und dessen von der KI vorgeschlagene Lösung**: Gibt den Typ des Problems mit strukturierten Daten an, das die Seite beeinträchtigt.
 * **Vorschlag**: Ein KI-generierter Vorschlag für geeignete Aktualisierungen für strukturierte Daten. Weitere Informationen finden Sie im folgenden Abschnitt.
 

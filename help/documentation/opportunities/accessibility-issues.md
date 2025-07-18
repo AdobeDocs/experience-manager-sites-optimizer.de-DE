@@ -2,10 +2,10 @@
 title: Dokumentation zur Möglichkeit „Probleme mit der Barrierefreiheit“
 description: Erfahren Sie mehr über die Möglichkeit „Probleme mit der Barrierefreiheit“ und finden Sie heraus, wie Sie damit die Sicherheit auf Ihrer Website erhöhen können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
-source-git-commit: c52b60fb483009856cb6976eddbf86141d0846fc
-workflow-type: ht
-source-wordcount: '253'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 73%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ![Möglichkeit „Probleme mit der Barrierefreiheit“](./assets/accessibility-issues/hero.png){align="center"}
 
-Die Möglichkeit „Probleme mit der Barrierefreiheit“ identifiziert, wie gut Ihre Website auf die Bedürfnisse von Menschen mit Behinderungen ausgerichtet ist und ob sie die [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/) erfüllt. Durch die Beurteilung der Konformität Ihrer Site mit den WCAG tragen Sie dazu bei, ein inklusives Online-Erlebnis zu schaffen, das es Personen mit visuellen, auditiven, kognitiven und motorischen Beeinträchtigungen ermöglicht, in Ihren Inhalten zu navigieren, mit ihnen zu interagieren und von ihnen zu profitieren. Dies ist nicht nur aus ethischen Gründen wichtig, sondern fördert außerdem die Einhaltung der gesetzlichen Anforderungen, verbessert die SEO und kann das Erreichen Ihrer Zielgruppe stärken, was sowohl das Anwendererlebnis als auch die Geschäftsleistung optimiert.
+Die Möglichkeit „Probleme mit der Barrierefreiheit“ identifiziert, wie gut Ihre Website auf die Bedürfnisse von Menschen mit Behinderungen ausgerichtet ist und ob sie die [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/) erfüllt. Indem Sie beurteilen, wie gut Ihre Site mit WCAG konform ist, helfen Sie bei der Erstellung eines inklusiven Online-Erlebnisses. Dadurch können Personen mit visuellen, auditiven, kognitiven und motorischen Beeinträchtigungen navigieren, mit Ihren Inhalten interagieren und von ihnen profitieren. Diese Funktion ist nicht nur aus ethischen Gründen unverzichtbar, sondern fördert auch die Einhaltung gesetzlicher Anforderungen, verbessert die SEO und kann die Reichweite Ihrer Zielgruppe erhöhen, wodurch sowohl das Anwendererlebnis als auch die Geschäftsleistung verbessert werden.
 
 ## Automatische Identifizierung
 

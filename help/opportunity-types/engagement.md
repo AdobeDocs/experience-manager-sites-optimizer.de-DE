@@ -1,10 +1,10 @@
 ---
 title: Optimieren der Interaktion mit Sites Optimizer
 description: Erfahren Sie, wie Sie mit Sites Optimizer die Interaktion verbessern können.
-source-git-commit: 62909a9c65a62beb202896d98bb9ab058bcd984a
-workflow-type: ht
-source-wordcount: '238'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 92%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Interaktion – Möglichkeiten](./assets/engagement/hero.png){align="center"}
 
-OpMöglichkeitenportunitys vom Typ „Interaktion“ in AEM Sites Optimizer sind für die Verbesserung digitaler Erlebnisse von entscheidender Bedeutung, da sie praktische Erkenntnisse bezüglich der Interaktion von Benutzenden mit Web-Seiten bieten. Durch die Identifizierung von Bereichen, in denen Verbesserungen erforderlich sind – z. B. Probleme bezüglich der Barrierefreiheit, fehlerhafte interne Links, hohe Bounce-Raten und fehlender Alternativtext – können Marketing-Fachleute sowie Inhaltsautorinnen und -autoren ihre Sites optimieren, um die Leistung und Benutzerinteraktion zu verbessern. Mit diesen Möglichkeiten lässt sich sicherstellen, dass Inhalte effektiv, auffindbar und überzeugend sind, was letztendlich höhere Konversionen und eine reibungslosere Customer Journey fördert. Durch das Nutzen der Empfehlungen von AEM Sites Optimizer können Teams ihre Digitalstrategie kontinuierlich optimieren und wirkungsvolle Erlebnisse im benötigten Umfang bereitstellen.
+OpMöglichkeitenportunitys vom Typ „Interaktion“ in AEM Sites Optimizer sind für die Verbesserung digitaler Erlebnisse von entscheidender Bedeutung, da sie praktische Erkenntnisse bezüglich der Interaktion von Benutzenden mit Web-Seiten bieten. Durch die Identifizierung von Bereichen, in denen Verbesserungen erforderlich sind – z. B. Probleme bezüglich der Barrierefreiheit, fehlerhafte interne Links, hohe Bounce-Raten und fehlender Alternativtext – können Marketing-Fachleute sowie Inhaltsautorinnen und -autoren ihre Sites optimieren, um die Leistung und Benutzerinteraktion zu verbessern. Mit diesen Möglichkeiten lässt sich sicherstellen, dass Inhalte effektiv, auffindbar und überzeugend sind, was letztendlich höhere Konversionen und eine reibungslosere Customer Journey fördert. Mithilfe der Empfehlungen von AEM Sites Optimizer können Teams ihre Digitalstrategie kontinuierlich verfeinern und skalierbare, wirkungsvolle Erlebnisse bereitstellen.
 
 
 ## Opportunitys
@@ -96,7 +96,7 @@ OpMöglichkeitenportunitys vom Typ „Interaktion“ in AEM Sites Optimizer sind
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" title="Hohe Bounce-Rate">Hohe Bounce-Rate</a>
+                        <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" title="Hohe Bounce-Rate">Hohe Absprungrate</a>
                     </p>
                     <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Wenig Ansichten“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.</p>
                 </div>

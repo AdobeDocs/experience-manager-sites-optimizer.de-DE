@@ -2,10 +2,10 @@
 title: Dokumentation zur Möglichkeit „Website-Berechtigungen“
 description: Erfahren Sie mehr über die Opportunity „Website-Berechtigungen“ und finden Sie heraus, wie Sie damit die Sicherheit auf Ihrer Website erhöhen können.
 badgeSecurityPosture: label="Sicherheitsstatus" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Sicherheitsstatus"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
-source-wordcount: '218'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 79%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ![Möglichkeit „Website-Berechtigungen“](./assets/website-permissions/hero.png){align="center"}
 
-Die Möglichkeit „Website-Berechtigungen“ optimiert Website-Berechtigungen, die für die Aufrechterhaltung einer sicheren und verwaltbaren AEM-Umgebung von entscheidender Bedeutung sind. Mit dieser Möglichkeit können Sie die Zugriffssteuerung verfeinern, indem Sie übermäßig umfassende Berechtigungen entfernen – z. B. `jcr:all` in generischen Pfaden wie `/` oder `/content` – und den Benutzerzugriff an das Prinzip der geringsten Berechtigung anpassen. Durch das Optimieren von Berechtigungen und das Beseitigen von Redundanzen können Sie Sicherheitsrisiken reduzieren, die Wartbarkeit verbessern und zukünftige Fehlkonfigurationen verhindern. Ergreifen Sie Maßnahmen, indem Sie die Berechtigungen in der Konsole der AEM-Sicherheitsberechtigungen oder in Ihrem Code-Repository überprüfen und aktualisieren und so sicherstellen, dass Dienstbenutzende nur den Zugriff haben, den sie wirklich benötigen.
+Die Möglichkeit „Website-Berechtigungen“ optimiert Website-Berechtigungen, die für die Aufrechterhaltung einer sicheren und verwaltbaren AEM-Umgebung von entscheidender Bedeutung sind. Mit dieser Möglichkeit können Sie die Zugriffssteuerung verfeinern, indem Sie übermäßig umfassende Berechtigungen entfernen – z. B. `jcr:all` in generischen Pfaden wie `/` oder `/content` – und den Benutzerzugriff an das Prinzip der geringsten Berechtigung anpassen. Durch das Optimieren von Berechtigungen und das Beseitigen von Redundanzen können Sie Sicherheitsrisiken reduzieren, die Wartbarkeit verbessern und zukünftige Fehlkonfigurationen verhindern. Überprüfen und aktualisieren Sie Berechtigungen in der AEM-Sicherheitsberechtigungskonsole oder in Ihrem Code-Repository. Dadurch wird sichergestellt, dass Service-Benutzer nur den Zugriff haben, den sie wirklich benötigen.
 
 ## Automatische Identifizierung
 
@@ -23,8 +23,8 @@ Die Möglichkeit „Website-Berechtigungen“ optimiert Website-Berechtigungen, 
 Die Funktion **Möglichkeit „Website-Berechtigungen“** identifiziert und listet Folgendes automatisch auf:
 
 * **Benutzer**: Das Benutzerkonto mit der fragwürdigen Berechtigung.
-* **Pfad**: Der Pfad in AEM, der von der Berechtigung betroffen ist.
-* **Berechtigung**: Die fragwürdige Berechtigung.
+* **Pfad** - Verwenden Sie die Registerkarten oben, um Opportunities zu organisieren und nach Status zu filtern.
+* **Permission** - Die vermutete Berechtigung.
 * **Problem**: Gibt die Art des Problems an, das sich auf die Berechtigung auswirkt. 
 
 ## Automatische Vorschläge

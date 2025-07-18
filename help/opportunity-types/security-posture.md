@@ -1,10 +1,10 @@
 ---
 title: Optimieren des Sicherheitsstatus mit Sites Optimizer
 description: Erfahren Sie, wie Sie die Sicherheit Ihrer Site mit Sites Optimizer verbessern können.
-source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
-workflow-type: ht
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Sicherheitsstatus – Opportunitys](./assets/security-posture/hero.png){align="center"}
 
-Ein solider Sicherheitsstatus in AEM Sites Optimizer ist für den Schutz digitaler Erlebnisse und Benutzerdaten von entscheidender Bedeutung. Durch Ermittlung von Verbesserungsmöglichkeiten – Opportunitys – wie CORS-Konfiguration, Cross-Site-Scripting, Website-Berechtigungen und Website-Schwachstellen können Teams proaktiv auf potenzielle Sicherheitsrisiken eingehen und die Einhaltung von Best Practices sicherstellen. Im Zuge besserer Sicherheitsmaßnahmen werden nicht nur sensible Informationen geschützt, sondern auch das Vertrauen der Benutzenden und die Zuverlässigkeit der Website gestärkt. Organisationen können anhand der von AEM Sites Optimizer bereitgestellten Erkenntnisse ihren Sicherheitsstatus kontinuierlich überwachen und verbessern, Risiken reduzieren und für eine sichere digitale Umgebung sorgen.
+Ein solider Sicherheitsstatus in AEM Sites Optimizer ist für den Schutz digitaler Erlebnisse und Benutzerdaten von entscheidender Bedeutung. Durch Ermittlung von Verbesserungsmöglichkeiten – Opportunitys – wie CORS-Konfiguration, Cross-Site-Scripting, Website-Berechtigungen und Website-Schwachstellen können Teams proaktiv auf potenzielle Sicherheitsrisiken eingehen und die Einhaltung von Best Practices sicherstellen. Im Zuge besserer Sicherheitsmaßnahmen werden nicht nur sensible Informationen geschützt, sondern auch das Vertrauen der Benutzenden und die Zuverlässigkeit der Website gestärkt. Mithilfe der Einblicke von AEM Sites Optimizer können Unternehmen ihre Sicherheitsstrategie kontinuierlich überwachen und verbessern, Risiken reduzieren und eine sichere digitale Umgebung gewährleisten.
 
 ## Opportunitys
 

@@ -2,10 +2,10 @@
 title: Dokumentation zur Opportunity „Website-Schwachstellen“
 description: Erfahren Sie mehr über die Opportunity „Website-Schwachstellen“ und finden Sie heraus, wie Sie damit die Sicherheit auf Ihrer Website erhöhen können.
 badgeSecurityPosture: label="Sicherheitsstatus" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Sicherheitsstatus"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
-source-wordcount: '371'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 77%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ![Opportunity „Website-Schwachstellen“](./assets/website-vulnerabilities/hero.png){align="center"}
 
-Die Möglichkeit „Website-Schwachstellen“ identifiziert Sicherheitsschwachstellen in den von Ihrem Anwendungs-Code verwendeten Drittanbieterbibliotheken. Diese Schwachstellen könnten von böswilligen Angreiferinnen und Angreifern ausgenutzt werden, was das Risiko erhöht und den Sicherheitsstatus Ihrer Website herabsetzt.
+Die Website-Schwachstellen-Opportunity identifiziert Sicherheitslücken in Drittanbieterbibliotheken, die von Ihrem Programm-Code verwendet werden. Böswillige Angreifer nutzen solche Schwachstellen aus, erhöhen das Risiko und verringern den Sicherheitszustand Ihrer Website.
 
 Bei der Opportunity „Website-Schwachstellen“ wird oben auf der Seite eine Zusammenfassung angezeigt, die u. a. folgende Informationen enthält:
 
@@ -37,17 +37,17 @@ Die Funktion **Möglichkeit „Website-Schwachstellen“** identifiziert automat
 
 ![Automatische Vorschläge für Website-Schwachstellen](./assets/website-vulnerabilities/auto-suggest.png){align="center"}
 
-Automatische, KI-generierte Vorschläge für die **empfohlene Version** anfälliger Bibliotheken, auf die Sie aktualisieren sollten. Jeder Eintrag hat einen **Score**, der den allgemeinen Schweregrad angibt und dabei hilft, die kritischsten Schwachstellen zu priorisieren.
+Auto-Suggest bietet von KI generierte Vorschläge für die **empfohlene Version** einer anfälligen Bibliothek, auf die Sie aktualisieren sollten. Jeder Eintrag hat einen **Score**, der den allgemeinen Schweregrad angibt und dabei hilft, die kritischsten Schwachstellen zu priorisieren.
 
 >[!BEGINTABS]
 
 >[!TAB Schwachstelle – Details]
 
-Jede Schwachstelle enthält einen Link zu ausführlichen Informationen in der [National Vulnerability Database (NVD)](https://nvd.nist.gov/). Durch Klicken auf die Kennung der Schwachstelle oder den Link rechts neben der Beschreibung gelangen Sie zur NVD-Seite für diese Schwachstelle.
+Jede Schwachstelle enthält einen Link zu ausführlichen Informationen in der [National Vulnerability Database (NVD)](https://nvd.nist.gov/). Durch Klicken auf die Schwachstellenkennung oder das Link-Element rechts neben der Beschreibung gelangen Sie zur NVD-Seite für diese Schwachstelle.
 
 >[!TAB Einträge ignorieren]
 
-Sie können Einträge aus der Liste der Schwachstellen ignorieren. Wenn Sie auf das Symbol **Ignorieren** klicken, wird der Eintrag aus der Liste entfernt. Ignorierte Einträge können über die Registerkarte **Ignoriert** oben auf der Opportunity-Seite erneut aktiviert werden.<!---right now it does not seem to be implemented, but the page description mentions this functionality-->
+Sie können Einträge aus der Liste der Schwachstellen ignorieren. Wenn Sie ![Löschsymbol](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) auswählen, wird der Eintrag aus der Liste entfernt. Ignorierte Einträge können über die Registerkarte **Ignoriert** oben auf der Opportunity-Seite erneut aktiviert werden.<!---right now it does not seem to be implemented, but the page description mentions this functionality-->
 
 >[!ENDTABS]
 

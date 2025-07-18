@@ -1,10 +1,10 @@
 ---
 title: Dokumentation zu Möglichkeiten in Sites Optimizer
 description: Erfahren Sie mehr über alle verfügbaren Möglichkeiten in Sites Optimizer und darüber, wie Sie sie zur Verbesserung der Leistung Ihrer Site einsetzen können.
-source-git-commit: fbcd038d52f4761fc328404c410ef25534071f22
-workflow-type: ht
-source-wordcount: '758'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '756'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ Möglichkeiten sind in der [persistenten Navigation in Site Optimizer](/help/doc
 
 ## Status der Möglichkeit
 
-Möglichkeiten können mithilfe der Registerkarten im oberen Bereich nach Status organisiert und gefiltert werden:
+Verwenden Sie die Registerkarten oben, um Opportunities zu organisieren und nach Status zu filtern.
 
 >[!BEGINTABS]
 
@@ -44,7 +44,7 @@ Eine historische Liste von Möglichkeiten, die optimiert wurden.
 
 ## Opportunitys
 
-Wenn Sie [Status der Möglichkeit](#opportunity-status) ausgewählt haben, können Sie eine Liste von Möglichkeiten anzeigen. Die Liste der Möglichkeiten kann weiter gefiltert werden nach:
+Wenn Sie [Status der Möglichkeit](#opportunity-status) ausgewählt haben, können Sie eine Liste von Möglichkeiten anzeigen. Sie können die Liste der Opportunitys wie folgt filtern:
 
 * **Suche**: Suche nach Möglichkeiten anhand von **Keywords, Tags oder URLs**.
 * **Art der Möglichkeit**: Verwenden Sie das Dropdown-Menü **Typ** zum Filtern von Möglichkeiten nach [Art der Möglichkeit](/help/opportunity-types/overview.md).
@@ -56,9 +56,10 @@ Wenn Sie [Status der Möglichkeit](#opportunity-status) ausgewählt haben, könn
 Jede Möglichkeit bietet eine kurze Beschreibung des Problems, seine potenzielle Auswirkung auf Ihre Site und einen Link zu den vollständigen Details. Sie können auch den Status sehen, der angibt, ob eine Optimierung vorgenommen wurde oder noch aussteht.
 
 * **Titel der Möglichkeit**: Eine kurze Beschreibung des Problems und seiner potenziellen Auswirkung auf die Leistung Ihrer Site.
-* **Zuletzt aktualisiert**: Das Datum, an dem die Möglichkeit zuletzt von Sites Optimizer mit neuen Daten aktualisiert wurde.
+* **Zuletzt aktualisiert** - Sites Optimizer hat die Opportunity zu diesem Datum zuletzt mit neuen Daten aktualisiert.
+
 * **Anzahl der Probleme**: Die Anzahl der Instanzen des Problems, die auf Ihrer Site identifiziert wurden.
-* **Möglichkeitsart(en)**: Die [Art(en) von Möglichkeiten](/help/opportunity-types/overview.md), zu denen diese Möglichkeit gehört – z. B. Traffic-Akquise, Interaktion oder Site-Zustand.
+* **Opportunity-**: Die [Opportunity-Typen](/help/opportunity-types/overview.md) zu denen diese Opportunity gehört - z. B. Traffic-Akquise, Interaktion oder Site-Status.
 
 Die Zusammenfassungsinformationen für jede Möglichkeit variieren je nach Typ und können Details zu Umsatzauswirkungen, Traffic, Benutzerinteraktion oder Sicherheitsbedrohungen enthalten.
 

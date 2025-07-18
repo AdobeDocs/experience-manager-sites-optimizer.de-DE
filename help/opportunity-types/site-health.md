@@ -1,10 +1,10 @@
 ---
 title: Optimieren des Site-Zustands mit Sites Optimizer
 description: Erfahren Sie, wie Sie mit Sites Optimizer den Zustand Ihrer Site verbessern können.
-source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
-workflow-type: ht
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 100%
+ht-degree: 72%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Site-Zustand – Möglichkeiten](./assets/site-health/hero.png){align="center"}
 
-Ein konstant guter Site-Zustand in AEM Sites Optimizer ist für die Bereitstellung schneller, zuverlässiger und leistungsstarker digitaler Erlebnisse von entscheidender Bedeutung. Durch die Identifizierung von Verbesserungsmöglichkeiten – wie z. B. Core Web Vitals – können Teams die Seitengeschwindigkeit, die Interaktivität und die visuelle Stabilität optimieren, um das Anwendererlebnis und Suchmaschinen-Rankings zu verbessern. Eine gut gepflegte Site sorgt für eine reibungslosere Navigation, eine bessere Interaktion und eine verbesserte Gesamtleistung. Das Nutzen der Erkenntnisse von AEM Sites Optimizer ermöglicht ein kontinuierliches Monitoring und Verfeinerungen, um sicherzustellen, dass die Site im Zeitverlauf effizient und effektiv bleibt.
+Ein konstant guter Site-Zustand in AEM Sites Optimizer ist für die Bereitstellung schneller, zuverlässiger und leistungsstarker digitaler Erlebnisse von entscheidender Bedeutung. Durch die Identifizierung von Verbesserungsmöglichkeiten – wie z. B. Core Web Vitals – können Teams die Seitengeschwindigkeit, die Interaktivität und die visuelle Stabilität optimieren, um das Anwendererlebnis und Suchmaschinen-Rankings zu verbessern. Eine gut gepflegte Site sorgt für eine reibungslosere Navigation, eine bessere Interaktion und eine verbesserte Gesamtleistung. Die Verwendung der Erkenntnisse von AEM Sites Optimizer ermöglicht eine kontinuierliche Überwachung und Verfeinerung und stellt sicher, dass die Site im Laufe der Zeit effizient und effektiv bleibt.
 
 ## Opportunitys
 
@@ -41,11 +41,11 @@ Ein konstant guter Site-Zustand in AEM Sites Optimizer ist für die Bereitstellu
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/core-web-vitals.md" target="_blank" rel="referrer" title="Core Web Vitals">Core Web Vitals</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Core Web Vital“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die „Core Web Vitals“-Opportunity und wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.</p>
                 </div>
                 <a href="../documentation/opportunities/core-web-vitals.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+                </a>
             </div>
         </div>
     </div>

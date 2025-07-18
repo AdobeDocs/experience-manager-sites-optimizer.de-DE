@@ -2,10 +2,10 @@
 title: Dokumentation zur Möglichkeit „Core Web Vitals“
 description: Erfahren Sie mehr über die Möglichkeit „Core Web Vital“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.
 badgeSiteHealth: label="Site-Zustand" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Site-Zustand"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
-source-wordcount: '378'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ![Möglichkeit „Core Web Vitals“](./assets/core-web-vitals/hero.png){align="center"}
 
-Die Möglichkeit „Core Web Vitals“ identifiziert Probleme, die das Anwendererlebnis Ihrer Web-Seiten und ihre Leistung bei der organischen Suche beeinträchtigen können. Diese Probleme ergeben sich aus einer Vielzahl von Faktoren, z. B. benutzerdefinierte Schriftarten, nicht optimierte JavaScript-Abhängigkeiten, Skripte von Drittanbietern usw. Die Möglichkeit „Core Web Vitals“ zeigt diese fehlerhaften Elemente auf und schlägt Fehlerbehebungen vor, die die Leistung Ihrer Web-Seite erhöhen können. Beachten Sie, dass nur Seiten mit mindestens 1000 Seitenansichten analysiert werden können.
+Die Möglichkeit „Core Web Vitals“ identifiziert Probleme, die das Anwendererlebnis Ihrer Web-Seiten und ihre Leistung bei der organischen Suche beeinträchtigen können. Diese Probleme ergeben sich aus einer Vielzahl von Faktoren wie: benutzerdefinierte Schriftarten, nicht optimierte JavaScript-Abhängigkeiten, Drittanbieterskripte usw. Die Möglichkeit „Core Web Vitals“ zeigt diese fehlerhaften Elemente auf und schlägt Fehlerbehebungen vor, die die Leistung Ihrer Web-Seite erhöhen können. Beachten Sie, dass nur Seiten mit mindestens 1000 Seitenansichten analysiert werden können.
 
 Zunächst zeigt die Möglichkeit Core Web Vitals oben auf der Seite eine Übersicht an, die eine Zusammenfassung des Problems und dessen Auswirkungen auf Ihre Site und Ihr Geschäft enthält.
 
@@ -32,7 +32,11 @@ Im unteren Teil der Seite finden Sie eine Liste aller aktuellen Probleme, die na
 
 Jedes Problem wird in einer Tabelle angezeigt, wobei die Spalte **Seite** den Eintrag auf der betroffenen Seite angibt.
 
-Darüber hinaus werden diese Probleme auch anhand der Standardleistungsmetriken des Berichts zu den Core Web Vitals gruppiert: Größtes Inhaltselement **LCP**, Interaktion bis zum nächsten Bild **INP** und Kumulative Layout-Verschiebung **CLS**.
+Das System gruppiert diese Probleme anhand der Standardleistungsmetriken im Bericht „Core Web Vitals“:
+
+* größte Inhaltsfarbe **LCP**
+* Interaktion mit der nächsten Zeichnung **INP**
+* Kumulative Layout-Verschiebung **CLS**
 
 ## Automatische Vorschläge
 

@@ -1,10 +1,10 @@
 ---
 title: Optimieren der Traffic-Akquise mit Sites Optimizer
 description: Erfahren Sie, wie Sie mit Sites Optimizer die Traffic-Akquise steigern können.
-source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
-workflow-type: ht
-source-wordcount: '237'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 63%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Traffic-Akquise – Möglichkeiten](./assets/traffic-acquisition/hero.png){align="center"}
 
-Die Traffic-Akquise ist wichtig, um potenzielle Kundschaft auf Ihre Website zu bringen und Möglichkeiten für den Verkauf oder die Lead-Generierung zu schaffen. Durch die Nutzung von Strategien wie Suchmaschinen-Optimierung (SEO) können Unternehmen die Sichtbarkeit der Suche verbessern und Benutzenden das Entdecken ihrer Inhalte erleichtern. Ein konstanter Besucherfluss erhöht nicht nur die Markenwahrnehmung und das Markenvertrauen, sondern bietet auch wertvolle Erkenntnisse bezüglich des Benutzerverhaltens. So können Teams ihr Angebot optimieren und das Gesamterlebnis verbessern. Das Nutzen der Erkenntnisse von AEM Sites Optimizer ermöglicht eine kontinuierliche Optimierung, die ein nachhaltiges Wachstum und verbesserte Konversionsraten im Zeitverlauf sicherstellt.
+Die Traffic-Akquise treibt potenzielle Kunden auf Ihre Website und schafft Verkaufs- oder Lead-Chancen. Mithilfe von Strategien wie der Suchmaschinenoptimierung (SEO) können Unternehmen die Sichtbarkeit der Suche verbessern und es Benutzenden erleichtern, ihre Inhalte zu finden. Ein stetiger Besucherfluss steigert die Markenwahrnehmung und schafft Vertrauen. Es liefert auch wertvolle Einblicke in das Benutzerverhalten. Diese Einblicke helfen Teams, ihre Angebote zu verfeinern und das Gesamterlebnis zu verbessern. Die Verwendung der Erkenntnisse von AEM Sites Optimizer ermöglicht eine kontinuierliche Optimierung, die ein nachhaltiges Wachstum und verbesserte Konversionsraten im Laufe der Zeit sicherstellt.
 
 ## Opportunitys
 

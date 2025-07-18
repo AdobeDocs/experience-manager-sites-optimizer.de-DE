@@ -2,9 +2,9 @@
 title: Dokumentation zur Möglichkeit „Wenig Konversionen“
 description: Erfahren Sie mehr über die Möglichkeit „Wenig Konversionen“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.
 badgeFormOptimization: label="Formularoptimierung" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Formularoptimierung"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
-source-wordcount: '343'
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '342'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Jede Web-Seite mit einem Formular mit wenig Konversionen wird als eigene Möglic
 
 ![Automatische Vorschläge bei wenig Konversionen](./assets/low-conversions/auto-suggest.png){align="center"}
 
-Das automatische Vorschlagen bietet KI-generierte Varianten von Web-Seiten, mit denen die Zahl der Konversionen Ihrer Formulare erhöht werden soll. Jede Variante zeigt die **prognostizierte Erhöhung der Konversionsrate** basierend auf ihrem Potenzial zur Verbesserung der Formularinteraktion an, sodass Sie die effektivsten Vorschläge priorisieren können.
+Das automatische Vorschlagen bietet KI-generierte Varianten von Web-Seiten, mit denen die Zahl der Konversionen Ihrer Formulare erhöht werden soll. Jede Variante zeigt die **prognostizierte Zunahme der Konversionsrate** basierend auf ihrem Potenzial zur Verbesserung der Formularinteraktion an, sodass Sie die effektivsten Vorschläge priorisieren können.
 
 >[!BEGINTABS]
 

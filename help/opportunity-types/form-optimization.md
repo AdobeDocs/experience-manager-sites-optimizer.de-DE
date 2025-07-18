@@ -1,10 +1,10 @@
 ---
 title: Formularoptimierung mit Sites Optimizer
 description: Erfahren Sie mehr über die Formularoptimierung mit Sites Optimizer.
-source-git-commit: 84f922b5d0f788c1affe47a9013ed640947d0ec4
-workflow-type: ht
-source-wordcount: '153'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 86%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Formularoptimierung – Möglichkeiten](./assets/form-optimization/hero.png){align="center"}
 
-Die Formularoptimierung in AEM Sites Optimizer ist von entscheidender Bedeutung für die Verbesserung von Benutzerinteraktionen und die Maximierung von Konversionen. Durch das Identifizieren von Bereichen, in denen Verbesserungen erforderlich sind – z. B. wenig Ansichten und wenig Konversionen von Formularen – können Teams den Entwurf, die Platzierung und den Inhalt eines Formulars verfeinern, um die Interaktion zu verbessern. Optimierte Formulare sorgen für ein reibungsloses Anwendererlebnis, sodass Besuchende Aktionen leichter durchführen und Geschäftsergebnisse optimieren können. Durch die Nutzung der Erkenntnisse von AEM Sites Optimizer können Marketing-Fachleute kontinuierlich Bereiche identifizieren, in denen Verbesserungen erforderlich sind, wodurch letztendlich die Effektivität sowie die allgemeine Site-Leistung gesteigert werden.
+Die Formularoptimierung in AEM Sites Optimizer ist von entscheidender Bedeutung für die Verbesserung von Benutzerinteraktionen und die Maximierung von Konversionen. Durch das Identifizieren von Bereichen, in denen Verbesserungen erforderlich sind – z. B. wenig Ansichten und wenig Konversionen von Formularen – können Teams den Entwurf, die Platzierung und den Inhalt eines Formulars verfeinern, um die Interaktion zu verbessern. Optimierte Formulare sorgen für ein reibungsloses Anwendererlebnis, sodass Besuchende Aktionen leichter durchführen und Geschäftsergebnisse optimieren können. Mithilfe der Erkenntnisse von AEM Sites Optimizer können Marketing-Experten kontinuierlich Verbesserungsbereiche identifizieren, die letztendlich die Effektivität steigern und die Gesamtleistung der Site verbessern.
 
 ## Opportunitys
 
