@@ -1,10 +1,10 @@
 ---
 title: Optimieren der Interaktion mit Sites Optimizer
 description: Erfahren Sie, wie Sie mit Sites Optimizer die Interaktion verbessern können.
-source-git-commit: e103b37bbc0bdae7554bdc1f058083c64143a235
+source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 92%
+ht-degree: 84%
 
 ---
 
@@ -98,7 +98,7 @@ OpMöglichkeitenportunitys vom Typ „Interaktion“ in AEM Sites Optimizer sind
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" title="Hohe Bounce-Rate">Hohe Absprungrate</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Wenig Ansichten“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die niedrige Ansichtschance und wie Sie sie verwenden können, um die Interaktion mit Formularen auf Ihrer Website zu verbessern.</p>
                 </div>
                 <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
