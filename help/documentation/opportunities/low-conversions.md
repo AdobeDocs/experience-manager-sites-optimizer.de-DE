@@ -2,7 +2,7 @@
 title: Dokumentation zur Möglichkeit „Wenig Konversionen“
 description: Erfahren Sie mehr über die Möglichkeit „Wenig Konversionen“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.
 badgeFormOptimization: label="Formularoptimierung" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Formularoptimierung"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+source-git-commit: e103b37bbc0bdae7554bdc1f058083c64143a235
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%

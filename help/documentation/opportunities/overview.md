@@ -1,7 +1,7 @@
 ---
 title: Dokumentation zu Möglichkeiten in Sites Optimizer
 description: Erfahren Sie mehr über alle verfügbaren Möglichkeiten in Sites Optimizer und darüber, wie Sie sie zur Verbesserung der Leistung Ihrer Site einsetzen können.
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+source-git-commit: e103b37bbc0bdae7554bdc1f058083c64143a235
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 92%
@@ -65,7 +65,7 @@ Die Zusammenfassungsinformationen für jede Möglichkeit variieren je nach Typ u
 
 Klicken Sie zum Anzeigen der Details einer Möglichkeit auf die Schaltfläche **Details**.
 
-Um eine Möglichkeit aus dem Dashboard in Sites Optimizer auszuschließen, klicken Sie auf die Schaltfläche **Ignorieren**.  Diese Aktion verschiebt die Möglichkeit auf die Registerkarte[&#128279;](#opportunity-status) **Ignoriert**.
+Um eine Möglichkeit aus dem Dashboard in Sites Optimizer auszuschließen, klicken Sie auf die Schaltfläche **Ignorieren**.  Diese Aktion verschiebt die Möglichkeit auf die Registerkarte](#opportunity-status) [**Ignoriert**.
 
 ## Alle Möglichkeiten
 

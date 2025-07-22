@@ -1,7 +1,7 @@
 ---
 title: Arten von Möglichkeiten in Sites Optimizer
 description: Erfahren Sie mehr über die wichtigsten Arten von Möglichkeiten in Sites Optimizer und wie sie Ihnen dabei helfen können, die Leistung Ihrer Site zu verbessern.
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+source-git-commit: e103b37bbc0bdae7554bdc1f058083c64143a235
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 62%

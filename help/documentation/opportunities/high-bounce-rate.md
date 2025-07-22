@@ -2,8 +2,8 @@
 title: Dokumentation zur Möglichkeit „Hohe Bounce-Rate“
 description: Erfahren Sie mehr über die Möglichkeit „Wenig Ansichten“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
+source-git-commit: e103b37bbc0bdae7554bdc1f058083c64143a235
+workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 100%
 

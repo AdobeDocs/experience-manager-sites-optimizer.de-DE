@@ -2,7 +2,7 @@
 title: Dokumentation zur Möglichkeit „Probleme mit der Barrierefreiheit“
 description: Erfahren Sie mehr über die Möglichkeit „Probleme mit der Barrierefreiheit“ und finden Sie heraus, wie Sie damit die Sicherheit auf Ihrer Website erhöhen können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+source-git-commit: e103b37bbc0bdae7554bdc1f058083c64143a235
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 73%
