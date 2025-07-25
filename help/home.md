@@ -1,19 +1,19 @@
 ---
 title: AEM Sites Optimizer
-description: Steigern Sie die Performance Ihrer Website mit Sites Optimizer - verbessern Sie die Geschwindigkeit, reduzieren Sie Kosten und erhöhen Sie die Zuverlässigkeit für eine bessere Interaktion.
+description: Steigern Sie die Leistung Ihrer Website mit Sites Optimizer. Verbessern Sie die Geschwindigkeit, senken Sie die Kosten und erhöhen Sie die Zuverlässigkeit, um bessere Interaktionen zu ermöglichen.
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '140'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 
 # AEM Sites Optimizer
 
->[!VIDEO](https://video.tv.adobe.com/v/3455094/?learn=on&enablevpops&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3455085/?learn=on&enablevpops)
 
-Adobe Experience Manager (AEM) Sites Optimizer ist ein Cloud-basierter Dienst, der die Leistung von auf AEM basierenden Websites analysiert und verbessert. Es werden Bereiche identifiziert, in denen das Laden von Seiten, die Verwendung von Komponenten und die Bereitstellung von Inhalten verbessert werden kann. Diese Funktion trägt dazu bei, die Leistung Ihrer Website zu verbessern und gleichzeitig die Kosten für Wartung und Aktualisierung zu senken. Durch die Verwendung von Sites Optimizer können Sie ein reibungsloses und zuverlässiges Online-Erlebnis gewährleisten – ein wichtiger Faktor für die Aufrechterhaltung von Interaktionen und Konversionen.
+Adobe Experience Manager (AEM) Sites Optimizer ist ein Cloud-basierter Dienst, der die Leistung von auf AEM basierenden Websites analysiert und verbessert. Es werden Verbesserungsmöglichkeiten für das Laden von Seiten, die Verwendung von Komponenten und die Bereitstellung von Inhalten identifiziert. Diese Funktion trägt dazu bei, die Leistung Ihrer Website zu erhöhen und gleichzeitig die Kosten für Wartung und Aktualisierungen zu senken. Durch die Verwendung von Sites Optimizer können Sie ein reibungsloses und zuverlässiges Online-Erlebnis gewährleisten – ein wichtiger Faktor für die Aufrechterhaltung von Interaktionen und Konversionen.
 
 ## Erste Schritte mit Sites Optimizer
 

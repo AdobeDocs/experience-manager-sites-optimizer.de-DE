@@ -3,9 +3,9 @@ title: Dokumentation zur Möglichkeit von Cross-Site-Scripting
 description: Informieren Sie sich über die Möglichkeit von Cross-Site-Scripting und über das Erkennen und Beheben von Sicherheitsschwachstellen auf Websites.
 badgeSecurityPosture: label="Sicherheitsstatus" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Sicherheitsstatus"
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '132'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 78%
 
 ![Cross-Site-Möglichkeit](./assets/cross-site-scripting/hero.png){align="center"}
 
-Die Cross-Site-Scripting-Möglichkeit identifiziert Schwachstellen im Code Ihrer Site. Anschließend werden Probleme behoben, die Angreifer ausnutzen konnten, um bösartige Skripte in Webseiten einzuschleusen, die von anderen Benutzern angesehen wurden. Diese Skripte können vertrauliche Informationen wie etwa Sitzungs-Cookies stehlen oder Aktionen im Namen der Benutzenden ausführen, z. B. ihr Passwort ändern.
+Die Möglichkeit „Cross-Site-Scripting“ identifiziert Schwachstellen im Code Ihrer Site. Anschließend werden Probleme behoben, die Angreifende ausnutzen könnten, um bösartige Skripte in Web-Seiten einzuschleusen, die von anderen Benutzerinnen und Benutzern angezeigt werden. Diese Skripte können vertrauliche Informationen wie etwa Sitzungs-Cookies stehlen oder Aktionen im Namen der Benutzenden ausführen, z. B. ihr Passwort ändern.
 
 ## Automatische Identifizierung
 

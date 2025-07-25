@@ -2,9 +2,9 @@
 title: Sites Optimizer-Einstellungen
 description: Erfahren Sie, wie Sie die Einstellungen für Sites Optimizer konfigurieren und mit anderen Tools integrieren.
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 87%
 
 ![Sites Optimizer-Einstellungen](./assets/settings/hero.png){align="center"}
 
-Site Optimizer-Einstellungen sind der zentrale Hub für die Konfiguration Ihres Sites Optimizer-Erlebnisses.
+Die Einstellungen von Sites Optimizer sind der zentrale Hub für die Konfiguration Ihres Sites Optimizer-Erlebnisses.
 
 ## Google Search Console
 

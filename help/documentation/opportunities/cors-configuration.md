@@ -3,9 +3,9 @@ title: Dokumentation zur Möglichkeit „CORS-Konfiguration“
 description: Erfahren Sie mehr über die Opportunity „CORS-Konfiguration“ und finden Sie heraus, wie Sie Sicherheitsschwachstellen auf der Site identifizieren und beheben.
 badgeSecurityPosture: label="Sicherheitsstatus" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Sicherheitsstatus"
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 87%
 
 ![Möglichkeit „CORS-Konfiguration“](./assets/cors-configuration/hero.png){align="center"}
 
-Die ordnungsgemäße Konfiguration von Cross-Origin Resource Sharing (CORS) ist unerlässlich, um Web-Anwendungen vor nicht autorisiertem Datenzugriff zu schützen. Wenn der `Access-Control-Allow-Origin`-Header auf `*` gesetzt ist, kann jede Domain Antworten anfordern und empfangen, wodurch Angreifern möglicherweise vertrauliche Informationen offenbart werden. Diese Funktion bietet die Möglichkeit, die Sicherheit zu erhöhen, indem eine kontrollierte Zulassungsliste vertrauenswürdiger Domains implementiert oder CORS deaktiviert wird, wenn dies nicht erforderlich ist. Mit einem sicheren CORS-Setup tragen Sie zum Schutz privater Inhalte bei und helfen gleichzeitig, einen nahtlosen Zugriff für autorisierte Benutzende zu gewährleisten.
+Die ordnungsgemäße Konfiguration von Cross-Origin Resource Sharing (CORS) ist unerlässlich, um Web-Anwendungen vor nicht autorisiertem Datenzugriff zu schützen. Wenn der `Access-Control-Allow-Origin`-Header auf `*` gesetzt ist, kann jede Domain Antworten anfordern und empfangen, wodurch Angreifern möglicherweise vertrauliche Informationen offenbart werden. Hier lässt sich also die Sicherheit erhöhen, indem eine kontrollierte Zulassungsliste vertrauenswürdiger Domains implementiert oder CORS deaktiviert wird, wo dies nicht erforderlich ist. Mit einem sicheren CORS-Setup tragen Sie zum Schutz privater Inhalte bei und helfen gleichzeitig, einen nahtlosen Zugriff für autorisierte Benutzende zu gewährleisten.
 
 ## Automatische Identifizierung
 

@@ -2,9 +2,9 @@
 title: Optimieren der Traffic-Akquise mit Sites Optimizer
 description: Erfahren Sie, wie Sie mit Sites Optimizer die Traffic-Akquise steigern können.
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 63%
 
 ![Traffic-Akquise – Möglichkeiten](./assets/traffic-acquisition/hero.png){align="center"}
 
-Die Traffic-Akquise treibt potenzielle Kunden auf Ihre Website und schafft Verkaufs- oder Lead-Chancen. Mithilfe von Strategien wie der Suchmaschinenoptimierung (SEO) können Unternehmen die Sichtbarkeit der Suche verbessern und es Benutzenden erleichtern, ihre Inhalte zu finden. Ein stetiger Besucherfluss steigert die Markenwahrnehmung und schafft Vertrauen. Es liefert auch wertvolle Einblicke in das Benutzerverhalten. Diese Einblicke helfen Teams, ihre Angebote zu verfeinern und das Gesamterlebnis zu verbessern. Die Verwendung der Erkenntnisse von AEM Sites Optimizer ermöglicht eine kontinuierliche Optimierung, die ein nachhaltiges Wachstum und verbesserte Konversionsraten im Laufe der Zeit sicherstellt.
+Traffic-Akquise leitet potenzielle Kundschaft auf Ihre Website und schafft Vertriebs- oder Lead-Möglichkeiten. Durch die Nutzung von Strategien wie Suchmaschinenoptimierung (SEO) können Unternehmen die Sichtbarkeit der Suche verbessern und Benutzerinnen und Benutzern das Auffinden ihrer Inhalte erleichtern. Ein stetiger Strom an Besucherinnen und Besuchern erhöht die Markenwahrnehmung und schafft Vertrauen. Zudem lassen sich wertvolle Erkenntnisse zum Benutzerverhalten gewinnen. Diese Erkenntnisse helfen Teams, ihre Angebote zu verfeinern und das Gesamterlebnis zu verbessern. Die Erkenntnisse von AEM Sites Optimizer ermöglichen eine kontinuierliche Optimierung. So lassen sich im Zeitverlauf ein nachhaltiges Wachstum und verbesserte Konversionsraten erzielen.
 
 ## Opportunitys
 
