@@ -1,10 +1,10 @@
 ---
 title: Dokumentation zur Möglichkeit „Wenig Ansichten“
 description: Erfahren Sie mehr über die niedrige Ansichtschance und wie Sie sie verwenden können, um die Interaktion mit Formularen auf Ihrer Website zu verbessern.
-badgeFormOptimization: label="Forms Optimizer" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Forms Optimizer"
+badgeFormOptimization: label="Forms-Optimierung" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Forms-Optimierung"
 hide: true
 hidefromtoc: true
-source-git-commit: 1666ab8c7946e4ba68ce6e1af5dda2e7ec1be9dd
+source-git-commit: 8645876161e475b0e8c641ba8f5fa2ff7906d3cb
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 32%
@@ -14,7 +14,7 @@ ht-degree: 32%
 
 # Opportunity für niedrige Ansichten in Forms
 
-<span class="preview"> Die Funktion &quot;Forms Optimizer“ ist im Rahmen des EARLY ACCESS-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und Zugriff auf die Funktion zu beantragen. </span>
+<span class="preview"> Die Forms-Optimierungsfunktion ist im Rahmen des EARLY ACCESS-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und Zugriff auf die Funktion zu beantragen. </span>
 
 ![Möglichkeit „Wenig Ansichten“](./assets/low-views/hero.png){align="center"}
 

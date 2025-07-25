@@ -1,11 +1,11 @@
 ---
-title: Forms Optimizer mit Sites Optimizer
-description: Informationen zu Forms Optimizer mit Sites Optimizer.
+title: Forms-Optimierung mit Sites Optimizer
+description: Erfahren Sie mehr über die Optimierung von Forms mit Sites Optimizer.
 hide: true
 hidefromtoc: true
-source-git-commit: 1666ab8c7946e4ba68ce6e1af5dda2e7ec1be9dd
+source-git-commit: 8645876161e475b0e8c641ba8f5fa2ff7906d3cb
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 11%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 11%
 
 # Forms Optimierungsmöglichkeiten
 
-<span class="preview"> Die Funktion &quot;Forms Optimizer“ ist im Rahmen des EARLY ACCESS-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und Zugriff auf die Funktion zu beantragen. </span>
+<span class="preview"> Die Forms-Optimierungsfunktion ist im Rahmen des EARLY ACCESS-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und Zugriff auf die Funktion zu beantragen. </span>
 
->[!VIDEO](https://video.tv.adobe.com/v/3469472/)
+<!-- [!VIDEO](https://video.tv.adobe.com/v/3469472/) -->
 
-<!-- ![Forms Optimization opportunities](./assets/form-optimization/hero.png){align="center"} -->
+![Opportunities der Forms-Optimierung](./assets/form-optimization/hero.png){align="center"}
 
-Mit den Optimierungsmöglichkeiten von Forms können Unternehmen die Benutzerinteraktionen systematisch verbessern und die Formularkonversionen steigern. Durch die Erkennung von Problemen wie niedrige Ansichten, niedrige Konversionen und niedrige Navigationsraten können Teams datengesteuerte Anpassungen am Formularentwurf, an der Platzierung und an den Inhalten vornehmen. Diese Optimierungen tragen dazu bei, das Benutzererlebnis zu optimieren, sodass Besucher Formulare einfacher ausfüllen und gewünschte Ergebnisse erzielen können. Die Nutzung der Erkenntnisse aus Forms Optimizer unterstützt die fortlaufende Identifizierung und Behebung von Leistungslücken, was zu effektiveren Formularen und verbesserten Geschäftsergebnissen führt.
+Mit den Optimierungsmöglichkeiten von Forms können Unternehmen die Benutzerinteraktionen systematisch verbessern und die Formularkonversionen steigern. Durch die Erkennung von Problemen wie niedrige Ansichten, niedrige Konversionen und niedrige Navigationsraten können Teams datengesteuerte Anpassungen am Formularentwurf, an der Platzierung und an den Inhalten vornehmen. Diese Optimierungen tragen dazu bei, das Benutzererlebnis zu optimieren, sodass Besucher Formulare einfacher ausfüllen und gewünschte Ergebnisse erzielen können. Die Nutzung der Erkenntnisse aus der Forms-Optimierung unterstützt die fortlaufende Identifizierung und Behebung von Leistungslücken, was zu effektiveren Formularen und verbesserten Geschäftsergebnissen führt.
 
 ## Opportunitys
 
@@ -40,7 +40,7 @@ Mit den Optimierungsmöglichkeiten von Forms können Unternehmen die Benutzerint
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../documentation/opportunities/low-views.md" title="Wenig Ansichten" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-bag.png" alt="Wenig Ansichten"
+                        <img class="is-bordered-r-small" src="../assets/common/card-conversion.png" alt="Wenig Ansichten"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -63,7 +63,7 @@ Mit den Optimierungsmöglichkeiten von Forms können Unternehmen die Benutzerint
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../documentation/opportunities/low-conversions.md" title="Wenig Konversionen" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-bag.png" alt="Wenig Konversionen"
+                        <img class="is-bordered-r-small" src="../assets/common/card-conversion.png" alt="Wenig Konversionen"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -86,7 +86,7 @@ Mit den Optimierungsmöglichkeiten von Forms können Unternehmen die Benutzerint
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../documentation/opportunities/low-navigation.md" title="Niedrige Navigation" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-arrows.png" alt="Niedrige Navigation"
+                        <img class="is-bordered-r-small" src="../assets/common/card-conversion.png" alt="Niedrige Navigation"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
