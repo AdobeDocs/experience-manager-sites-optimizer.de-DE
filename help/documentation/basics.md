@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über Grundlegendes zu Sites Optimizer und darüb
 source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 85%
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ Im Kontextmenü des Domain-Managers können Sie die AEM-Site, die Sie bewerten u
 Der Navigationsbereich bietet von überall in Sites Optimizer aus schnellen und dauerhaften Zugriff auf wichtige Bereiche von Sites Optimizer, darunter:
 
 * **Startseite**: Das Haupt-Dashboard, das einen allgemeinen Überblick über die Leistung Ihrer Site und die Möglichkeiten zur Verbesserung bietet.
-* **Opportunitys** - Anzeigen und Verwalten der von Sites Optimizer identifizierten Opportunitys, einschließlich der Opportunitys, die optimiert wurden oder nicht optimiert bleiben.
+* **Möglichkeiten**: Anzeigen und Verwalten der von Sites Optimizer identifizierten Möglichkeiten, einschließlich der bereits optimierten oder noch nicht optimierten Möglichkeiten.
 * **Einstellungen**: Konfigurieren der Einstellungen für Sites Optimizer, einschließlich der überwachten Sites und der Benachrichtigungen, die Sie erhalten.
 
 ## Site-Zusammenfassung
@@ -50,7 +50,7 @@ Der Abschnitt „Site-Zusammenfassung“ enthält eine Momentaufnahme der Leistu
 
 Im Abschnitt „Möglichkeiten mit der größten Wirkung“ werden die wichtigsten ausstehenden Verbesserungsmöglichkeiten hervorgehoben, in der Reihenfolge ihrer potenziellen Auswirkung auf die Leistung Ihrer Site. Diese Möglichkeiten sind nach Typ organisiert, sodass Sie Ihre Optimierungsbemühungen ganz einfach priorisieren können.
 
-Filtern Sie Opportunities nach Keywords, Tags, URLs oder [Opportunity-Typ](../opportunity-types/overview.md) um sich auf die wichtigsten Bereiche der Verbesserung zu konzentrieren.
+Filtern Sie Möglichkeiten nach Keywords, Tags, URLs oder [Art der Möglichkeit](../opportunity-types/overview.md), um sich auf die wichtigsten Verbesserungsbereiche zu konzentrieren.
 
 
 ### Details der Möglichkeiten
@@ -60,7 +60,7 @@ Filtern Sie Opportunities nach Keywords, Tags, URLs oder [Opportunity-Typ](../op
 Jede Möglichkeit bietet eine kurze Beschreibung des Problems, seine potenzielle Auswirkung auf Ihre Site und einen Link zu den vollständigen Details. Sie können auch den Status sehen, der angibt, ob eine Optimierung vorgenommen wurde oder noch aussteht.
 
 * **Titel der Möglichkeit**: Eine kurze Beschreibung des Problems und seiner potenziellen Auswirkung auf die Leistung Ihrer Site.
-* **Zuletzt aktualisiert** - Sites Optimizer hat die Opportunity zu diesem Datum zuletzt mit neuen Daten aktualisiert.
+* **Letzte Aktualisierung**: Sites Optimizer hat die Möglichkeit zuletzt an diesem Datum mit neuen Daten aktualisiert.
 * **Anzahl der Probleme**: Die Anzahl der Instanzen des Problems, die auf Ihrer Site identifiziert wurden.
 * **Opportunity-**: Die [Opportunity-Typen](../opportunity-types/overview.md) zu denen diese Opportunity gehört - z. B. Traffic-Akquise, Interaktion, Konversion oder Site-Status.
 

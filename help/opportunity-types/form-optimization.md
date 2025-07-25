@@ -76,7 +76,7 @@ Mit den Optimierungsmöglichkeiten von Forms können Unternehmen die Benutzerint
                     <p class="is-size-6">Erfahren Sie mehr über die niedrige Konversionsrate und wie Sie damit die Interaktion mit Formularen auf Ihrer Website verbessern können.</p>
                 </div>
                 <a href="../documentation/opportunities/low-conversions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
                 </a>
             </div>
         </div>
@@ -99,7 +99,7 @@ Mit den Optimierungsmöglichkeiten von Forms können Unternehmen die Benutzerint
                     <p class="is-size-6">Erfahren Sie mehr über die niedrige Navigationsmöglichkeit und wie Sie sie verwenden können, um die Interaktion mit Formularen auf Ihrer Website zu verbessern.</p>
                 </div>
                 <a href="../documentation/opportunities/low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
                 </a>
             </div>
         </div>

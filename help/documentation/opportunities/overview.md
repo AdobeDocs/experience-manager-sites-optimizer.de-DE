@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über alle verfügbaren Möglichkeiten in Sites O
 source-git-commit: bac5199a6082a2070080cef9421d39f8b22dc697
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 78%
+ht-degree: 82%
 
 ---
 
@@ -20,7 +20,7 @@ Möglichkeiten sind in der [persistenten Navigation in Site Optimizer](/help/doc
 
 ## Status der Möglichkeit
 
-Verwenden Sie die Registerkarten oben, um Opportunities zu organisieren und nach Status zu filtern.
+Verwenden Sie die Registerkarten oben, um Möglichkeiten zu organisieren und nach Status zu filtern.
 
 >[!BEGINTABS]
 
@@ -44,7 +44,7 @@ Eine historische Liste von Möglichkeiten, die optimiert wurden.
 
 ## Opportunitys
 
-Wenn Sie [Status der Möglichkeit](#opportunity-status) ausgewählt haben, können Sie eine Liste von Möglichkeiten anzeigen. Sie können die Liste der Opportunitys wie folgt filtern:
+Wenn Sie [Status der Möglichkeit](#opportunity-status) ausgewählt haben, können Sie eine Liste von Möglichkeiten anzeigen. Sie können die Liste der Möglichkeiten wie folgt filtern:
 
 * **Suche**: Suche nach Möglichkeiten anhand von **Keywords, Tags oder URLs**.
 * **Art der Möglichkeit**: Verwenden Sie das Dropdown-Menü **Typ** zum Filtern von Möglichkeiten nach [Art der Möglichkeit](/help/opportunity-types/overview.md).
@@ -56,7 +56,7 @@ Wenn Sie [Status der Möglichkeit](#opportunity-status) ausgewählt haben, könn
 Jede Möglichkeit bietet eine kurze Beschreibung des Problems, seine potenzielle Auswirkung auf Ihre Site und einen Link zu den vollständigen Details. Sie können auch den Status sehen, der angibt, ob eine Optimierung vorgenommen wurde oder noch aussteht.
 
 * **Titel der Möglichkeit**: Eine kurze Beschreibung des Problems und seiner potenziellen Auswirkung auf die Leistung Ihrer Site.
-* **Zuletzt aktualisiert** - Sites Optimizer hat die Opportunity zu diesem Datum zuletzt mit neuen Daten aktualisiert.
+* **Letzte Aktualisierung**: Sites Optimizer hat die Möglichkeit zuletzt an diesem Datum mit neuen Daten aktualisiert.
 * **Anzahl der Probleme**: Die Anzahl der Instanzen des Problems, die auf Ihrer Site identifiziert wurden.
 * **Opportunity-**: Die [Opportunity-Typen](/help/opportunity-types/overview.md) zu denen diese Opportunity gehört - z. B. Traffic-Akquise, Interaktion, Konversion oder Site-Status.
 
@@ -64,7 +64,7 @@ Die Zusammenfassungsinformationen für jede Möglichkeit variieren je nach Typ u
 
 Klicken Sie zum Anzeigen der Details einer Möglichkeit auf die Schaltfläche **Details**.
 
-Um eine Möglichkeit aus dem Dashboard in Sites Optimizer auszuschließen, klicken Sie auf die Schaltfläche **Ignorieren**.  Diese Aktion verschiebt die Möglichkeit auf die Registerkarte[&#128279;](#opportunity-status) **Ignoriert**.
+Um eine Möglichkeit aus dem Dashboard in Sites Optimizer auszuschließen, klicken Sie auf die Schaltfläche **Ignorieren**.  Diese Aktion verschiebt die Möglichkeit auf die Registerkarte](#opportunity-status) [**Ignoriert**.
 
 ## Alle Möglichkeiten
 
@@ -323,7 +323,7 @@ Erkunden Sie alle in Sites Optimizer verfügbaren Möglichkeiten:
                     <p class="is-size-6">Erfahren Sie mehr über die niedrige Konversionsrate und wie Sie damit die Interaktion mit Formularen auf Ihrer Website verbessern können.</p>
                 </div>
                 <a href="./low-conversions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
                 </a>
             </div>
         </div>
@@ -346,7 +346,7 @@ Erkunden Sie alle in Sites Optimizer verfügbaren Möglichkeiten:
                     <p class="is-size-6">Erfahren Sie mehr über die Opportunity für niedrige Ansichten von Formularen und wie Sie damit die Formularinteraktion auf Ihrer Website verbessern können.</p>
                 </div>
                 <a href="./low-views.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
                 </a>
             </div>
         </div>
@@ -369,7 +369,7 @@ Erkunden Sie alle in Sites Optimizer verfügbaren Möglichkeiten:
                     <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit der niedrigen Navigation in Forms und wie Sie damit die Formularinteraktion auf Ihrer Website verbessern können.</p>
                 </div>
                 <a href="./low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
                 </a>
             </div>
         </div>

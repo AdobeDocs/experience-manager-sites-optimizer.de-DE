@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie mit Sites Optimizer die Interaktion verbesser
 source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 84%
+ht-degree: 92%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 84%
 
 ![Interaktion – Möglichkeiten](./assets/engagement/hero.png){align="center"}
 
-OpMöglichkeitenportunitys vom Typ „Interaktion“ in AEM Sites Optimizer sind für die Verbesserung digitaler Erlebnisse von entscheidender Bedeutung, da sie praktische Erkenntnisse bezüglich der Interaktion von Benutzenden mit Web-Seiten bieten. Durch die Identifizierung von Bereichen, in denen Verbesserungen erforderlich sind – z. B. Probleme bezüglich der Barrierefreiheit, fehlerhafte interne Links, hohe Bounce-Raten und fehlender Alternativtext – können Marketing-Fachleute sowie Inhaltsautorinnen und -autoren ihre Sites optimieren, um die Leistung und Benutzerinteraktion zu verbessern. Mit diesen Möglichkeiten lässt sich sicherstellen, dass Inhalte effektiv, auffindbar und überzeugend sind, was letztendlich höhere Konversionen und eine reibungslosere Customer Journey fördert. Mithilfe der Empfehlungen von AEM Sites Optimizer können Teams ihre Digitalstrategie kontinuierlich verfeinern und skalierbare, wirkungsvolle Erlebnisse bereitstellen.
+OpMöglichkeitenportunitys vom Typ „Interaktion“ in AEM Sites Optimizer sind für die Verbesserung digitaler Erlebnisse von entscheidender Bedeutung, da sie praktische Erkenntnisse bezüglich der Interaktion von Benutzenden mit Web-Seiten bieten. Durch die Identifizierung von Bereichen, in denen Verbesserungen erforderlich sind – z. B. Probleme bezüglich der Barrierefreiheit, fehlerhafte interne Links, hohe Bounce-Raten und fehlender Alternativtext – können Marketing-Fachleute sowie Inhaltsautorinnen und -autoren ihre Sites optimieren, um die Leistung und Benutzerinteraktion zu verbessern. Mit diesen Möglichkeiten lässt sich sicherstellen, dass Inhalte effektiv, auffindbar und überzeugend sind, was letztendlich höhere Konversionen und eine reibungslosere Customer Journey fördert. Durch das Nutzen der Empfehlungen von AEM Sites Optimizer können Teams ihre Digitalstrategie kontinuierlich optimieren und effektive Erlebnisse im benötigten Umfang bereitstellen.
 
 
 ## Opportunitys

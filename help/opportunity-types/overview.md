@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die wichtigsten Arten von Möglichkeiten in
 source-git-commit: 8645876161e475b0e8c641ba8f5fa2ff7906d3cb
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 48%
+ht-degree: 75%
 
 ---
 
@@ -14,16 +14,16 @@ ht-degree: 48%
 ![Arten von Möglichkeiten](./assets/overview/hero.png){align="center"}
 
 
-AEM Sites Optimizer bietet wertvolle Erkenntnisse und Empfehlungen, mit denen Sie die Leistung, Benutzerfreundlichkeit und Sicherheit Ihrer Website verbessern können. Diese Einblicke sind in die folgenden wichtigen Opportunity-Bereiche gruppiert:
+AEM Sites Optimizer bietet wertvolle Erkenntnisse und Empfehlungen, mit denen Sie die Leistung, Benutzerfreundlichkeit und Sicherheit Ihrer Website verbessern können. Diese Erkenntnisse werden anhand der folgenden wichtigen Möglichkeitsbereiche gruppiert:
 
 * Interaktion
 * Traffic-Akquise
-* Sicherheitslage
-* Site-Status
+* Sicherheitsstatus
+* Site-Zustand
 
-Jede Kategorie zeigt eine andere Möglichkeit, Ihre Site zu verbessern. Eine Kategorie kann die Besucherinteraktion erhöhen. Eine andere kann die Auffindbarkeit verbessern. Andere konzentrieren sich auf die Stärkung der Sicherheit oder die Aufrechterhaltung der Standortstabilität.
+Jede Kategorie zeigt einen anderen Weg zur Verbesserung Ihrer Site auf. Eine Kategorie kann zum Beispiel die Besucherinteraktion erhöhen. Eine andere kann die Auffindbarkeit verbessern. Weitere Kategorien konzentrieren sich auf die Stärkung der Sicherheit oder die Aufrechterhaltung der Site-Stabilität.
 
-Die Nutzung dieser Möglichkeiten verbessert das Benutzererlebnis, zieht die richtige Zielgruppe an und sorgt für Sicherheit und Zuverlässigkeit Ihrer Site. Die Verbesserung der Interaktion und der Traffic-Akquise fördert die Interaktion und Sichtbarkeit, während eine starke Sicherheitslage und der Zustand der Website dazu beitragen, Vertrauen und Stabilität zu gewährleisten.  Erkunden Sie die unten stehenden Links, um die nach Kategorie geordneten Möglichkeiten zu sehen, und entdecken Sie Wege zum Verbessern Ihrer Site.
+Durch das Nutzen dieser Möglichkeiten können Sie das Anwendererlebnis verbessern, die richtige Zielgruppe ansprechen und dafür sorgen, dass Ihre Site sicher und zuverlässig bleibt. Die Verbesserung der Interaktion und der Traffic-Akquise verbessert die Kundenbeziehung und Sichtbarkeit, während ein starker Sicherheitsstatus und ein guter Site-Zustand dazu beitragen, Vertrauen und Stabilität sicherzustellen. Erkunden Sie die unten stehenden Links, um die nach Kategorie geordneten Möglichkeiten zu sehen, und entdecken Sie Wege zum Verbessern Ihrer Site.
 
 ## Arten von Möglichkeiten
 
@@ -153,7 +153,7 @@ Die Nutzung dieser Möglichkeiten verbessert das Benutzererlebnis, zieht die ric
                     <p class="is-size-6">Erfahren Sie, wie Sie Ihre Formularkonvertierung mit der Forms-Optimierung verbessern können.</p>
                 </div>
                 <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
                 </a>
             </div>
         </div>
@@ -176,7 +176,7 @@ Die Nutzung dieser Möglichkeiten verbessert das Benutzererlebnis, zieht die ric
                     <p class="is-size-6">Erfahren Sie, wie Sie die Barrierefreiheit Ihrer Formulare mit der Forms-Optimierung verbessern können.</p>
                 </div>
                 <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
                 </a>
             </div>
         </div>

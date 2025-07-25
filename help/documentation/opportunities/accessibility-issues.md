@@ -5,7 +5,7 @@ badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types
 source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 71%
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 71%
 
 ![Möglichkeit „Probleme mit der Barrierefreiheit“](./assets/accessibility-issues/hero.png){align="center"}
 
-Die Möglichkeit „Probleme mit der Barrierefreiheit“ identifiziert, wie gut Ihre Website auf die Bedürfnisse von Menschen mit Behinderungen ausgerichtet ist und ob sie die [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/) erfüllt. Indem Sie beurteilen, wie gut Ihre Site mit WCAG konform ist, helfen Sie bei der Erstellung eines inklusiven Online-Erlebnisses. Dadurch können Personen mit visuellen, auditiven, kognitiven und motorischen Beeinträchtigungen navigieren, mit Ihren Inhalten interagieren und von ihnen profitieren. Diese Funktion ist nicht nur aus ethischen Gründen unverzichtbar, sondern fördert auch die Einhaltung gesetzlicher Anforderungen, verbessert die SEO und kann die Reichweite Ihrer Zielgruppe erhöhen, wodurch sowohl das Anwendererlebnis als auch die Geschäftsleistung verbessert werden.
+Die Möglichkeit „Probleme mit der Barrierefreiheit“ identifiziert, wie gut Ihre Website auf die Bedürfnisse von Menschen mit Behinderungen ausgerichtet ist und ob sie die [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/) erfüllt. Indem Sie die WCAG-Konformität Ihrer Site beurteilen, tragen Sie zur Gewährleistung eines inklusiven Online-Erlebnisses bei. So können auch Personen mit visuellen, auditiven, kognitiven und motorischen Beeinträchtigungen durch Ihre Inhalte navigieren, mit ihnen interagieren und von ihnen profitieren. Dies ist nicht nur aus ethischen Gründen wichtig, sondern fördert außerdem die Einhaltung gesetzlicher Anforderungen, verbessert die SEO und kann dafür sorgen, dass Sie Ihre Zielgruppe besser erreichen. So werden sowohl das Anwendererlebnis als auch die geschäftliche Performance optimiert.
 
 ## Automatische Identifizierung
 
