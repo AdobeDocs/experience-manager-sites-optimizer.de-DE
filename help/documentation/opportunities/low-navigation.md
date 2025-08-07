@@ -4,17 +4,15 @@ description: Erfahren Sie mehr über die niedrige Navigationsmöglichkeit und wi
 badgeFormOptimization: label="Forms-Optimierung" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Forms-Optimierung"
 hide: true
 hidefromtoc: true
-source-git-commit: 8645876161e475b0e8c641ba8f5fa2ff7906d3cb
+source-git-commit: ccabd2c9d0c08dbbb7872be7bf1232661ca17bd9
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 23%
+source-wordcount: '298'
+ht-degree: 25%
 
 ---
 
 
 # Forms Low Navigation-Opportunity
-
-<span class="preview"> Die Forms-Optimierungsfunktion ist im Rahmen des EARLY ACCESS-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und Zugriff auf die Funktion zu beantragen. </span>
 
 ![Niedrige Navigationsmöglichkeit](./assets/low-navigation/hero.png){align="center"}
 

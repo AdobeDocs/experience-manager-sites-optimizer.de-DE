@@ -3,19 +3,15 @@ title: Forms-Optimierung mit Sites Optimizer
 description: Erfahren Sie mehr über die Optimierung von Forms mit Sites Optimizer.
 hide: true
 hidefromtoc: true
-source-git-commit: 8645876161e475b0e8c641ba8f5fa2ff7906d3cb
+source-git-commit: ccabd2c9d0c08dbbb7872be7bf1232661ca17bd9
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 11%
+source-wordcount: '182'
+ht-degree: 13%
 
 ---
 
 
 # Forms Optimierungsmöglichkeiten
-
-<span class="preview"> Die Forms-Optimierungsfunktion ist im Rahmen des EARLY ACCESS-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und Zugriff auf die Funktion zu beantragen. </span>
-
-<!-- [!VIDEO](https://video.tv.adobe.com/v/3469472/) -->
 
 ![Opportunities der Forms-Optimierung](./assets/form-optimization/hero.png){align="center"}
 

@@ -3,17 +3,15 @@ title: Forms-Optimierung mit Sites Optimizer
 description: Erfahren Sie mehr über die Optimierung von Forms mit Sites Optimizer.
 hide: true
 hidefromtoc: true
-source-git-commit: 8645876161e475b0e8c641ba8f5fa2ff7906d3cb
+source-git-commit: ccabd2c9d0c08dbbb7872be7bf1232661ca17bd9
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '117'
 ht-degree: 2%
 
 ---
 
 
 # Forms - Möglichkeiten zur Barrierefreiheit
-
-<span class="preview"> Die Forms-Optimierungsfunktion ist im Rahmen des EARLY ACCESS-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und Zugriff auf die Funktion zu beantragen. </span>
 
 ![Möglichkeiten der Barrierefreiheit in Forms](./assets/form-accesibility/hero.png){align="center"}
 
@@ -52,7 +50,7 @@ Die Möglichkeiten zur Barrierefreiheit von Forms sind für die Verbesserung der
                     <p class="is-size-6">Erfahren Sie mehr über Barrierefreiheitsprobleme bei Formularen und wie Sie diese verwenden können, um die Interaktion mit Formularen auf Ihrer Website zu verbessern.</p>
                 </div>
                 <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
                 </a>
             </div>
         </div>
