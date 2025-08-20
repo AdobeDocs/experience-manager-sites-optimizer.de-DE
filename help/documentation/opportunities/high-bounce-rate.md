@@ -1,11 +1,11 @@
 ---
 title: Dokumentation zur Möglichkeit „Hohe Bounce-Rate“
-description: Erfahren Sie mehr über die niedrige Ansichtschance und wie Sie sie verwenden können, um die Interaktion mit Formularen auf Ihrer Website zu verbessern.
+description: Erfahren Sie mehr über die Möglichkeit zu wenigen Aufrufen und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
 source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -14,19 +14,19 @@ ht-degree: 61%
 
 ![Möglichkeit „Hohe Bounce-Rate“](./assets/high-bounce-rate/hero.png){align="center"}
 
-Die Möglichkeit „Hohe Bounce-Rate“ identifiziert Formulare mit einer hohen Bounce-Rate auf Ihrer Website. Dieser Opportunity-Typ hilft Ihnen zu verstehen, welche Formulare nicht gut funktionieren, und bietet Vorschläge zur Verbesserung ihrer Interaktionsraten. Durch das Optimieren der Ansichten Ihrer Formulare können Sie die Anzahl der Formularübermittlungen erhöhen und die Gesamtleistung Ihrer Website verbessern.
+Die Möglichkeit „Hohe Bounce-Rate“ identifiziert Formulare mit einer hohen Bounce-Rate auf Ihrer Website. Mit dieser Möglichkeit können Sie nachvollziehen, welche Formulare nicht gut funktionieren. Sie bietet Vorschläge zur Verbesserung ihrer Interaktionsraten. Durch das Optimieren der Ansichten Ihrer Formulare können Sie die Anzahl der Formularübermittlungen erhöhen und die Gesamtleistung Ihrer Website verbessern.
 
 ## Automatische Identifizierung
 
 ![Automatisches Identifizieren einer hohen Bounce-Rate](./assets/high-bounce-rate/auto-identify.png){align="center"}
 
-Jede Web-Seite mit Formularen mit niedrigen Ansichten wird als eigene **hohe Absprungrate** aufgeführt. Eine kurze Zusammenfassung der Möglichkeit und eine KI-Begründung finden Sie oben auf der Seite der Möglichkeiten.
+Jede Web-Seite mit einem Formular mit wenigen Ansichten wird als eigene Möglichkeit der Art **Hohe Bounce-Rate** aufgeführt. Eine kurze Zusammenfassung der Möglichkeit und eine KI-Begründung finden Sie oben auf der Seite der Möglichkeiten.
 
 ## Automatische Vorschläge
 
 ![Automatische Vorschläge bei einer hohen Bounce-Rate](./assets/high-bounce-rate/auto-suggest.png){align="center"}
 
-Das automatische Vorschlagen bietet KI-generierte Varianten von Web-Seiten, mit denen die Zahl der Aufrufe Ihrer Formulare erhöht werden soll. Jede Variante zeigt die **Erhöhung der Projektkonversionsrate** basierend auf ihrem Potenzial zur Verbesserung der Formularinteraktion an, sodass Sie die effektivsten Vorschläge priorisieren können.
+Das automatische Vorschlagen bietet KI-generierte Varianten von Web-Seiten, mit denen die Zahl der Aufrufe Ihrer Formulare erhöht werden soll. Jede Variante zeigt die **prognostizierte Zunahme der Konversionsrate** basierend auf ihrem Potenzial zur Verbesserung der Formularinteraktion an, sodass Sie die effektivsten Vorschläge priorisieren können.
 
 >[!BEGINTABS]
 
@@ -34,13 +34,13 @@ Das automatische Vorschlagen bietet KI-generierte Varianten von Web-Seiten, mit 
 
 ![Kontrollvarianten](./assets/high-bounce-rate/original-variation.png){align="center"}
 
-Die Kontrollvariante sind die Originalformulare, die derzeit auf Ihrer Website verfügbar sind. Diese Variante wird als Baseline verwendet, um die Leistung der vorgeschlagenen Varianten zu vergleichen.
+Die Kontrollvariante ist das Originalformular, das derzeit auf Ihrer Website live ist. Diese Variante wird als Baseline verwendet, um die Leistung der vorgeschlagenen Varianten zu vergleichen.
 
 >[!TAB Vorgeschlagene Varianten]
 
 ![Vorgeschlagene Varianten](./assets/high-bounce-rate/suggested-variations.png){align="center"}
 
-Bei den vorgeschlagenen Varianten handelt es sich um von KI generierte Web-Seitenvarianten, mit denen die Absprungrate von Formularen verringert werden soll. Jede Variante zeigt die **projizierte Klickratenerhöhung** basierend auf ihrem Potenzial zur Verbesserung der Formularinteraktion an, sodass Sie die effektivsten Vorschläge priorisieren können.
+Die vorgeschlagenen Varianten sind KI-generierte Varianten von Web-Seiten, mit denen die Bounce-Rate des Formulars verringert werden soll. Jede Variante zeigt die **prognostizierte Erhöhung der Klickrate** basierend auf ihrem Potenzial zur Verbesserung der Formularinteraktion an, sodass Sie die effektivsten Vorschläge priorisieren können.
 
 Klicken Sie auf die einzelnen Varianten, um sie auf der rechten Seite des Bildschirms in der Vorschau anzuzeigen. Oben in der Vorschau stehen die folgenden Aktionen und Informationen zur Verfügung:
 

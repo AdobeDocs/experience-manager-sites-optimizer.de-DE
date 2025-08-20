@@ -2,9 +2,9 @@
 title: Optimieren der Interaktion mit Sites Optimizer
 description: Erfahren Sie, wie Sie mit Sites Optimizer die Interaktion verbessern können.
 source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '237'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 OpMöglichkeitenportunitys vom Typ „Interaktion“ in AEM Sites Optimizer sind für die Verbesserung digitaler Erlebnisse von entscheidender Bedeutung, da sie praktische Erkenntnisse bezüglich der Interaktion von Benutzenden mit Web-Seiten bieten. Durch die Identifizierung von Bereichen, in denen Verbesserungen erforderlich sind – z. B. Probleme bezüglich der Barrierefreiheit, fehlerhafte interne Links, hohe Bounce-Raten und fehlender Alternativtext – können Marketing-Fachleute sowie Inhaltsautorinnen und -autoren ihre Sites optimieren, um die Leistung und Benutzerinteraktion zu verbessern. Mit diesen Möglichkeiten lässt sich sicherstellen, dass Inhalte effektiv, auffindbar und überzeugend sind, was letztendlich höhere Konversionen und eine reibungslosere Customer Journey fördert. Durch das Nutzen der Empfehlungen von AEM Sites Optimizer können Teams ihre Digitalstrategie kontinuierlich optimieren und effektive Erlebnisse im benötigten Umfang bereitstellen.
 
 
-## Opportunitys
+## Möglichkeiten
 
 
 <!-- CARDS
@@ -98,7 +98,7 @@ OpMöglichkeitenportunitys vom Typ „Interaktion“ in AEM Sites Optimizer sind
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" title="Hohe Bounce-Rate">Hohe Absprungrate</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die niedrige Ansichtschance und wie Sie sie verwenden können, um die Interaktion mit Formularen auf Ihrer Website zu verbessern.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit zu wenigen Aufrufen und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>

@@ -2,9 +2,9 @@
 title: Arten von Möglichkeiten in Sites Optimizer
 description: Erfahren Sie mehr über die wichtigsten Arten von Möglichkeiten in Sites Optimizer und wie sie Ihnen dabei helfen können, die Leistung Ihrer Site zu verbessern.
 source-git-commit: 8645876161e475b0e8c641ba8f5fa2ff7906d3cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -139,8 +139,8 @@ Durch das Nutzen dieser Möglichkeiten können Sie das Anwendererlebnis verbesse
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./form-optimization.md" title="Forms-Optimierung" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/form-optimization/hero.png" alt="Forms-Optimierung"
+                    <a href="./form-optimization.md" title="Formularoptimierung" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/form-optimization/hero.png" alt="Formularoptimierung"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -148,9 +148,9 @@ Durch das Nutzen dieser Möglichkeiten können Sie das Anwendererlebnis verbesse
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./form-optimization.md" target="_blank" rel="referrer" title="Forms-Optimierung">Forms-Optimierung</a>
+                        <a href="./form-optimization.md" target="_blank" rel="referrer" title="Formularoptimierung">Formularoptimierung</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie, wie Sie Ihre Formularkonvertierung mit der Forms-Optimierung verbessern können.</p>
+                    <p class="is-size-6">Erfahren Sie, wie Sie mit der Formularoptimierung Ihre Formularkonversionen verbessern können.</p>
                 </div>
                 <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -162,8 +162,8 @@ Durch das Nutzen dieser Möglichkeiten können Sie das Anwendererlebnis verbesse
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./form-optimization.md" title="Forms-Barrierefreiheit" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/form-optimization/hero.png" alt="Forms-Barrierefreiheit"
+                    <a href="./form-optimization.md" title="Barrierefreiheit von Formularen" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/form-optimization/hero.png" alt="Barrierefreiheit von Formularen"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -171,9 +171,9 @@ Durch das Nutzen dieser Möglichkeiten können Sie das Anwendererlebnis verbesse
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./form-optimization.md" target="_blank" rel="referrer" title="Forms-Barrierefreiheit">Barrierefreiheit von Forms</a>
+                        <a href="./form-optimization.md" target="_blank" rel="referrer" title="Barrierefreiheit von Formularen">Barrierefreiheit von Formularen</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie, wie Sie die Barrierefreiheit Ihrer Formulare mit der Forms-Optimierung verbessern können.</p>
+                    <p class="is-size-6">Erfahren Sie, wie Sie mit der Formularoptimierung die Barrierefreiheit Ihrer Formulare verbessern können.</p>
                 </div>
                 <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -185,4 +185,4 @@ Durch das Nutzen dieser Möglichkeiten können Sie das Anwendererlebnis verbesse
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-<span class="preview"> Die Funktionen Forms-Optimierung und Forms-Barrierefreiheit sind im Early-Access-Programm verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und Zugriff auf die Funktion zu beantragen. </span>
+<span class="preview"> Die Funktionen „Formularoptimierung“ und „Barrierefreiheit von Formularen“ sind im Rahmen des Early-Access-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>

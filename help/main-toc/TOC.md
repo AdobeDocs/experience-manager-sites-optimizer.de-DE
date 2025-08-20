@@ -3,9 +3,9 @@ user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Dies ist eine Beschreibung für das Benutzerhandbuch, die auf der Landingpage angezeigt wird.
 source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '97'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 83%
    + [Interaktion](/help/opportunity-types/engagement.md)
    + [Site-Zustand](/help/opportunity-types/site-health.md)
    + [Sicherheitsstatus](/help/opportunity-types/security-posture.md)
-   + [Forms-Optimierung](/help/opportunity-types/form-optimization.md)
-   + [Forms-Barrierefreiheit](/help/opportunity-types/form-accesibility.md)
+   + [Formularoptimierung](/help/opportunity-types/form-optimization.md)
+   + [Barrierefreiheit von Formularen](/help/opportunity-types/form-accesibility.md)
 + Dokumentation{#documentation}
    + [Überblick](/help/documentation/overview.md)
    + [Grundlagen](/help/documentation/basics.md)
-   + Opportunitys{#opportunities}
+   + Möglichkeiten{#opportunities}
       + [Überblick](/help/documentation/opportunities/overview.md)
       + [Probleme mit der Barrierefreiheit](/help/documentation/opportunities/accessibility-issues.md)
       + [Fehlerhafte interne Links](/help/documentation/opportunities/broken-internal-links.md)
@@ -36,10 +36,10 @@ ht-degree: 83%
       + [Ungültige oder fehlende Metadaten](/help/documentation/opportunities/invalid-or-missing-metadata.md)
       + [Fehlende oder ungültige strukturierte Daten](/help/documentation/opportunities/missing-invalid-structured-data.md)
       + [Fehlender Alternativtext](/help/documentation/opportunities/missing-alt-text.md)
-      + [Forms - niedrige Konversionen](/help/documentation/opportunities/low-conversions.md)
-      + [Forms - niedrige Ansichten](/help/documentation/opportunities/low-views.md)
-      + [Forms-Niedrignavigation](/help/documentation/opportunities/low-navigation.md)
-      + [Problem mit der Barrierefreiheit von Forms](/help/documentation/opportunities/forms-accessibility-issues.md)
+      + [Wenige Formularkonversionen](/help/documentation/opportunities/low-conversions.md)
+      + [Wenige Formularansichten](/help/documentation/opportunities/low-views.md)
+      + [Wenig Formularnavigation](/help/documentation/opportunities/low-navigation.md)
+      + [Problem mit der Barrierefreiheit von Formularen](/help/documentation/opportunities/forms-accessibility-issues.md)
       + [Sitemap-Probleme](/help/documentation/opportunities/sitemap-issues.md)
       + [Website-Berechtigungen](/help/documentation/opportunities/website-permissions.md)
       + [Website-Schwachstellen](/help/documentation/opportunities/website-vulnerabilities.md)

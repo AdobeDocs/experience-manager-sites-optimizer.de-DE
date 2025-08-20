@@ -2,9 +2,9 @@
 title: Dokumentation zu Möglichkeiten in Sites Optimizer
 description: Erfahren Sie mehr über alle verfügbaren Möglichkeiten in Sites Optimizer und darüber, wie Sie sie zur Verbesserung der Leistung Ihrer Site einsetzen können.
 source-git-commit: bac5199a6082a2070080cef9421d39f8b22dc697
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Eine historische Liste von Möglichkeiten, die optimiert wurden.
 
 >[!ENDTABS]
 
-## Opportunitys
+## Möglichkeiten
 
 Wenn Sie [Status der Möglichkeit](#opportunity-status) ausgewählt haben, können Sie eine Liste von Möglichkeiten anzeigen. Sie können die Liste der Möglichkeiten wie folgt filtern:
 
@@ -58,13 +58,13 @@ Jede Möglichkeit bietet eine kurze Beschreibung des Problems, seine potenzielle
 * **Titel der Möglichkeit**: Eine kurze Beschreibung des Problems und seiner potenziellen Auswirkung auf die Leistung Ihrer Site.
 * **Letzte Aktualisierung**: Sites Optimizer hat die Möglichkeit zuletzt an diesem Datum mit neuen Daten aktualisiert.
 * **Anzahl der Probleme**: Die Anzahl der Instanzen des Problems, die auf Ihrer Site identifiziert wurden.
-* **Opportunity-**: Die [Opportunity-Typen](/help/opportunity-types/overview.md) zu denen diese Opportunity gehört - z. B. Traffic-Akquise, Interaktion, Konversion oder Site-Status.
+* **Arten von Möglichkeiten**: Die [Arten von Möglichkeiten](/help/opportunity-types/overview.md), zu denen diese Möglichkeit gehört – z. B. Traffic-Akquise, Interaktion, Konversion oder Site-Zustand.
 
 Die Zusammenfassungsinformationen für jede Möglichkeit variieren je nach Typ und können Details zu Umsatzauswirkungen, Traffic, Benutzerinteraktion oder Sicherheitsbedrohungen enthalten.
 
 Klicken Sie zum Anzeigen der Details einer Möglichkeit auf die Schaltfläche **Details**.
 
-Um eine Möglichkeit aus dem Dashboard in Sites Optimizer auszuschließen, klicken Sie auf die Schaltfläche **Ignorieren**.  Diese Aktion verschiebt die Möglichkeit auf die Registerkarte[&#128279;](#opportunity-status) **Ignoriert**.
+Um eine Möglichkeit aus dem Dashboard in Sites Optimizer auszuschließen, klicken Sie auf die Schaltfläche **Ignorieren**.  Diese Aktion verschiebt die Möglichkeit auf die Registerkarte](#opportunity-status) [**Ignoriert**.
 
 ## Alle Möglichkeiten
 
@@ -274,7 +274,7 @@ Erkunden Sie alle in Sites Optimizer verfügbaren Möglichkeiten:
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./high-bounce-rate.md" target="_blank" rel="referrer" title="Hohe Bounce-Rate">Hohe Absprungrate</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die niedrige Ansichtschance und wie Sie sie verwenden können, um die Interaktion mit Formularen auf Ihrer Website zu verbessern.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit zu wenigen Aufrufen und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="./high-bounce-rate.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
@@ -309,8 +309,8 @@ Erkunden Sie alle in Sites Optimizer verfügbaren Möglichkeiten:
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./low-conversions.md" title="Forms - niedrige Konversionen" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../../assets/common/card-conversion.png" alt="Forms - niedrige Konversionen"
+                    <a href="./low-conversions.md" title="Wenige Formularkonversionen" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../../assets/common/card-conversion.png" alt="Wenige Formularkonversionen"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -318,9 +318,9 @@ Erkunden Sie alle in Sites Optimizer verfügbaren Möglichkeiten:
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./low-conversions.md" target="_blank" rel="referrer" title="Forms - niedrige Konversionen">niedrige Forms-Konversionen</a>
+                        <a href="./low-conversions.md" target="_blank" rel="referrer" title="Wenige Formularkonversionen">Wenige Formularkonversionen</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die niedrige Konversionsrate und wie Sie damit die Interaktion mit Formularen auf Ihrer Website verbessern können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Wenige Konversionen“ und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="./low-conversions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -332,7 +332,7 @@ Erkunden Sie alle in Sites Optimizer verfügbaren Möglichkeiten:
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./low-views.md" title="Forms - niedrige Ansichten" target="_blank" rel="referrer">
+                    <a href="./low-views.md" title="Wenige Formularansichten" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="../../assets/common/card-conversion.png" alt="Wenig Ansichten"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -341,9 +341,9 @@ Erkunden Sie alle in Sites Optimizer verfügbaren Möglichkeiten:
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./low-views.md" target="_blank" rel="referrer" title="Wenig Ansichten">Forms-Detailansichten</a>
+                        <a href="./low-views.md" target="_blank" rel="referrer" title="Wenig Ansichten">Wenige Formularansichten</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Opportunity für niedrige Ansichten von Formularen und wie Sie damit die Formularinteraktion auf Ihrer Website verbessern können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Wenige Formularansichten“ und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="./low-views.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -355,8 +355,8 @@ Erkunden Sie alle in Sites Optimizer verfügbaren Möglichkeiten:
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./low-navigation.md" title="Forms-Niedrignavigation" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../../assets/common/card-conversion.png" alt="Forms-Niedrignavigation"
+                    <a href="./low-navigation.md" title="Wenig Formularnavigation" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../../assets/common/card-conversion.png" alt="Wenig Formularnavigation"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -364,9 +364,9 @@ Erkunden Sie alle in Sites Optimizer verfügbaren Möglichkeiten:
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./low-navigation.md" target="_blank" rel="referrer" title="Forms-Niedrignavigation">Forms - niedrige Navigation</a>
+                        <a href="./low-navigation.md" target="_blank" rel="referrer" title="Wenig Formularnavigation">Wenig Formularnavigation</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit der niedrigen Navigation in Forms und wie Sie damit die Formularinteraktion auf Ihrer Website verbessern können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Wenig Formularnavigation“ und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="./low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -378,8 +378,8 @@ Erkunden Sie alle in Sites Optimizer verfügbaren Möglichkeiten:
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./forms-accessibility-issues.md" title="Probleme mit der Barrierefreiheit in Forms" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../../assets/common/card-arrows.png" alt="Probleme mit der Barrierefreiheit in Forms"
+                    <a href="./forms-accessibility-issues.md" title="Probleme mit der Barrierefreiheit von Formularen" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../../assets/common/card-arrows.png" alt="Probleme mit der Barrierefreiheit von Formularen"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -387,9 +387,9 @@ Erkunden Sie alle in Sites Optimizer verfügbaren Möglichkeiten:
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" title="Probleme mit der Barrierefreiheit in Forms">Probleme mit der Barrierefreiheit von Forms</a>
+                        <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" title="Probleme mit der Barrierefreiheit von Formularen">Probleme mit der Barrierefreiheit von Formularen</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über Probleme mit der Barrierefreiheit von Formularen und wie Sie damit die Interaktion auf Ihrer Website verbessern können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Probleme mit der Barrierefreiheit von Formularen“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>

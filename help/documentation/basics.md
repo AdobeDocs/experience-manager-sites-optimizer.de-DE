@@ -2,9 +2,9 @@
 title: Grundlegendes zu Sites Optimizer
 description: Erfahren Sie mehr über Grundlegendes zu Sites Optimizer und darüber, wie Sie darin navigieren.
 source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '511'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Jede Möglichkeit bietet eine kurze Beschreibung des Problems, seine potenzielle
 * **Titel der Möglichkeit**: Eine kurze Beschreibung des Problems und seiner potenziellen Auswirkung auf die Leistung Ihrer Site.
 * **Letzte Aktualisierung**: Sites Optimizer hat die Möglichkeit zuletzt an diesem Datum mit neuen Daten aktualisiert.
 * **Anzahl der Probleme**: Die Anzahl der Instanzen des Problems, die auf Ihrer Site identifiziert wurden.
-* **Opportunity-**: Die [Opportunity-Typen](../opportunity-types/overview.md) zu denen diese Opportunity gehört - z. B. Traffic-Akquise, Interaktion, Konversion oder Site-Status.
+* **Arten von Möglichkeiten**: Die [Arten von Möglichkeiten](../opportunity-types/overview.md), zu denen diese Möglichkeit gehört – z. B. Traffic-Akquise, Interaktion, Konversion oder Site-Zustand.
 
 Die Zusammenfassungsinformationen für jede Möglichkeit variieren je nach Typ und können Details zu Umsatzauswirkungen, Traffic, Benutzerinteraktion oder Sicherheitsbedrohungen enthalten.
 
