@@ -1,36 +1,36 @@
 ---
-title: Dokumentation zu Gelegenheiten für geringe Navigation
-description: Erfahren Sie mehr über die niedrige Navigationsmöglichkeit und wie Sie sie verwenden können, um die Interaktion mit Formularen auf Ihrer Website zu verbessern.
-badgeFormOptimization: label="Forms-Optimierung" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Forms-Optimierung"
+title: Dokumentation zur Möglichkeit „Wenig Navigation“
+description: Erfahren Sie mehr über die Möglichkeit „Wenig Navigation“ und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.
+badgeFormOptimization: label="Formularoptimierung" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Formularoptimierung"
 hide: true
 hidefromtoc: true
 source-git-commit: 954409fb1ad41b016ddc4dd2058e69db98ca6654
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
 
-# Forms Low Navigation-Opportunity
+# Möglichkeit „Wenig Formularnavigation“
 
-<span class="preview"> Die Forms-Optimierungsfunktion ist im Rahmen des EARLY ACCESS-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und Zugriff auf die Funktion zu beantragen. </span>
+<span class="preview"> Die Funktion „Formularoptimierung“ ist im Rahmen des Early-Adopter-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>
 
-![Niedrige Navigationsmöglichkeit](./assets/low-navigation/hero.png){align="center"}
+![Möglichkeit „Wenig Navigation“](./assets/low-navigation/hero.png){align="center"}
 
-Durch die Möglichkeit der geringen Navigation werden Formulare auf Ihrer Website identifiziert, die niedrige Navigationsraten aufweisen. Dieser Opportunity-Typ hilft Ihnen zu verstehen, welche Formulare von Benutzenden nicht erkannt oder aufgerufen werden, und liefert Vorschläge, wie die Auffindbarkeit dieser Formulare verbessert werden kann.
+Die Möglichkeit „Wenig Navigation“ identifiziert Formulare mit niedrigen Navigationsraten auf Ihrer Website. Mit dieser Möglichkeitsart können Sie nachvollziehen, welche Formulare Benutzende nicht finden oder auf welche sie nicht zugreifen. Sie bietet Vorschläge zur Verbesserung der Auffindbarkeit dieser Formulare.
 
 ## Automatische Identifizierung
 
-![Niedrige Navigation automatisch identifizieren](./assets/low-navigation/auto-identify.png){align="center"}
+![Automatische Identifizierung von wenig Navigation](./assets/low-navigation/auto-identify.png){align="center"}
 
-Jede Web-Seite mit Formularen mit niedriger Navigation wird als eigene **Niedrige Navigation** aufgeführt. Eine kurze Zusammenfassung der Opportunity und der Logik finden Sie oben auf der Opportunity-Seite.
+Jede Web-Seite mit einem Formular mit wenig Navigation wird als eigene Möglichkeit der Art **Wenig Navigation** aufgeführt. Eine kurze Zusammenfassung der Möglichkeit und eine Begründung finden Sie oben auf der Seite der Möglichkeiten.
 
 ## Automatische Vorschläge
 
-![Niedrige Navigation automatisch vorschlagen](./assets/low-navigation/auto-suggest.png)
+![Automatische Vorschläge bei wenig Navigation](./assets/low-navigation/auto-suggest.png)
 
-Auto-Suggest bietet von KI generierte Formularvarianten, die die Navigation zu Ihren Formularen verbessern sollen. Jede Variante zeigt die **projizierte Konversionsratenerhöhung** basierend auf ihrem Potenzial zur Verbesserung der Erkennung und Barrierefreiheit von Formularen an, sodass Sie die effektivsten Vorschläge priorisieren können.
+Automatische Vorschläge liefern KI-generierte Formularvarianten, mit denen die Navigationsrate Ihrer Formulare erhöht werden soll. Jede Variante zeigt die **prognostizierte Zunahme der Konversionsrate** basierend auf ihrem Potenzial zur Verbesserung der Auffindbarkeit und Barrierefreiheit von Formularen an, sodass Sie die effektivsten Vorschläge priorisieren können.
 
 >[!BEGINTABS]
 
@@ -38,18 +38,18 @@ Auto-Suggest bietet von KI generierte Formularvarianten, die die Navigation zu I
 
 ![Kontrollvarianten](./assets/low-navigation/control-variation.png){align="center"}
 
-Die Kontrollvariante sind die Originalformulare, die derzeit auf Ihrer Website verfügbar sind. Diese Variante wird als Baseline verwendet, um die Leistung der vorgeschlagenen Varianten zu vergleichen.
+Die Kontrollvariante ist das Originalformular, das derzeit auf Ihrer Website live ist. Diese Variante wird als Baseline verwendet, um die Leistung der vorgeschlagenen Varianten zu vergleichen.
 
 >[!TAB Vorgeschlagene Varianten]
 
 ![Vorgeschlagene Varianten](./assets/low-navigation/suggested-variations.png){align="center"}
 
-Bei den vorgeschlagenen Varianten handelt es sich um KI-generierte Formularvarianten, mit denen die Navigation zu Ihren Formularen verbessert werden soll. Jede Variante zeigt die **projizierte Konversionsratenerhöhung** basierend auf ihrem Potenzial zur Verbesserung der Erkennung und Barrierefreiheit von Formularen an, sodass Sie die effektivsten Vorschläge priorisieren können.
+Die vorgeschlagenen Varianten sind KI-generierte Formularvarianten, mit denen die Navigationsrate Ihrer Formulare erhöht werden soll. Jede Variante zeigt die **prognostizierte Zunahme der Konversionsrate** basierend auf ihrem Potenzial zur Verbesserung der Auffindbarkeit und Barrierefreiheit von Formularen an, sodass Sie die effektivsten Vorschläge priorisieren können.
 
 Klicken Sie auf die einzelnen Varianten, um sie auf der rechten Seite des Bildschirms in der Vorschau anzuzeigen. Oben in der Vorschau stehen die folgenden Aktionen und Informationen zur Verfügung:
 
 * **Änderungen**: Eine kurze Zusammenfassung der Änderungen in dieser Variante im Vergleich zur **Kontrollvariante**.
-* **Projizierte Erhöhung der Konversionsrate** - Die geschätzte Zunahme der Interaktion mit Formularen, wenn diese Variante implementiert ist.
+* **Prognostizierte Zunahme der Konversionsrate**: Die geschätzte Zunahme der Formularinteraktion, wenn diese Variante implementiert wird.
 * **Bearbeiten**: Klicken Sie hier, um die Variante im AEM-Authoring zu bearbeiten.
 
 >[!ENDTABS]

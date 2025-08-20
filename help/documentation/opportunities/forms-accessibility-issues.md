@@ -1,42 +1,42 @@
 ---
-title: Dokumentation zu Opportunity-Problemen aufgrund von Barrierefreiheit in Forms
-description: Erfahren Sie mehr über die Probleme mit der Barrierefreiheit von Formularen und wie Sie damit die Barrierefreiheit von Formularen und das Benutzererlebnis auf Ihrer Website verbessern können.
-badgeFormOptimization: label="Forms-Optimierung" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Forms-Optimierung"
+title: Dokumentation zur Möglichkeit „Probleme mit der Barrierefreiheit von Formularen“
+description: Erfahren Sie mehr über die Möglichkeit „Probleme mit der Barrierefreiheit von Formularen“ und darüber, wie Sie sie zur Verbesserung der Barrierefreiheit von Formularen und des Anwendererlebnisses auf Ihrer Website verwenden können.
+badgeFormOptimization: label="Formularoptimierung" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Formularoptimierung"
 hide: true
 hidefromtoc: true
 source-git-commit: 954409fb1ad41b016ddc4dd2058e69db98ca6654
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
-# Opportunity aufgrund von Barrierefreiheitsproblemen in Forms
+# Möglichkeit „Probleme mit der Barrierefreiheit von Formularen“
 
-<span class="preview"> Die Forms-Optimierungsfunktion ist im Rahmen des EARLY ACCESS-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und Zugriff auf die Funktion zu beantragen. </span>
+<span class="preview"> Die Funktion „Formularoptimierung“ ist im Rahmen des Early-Adopter-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>
 
-![Opportunity aufgrund von Barrierefreiheitsproblemen in Forms](./assets/forms-accessibility-issues/hero.png){align="center"}
+![Möglichkeit „Probleme mit der Barrierefreiheit von Formularen“](./assets/forms-accessibility-issues/hero.png){align="center"}
 
-Die Opportunity mit Problemen im Zusammenhang mit der Barrierefreiheit von Formularen identifiziert, wie gut Ihre Formulare den Bedürfnissen von Menschen mit Behinderungen entsprechen und ob sie den [Web Content Accessibility Guidelines (WCAG)) ](https://www.w3.org/TR/WCAG21/). Indem Sie beurteilen, wie gut Ihre Formulare mit WCAG konform sind, helfen Sie, ein inklusives Formularerlebnis zu erstellen, das es Personen mit visuellen, auditiven, kognitiven und motorischen Beeinträchtigungen ermöglicht, durch Ihre Formulare zu navigieren, mit ihnen zu interagieren und sie erfolgreich auszufüllen. Dies ist nicht nur aus ethischen Gründen wichtig, sondern fördert auch die Einhaltung gesetzlicher Anforderungen, verbessert die Formularausfüllungsraten und kann die Reichweite Ihrer Zielgruppe erhöhen, was sowohl das Benutzererlebnis als auch die Geschäftsleistung verbessert.
+Die Möglichkeit „Probleme mit der Barrierefreiheit von Formularen“ ermittelt, wie gut Ihre Formulare auf die Bedürfnisse von Menschen mit Behinderungen ausgerichtet sind und ob sie die [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/) erfüllen. Durch die Überprüfung der Konformität Ihrer Formulare mit den WCAG tragen Sie dazu bei, ein inklusives Formularerlebnis zu schaffen. So ermöglichen Sie es Personen mit visuellen, auditiven, kognitiven und motorischen Beeinträchtigungen, in Ihren Inhalten zu navigieren, mit diesen zu interagieren und Formulare erfolgreich auszufüllen. Dies ist nicht nur aus ethischen Gründen wichtig, sondern fördert außerdem die Einhaltung der gesetzlichen Anforderungen, verbessert die Formularabschlussraten und kann die Reichweite Ihrer Zielgruppe erhöhen, was sowohl das Anwendererlebnis als auch die Performance des Unternehmens optimiert.
 
 ## Automatische Identifizierung
 
-![Probleme mit der Barrierefreiheit von Formularen automatisch identifizieren](./assets/forms-accessibility-issues/auto-identify.png){align="center"}
+![Automatische Identifizierung von Problemen mit der Barrierefreiheit von Formularen](./assets/forms-accessibility-issues/auto-identify.png){align="center"}
 
-Die Opportunity **Probleme mit der Barrierefreiheit in Forms** kennzeichnet Barrierefreiheitsprobleme speziell in Ihren Formularen und umfasst Folgendes:
+Die **Möglichkeit „Probleme mit der Barrierefreiheit von Formularen“** identifiziert Probleme mit der Barrierefreiheit Ihrer Formularen und bietet Folgendes:
 
-* **Probleme** - Das spezifische Problem bezüglich der Barrierefreiheit, das in Ihren Formularen gefunden wurde.
-* **WCAG-Kriterien** - Die [WCAG-Richtlinien-ID](https://www.w3.org/TR/WCAG21/), gegen die das Formularproblem verstößt.
-* **Level** - Die [Konformitätsstufen](https://www.w3.org/WAI/WCAG21/Understanding/conformance#levels) des Problems.
-* **Empfehlung** - Spezifische Anleitungen zum Beheben des Problems der Barrierefreiheit in Ihren Formularen, einschließlich Code-Beispielen und Best Practices.
-* **Source HTML** - Das HTML-Fragment des forms-Elements auf der von dem Problem betroffenen Seite.
+* **Probleme**: Das konkrete Problem bezüglich der Barrierefreiheit, das in Ihren Formularen gefunden wurde.
+* **WCAG-Krieterien**: Die [ID der WCAG-Richtlinien](https://www.w3.org/TR/WCAG21/), gegen die das Formularproblem verstößt.
+* **Stufe**: Die [Konformitätsstufe](https://www.w3.org/WAI/WCAG21/Understanding/conformance#levels) des Problems.
+* **Empfehlung**: Konkrete Anleitungen zum Beheben des Problems der Barrierefreiheit in Ihren Formularen, einschließlich Code-Beispielen und Best Practices.
+* **Quell-HTML**: Das HTML-Snippet des Formularelements, das vom Problem betroffen ist.
 
 ## Automatische Vorschläge
 
-![Probleme mit der Barrierefreiheit von Formularen automatisch vorschlagen](./assets/forms-accessibility-issues/auto-suggest.png){align="center"}
+![Automatische Vorschläge für Probleme mit der Barrierefreiheit von Formularen](./assets/forms-accessibility-issues/auto-suggest.png){align="center"}
 
-Der automatische Vorschlag bietet KI-generierte Empfehlungen im Feld **Vorschläge**, das normative Anleitungen dazu bietet, wie Sie das Problem der Barrierefreiheit von Formularen beheben können.
+Automatische Vorschläge liefern KI-generierte Empfehlungen im Feld **Vorschläge** und bieten so präskriptive Anleitung zur Behebung des Problems der Barrierefreiheit eines Formulars.
 
 <!-- 
 
