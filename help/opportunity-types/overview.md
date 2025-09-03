@@ -1,10 +1,10 @@
 ---
 title: Arten von Möglichkeiten in Sites Optimizer
 description: Erfahren Sie mehr über die wichtigsten Arten von Möglichkeiten in Sites Optimizer und wie sie Ihnen dabei helfen können, die Leistung Ihrer Site zu verbessern.
-source-git-commit: 8645876161e475b0e8c641ba8f5fa2ff7906d3cb
-workflow-type: ht
-source-wordcount: '300'
-ht-degree: 100%
+source-git-commit: 469370cfcb19e25bf8da5f7f9e08b8b0da52dbb9
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 80%
 
 ---
 
@@ -20,10 +20,11 @@ AEM Sites Optimizer bietet wertvolle Erkenntnisse und Empfehlungen, mit denen Si
 * Traffic-Akquise
 * Sicherheitsstatus
 * Site-Zustand
+* Preflight
 
-Jede Kategorie zeigt einen anderen Weg zur Verbesserung Ihrer Site auf. Eine Kategorie kann zum Beispiel die Besucherinteraktion erhöhen. Eine andere kann die Auffindbarkeit verbessern. Weitere Kategorien konzentrieren sich auf die Stärkung der Sicherheit oder die Aufrechterhaltung der Site-Stabilität.
+Jede Kategorie zeigt einen anderen Weg zur Verbesserung Ihrer Site auf. Eine Kategorie kann zum Beispiel die Besucherinteraktion erhöhen. Eine andere kann die Auffindbarkeit verbessern. Andere konzentrieren sich auf die Stärkung der Sicherheit oder die Aufrechterhaltung der Standortstabilität. Preflight hilft Ihnen bei der Analyse und Optimierung von Seiten, bevor sie veröffentlicht werden.
 
-Durch das Nutzen dieser Möglichkeiten können Sie das Anwendererlebnis verbessern, die richtige Zielgruppe ansprechen und dafür sorgen, dass Ihre Site sicher und zuverlässig bleibt. Die Verbesserung der Interaktion und der Traffic-Akquise verbessert die Kundenbeziehung und Sichtbarkeit, während ein starker Sicherheitsstatus und ein guter Site-Zustand dazu beitragen, Vertrauen und Stabilität sicherzustellen. Erkunden Sie die unten stehenden Links, um die nach Kategorie geordneten Möglichkeiten zu sehen, und entdecken Sie Wege zum Verbessern Ihrer Site.
+Durch das Nutzen dieser Möglichkeiten können Sie das Anwendererlebnis verbessern, die richtige Zielgruppe ansprechen und dafür sorgen, dass Ihre Site sicher und zuverlässig bleibt. Die Verbesserung der Interaktion und der Traffic-Akquise fördert die Interaktion und Sichtbarkeit, während eine starke Sicherheitslage und der Zustand der Website dazu beitragen, Vertrauen und Stabilität zu gewährleisten. Die Preflight-Analyse stellt sicher, dass Ihre Inhalte vor der Live-Schaltung optimiert werden. Erkunden Sie die unten stehenden Links, um die nach Kategorie geordneten Möglichkeiten zu sehen, und entdecken Sie Wege zum Verbessern Ihrer Site.
 
 ## Arten von Möglichkeiten
 
@@ -39,6 +40,8 @@ Durch das Nutzen dieser Möglichkeiten können Sie das Anwendererlebnis verbesse
    { title = Traffic acquisition }
 * ./form-optimization.md
    { title = Forms Optimization }
+* ./preflight.md
+   { title = Preflight }
 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -181,7 +184,30 @@ Durch das Nutzen dieser Möglichkeiten können Sie das Anwendererlebnis verbesse
             </div>
         </div>
     </div>
-
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Preflight">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="./preflight.md" title="Preflight" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/preflight/hero.png" alt="Preflight"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="./preflight.md" target="_blank" rel="referrer" title="Preflight">PreFlight</a>
+                    </p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Preflight-Analyse und das Einrichten von Preflight-Opportunitys in Sites Optimizer.</p>
+                </div>
+                <a href="./preflight.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
+                </a>
+            </div>
+        </div>
+    </div>
+ </br>   
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
