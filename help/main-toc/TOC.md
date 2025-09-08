@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Dies ist eine Beschreibung für das Benutzerhandbuch, die auf der Landingpage angezeigt wird.
-source-git-commit: fcdda7414b56f40ec0feaa9cdbfbe896643d0556
+source-git-commit: b471cb120d456805d5195cd990bdc9b8d3967d15
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 97%
+source-wordcount: '105'
+ht-degree: 92%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 97%
       + [CORS-Konfiguration](/help/documentation/opportunities/cors-configuration.md)
       + [Cross-Site-Scripting](/help/documentation/opportunities/cross-site-scripting.md)
       + [Hohe Bounce-Rate](/help/documentation/opportunities/high-bounce-rate.md)
+      + [Seite mit hohem Traffic hat niedrige CTR](/help/documentation/opportunities/high-traffic-page-has-low-ctr.md)
       + [Ungültige oder fehlende Metadaten](/help/documentation/opportunities/invalid-or-missing-metadata.md)
       + [Fehlende oder ungültige strukturierte Daten](/help/documentation/opportunities/missing-invalid-structured-data.md)
       + [Fehlender Alternativtext](/help/documentation/opportunities/missing-alt-text.md)

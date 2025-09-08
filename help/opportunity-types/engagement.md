@@ -1,10 +1,10 @@
 ---
 title: Optimieren der Interaktion mit Sites Optimizer
 description: Erfahren Sie, wie Sie mit Sites Optimizer die Interaktion verbessern können.
-source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
-workflow-type: ht
-source-wordcount: '237'
-ht-degree: 100%
+source-git-commit: b471cb120d456805d5195cd990bdc9b8d3967d15
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 83%
 
 ---
 
@@ -15,9 +15,7 @@ ht-degree: 100%
 
 OpMöglichkeitenportunitys vom Typ „Interaktion“ in AEM Sites Optimizer sind für die Verbesserung digitaler Erlebnisse von entscheidender Bedeutung, da sie praktische Erkenntnisse bezüglich der Interaktion von Benutzenden mit Web-Seiten bieten. Durch die Identifizierung von Bereichen, in denen Verbesserungen erforderlich sind – z. B. Probleme bezüglich der Barrierefreiheit, fehlerhafte interne Links, hohe Bounce-Raten und fehlender Alternativtext – können Marketing-Fachleute sowie Inhaltsautorinnen und -autoren ihre Sites optimieren, um die Leistung und Benutzerinteraktion zu verbessern. Mit diesen Möglichkeiten lässt sich sicherstellen, dass Inhalte effektiv, auffindbar und überzeugend sind, was letztendlich höhere Konversionen und eine reibungslosere Customer Journey fördert. Durch das Nutzen der Empfehlungen von AEM Sites Optimizer können Teams ihre Digitalstrategie kontinuierlich optimieren und effektive Erlebnisse im benötigten Umfang bereitstellen.
 
-
 ## Möglichkeiten
-
 
 <!-- CARDS
 
@@ -30,6 +28,9 @@ OpMöglichkeitenportunitys vom Typ „Interaktion“ in AEM Sites Optimizer sind
 * ../documentation/opportunities//high-bounce-rate.md
   {title=High bounce rate}
   {image=../assets/common/card-arrows.png}
+* ../documentation/opportunities/high-traffic-page-has-low-ctr.md
+  {title=High traffic page has low CTR}
+  {image=../assets/common/card-browser.png}
 * ../documentation/opportunities/missing-alt-text.md  
   {title=Missing alt text}
   {image=../assets/common/card-arrows.png}
@@ -101,6 +102,29 @@ OpMöglichkeitenportunitys vom Typ „Interaktion“ in AEM Sites Optimizer sind
                     <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit zu wenigen Aufrufen und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="High traffic page has low CTR">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="../documentation/opportunities/high-traffic-page-has-low-ctr.md" title="Seite mit hohem Traffic hat niedrige CTR" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/common/card-browser.png" alt="Seite mit hohem Traffic hat niedrige CTR"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="../documentation/opportunities/high-traffic-page-has-low-ctr.md" target="_blank" rel="referrer" title="Seite mit hohem Traffic hat niedrige CTR">Seite mit hohem Traffic hat niedrige CTR</a>
+                    </p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Seite mit hohem Traffic, die eine niedrige CTR-Chance hat, und wie Sie damit die Interaktion auf Ihrer Website steigern können.</p>
+                </div>
+                <a href="../documentation/opportunities/high-traffic-page-has-low-ctr.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
 </a>
             </div>
