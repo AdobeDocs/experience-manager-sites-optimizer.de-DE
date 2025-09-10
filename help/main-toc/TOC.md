@@ -5,7 +5,7 @@ user-guide-description: Dies ist eine Beschreibung für das Benutzerhandbuch, di
 source-git-commit: b471cb120d456805d5195cd990bdc9b8d3967d15
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
    + [Sicherheitsstatus](/help/opportunity-types/security-posture.md)
    + [Formularoptimierung](/help/opportunity-types/form-optimization.md)
    + [Barrierefreiheit von Formularen](/help/opportunity-types/form-accesibility.md)
-   + [PreFlight-Opportunities](/help/opportunity-types/preflight.md)
+   + [Preflight-Möglichkeiten](/help/opportunity-types/preflight.md)
 + Dokumentation{#documentation}
    + [Überblick](/help/documentation/overview.md)
    + [Grundlagen](/help/documentation/basics.md)
