@@ -2,9 +2,9 @@
 title: Arten von Möglichkeiten in Sites Optimizer
 description: Erfahren Sie mehr über die wichtigsten Arten von Möglichkeiten in Sites Optimizer und wie sie Ihnen dabei helfen können, die Leistung Ihrer Site zu verbessern.
 source-git-commit: 469370cfcb19e25bf8da5f7f9e08b8b0da52dbb9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ AEM Sites Optimizer bietet wertvolle Erkenntnisse und Empfehlungen, mit denen Si
 * Site-Zustand
 * Preflight
 
-Jede Kategorie zeigt einen anderen Weg zur Verbesserung Ihrer Site auf. Eine Kategorie kann zum Beispiel die Besucherinteraktion erhöhen. Eine andere kann die Auffindbarkeit verbessern. Andere konzentrieren sich auf die Stärkung der Sicherheit oder die Aufrechterhaltung der Standortstabilität. Preflight hilft Ihnen bei der Analyse und Optimierung von Seiten, bevor sie veröffentlicht werden.
+Jede Kategorie zeigt einen anderen Weg zur Verbesserung Ihrer Site auf. Eine Kategorie kann zum Beispiel die Besucherinteraktion erhöhen. Eine andere kann die Auffindbarkeit verbessern. Weitere Kategorien konzentrieren sich auf die Stärkung der Sicherheit oder die Aufrechterhaltung der Site-Stabilität. Preflight hilft Ihnen bei der Analyse und Optimierung von Seiten, bevor sie veröffentlicht werden.
 
-Durch das Nutzen dieser Möglichkeiten können Sie das Anwendererlebnis verbessern, die richtige Zielgruppe ansprechen und dafür sorgen, dass Ihre Site sicher und zuverlässig bleibt. Die Verbesserung der Interaktion und der Traffic-Akquise fördert die Interaktion und Sichtbarkeit, während eine starke Sicherheitslage und der Zustand der Website dazu beitragen, Vertrauen und Stabilität zu gewährleisten. Die Preflight-Analyse stellt sicher, dass Ihre Inhalte vor der Live-Schaltung optimiert werden. Erkunden Sie die unten stehenden Links, um die nach Kategorie geordneten Möglichkeiten zu sehen, und entdecken Sie Wege zum Verbessern Ihrer Site.
+Durch das Nutzen dieser Möglichkeiten können Sie das Anwendererlebnis verbessern, die richtige Zielgruppe ansprechen und dafür sorgen, dass Ihre Site sicher und zuverlässig bleibt. Die Verbesserung der Interaktion und der Traffic-Akquise verbessert die Kundenbeziehung und Sichtbarkeit, während ein starker Sicherheitsstatus und ein guter Site-Zustand dazu beitragen, Vertrauen und Stabilität sicherzustellen. Die Preflight-Analyse stellt sicher, dass Ihre Inhalte vor der Live-Schaltung optimiert werden. Erkunden Sie die unten stehenden Links, um die nach Kategorie geordneten Möglichkeiten zu sehen, und entdecken Sie Wege zum Verbessern Ihrer Site.
 
 ## Arten von Möglichkeiten
 
@@ -197,9 +197,9 @@ Durch das Nutzen dieser Möglichkeiten können Sie das Anwendererlebnis verbesse
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./preflight.md" target="_blank" rel="referrer" title="Preflight">PreFlight</a>
+                        <a href="./preflight.md" target="_blank" rel="referrer" title="Preflight">Preflight</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Preflight-Analyse und das Einrichten von Preflight-Opportunitys in Sites Optimizer.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Preflight-Analyse und das Einrichten von Preflight-Möglichkeiten in Sites Optimizer.</p>
                 </div>
                 <a href="./preflight.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>

@@ -1,19 +1,19 @@
 ---
-title: AEM Sites Optimizer - Onboarding-Handbuch für Preflight
+title: AEM Sites Optimizer – Onboarding-Leitfaden für Preflight
 description: Erfahren Sie mehr über Preflight-Möglichkeiten und das Einrichten der Preflight-Analyse in AEM Sites Optimizer.
 source-git-commit: 0a6ddcdfd369253500067b31617facfb7f38b656
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '488'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
 
-# PreFlight-Opportunities
+# Preflight-Möglichkeiten
 
-![PreFlight-Opportunities](./assets/preflight/hero.png){align="center"}
+![Preflight-Möglichkeiten](./assets/preflight/hero.png){align="center"}
 
-<span class="preview">AEM Sites Optimizer Preflight analysiert die technischen Daten und Leistungsdaten Ihrer Seite und antizipiert und erkennt Chancen, bevor sie veröffentlicht wird. Es verwendet generative KI, um Optimierungen vorzuschlagen.</span>
+<span class="preview">AEM Sites Optimizer Preflight analysiert die technischen Daten und die Leistungsdaten Ihrer Seite und prognostiziert und erkennt Möglichkeiten vor der Veröffentlichung. Zum Vorschlagen von Optimierungen wird generative KI eingesetzt.</span>
 
 ## Möglichkeiten
 
@@ -51,9 +51,9 @@ ht-degree: 6%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" title="Kanonisch">kanonisch</a>
+                        <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" title="Kanonisch">Kanonisch</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die kanonische Opportunity und wie Sie sie verwenden können, um SEO zu verbessern und Probleme mit doppelten Inhalten zu vermeiden.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die kanonische Möglichkeit und wie Sie damit die SEO verbessern und Probleme mit doppelten Inhalten vermeiden.</p>
                 </div>
                 <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -74,9 +74,9 @@ ht-degree: 6%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/broken-internal-links.md" target="_blank" rel="referrer" title="Fehlerhafte interne Links">Beschädigte interne Links</a>
+                        <a href="../documentation/opportunities/broken-internal-links.md" target="_blank" rel="referrer" title="Fehlerhafte interne Links">Fehlerhafte interne Links</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Gelegenheit zu fehlerhaften internen Links und wie Sie damit fehlerhafte oder problematische Links auf Ihrer Website identifizieren und beheben können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit zu fehlerhaften internen Links und wie Sie damit fehlerhafte oder problematische Links auf Ihrer Website identifizieren und beheben.</p>
                 </div>
                 <a href="../documentation/opportunities/broken-internal-links.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -88,8 +88,8 @@ ht-degree: 6%
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../documentation/opportunities/invalid-or-missing-metadata.md" title="Metatags" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-code.png" alt="Metatags"
+                    <a href="../documentation/opportunities/invalid-or-missing-metadata.md" title="Meta-Tags" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/common/card-code.png" alt="Meta-Tags"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -97,9 +97,9 @@ ht-degree: 6%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" title="Metatags">MetaTags</a>
+                        <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" title="Meta-Tags">Meta-Tags</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Meta-Tags-Opportunity und wie Sie sie zur Optimierung der Metadaten Ihrer Seite für eine bessere SEO-Leistung nutzen können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Meta-Tags-Möglichkeit und wie Sie damit die Metadaten Ihrer Seite für eine bessere SEO-Leistung optimieren.</p>
                 </div>
                 <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -111,8 +111,8 @@ ht-degree: 6%
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../documentation/opportunities/invalid-or-missing-metadata.md" title="H1-Zahl" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-code.png" alt="H1-Zahl"
+                    <a href="../documentation/opportunities/invalid-or-missing-metadata.md" title="H1-Anzahl" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/common/card-code.png" alt="H1-Anzahl"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -120,9 +120,9 @@ ht-degree: 6%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" title="H1-Zahl">H1-Zahl</a>
+                        <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" title="H1-Anzahl">H1-Anzahl</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die H1-Zählungs-Opportunity und wie Sie sie verwenden können, um eine ordnungsgemäße Überschriftenstruktur und SEO-Optimierung sicherzustellen.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit zur H1-Anzahl und wie Sie damit eine ordnungsgemäße Überschriftenstruktur und SEO-Optimierung sicherstellen.</p>
                 </div>
                 <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -145,7 +145,7 @@ ht-degree: 6%
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/accessibility-issues.md" target="_blank" rel="referrer" title="Barrierefreiheit">Barrierefreiheit</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Barrierefreiheitsmöglichkeit und wie Sie sie verwenden können, um sicherzustellen, dass Ihre Website für alle Benutzer zugänglich ist.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit zur Barrierefreiheit und wie Sie damit sicherstellen, dass Ihre Website für alle Benutzenden zugänglich ist.</p>
                 </div>
                 <a href="../documentation/opportunities/accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -159,20 +159,20 @@ ht-degree: 6%
 
 ## Einrichtung
 
-### Einrichtung des universellen Editors
+### Setup des universellen Editors
 
-1. Wechseln Sie von der URL zur Extension Manager: https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor
-2. Wählen Sie die AEM Sites Optimizer Preflight-Erweiterung aus und fordern Sie sie auf „Aktivieren“
-3. Das AEM-Team aktiviert die Erweiterung für Ihr Unternehmen
-4. Öffnen Sie anschließend eine Seite im universellen Editor, z. B.: https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/site/subscription.html
-5. Die Preflight-Erweiterung wird in der Seitenleiste angezeigt
-6. Durch Klicken auf die Preflight-Erweiterung in der Seitenleiste wird der Preflight-Audit für die aktuelle Seite gestartet
+1. Wechseln Sie über folgende URL zu Extension Manager: https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor
+2. Wählen Sie die Preflight-Erweiterung für AEM Sites Optimizer aus und bitten Sie darum, dass sie aktiviert wird.
+3. Das AEM-Team aktiviert die Erweiterung für Ihr Unternehmen.
+4. Öffnen Sie anschließend eine Seite im universellen Editor, z. B.: https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/site/subscription.html
+5. Die Preflight-Erweiterung wird in der Seitenleiste angezeigt.
+6. Wenn Sie in der Seitenleiste auf die Preflight-Erweiterung klicken, wird das Preflight-Audit für die aktuelle Seite gestartet.
 
-### Dokumentbasierte Vorschau-Einrichtung
+### Setup der dokumentbasierten Vorschau
 
-#### Schritt 1: Sidekick mit der Preflight-Schaltfläche aktivieren
+#### Schritt 1: Aktivieren des Sidekicks mit der Preflight-Schaltfläche
 
-Fügen Sie dem `/tools/sidekick/config.json` in Ihrem GitHub-Repository die folgende Konfiguration hinzu:
+Fügen Sie in Ihrem GitHub-Repository die folgende Konfiguration in `/tools/sidekick/config.json` ein:
 
 ```json
 {
@@ -189,7 +189,7 @@ Fügen Sie dem `/tools/sidekick/config.json` in Ihrem GitHub-Repository die folg
 }
 ```
 
-#### Schritt 2: Erstellen des Sidekick-Integrationsskripts
+#### Schritt 2: Erstellen des Sidekick-Integrationsskripts
 
 Erstellen Sie `/tools/sidekick/aem-sites-optimizer-preflight.js` mit folgendem Inhalt:
 
@@ -238,9 +238,9 @@ Erstellen Sie `/tools/sidekick/aem-sites-optimizer-preflight.js` mit folgendem I
 }());
 ```
 
-#### Schritt 3: Skriptdatei aktualisieren
+#### Schritt 3: Aktualisieren der Skriptdatei
 
-Fügen Sie die folgende Importanweisung zur `loadLazy()` in `/scripts/scripts.js` für Vorschau-URLs hinzu, wie unten dargestellt:
+Fügen Sie der Funktion `loadLazy()` in `/scripts/scripts.js` die folgende Importanweisung für Vorschau-URLs hinzu, wie unten dargestellt:
 
 ```javascript
 if (window.location.href.includes('.aem.page')) {
@@ -248,19 +248,19 @@ if (window.location.href.includes('.aem.page')) {
 }
 ```
 
-Jetzt sollte die Preflight-Schaltfläche in Sidekick sichtbar sein.
+Jetzt sollte die Preflight-Schaltfläche in Sidekick angezeigt werden.
 
-#### Schritt 4: Audit durchführen
+#### Schritt 4: Ausführen des Audits
 
-Öffnen Sie die Vorschau-URL (*.aem.page) der geprüften Seite. Klicken Sie in Sidekick auf die Schaltfläche Preflight .
+Öffnen Sie die Vorschau-URL (*.aem.page) der geprüften Seite. Klicken Sie in Sidekick auf die Preflight-Schaltfläche.
 
-### Einrichten von AEM Cloud Service
+### Setup des AEM-Cloud-Services
 
-Sie können die Lesezeichenoption verwenden, um Preflight in AEM Cloud Service-Seiteneditoren und Sandbox-Umgebungen zu testen.
+Sie können die Bookmarklet-Option verwenden, um Preflight in Seiteneditoren und Sandbox-Umgebungen des AEM-Cloud-Services zu testen.
 
 <!-- Drag the button below to your Bookmarks Bar to get started. -->
 
-Drücken Sie **Strg+Umschalt+B** (Windows) oder **Befehl+Umschalt+B** (Mac), um Ihre Lesezeichenleiste anzuzeigen. Klicken Sie mit der rechten Maustaste auf die Lesezeichenleiste und wählen Sie „Neue Seite“ oder „Lesezeichen hinzufügen“. Kopieren Sie den unten stehenden Code in das Adressfeld.
+Drücken Sie **Strg+Umschalt+B** (Windows) oder **Befehl+Umschalt+B** (Mac), um die Lesezeichenleiste anzuzeigen. Klicken Sie mit der rechten Maustaste auf die Lesezeichenleiste und wählen Sie „Neue Seite“ oder „Lesezeichen hinzufügen“ aus. Kopieren Sie den unten stehenden Code in das Adressfeld.
 
 <!-- **Drag this link to your Bookmarks Bar:**
 
@@ -272,13 +272,13 @@ Drücken Sie **Strg+Umschalt+B** (Windows) oder **Befehl+Umschalt+B** (Mac), um 
 javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();
 ```
 
-Öffnen Sie nach dem Hinzufügen der Lesezeichenliste die Vorschau-URL (*.aem.page) der geprüften Seite. Klicken Sie auf das Preflight-Lesezeichen, um den Preflight-Audit zu starten.
+Nachdem das Bookmarklet hinzugefügt wurde, öffnen Sie die Vorschau-URL (*.aem.page) der geprüften Seite. Klicken Sie auf das Preflight-Lesezeichen, um das Preflight-Audit zu starten.
 
 ## Best Practices
 
 Beachten Sie bei der Verwendung von Preflight Folgendes:
 
-* Führen Sie Preflight-Prüfungen auf allen Staging-/Vorschauseiten vor der Veröffentlichung durch.
+* Führen Sie Preflight-Audits vor der Veröffentlichung auf allen Staging-/Vorschauseiten durch.
 * Beheben Sie zunächst schwerwiegende Probleme (fehlerhafte Links, fehlende H1-Tags, unsichere Links).
 * Aktivieren Sie die Authentifizierung für geschützte Staging-Umgebungen.
 * Überprüfen und implementieren Sie Meta-Tag-Vorschläge für eine bessere SEO-Leistung.
