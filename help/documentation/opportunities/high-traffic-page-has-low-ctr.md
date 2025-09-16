@@ -2,7 +2,7 @@
 title: Seite mit hohem Traffic hat Dokumentation zu geringen CTR-Opportunities
 description: Erfahren Sie mehr über die Seite mit hohem Traffic, die eine niedrige CTR-Chance hat, und wie Sie damit die Interaktion auf Ihrer Website steigern können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
-source-git-commit: b471cb120d456805d5195cd990bdc9b8d3967d15
+source-git-commit: 5c3b4eb9941c82273c017602202b74d7911f7cc5
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 4%
@@ -10,7 +10,7 @@ ht-degree: 4%
 ---
 
 
-# Seite mit hohem Traffic und geringer CTR-Chance
+# Seiten mit hohem Traffic haben wenig CTR-Gelegenheiten
 
 ![Seite mit hohem Traffic hat geringe CTR-Opportunity](./assets/high-traffic-page-has-low-ctr/hero.png){align="center"}
 
@@ -20,7 +20,7 @@ Die Seite mit hohem Traffic hat eine niedrige CTR-Gelegenheit und identifiziert 
 
 ![Die Seite zur automatischen Identifizierung von hohem Traffic weist niedrige CTR-Probleme auf](./assets/high-traffic-page-has-low-ctr/auto-identify.png){align="center"}
 
-Die **Seite mit hohem Traffic hat eine niedrige CTR** Chance, identifiziert Seiten mit hohem Traffic mit niedrigem CTR auf Ihrer Website und umfasst Folgendes:
+Die **Seite mit hohem Traffic hat eine niedrige CTR** Gelegenheit, identifiziert Seiten mit hohem Traffic mit niedrigem CTR auf Ihrer Website und umfasst Folgendes:
 
 * **Recommendation** - Vorgeschlagene Maßnahmen zur Verbesserung des CTR der Seite.
 * **Insight** - Erklärung, warum die Seite einen niedrigen CTR aufweist.
