@@ -1,7 +1,7 @@
 ---
 title: PreFlight-Optimierungen mit AEM Sites Optimizer
 description: Erfahren Sie mehr über Preflight-Möglichkeiten mit AEM Sites Optimizer.
-source-git-commit: 214a9d7d4c7e498a8c2f39009e93c4c1f8f772b1
+source-git-commit: cae186f8a953fd9d4e9d68653dd5eb2a4bd14152
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 23%
@@ -161,14 +161,14 @@ Opportunities vor dem Flug in AEM Sites Optimizer helfen sicherzustellen, dass I
 
 Zur Identifizierung von AEM Sites Optimizer Preflight-Opportunities ist die Einrichtung der Preflight-Erweiterung entweder im universellen Editor, der dokumentbasierten Vorschau oder in AEM Cloud Service erforderlich, um Preflight-Prüfungen auf Ihren Seiten durchzuführen, bevor sie veröffentlicht werden.
 
-## Benutzerzugriff aktivieren
+### Benutzerzugriff aktivieren
 
 Um die Preflight-Erweiterung zu verwenden, stellen Sie sicher, dass Ihr Benutzer mindestens einem der folgenden AEM Sites Optimizer-Produktprofile in [Adobe Admin Console zugewiesen ist](https://adminconsole.adobe.com):
 
 * AEM Sites Optimizer - Benutzer automatisch vorschlagen
 * AEM Sites Optimizer - Benutzeroptimierung automatisch durchführen
 
-## Aktivieren der Preflight-Erweiterung
+### Aktivieren der Preflight-Erweiterung
 
 >[!BEGINTABS]
 
