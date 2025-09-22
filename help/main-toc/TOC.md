@@ -5,7 +5,7 @@ user-guide-description: Dies ist eine Beschreibung für das Benutzerhandbuch, di
 source-git-commit: 214a9d7d4c7e498a8c2f39009e93c4c1f8f772b1
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
       + [CORS-Konfiguration](/help/documentation/opportunities/cors-configuration.md)
       + [Cross-Site-Scripting](/help/documentation/opportunities/cross-site-scripting.md)
       + [Hohe Bounce-Rate](/help/documentation/opportunities/high-bounce-rate.md)
-      + [Seite mit hohem Traffic hat niedrige CTR](/help/documentation/opportunities/high-traffic-page-has-low-ctr.md)
+      + [Seite mit viel Traffic hat niedrige Klickrate](/help/documentation/opportunities/high-traffic-page-has-low-ctr.md)
       + [Ungültige oder fehlende Metadaten](/help/documentation/opportunities/invalid-or-missing-metadata.md)
       + [Fehlende oder ungültige strukturierte Daten](/help/documentation/opportunities/missing-invalid-structured-data.md)
       + [Fehlender Alternativtext](/help/documentation/opportunities/missing-alt-text.md)

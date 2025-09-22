@@ -1,11 +1,11 @@
 ---
-title: Seite mit hohem Traffic hat Dokumentation zu geringen CTR-Opportunities
-description: Erfahren Sie mehr über die Seite mit hohem Traffic, die eine niedrige CTR-Chance hat, und wie Sie damit die Interaktion auf Ihrer Website steigern können.
+title: Dokumentation zur Möglichkeit „Seite mit viel Traffic hat niedrige Klickrate“
+description: Erfahren Sie mehr über die Möglichkeit „Seite mit viel Traffic hat niedrige Klickrate“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
 source-git-commit: 5c3b4eb9941c82273c017602202b74d7911f7cc5
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 4%
+ht-degree: 86%
 
 ---
 
@@ -14,33 +14,33 @@ ht-degree: 4%
 
 ![Seite mit hohem Traffic hat geringe CTR-Opportunity](./assets/high-traffic-page-has-low-ctr/hero.png){align="center"}
 
-Die Seite mit hohem Traffic hat eine niedrige CTR-Gelegenheit und identifiziert Seiten auf Ihrer Website, die eine erhebliche Menge an Traffic erhalten, aber eine niedrige Clickthrough-Rate (CTR) haben. Durch die Analyse dieser Seiten können Sie potenzielle Probleme aufdecken, die die Benutzerinteraktion behindern, und Schritte zur Verbesserung der Leistung unternehmen. Diese Möglichkeit ist für die Optimierung des Inhalts und Layouts Ihrer Website von entscheidender Bedeutung, was letztendlich zu höheren Konversionsraten und besseren Benutzererlebnissen führt.
+Die Möglichkeit „Seite mit viel Traffic hat niedrige Klickrate“ identifiziert Seiten auf Ihrer Website, die sehr viel Traffic erhalten, aber eine niedrige Klickrate (CTR) aufweisen. Durch die Analyse solcher Seiten können Sie potenzielle Probleme aufdecken, die die Benutzerinteraktion beeinträchtigen, und Maßnahmen zur Verbesserung der Leistung ergreifen. Diese Möglichkeit ist für die Optimierung des Inhalts und Layouts Ihrer Website von entscheidender Bedeutung, was letztendlich zu höheren Conversion-Raten und besseren Anwendererlebnissen führt.
 
 ## Automatische Identifizierung
 
-![Die Seite zur automatischen Identifizierung von hohem Traffic weist niedrige CTR-Probleme auf](./assets/high-traffic-page-has-low-ctr/auto-identify.png){align="center"}
+![Probleme bei der automatischen Identifizierung von Seiten mit viel Traffic, die eine niedrige Klickrate aufweisen](./assets/high-traffic-page-has-low-ctr/auto-identify.png){align="center"}
 
 Die **Seite mit hohem Traffic hat eine niedrige CTR** Gelegenheit, identifiziert Seiten mit hohem Traffic mit niedrigem CTR auf Ihrer Website und umfasst Folgendes:
 
-* **Recommendation** - Vorgeschlagene Maßnahmen zur Verbesserung des CTR der Seite.
-* **Insight** - Erklärung, warum die Seite einen niedrigen CTR aufweist.
-* **Begründung** - Die Begründung hinter der Empfehlung.
+* **Empfehlung** – Vorgeschlagene Maßnahmen zur Verbesserung der Klickrate der Seite.
+* **Erkenntnis** – Erklärung, warum die Seite eine niedrige Klickrate aufweist.
+* **Begründung** – Die Begründung hinter der Empfehlung.
 
 ## Automatische Vorschläge
 
-![Die Seite mit automatischem Vorschlagen von hohem Traffic hat geringe CTR-Probleme](./assets/high-traffic-page-has-low-ctr/auto-suggest.png){align="center"}
+![Probleme mit automatischen Vorschlägen für „Seite mit viel Traffic hat niedrige Klickrate“](./assets/high-traffic-page-has-low-ctr/auto-suggest.png){align="center"}
 
-Auto-Suggest bietet einen von KI generierten Vorschlag dafür, wie ein optimiertes Web-Erlebnis aussehen könnte. Die Vorschläge enthalten eine **hervorgehobene** Ansicht, mit der Sie leicht erkennen können, welche Änderungen vorgeschlagen werden.
+Automatische Vorschläge liefern einen von KI generierten Vorschlag dafür, wie ein optimiertes Web-Erlebnis aussehen könnte. Vorschläge umfassen eine **hervorgehobene** Ansicht, mit der Sie leicht erkennen können, welche Änderungen vorgeschlagen werden.
 
-Es können Vorschläge ausgewählt werden, um sie in der Vollansicht anzuzeigen, ihre projizierte CTR-Auswirkung und die Möglichkeit, sie zu bearbeiten, bevor sie auf die Seite angewendet werden.
+Sie können Vorschläge auswählen, um sie in der Vollansicht anzuzeigen, ihre projizierte Auswirkung auf die Klickrate zu prüfen und die Möglichkeit zu nutzen, sie zu bearbeiten, bevor sie auf die Seite angewendet werden.
 
 ## Automatische Optimierung
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Die Seite mit hohem Traffic automatisch optimieren weist geringe CTR-Probleme auf](./assets/high-traffic-page-has-low-ctr/auto-optimize.png){align="center"}
+![Probleme mit der automatischen Optimierung für „Seite mit viel Traffic hat niedrige Klickrate“](./assets/high-traffic-page-has-low-ctr/auto-optimize.png){align="center"}
 
-Sites Optimizer Ultimate bietet nun die Möglichkeit, für die vorgeschlagene Optimierung eine automatische Optimierung bereitzustellen.
+Sites Optimizer Ultimate ermöglicht es, eine automatische Optimierung für die vorgeschlagene Optimierung bereitzustellen.
 
 >[!BEGINTABS]
 
