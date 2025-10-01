@@ -1,10 +1,10 @@
 ---
-title: PreFlight-Optimierungen mit AEM Sites Optimizer
+title: Preflight-Optimierungen mit AEM Sites Optimizer
 description: Erfahren Sie mehr über Preflight-Möglichkeiten mit AEM Sites Optimizer.
 source-git-commit: 6e177ef6b9d121ac7484ae118037c7e542f981d8
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 18%
+ht-degree: 61%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 18%
 
 ![Preflight-Möglichkeiten](./assets/preflight/hero.png){align="center"}
 
-AEM Sites Optimizer [PreFlight](../documentation/preflight/overview.md)Opportunities) stellen sicher, dass Ihre Web-Seiten vor der Live-Schaltung auf Leistung, SEO und Anwendererlebnis optimiert sind. Durch die Identifizierung potenzieller Probleme wie fehlerhafte Links, fehlende Meta-Tags und Probleme mit der Barrierefreiheit ermöglichen PreFlight-Prüfungen Inhaltsautoren und Marketern, diese Probleme frühzeitig im Veröffentlichungsprozess zu beheben. Dieser proaktive Ansatz minimiert das Risiko der Veröffentlichung suboptimaler Inhalte, verbessert die Site-Qualität und verbessert die digitale Präsenz insgesamt. Die Nutzung von Preflight-Opportunities unterstützt einen reibungsloseren Workflow, reduziert Korrekturen nach der Veröffentlichung und trägt zu einem besseren Suchmaschinenranking und höherer Benutzerzufriedenheit bei.
+AEM Sites Optimizer [PreFlight](../documentation/preflight/overview.md)Opportunities) stellen sicher, dass Ihre Web-Seiten vor der Live-Schaltung auf Leistung, SEO und Anwendererlebnis optimiert sind. Durch die Identifizierung potenzieller Probleme (wie fehlerhafte Links, fehlende Meta-Tags und Probleme mit der Barrierefreiheit) ermöglichen es Preflight-Prüfungen Inhaltsautorinnen und Inhaltsautoren sowie Marketing-Fachleuten, Probleme frühzeitig im Veröffentlichungsprozess zu beheben. Dieser proaktive Ansatz minimiert das Risiko einer Veröffentlichung suboptimaler Inhalte, erhöht die Site-Qualität und verbessert die digitale Präsenz insgesamt. Die Nutzung von Preflight-Möglichkeiten sorgt für einen reibungsloseren Workflow, reduziert Korrekturen nach der Veröffentlichung und trägt zu besseren Suchmaschinen-Rankings sowie höherer Anwenderzufriedenheit bei.
 
 ## Möglichkeiten
 
