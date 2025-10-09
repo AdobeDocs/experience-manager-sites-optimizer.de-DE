@@ -2,9 +2,9 @@
 title: Preflight-Optimierungen mit AEM Sites Optimizer
 description: Erfahren Sie mehr über Preflight-Möglichkeiten mit AEM Sites Optimizer.
 source-git-commit: 6e177ef6b9d121ac7484ae118037c7e542f981d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '189'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 61%
 
 ![Preflight-Möglichkeiten](./assets/preflight/hero.png){align="center"}
 
-AEM Sites Optimizer [PreFlight](../documentation/preflight/overview.md)Opportunities) stellen sicher, dass Ihre Web-Seiten vor der Live-Schaltung auf Leistung, SEO und Anwendererlebnis optimiert sind. Durch die Identifizierung potenzieller Probleme (wie fehlerhafte Links, fehlende Meta-Tags und Probleme mit der Barrierefreiheit) ermöglichen es Preflight-Prüfungen Inhaltsautorinnen und Inhaltsautoren sowie Marketing-Fachleuten, Probleme frühzeitig im Veröffentlichungsprozess zu beheben. Dieser proaktive Ansatz minimiert das Risiko einer Veröffentlichung suboptimaler Inhalte, erhöht die Site-Qualität und verbessert die digitale Präsenz insgesamt. Die Nutzung von Preflight-Möglichkeiten sorgt für einen reibungsloseren Workflow, reduziert Korrekturen nach der Veröffentlichung und trägt zu besseren Suchmaschinen-Rankings sowie höherer Anwenderzufriedenheit bei.
+[Preflight-Möglichkeiten](../documentation/preflight/overview.md) in AEM Sites Optimizer helfen sicherzustellen, dass Ihre Web-Seiten vor der Live-Schaltung hinsichtlich Leistung, SEO und Anwendererlebnis optimiert werden. Durch die Identifizierung potenzieller Probleme (wie fehlerhafte Links, fehlende Meta-Tags und Probleme mit der Barrierefreiheit) ermöglichen es Preflight-Prüfungen Inhaltsautorinnen und Inhaltsautoren sowie Marketing-Fachleuten, Probleme frühzeitig im Veröffentlichungsprozess zu beheben. Dieser proaktive Ansatz minimiert das Risiko einer Veröffentlichung suboptimaler Inhalte, erhöht die Site-Qualität und verbessert die digitale Präsenz insgesamt. Die Nutzung von Preflight-Möglichkeiten sorgt für einen reibungsloseren Workflow, reduziert Korrekturen nach der Veröffentlichung und trägt zu besseren Suchmaschinen-Rankings sowie höherer Anwenderzufriedenheit bei.
 
 ## Möglichkeiten
 
@@ -53,7 +53,7 @@ AEM Sites Optimizer [PreFlight](../documentation/preflight/overview.md)Opportuni
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/preflight/accessibility.md" target="_blank" rel="referrer" title="Barrierefreiheit">Barrierefreiheit</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die PreFlight-Barrierefreiheitsmöglichkeit in Sites Optimizer.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Preflight-Möglichkeit für Barrierefreiheit in Sites Optimizer.</p>
                 </div>
                 <a href="../documentation/preflight/accessibility.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -76,7 +76,7 @@ AEM Sites Optimizer [PreFlight](../documentation/preflight/overview.md)Opportuni
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/preflight/h1-count.md" target="_blank" rel="referrer" title="H1-Anzahl">H1-Anzahl</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die PreFlight-Barrierefreiheitsmöglichkeit in Sites Optimizer.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Preflight-Möglichkeit für Barrierefreiheit in Sites Optimizer.</p>
                 </div>
                 <a href="../documentation/preflight/h1-count.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -99,7 +99,7 @@ AEM Sites Optimizer [PreFlight](../documentation/preflight/overview.md)Opportuni
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/preflight/links.md" target="_blank" rel="referrer" title="Links">Links</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Opportunity Preflight Links in Sites Optimizer.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Preflight-Möglichkeit für Links in Sites Optimizer.</p>
                 </div>
                 <a href="../documentation/preflight/links.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -122,7 +122,7 @@ AEM Sites Optimizer [PreFlight](../documentation/preflight/overview.md)Opportuni
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/preflight/meta-data.md" target="_blank" rel="referrer" title="Metadaten">Metadaten</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Preflight-Metadaten-Opportunity in Sites Optimizer.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Preflight-Möglichkeit für Metadaten in Sites Optimizer.</p>
                 </div>
                 <a href="../documentation/preflight/meta-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -145,7 +145,7 @@ AEM Sites Optimizer [PreFlight](../documentation/preflight/overview.md)Opportuni
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/preflight/readability.md" target="_blank" rel="referrer" title="Lesbarkeit">Lesbarkeit</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Lesbarkeit vor dem Flug in Sites Optimizer.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Preflight-Möglichkeit für Lesbarkeit in Sites Optimizer.</p>
                 </div>
                 <a href="../documentation/preflight/readability.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>

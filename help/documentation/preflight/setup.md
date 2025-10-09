@@ -1,24 +1,24 @@
 ---
-title: PreFlight-Setup
+title: Preflight-Setup
 description: Erfahren Sie, wie Sie die Preflight-Erweiterung für AEM Sites Optimizer einrichten.
 source-git-commit: 6e177ef6b9d121ac7484ae118037c7e542f981d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
-# PreFlight-Setup
+# Preflight-Setup
 
-Zur Identifizierung von AEM Sites Optimizer Preflight-Opportunities ist die Einrichtung der Preflight-Erweiterung entweder im universellen Editor, der dokumentbasierten Vorschau oder in AEM Cloud Service erforderlich, um Preflight-Prüfungen auf Ihren Seiten durchzuführen, bevor sie veröffentlicht werden.
+Zur Identifizierung von Preflight-Möglichkeiten in AEM Sites Optimizer ist die Einrichtung der Preflight-Erweiterung entweder im universellen Editor, der dokumentbasierten Vorschau oder in AEM Cloud Service erforderlich. Damit können Sie Preflight-Prüfungen Ihrer Seiten durchführen, bevor Sie sie veröffentlichen.
 
-## Benutzerzugriff aktivieren
+## Aktivieren des Benutzerzugriffs
 
-Um die Preflight-Erweiterung zu verwenden, stellen Sie sicher, dass Ihr Benutzer mindestens einem der folgenden AEM Sites Optimizer-Produktprofile in [Adobe Admin Console zugewiesen ist](https://adminconsole.adobe.com):
+Damit sich die Preflight-Erweiterung verwenden lässt, müssen Sie sicherstellen, dass die Benutzerin bzw. der Benutzer in [Adobe Admin Console](https://adminconsole.adobe.com) mindestens einem der folgenden AEM Sites Optimizer-Produktprofile zugewiesen ist:
 
-* AEM Sites Optimizer - Benutzer automatisch vorschlagen
-* AEM Sites Optimizer - Benutzeroptimierung automatisch durchführen
+* AEM Sites Optimizer – Benutzende automatisch vorschlagen
+* AEM Sites Optimizer – Benutzende automatisch optimieren
 
 ## Aktivieren der Preflight-Erweiterung
 
@@ -28,18 +28,18 @@ Um die Preflight-Erweiterung zu verwenden, stellen Sie sicher, dass Ihr Benutzer
 
 Gehen Sie wie folgt vor, um Preflight im universellen Editor einzurichten:
 
-1. Öffnen Sie **Extension Manager** unter:
+1. Öffnen Sie den **Extension Manager** unter:
    [https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor](https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor)
-1. Suchen Sie die **AEM Sites Optimizer Preflight-Erweiterung** und senden Sie eine Anfrage, um sie zu aktivieren.
-1. Das **Adobe AEM** Team überprüft und aktiviert die Erweiterung für Ihr Unternehmen.
+1. Suchen Sie nach der **AEM Sites Optimizer Preflight-Erweiterung** und senden Sie eine Anfrage, um sie zu aktivieren.
+1. Das **Adobe AEM-Team** wird Ihre Anfrage prüfen und die Erweiterung für Ihr Unternehmen aktivieren.
 1. Nachdem die Erweiterung aktiviert ist, öffnen Sie eine Seite im **universellen Editor**, z. B.:
    `https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/en/example/home.html`
-1. Die **Preflight** Erweiterung) wird in der **Seitenleiste** angezeigt.
-1. Wählen Sie in **Seitenleiste die** Preflight-Erweiterung“ aus, um **Preflight-Audit** der aktuellen Seite zu starten.
+1. Die **Preflight-Erweiterung** wird in der **Seitenleiste** angezeigt.
+1. Wenn Sie in der Seitenleiste auf die **Preflight-Erweiterung** klicken, wird das **Preflight-Audit** für die aktuelle Seite gestartet.
 
 >[!TAB Dokumentenbasiertes Authoring]
 
-Gehen Sie wie folgt vor, um Preflight für die dokumentbasierte Bearbeitung einzurichten:
+Gehen Sie wie folgt vor, um Preflight für das dokumentenbasierte Authoring einzurichten:
 
 1. Fügen Sie folgende Konfiguration zum `/tools/sidekick/config.json` im GitHub-Repository Ihres Edge Delivery Services-Projekts hinzu:
 
@@ -58,7 +58,7 @@ Gehen Sie wie folgt vor, um Preflight für die dokumentbasierte Bearbeitung einz
    }
    ```
 
-1. Erstellen Sie eine neue `/tools/sidekick/aem-sites-optimizer-preflight.js` und fügen Sie den folgenden Inhalt hinzu:
+1. Erstellen Sie eine neue Datei mit dem Namen `/tools/sidekick/aem-sites-optimizer-preflight.js` und fügen Sie den folgenden Inhalt hinzu:
 
    ```javascript
    (function () {
@@ -105,7 +105,7 @@ Gehen Sie wie folgt vor, um Preflight für die dokumentbasierte Bearbeitung einz
    }());
    ```
 
-1. Aktualisieren Sie die `loadLazy()` in `/scripts/scripts.js`, um das Preflight-Skript für Vorschau-URLs zu importieren:
+1. Aktualisieren Sie die `loadLazy()`-Funktion in `/scripts/scripts.js`, um das Preflight-Skript für Vorschau-URLs zu importieren:
 
    ```javascript
    if (window.location.href.includes('.aem.page')) {
@@ -114,28 +114,28 @@ Gehen Sie wie folgt vor, um Preflight für die dokumentbasierte Bearbeitung einz
    ```
 
 1. Öffnen Sie die Vorschau-URL (`*.aem.page`) der Seite, die Sie überprüfen möchten.
-1. Klicken Sie in **Sidekick** auf die Schaltfläche **Preflight**, um den Audit für die aktuelle Seite zu starten.
+1. Klicken Sie in **Sidekick** auf die Schaltfläche **Preflight**, um die Prüfung für die aktuelle Seite zu starten.
 
->[!TAB AEM Sites-Seiteneditor]
+>[!TAB AEM-Sites – Seiteneditor]
 
-Um Preflight im AEM Sites-Seiteneditor zu verwenden, können Sie eine Lesezeichenliste in Ihrem Webbrowser erstellen. Führen Sie die folgenden Schritte aus:
+Um Preflight im Seiteneditor von AEM Sites zu verwenden, können Sie in Ihrem Webbrowser ein Bookmarklet erstellen. Führen Sie die folgenden Schritte aus:
 
-1. Zeigt Ihre **Lesezeichenleiste** in Ihrem Webbrowser an:
+1. Zeigen Sie Ihre **Lesezeichenleiste** in Ihrem Webbrowser an:
 
    * Drücken Sie **Strg+Umschalt+B** (Windows) oder **Befehl+Umschalt+B** (Mac).
 
 ! Erstellen Sie ein neues Lesezeichen in Ihrem Browser:
 
-* Klicken Sie mit der rechten Maustaste auf die Leiste Lesezeichen und wählen Sie **Neue Seite** oder **Lesezeichen hinzufügen**.
-* Fügen Sie im Feld **Adresse (URL** den folgenden Code ein:
+* Klicken Sie mit der rechten Maustaste auf die Lesezeichenleiste und wählen Sie **Neue Seite** oder **Lesezeichen hinzufügen** aus. 
+* Fügen Sie im Feld **Adresse (URL)** den folgenden Code ein:
 
 ```javascript
 javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();
 ```
 
-1. Benennen Sie das Lesezeichen **Preflight** (oder einen beliebigen von Ihnen bevorzugten Namen).
-1. Öffnen Sie die Vorschau-URL (`*.aem.page`) der zu überprüfenden Seite im **AEM Sites-Seiteneditor**.
-1. Klicken Sie auf **Preflight** Lesezeichen in Ihrer Lesezeichenleiste, um den Audit für die aktuelle Seite zu starten.
+1. Nennen Sie das Lesezeichen **Preflight** (oder verwenden Sie einen beliebigen Namen, den Sie bevorzugen).
+1. Öffnen Sie die Vorschau-URL (`*.aem.page`) der zu prüfenden Seite im **Seiteneditor von AEM Sites**.
+1. Klicken Sie in Ihrer Lesezeichenleiste auf das **Preflight**-Lesezeichen, um den Audit für die aktuelle Seite zu starten.
 
 >[!ENDTABS]
 
@@ -143,7 +143,7 @@ javascript:(function(){const script=document.createElement('script');script.src=
 
 Beachten Sie beim Ausführen von Preflight-Audits die folgenden Richtlinien:
 
-* Führen Sie Audits immer auf **Staging- oder Vorschauseiten) durch** bevor Sie sie in der Produktion veröffentlichen.
-* Priorisieren Sie **Behebung von Problemen mit hoher**, wie fehlerhaften Links, fehlenden H1-Tags oder unsicheren Links.
-* Stellen Sie **Authentifizierung ist aktiviert** für geschützte Staging-Umgebungen sicher, bevor Sie Audits ausführen.
+* Führen Sie Audits immer für **Staging- oder Vorschauseiten** durch, bevor Sie sie in der Produktion veröffentlichen.
+* Priorisieren Sie die Behebung von **schwerwiegenden Problemen** ( z. B. fehlerhafte Links, fehlende H1-Tags oder unsichere Links).
+* Stellen Sie sicher, dass bei geschützten Staging-Umgebungen **Authentifizierung aktiviert ist**, bevor Sie Audits ausführen.
 * Überprüfen und wenden Sie **Meta-Tag-Empfehlungen** an, um die SEO-Leistung zu verbessern.
