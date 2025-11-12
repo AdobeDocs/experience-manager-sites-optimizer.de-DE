@@ -1,8 +1,8 @@
 ---
 title: Preflight-Setup
 description: Erfahren Sie, wie Sie die Preflight-Erweiterung für AEM Sites Optimizer einrichten.
-source-git-commit: 6e177ef6b9d121ac7484ae118037c7e542f981d8
-workflow-type: ht
+source-git-commit: 210acc5337796707ced10f2b84d473503fc06088
+workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%
 
@@ -124,14 +124,14 @@ Um Preflight im Seiteneditor von AEM Sites zu verwenden, können Sie in Ihrem We
 
    * Drücken Sie **Strg+Umschalt+B** (Windows) oder **Befehl+Umschalt+B** (Mac).
 
-! Erstellen Sie ein neues Lesezeichen in Ihrem Browser:
+1. Erstellen Sie ein neues Lesezeichen in Ihrem Browser:
 
-* Klicken Sie mit der rechten Maustaste auf die Lesezeichenleiste und wählen Sie **Neue Seite** oder **Lesezeichen hinzufügen** aus. 
-* Fügen Sie im Feld **Adresse (URL)** den folgenden Code ein:
+   * Klicken Sie mit der rechten Maustaste auf die Lesezeichenleiste und wählen Sie **Neue Seite** oder **Lesezeichen hinzufügen** aus. 
+   * Fügen Sie im Feld **Adresse (URL)** den folgenden Code ein:
 
-```javascript
-javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();
-```
+   ```javascript
+   javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();
+   ```
 
 1. Nennen Sie das Lesezeichen **Preflight** (oder verwenden Sie einen beliebigen Namen, den Sie bevorzugen).
 1. Öffnen Sie die Vorschau-URL (`*.aem.page`) der zu prüfenden Seite im **Seiteneditor von AEM Sites**.
