@@ -1,10 +1,10 @@
 ---
 title: Preflight-Optimierungen mit AEM Sites Optimizer
 description: Erfahren Sie mehr über Preflight-Möglichkeiten mit AEM Sites Optimizer.
-source-git-commit: 6e177ef6b9d121ac7484ae118037c7e542f981d8
-workflow-type: ht
-source-wordcount: '189'
-ht-degree: 100%
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Preflight-Möglichkeiten](./assets/preflight/hero.png){align="center"}
 
-[Preflight-Möglichkeiten](../documentation/preflight/overview.md) in AEM Sites Optimizer helfen sicherzustellen, dass Ihre Web-Seiten vor der Live-Schaltung hinsichtlich Leistung, SEO und Anwendererlebnis optimiert werden. Durch die Identifizierung potenzieller Probleme (wie fehlerhafte Links, fehlende Meta-Tags und Probleme mit der Barrierefreiheit) ermöglichen es Preflight-Prüfungen Inhaltsautorinnen und Inhaltsautoren sowie Marketing-Fachleuten, Probleme frühzeitig im Veröffentlichungsprozess zu beheben. Dieser proaktive Ansatz minimiert das Risiko einer Veröffentlichung suboptimaler Inhalte, erhöht die Site-Qualität und verbessert die digitale Präsenz insgesamt. Die Nutzung von Preflight-Möglichkeiten sorgt für einen reibungsloseren Workflow, reduziert Korrekturen nach der Veröffentlichung und trägt zu besseren Suchmaschinen-Rankings sowie höherer Anwenderzufriedenheit bei.
+[Preflight-Möglichkeiten](../documentation/preflight/overview.md) in AEM Sites Optimizer helfen sicherzustellen, dass Ihre Web-Seiten vor der Live-Schaltung hinsichtlich Leistung, SEO und Anwendererlebnis optimiert werden. Durch die Identifizierung potenzieller Probleme (wie fehlerhafte Links, fehlende Meta-Tags und Probleme mit der Barrierefreiheit) ermöglichen es Preflight-Prüfungen Inhaltsautorinnen und Inhaltsautoren sowie Marketing-Fachleuten, Probleme frühzeitig im Veröffentlichungsprozess zu beheben. Dieser proaktive Ansatz minimiert das Risiko der Veröffentlichung suboptimaler Inhalte, verbessert die Site-Qualität und verbessert die digitale Präsenz insgesamt. Die Verwendung von PreFlight-Opportunities unterstützt einen reibungsloseren Workflow, reduziert Fehlerbehebungen nach der Veröffentlichung und trägt zu einem besseren Suchmaschinenranking und höherer Benutzerzufriedenheit bei.
 
 ## Möglichkeiten
 

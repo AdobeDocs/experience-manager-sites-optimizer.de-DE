@@ -3,23 +3,23 @@ title: Formularoptimierung mit Sites Optimizer
 description: Erfahren Sie mehr über die Formularoptimierung mit Sites Optimizer.
 hide: true
 hidefromtoc: true
-source-git-commit: 954409fb1ad41b016ddc4dd2058e69db98ca6654
-workflow-type: ht
-source-wordcount: '214'
-ht-degree: 100%
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 66%
 
 ---
 
 
 # Möglichkeiten zur Formularoptimierung
 
-<span class="preview"> Die Funktion „Formularoptimierung“ ist im Rahmen des Early-Adopter-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>
+<span class="preview"> Die Forms-Optimierungsfunktion ist im Rahmen eines Early-Access-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>
 
 <!-- [!VIDEO](https://video.tv.adobe.com/v/3469472/) -->
 
 ![Möglichkeiten zur Formularoptimierung](./assets/form-optimization/hero.png){align="center"}
 
-Mit den Möglichkeiten zur Formularoptimierung können Unternehmen die Benutzerinteraktionen systematisch verbessern und die Formularkonversionen steigern. Durch Ermitteln von Problemen wie wenige Ansichten, wenige Konversionen und niedrige Navigationsraten können Teams datengesteuerte Anpassungen an der Formulargestaltung, an der Platzierung und an den Inhalten vornehmen. Diese Optimierungen tragen dazu bei, das Anwendererlebnis zu optimieren, sodass Besuchende Formulare einfacher ausfüllen und gewünschte Ergebnisse erzielen können. Die Nutzung der Erkenntnisse aus der Formularoptimierung unterstützt die fortlaufende Identifizierung und Behebung von Leistungslücken, was zu effektiveren Formularen und verbesserten Geschäftsergebnissen führt.
+Mit den Optimierungsmöglichkeiten von Forms können Unternehmen die Benutzerinteraktionen systematisch verbessern und die Formularkonversionen steigern. Durch die Erkennung von Problemen wie niedrige Ansichten, niedrige Konversionen und niedrige Navigationsraten können Teams datengesteuerte Anpassungen am Formularentwurf, an der Platzierung und an den Inhalten vornehmen. Diese Optimierungen tragen dazu bei, das Anwendererlebnis zu optimieren, sodass Besuchende Formulare einfacher ausfüllen und gewünschte Ergebnisse erzielen können. Die Verwendung der Erkenntnisse aus der Forms-Optimierung unterstützt die fortlaufende Identifizierung und Behebung von Leistungslücken, was zu effektiveren Formularen und verbesserten Geschäftsergebnissen führt.
 
 ## Möglichkeiten
 
@@ -53,8 +53,8 @@ Mit den Möglichkeiten zur Formularoptimierung können Unternehmen die Benutzeri
                     <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit zu wenigen Aufrufen und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="../documentation/opportunities/low-views.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
+                </a>
             </div>
         </div>
     </div>

@@ -4,17 +4,17 @@ description: Erfahren Sie mehr über die Möglichkeit zu wenigen Aufrufen und da
 badgeFormOptimization: label="Formularoptimierung" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Formularoptimierung"
 hide: true
 hidefromtoc: true
-source-git-commit: 954409fb1ad41b016ddc4dd2058e69db98ca6654
-workflow-type: ht
-source-wordcount: '323'
-ht-degree: 100%
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 96%
 
 ---
 
 
 # Möglichkeit „Wenige Formularaufrufe“
 
-<span class="preview"> Die Funktion „Formularoptimierung“ ist im Rahmen des Early-Adopter-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>
+<span class="preview"> Die Forms-Optimierungsfunktion ist im Rahmen eines Early-Access-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>
 
 ![Möglichkeit „Wenig Ansichten“](./assets/low-views/hero.png){align="center"}
 

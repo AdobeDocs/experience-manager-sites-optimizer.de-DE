@@ -1,10 +1,10 @@
 ---
 title: Preflight-Möglichkeiten
-description: Dokumentation zu den Preflight-Möglichkeiten in Sites Optimizer.
-source-git-commit: 6e177ef6b9d121ac7484ae118037c7e542f981d8
-workflow-type: ht
-source-wordcount: '203'
-ht-degree: 100%
+description: Dokumentation zu den Preflight-Opportunities in Sites Optimizer.
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Preflight-Möglichkeiten](./assets/overview/hero.png){align="center"}
 
-Preflight-Möglichkeiten in Sites Optimizer bestehen aus einer Reihe von Auswertungen, die vor der Veröffentlichung der Web-Seite verschiedene Aspekte der Inhalte und Struktur Ihrer Website analysieren. Diese Auswertungen helfen dabei, potenzielle Probleme zu identifizieren und umsetzbare Empfehlungen zur Verbesserung der Gesamtqualität und Leistung Ihrer Site zu geben.
+Sites Optimizer Preflight-Vertriebschancen bestehen aus einer Reihe von Auswertungen, die verschiedene Aspekte des Inhalts und der Struktur Ihrer Website vor der Veröffentlichung der Web-Seite analysieren. Diese Auswertungen helfen dabei, potenzielle Probleme zu identifizieren und umsetzbare Empfehlungen zur Verbesserung der Gesamtqualität und Leistung Ihrer Site zu geben.
 
 ## Preflight-Setup
 

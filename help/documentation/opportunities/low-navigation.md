@@ -4,21 +4,22 @@ description: Erfahren Sie mehr über die Möglichkeit „Wenig Navigation“ und
 badgeFormOptimization: label="Formularoptimierung" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Formularoptimierung"
 hide: true
 hidefromtoc: true
-source-git-commit: 954409fb1ad41b016ddc4dd2058e69db98ca6654
-workflow-type: ht
-source-wordcount: '330'
-ht-degree: 100%
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Möglichkeit „Wenig Formularnavigation“
 
-<span class="preview"> Die Funktion „Formularoptimierung“ ist im Rahmen des Early-Adopter-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>
+<span class="preview"> Die Forms-Optimierungsfunktion ist im Rahmen eines Early-Access-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>
 
 ![Möglichkeit „Wenig Navigation“](./assets/low-navigation/hero.png){align="center"}
 
-Die Möglichkeit „Wenig Navigation“ identifiziert Formulare mit niedrigen Navigationsraten auf Ihrer Website. Mit dieser Möglichkeitsart können Sie nachvollziehen, welche Formulare Benutzende nicht finden oder auf welche sie nicht zugreifen. Sie bietet Vorschläge zur Verbesserung der Auffindbarkeit dieser Formulare.
+Die Möglichkeit „Wenig Navigation“ identifiziert Formulare mit niedrigen Navigationsraten auf Ihrer Website. Dieser Opportunity-Typ identifiziert Formulare, die Benutzende nicht finden oder auf die sie nicht zugreifen, und schlägt Möglichkeiten vor, ihre Auffindbarkeit zu verbessern.
+
 
 ## Automatische Identifizierung
 

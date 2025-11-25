@@ -1,10 +1,10 @@
 ---
 title: Arten von Möglichkeiten in Sites Optimizer
 description: Erfahren Sie mehr über die wichtigsten Arten von Möglichkeiten in Sites Optimizer und wie sie Ihnen dabei helfen können, die Leistung Ihrer Site zu verbessern.
-source-git-commit: 469370cfcb19e25bf8da5f7f9e08b8b0da52dbb9
-workflow-type: ht
-source-wordcount: '343'
-ht-degree: 100%
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 92%
 
 ---
 
@@ -211,4 +211,4 @@ Durch das Nutzen dieser Möglichkeiten können Sie das Anwendererlebnis verbesse
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-<span class="preview"> Die Funktionen „Formularoptimierung“ und „Barrierefreiheit von Formularen“ sind im Rahmen des Early-Access-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>
+<span class="preview"> Die Funktionen Forms-Optimierung und Forms-Barrierefreiheit sind im Early-Access-Programm verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>

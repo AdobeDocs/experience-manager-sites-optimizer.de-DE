@@ -1,10 +1,10 @@
 ---
 title: Dokumentation zu Möglichkeiten in Sites Optimizer
 description: Erfahren Sie mehr über alle verfügbaren Möglichkeiten in Sites Optimizer und darüber, wie Sie sie zur Verbesserung der Leistung Ihrer Site einsetzen können.
-source-git-commit: bac5199a6082a2070080cef9421d39f8b22dc697
-workflow-type: ht
-source-wordcount: '885'
-ht-degree: 100%
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -277,8 +277,8 @@ Erkunden Sie alle in Sites Optimizer verfügbaren Möglichkeiten:
                     <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit zu wenigen Aufrufen und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="./high-bounce-rate.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
+                </a>
             </div>
         </div>
     </div>
@@ -366,7 +366,7 @@ Erkunden Sie alle in Sites Optimizer verfügbaren Möglichkeiten:
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./low-navigation.md" target="_blank" rel="referrer" title="Wenig Formularnavigation">Wenig Formularnavigation</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Wenig Formularnavigation“ und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die geringe Navigationsmöglichkeit und wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="./low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -389,7 +389,7 @@ Erkunden Sie alle in Sites Optimizer verfügbaren Möglichkeiten:
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" title="Probleme mit der Barrierefreiheit von Formularen">Probleme mit der Barrierefreiheit von Formularen</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Probleme mit der Barrierefreiheit von Formularen“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über Barrierefreiheitsprobleme mit Forms und wie Sie damit die Interaktion mit Ihrer Website verbessern können.</p>
                 </div>
                 <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
