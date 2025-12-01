@@ -1,10 +1,10 @@
 ---
 title: Preflight-Setup
 description: Erfahren Sie, wie Sie die Preflight-Erweiterung für AEM Sites Optimizer einrichten.
-source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+source-git-commit: e39930ebe2213dcca17209934173a7b521b34dbc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '573'
+ht-degree: 63%
 
 ---
 
@@ -135,6 +135,31 @@ Um Preflight im Seiteneditor von AEM Sites zu verwenden, können Sie in Ihrem We
 
 1. Nennen Sie das Lesezeichen **Preflight** (oder verwenden Sie einen beliebigen Namen, den Sie bevorzugen).
 1. Öffnen Sie die Vorschau-URL (`*.aem.page`) der Seite, die Sie im **AEM Sites-Seiteneditor überprüfen**.
+1. Klicken Sie in Ihrer Lesezeichenleiste auf das **Preflight**-Lesezeichen, um den Audit für die aktuelle Seite zu starten.
+
+>[!TAB Adobe Managed Services]
+
+>[!IMPORTANT]
+>
+>Es werden nur Adobe Managed Services (AMS)-Umgebungen unterstützt, die Adobe Identity Provider (IMS) für die Authentifizierung auf der AEM-Autoreninstanz verwenden. Preflight funktioniert nicht, wenn Ihr Unternehmen einen anderen Identitätsanbieter für die AMS-Authentifizierung verwendet.
+
+Um Preflight im AEM Sites-Seiteneditor in einer AMS-Umgebung zu verwenden, erstellen Sie eine Lesezeichenliste in Ihrem Webbrowser, indem Sie die folgenden Schritte ausführen:
+
+1. Zeigen Sie Ihre **Lesezeichenleiste** in Ihrem Webbrowser an:
+
+   * Drücken Sie **Strg+Umschalt+B** (Windows) oder **Befehl+Umschalt+B** (Mac).
+
+1. Erstellen Sie ein neues Lesezeichen in Ihrem Browser:
+
+   * Klicken Sie mit der rechten Maustaste auf die Lesezeichenleiste und wählen Sie **Neue Seite** oder **Lesezeichen hinzufügen** aus. 
+   * Fügen Sie im Feld **Adresse (URL)** den folgenden Code ein:
+
+   ```javascript
+   javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=ams';document.head.appendChild(script);})();
+   ```
+
+1. Nennen Sie das Lesezeichen **Preflight** (oder verwenden Sie einen beliebigen Namen, den Sie bevorzugen).
+1. Öffnen Sie die zu prüfende Seite im **AEM Sites-Seiteneditor**.
 1. Klicken Sie in Ihrer Lesezeichenleiste auf das **Preflight**-Lesezeichen, um den Audit für die aktuelle Seite zu starten.
 
 >[!ENDTABS]
