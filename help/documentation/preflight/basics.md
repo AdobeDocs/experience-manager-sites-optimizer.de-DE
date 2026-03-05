@@ -1,9 +1,9 @@
 ---
 title: Grundlagen zu Preflight
 description: Erfahren Sie mehr über die Grundlagen von Preflight und die Verwendung seiner Schnittstelle.
-source-git-commit: b73458e4d575547ccb9220105a5f72090431221c
+source-git-commit: d669706909eeed61c6d0803e2b37df81ece987e1
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ So führen Sie Preflight aus:
 ## Audit-Ergebnisse
 
 Nach Abschluss des Audits zeigt Preflight die gefundenen Opportunitys an. Jede Opportunity ist nach Typ organisiert und enthält Details zur Lösung des Problems.
+
+Am oberen Rand des AEM Preflight-Dialogfelds befindet sich eine Benutzer-Fortschrittsleiste, die die gesamten Auditergebnisse widerspiegelt. Es zeigt den Prozentsatz der Opportunitys an, die ohne Probleme bestanden wurden, und die Gesamtzahl der gefundenen Probleme für alle Opportunitys. Mit der Fortschrittsleiste für Benutzende können Autoren den Gesamtzustand der Seite auf einen Blick erfassen.
 
 ## Über Preflight-Opportunities
 
