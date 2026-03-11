@@ -1,9 +1,9 @@
 ---
 title: Grundlagen zu Preflight
 description: Erfahren Sie mehr über die Grundlagen von Preflight und die Verwendung seiner Schnittstelle.
-source-git-commit: d669706909eeed61c6d0803e2b37df81ece987e1
+source-git-commit: 85b592d5486ed5197d7bd8214c31732465c41f78
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ So führen Sie Preflight aus:
 
 Nach Abschluss des Audits zeigt Preflight die gefundenen Opportunitys an. Jede Opportunity ist nach Typ organisiert und enthält Details zur Lösung des Problems.
 
-Am oberen Rand des AEM Preflight-Dialogfelds befindet sich eine Benutzer-Fortschrittsleiste, die die gesamten Auditergebnisse widerspiegelt. Es zeigt den Prozentsatz der Opportunitys an, die ohne Probleme bestanden wurden, und die Gesamtzahl der gefundenen Probleme für alle Opportunitys. Mit der Fortschrittsleiste für Benutzende können Autoren den Gesamtzustand der Seite auf einen Blick erfassen.
+At the top of the AEM Preflight dialog is a User Progress bar that reflects overall audit results. Es zeigt den Prozentsatz der Opportunitys an, die ohne Probleme bestanden wurden, und die Gesamtzahl der gefundenen Probleme für alle Opportunitys. Mit der Fortschrittsleiste für Benutzende können Autoren den Gesamtzustand der Seite auf einen Blick erfassen. The bar is color-coded -- red for less than one third of opportunities complete, orange for one third to two thirds complete, and green for more than two thirds complete. While audits are still running the progress bar is shown in blue.
 
 ## Über Preflight-Opportunities
 
