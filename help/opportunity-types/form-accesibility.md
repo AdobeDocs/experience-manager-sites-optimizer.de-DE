@@ -3,10 +3,10 @@ title: Formularoptimierung mit Sites Optimizer
 description: Erfahren Sie mehr über die Formularoptimierung mit Sites Optimizer.
 hide: true
 hidefromtoc: true
-source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+source-git-commit: fe5da3da1f08d061829b21f367a1bbc3a9be1714
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '154'
+ht-degree: 60%
 
 ---
 
@@ -22,7 +22,9 @@ Die Möglichkeiten zur Barrierefreiheit von Formularen sind für die Verbesserun
 
 ## Möglichkeiten
 
-<!-- CARDS
+<!--
+CARDS
+
  
 * ../documentation/opportunities/low-views.md
   {title=Low views}
@@ -31,7 +33,7 @@ Die Möglichkeiten zur Barrierefreiheit von Formularen sind für die Verbesserun
   {title=Low conversions}
   {image=../assets/common/card-bag.png}
 
---->
+-->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Forms Accessibility issues">
@@ -52,7 +54,7 @@ Die Möglichkeiten zur Barrierefreiheit von Formularen sind für die Verbesserun
                     <p class="is-size-6">Erfahren Sie mehr über Barrierefreiheitsprobleme bei Formularen und wie Sie sie verwenden können, um die Interaktion mit Formularen auf Ihrer Website zu verbessern.</p>
                 </div>
                 <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
                 </a>
             </div>
         </div>

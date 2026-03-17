@@ -1,9 +1,9 @@
 ---
 title: Optimieren der Interaktion mit Sites Optimizer
 description: Erfahren Sie, wie Sie mit Sites Optimizer die Interaktion verbessern können.
-source-git-commit: b471cb120d456805d5195cd990bdc9b8d3967d15
-workflow-type: ht
-source-wordcount: '285'
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
+workflow-type: tm+mt
+source-wordcount: '286'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,9 @@ OpMöglichkeitenportunitys vom Typ „Interaktion“ in AEM Sites Optimizer sind
 
 ## Möglichkeiten
 
-<!-- CARDS
+<!--
+CARDS
+
 
 * ../documentation/opportunities/accessibility-issues.md
   {title=Accessibility issues}
@@ -148,8 +150,8 @@ OpMöglichkeitenportunitys vom Typ „Interaktion“ in AEM Sites Optimizer sind
                     <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Fehlender Alternativtext“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="../documentation/opportunities/missing-alt-text.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+                </a>
             </div>
         </div>
     </div>

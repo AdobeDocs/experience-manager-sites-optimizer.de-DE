@@ -1,10 +1,10 @@
 ---
 title: Preflight-Möglichkeiten
 description: Dokumentation zu den Preflight-Opportunities in Sites Optimizer.
-source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '203'
+ht-degree: 81%
 
 ---
 
@@ -21,7 +21,9 @@ Führen Sie die Schritte im Handbuch [Preflight-Setup](./setup.md) aus, um die P
 
 ## Preflight-Möglichkeiten
 
-<!-- CARDS
+<!--
+CARDS
+
 * ./accessibility.md
 * ./h1-count.md
 * ./links.md
@@ -140,7 +142,7 @@ Führen Sie die Schritte im Handbuch [Preflight-Setup](./setup.md) aus, um die P
                     <p class="is-size-6">Erfahren Sie mehr über die Preflight-Möglichkeit für Lesbarkeit in Sites Optimizer.</p>
                 </div>
                 <a href="./readability.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
                 </a>
             </div>
         </div>

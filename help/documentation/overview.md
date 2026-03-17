@@ -1,8 +1,8 @@
 ---
 title: Dokumentation zu Sites Optimizer
 description: Dokumentation zu Experience Manager Sites Optimizer.
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
+workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 100%
 
@@ -19,7 +19,8 @@ Willkommen bei der Dokumentation zu Sites Optimizer. Hier finden Sie Information
 
 In der Dokumentation zu AEM Sites Optimizer erfahren Sie mehr über die wichtigsten Komponenten der Benutzeroberfläche, einschließlich des Startseiten-Dashboards, der Einstellungskonfigurationen und der Liste mit Möglichkeiten für Erkenntnisse zur Optimierung.
 
-<!-- CARDS 
+<!--
+CARDS 
 
 * ./basics.md
   {title = Basics}
@@ -68,7 +69,7 @@ In der Dokumentation zu AEM Sites Optimizer erfahren Sie mehr über die wichtigs
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./opportunities/overview.md" target="_blank" rel="referrer" title="Opportunitys">Möglichkeiten</a>
+                        <a href="./opportunities/overview.md" target="_blank" rel="referrer" title="Möglichkeiten">Möglichkeiten</a>
                     </p>
                     <p class="is-size-6">Erfahren Sie mehr über alle verfügbaren Möglichkeiten in Sites Optimizer und darüber, wie Sie sie zur Verbesserung der Leistung Ihrer Site einsetzen können.</p>
                 </div>
@@ -96,8 +97,8 @@ In der Dokumentation zu AEM Sites Optimizer erfahren Sie mehr über die wichtigs
                     <p class="is-size-6">Erfahren Sie, wie Sie die Einstellungen für Sites Optimizer konfigurieren und mit anderen Tools integrieren.</p>
                 </div>
                 <a href="./settings.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+                </a>
             </div>
         </div>
     </div>

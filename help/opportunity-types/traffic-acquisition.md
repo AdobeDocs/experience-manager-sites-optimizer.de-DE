@@ -1,8 +1,8 @@
 ---
 title: Optimieren der Traffic-Akquise mit Sites Optimizer
 description: Erfahren Sie, wie Sie mit Sites Optimizer die Traffic-Akquise steigern können.
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
+source-git-commit: fe5da3da1f08d061829b21f367a1bbc3a9be1714
+workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 100%
 
@@ -17,7 +17,9 @@ Traffic-Akquise leitet potenzielle Kundschaft auf Ihre Website und schafft Vertr
 
 ## Opportunitys
 
-<!-- CARDS
+<!--
+CARDS
+
  
 * ../documentation/opportunities/broken-backlinks.md
   {title=Broken backlinks}
@@ -32,7 +34,7 @@ Traffic-Akquise leitet potenzielle Kundschaft auf Ihre Website und schafft Vertr
   {title=Sitemap issues}
   {image=../assets/common/card-relationship.png}
 
---->
+-->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Broken backlinks">
@@ -122,8 +124,8 @@ Traffic-Akquise leitet potenzielle Kundschaft auf Ihre Website und schafft Vertr
                     <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Sitemap-Probleme“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.</p>
                 </div>
                 <a href="../documentation/opportunities/sitemap-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+                </a>
             </div>
         </div>
     </div>

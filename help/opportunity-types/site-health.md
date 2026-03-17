@@ -1,9 +1,9 @@
 ---
 title: Optimieren des Site-Zustands mit Sites Optimizer
 description: Erfahren Sie, wie Sie mit Sites Optimizer den Zustand Ihrer Site verbessern können.
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '126'
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
+workflow-type: tm+mt
+source-wordcount: '130'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,9 @@ Ein konstant guter Site-Zustand in AEM Sites Optimizer ist für die Bereitstellu
 
 ## Opportunitys
 
-<!-- CARDS
+<!--
+CARDS
+
 
 * ../documentation/opportunities/core-web-vitals.md
   {title=Core web vitals}
@@ -44,7 +46,7 @@ Ein konstant guter Site-Zustand in AEM Sites Optimizer ist für die Bereitstellu
                     <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Core Web Vitals“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.</p>
                 </div>
                 <a href="../documentation/opportunities/core-web-vitals.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
                 </a>
             </div>
         </div>

@@ -1,10 +1,10 @@
 ---
 title: Dokumentation zu Möglichkeiten in Sites Optimizer
 description: Erfahren Sie mehr über alle verfügbaren Möglichkeiten in Sites Optimizer und darüber, wie Sie sie zur Verbesserung der Leistung Ihrer Site einsetzen können.
-source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '891'
+ht-degree: 96%
 
 ---
 
@@ -64,14 +64,14 @@ Die Zusammenfassungsinformationen für jede Möglichkeit variieren je nach Typ u
 
 Klicken Sie zum Anzeigen der Details einer Möglichkeit auf die Schaltfläche **Details**.
 
-Um eine Möglichkeit aus dem Dashboard in Sites Optimizer auszuschließen, klicken Sie auf die Schaltfläche **Ignorieren**.  Diese Aktion verschiebt die Möglichkeit auf die Registerkarte[&#128279;](#opportunity-status) **Ignoriert**.
+Um eine Möglichkeit aus dem Dashboard in Sites Optimizer auszuschließen, klicken Sie auf die Schaltfläche **Ignorieren**.  Diese Aktion verschiebt die Möglichkeit auf die Registerkarte](#opportunity-status) [**Ignoriert**.
 
 ## Alle Möglichkeiten
 
 Erkunden Sie alle in Sites Optimizer verfügbaren Möglichkeiten:
 
-<!-- CARDS
-
+<!--
+CARDS
 * ./accessibility-issues.md
   {title=Accessibility issues}
   {image=../../assets/common/card-arrows.png} 
@@ -117,8 +117,8 @@ Erkunden Sie alle in Sites Optimizer verfügbaren Möglichkeiten:
 * ./website-vulnerabilities.md
   {title=Website vulnerabilities}
   {image=../../assets/common/card-puzzle.png}
-  
---->
+-->
+
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Accessibility issues">
@@ -277,8 +277,8 @@ Erkunden Sie alle in Sites Optimizer verfügbaren Möglichkeiten:
                     <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit zu wenigen Aufrufen und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="./high-bounce-rate.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>
@@ -507,8 +507,8 @@ Erkunden Sie alle in Sites Optimizer verfügbaren Möglichkeiten:
                     <p class="is-size-6">Erfahren Sie mehr über die Opportunity „Website-Schwachstellen“ und finden Sie heraus, wie Sie damit die Sicherheit auf Ihrer Website erhöhen können.</p>
                 </div>
                 <a href="./website-vulnerabilities.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+                </a>
             </div>
         </div>
     </div>

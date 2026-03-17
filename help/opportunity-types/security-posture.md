@@ -1,9 +1,9 @@
 ---
 title: Optimieren des Sicherheitsstatus mit Sites Optimizer
 description: Erfahren Sie, wie Sie die Sicherheit Ihrer Site mit Sites Optimizer verbessern können.
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '212'
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
+workflow-type: tm+mt
+source-wordcount: '220'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,9 @@ Ein solider Sicherheitsstatus in AEM Sites Optimizer ist für den Schutz digital
 ## Opportunitys
 
 
-<!-- CARDS
+<!--
+CARDS
+
 
 * ../documentation/opportunities/cors-configuration.md
   {title=CORS configuration}
@@ -123,8 +125,8 @@ Ein solider Sicherheitsstatus in AEM Sites Optimizer ist für den Schutz digital
                     <p class="is-size-6">Erfahren Sie mehr über die Opportunity „Website-Schwachstellen“ und finden Sie heraus, wie Sie damit die Sicherheit auf Ihrer Website erhöhen können.</p>
                 </div>
                 <a href="../documentation/opportunities//website-vulnerabilities.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+                </a>
             </div>
         </div>
     </div>

@@ -1,10 +1,10 @@
 ---
 title: Preflight-Optimierungen mit AEM Sites Optimizer
 description: Erfahren Sie mehr über Preflight-Möglichkeiten mit AEM Sites Optimizer.
-source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '191'
+ht-degree: 79%
 
 ---
 
@@ -17,7 +17,9 @@ ht-degree: 0%
 
 ## Möglichkeiten
 
-<!-- CARDS
+<!--
+CARDS
+
 
 * ../documentation/preflight/accessibility.md
   {title=Accessibility}
@@ -51,7 +53,7 @@ ht-degree: 0%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/preflight/accessibility.md" target="_blank" rel="referrer" title="Barrierefreiheit">Barrierefreiheit</a>
+                        <a href="../documentation/preflight/accessibility.md" target="_blank" rel="referrer" title="Erreichbarkeit">Barrierefreiheit</a>
                     </p>
                     <p class="is-size-6">Erfahren Sie mehr über die Preflight-Möglichkeit für Barrierefreiheit in Sites Optimizer.</p>
                 </div>
@@ -148,7 +150,7 @@ ht-degree: 0%
                     <p class="is-size-6">Erfahren Sie mehr über die Preflight-Möglichkeit für Lesbarkeit in Sites Optimizer.</p>
                 </div>
                 <a href="../documentation/preflight/readability.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
                 </a>
             </div>
         </div>
