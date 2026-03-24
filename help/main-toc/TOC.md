@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Dies ist eine Beschreibung für das Benutzerhandbuch, die auf der Landingpage angezeigt wird.
-source-git-commit: b73458e4d575547ccb9220105a5f72090431221c
+source-git-commit: d0fda0afad66289298e79edd1f84be251433a9f1
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 98%
+source-wordcount: '123'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 98%
    + [Sicherheitsstatus](/help/opportunity-types/security-posture.md)
    + [Formularoptimierung](/help/opportunity-types/form-optimization.md)
    + [Barrierefreiheit von Formularen](/help/opportunity-types/form-accesibility.md)
-   + [Preflight](/help/opportunity-types/preflight.md)
 + Dokumentation{#documentation}
    + [Überblick](/help/documentation/overview.md)
    + [Grundlagen](/help/documentation/basics.md)
@@ -47,13 +46,16 @@ ht-degree: 98%
       + [Sitemap-Probleme](/help/documentation/opportunities/sitemap-issues.md)
       + [Website-Berechtigungen](/help/documentation/opportunities/website-permissions.md)
       + [Website-Schwachstellen](/help/documentation/opportunities/website-vulnerabilities.md)
-   + Preflight-Möglichkeiten{#preflight-opportunities}
+   + Preflight{#preflight}
       + [Überblick](/help/documentation/preflight/overview.md)
-      + [Grundlagen](/help/documentation/preflight/basics.md)
       + [Einrichtung](/help/documentation/preflight/setup.md)
-      + [Barrierefreiheit](/help/documentation/preflight/accessibility.md)
-      + [H1-Anzahl](/help/documentation/preflight/h1-count.md)
-      + [Links](/help/documentation/preflight/links.md)
-      + [Metadaten](/help/documentation/preflight/meta-data.md)
-      + [Lesbarkeit](/help/documentation/preflight/readability.md)
+      + [Zugriff auf Preflight](/help/documentation/preflight/access-preflight.md)
+      + [Audits](/help/documentation/preflight/audits.md)
+      + [Audit-Ergebnisse](/help/documentation/preflight/audit-results.md)
+      + Möglichkeiten{#preflight-opportunities}
+         + [Barrierefreiheit](/help/documentation/preflight/opportunities/accessibility.md)
+         + [H1-Anzahl](/help/documentation/preflight/opportunities/h1-count.md)
+         + [Links](/help/documentation/preflight/opportunities/links.md)
+         + [Metadaten](/help/documentation/preflight/opportunities/meta-data.md)
+         + [Lesbarkeit](/help/documentation/preflight/opportunities/readability.md)
    + [Einstellungen](/help/documentation/settings.md)
