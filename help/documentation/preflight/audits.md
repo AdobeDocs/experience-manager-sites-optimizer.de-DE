@@ -13,6 +13,6 @@ ht-degree: 0%
 
 PreFlight prüft Ihre Seite, um Möglichkeiten zur Verbesserung Ihres Inhalts vor der Veröffentlichung zu ermitteln. So führen Sie Preflight-Prüfungen für eine Seite aus:
 
-1. Öffnen Sie die Seite, die Sie in Ihrer [Autorenumgebung) ](./access-preflight.md) möchten (universeller Editor, dokumentbasierte Bearbeitung oder AEM Sites-Seiteneditor).
+1. Öffnen Sie die Seite, die Sie in Ihrer [Autorenumgebung) &#x200B;](./access-preflight.md) möchten (universeller Editor, dokumentbasierte Bearbeitung oder AEM Sites-Seiteneditor).
 1. Öffnen Sie das [Preflight-Bedienfeld](./access-preflight.md).
 1. Preflight führt automatisch alle Prüfungen auf der im Editor geöffneten Seite durch und zeigt alle gefundenen Gelegenheiten an.

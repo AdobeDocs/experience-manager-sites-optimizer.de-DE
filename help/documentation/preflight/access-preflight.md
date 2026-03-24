@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Zugriff auf Preflight
 
-Preflight ist in den Authoring-Umgebungen von AEM Sites verfügbar, einschließlich des universellen Editors, der dokumentbasierten Erstellung und des AEM Sites-Seiteneditors. Preflight-Öffnungen sind ein Bedienfeld auf der Seite, die Sie bearbeiten, und [führt ](./audits.md) Prüfungen) auf dieser Seite aus und zeigt [alle Möglichkeiten an](./audit-results.md) die die Seite vor der Veröffentlichung verbessern.
+Preflight ist in den Authoring-Umgebungen von AEM Sites verfügbar, einschließlich des universellen Editors, der dokumentbasierten Erstellung und des AEM Sites-Seiteneditors. Preflight-Öffnungen sind ein Bedienfeld auf der Seite, die Sie bearbeiten, und [führt &#x200B;](./audits.md) Prüfungen) auf dieser Seite aus und zeigt [alle Möglichkeiten an](./audit-results.md) die die Seite vor der Veröffentlichung verbessern.
 
 * **Universeller Editor** - Die Preflight-Erweiterung wird in der **Seitenleiste** angezeigt. Wählen Sie diese Option aus, um eine Prüfung der aktuellen Seite zu starten.
 * **Dokumentenbasiertes Authoring** - Führen Sie über die Sidekick oder die Lesezeichenliste das Preflight-Tool für den Inhalt der Vorschau-Seite aus, um die Liste der Opportunitys anzuzeigen.
