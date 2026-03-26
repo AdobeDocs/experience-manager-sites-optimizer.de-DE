@@ -1,10 +1,17 @@
 ---
-source-git-commit: 28b80c19ebfeb6bc5df06b137c9393a7760a178c
+source-git-commit: 26f63911540206e1704a9989267d9981fa10a22f
 workflow-type: tm+mt
-source-wordcount: '7'
-ht-degree: 0%
+source-wordcount: '85'
+ht-degree: 4%
 
 ---
-# ARCHIVIERT
+# Dokumentation zu AEM Sites Optimizer
 
-Dieses Repository wurde nach <https://github.com/Adobe-Enterprise-Docs/experience-manager-sites-optimizer.de-DE> migriert
+Dieses Repository ist für die Dokumentation zu AEM Sites Optimizer vorgesehen. Die Dokumentation behandelt die Installation, Verwaltung, Bearbeitung, Verwendung und Anpassung von AEM Sites Optimizer.
+
+Ihre Beiträge zur Dokumentation sind willkommen. Sehen Sie sich die folgenden Ressourcen an:
+
+* [contributor.md](contributing.md) Einen Überblick darüber, wie Sie zur Dokumentation beitragen können.
+* [guidelines.md](guidelines.md) Einen Überblick darüber, was an Beiträgen erwartet wird und wie Sie Ihre Dokumentationsbeiträge zusammenstellen.
+* [code-of-conduct.md](code-of-conduct.md) Für einen Überblick über die Verhaltensstandards, die Adobe erwartet, wenn Sie an diesem Dokumentationsprojekt mitwirken.
+
