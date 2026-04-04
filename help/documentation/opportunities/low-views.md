@@ -3,10 +3,9 @@ title: Dokumentation zur Möglichkeit „Wenige Aufrufe“
 description: Erfahren Sie mehr über die Möglichkeit zu wenigen Aufrufen und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.
 badgeFormOptimization: label="Formularoptimierung" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Formularoptimierung"
 hide: true
-hidefromtoc: true
-source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+source-git-commit: c05518af996465226105421a8ea8dc3aaf04b8e3
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '332'
 ht-degree: 96%
 
 ---

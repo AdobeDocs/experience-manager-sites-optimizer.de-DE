@@ -2,11 +2,10 @@
 title: Formularoptimierung mit Sites Optimizer
 description: Erfahren Sie mehr über die Formularoptimierung mit Sites Optimizer.
 hide: true
-hidefromtoc: true
-source-git-commit: fe5da3da1f08d061829b21f367a1bbc3a9be1714
+source-git-commit: c05518af996465226105421a8ea8dc3aaf04b8e3
 workflow-type: tm+mt
 source-wordcount: '154'
-ht-degree: 60%
+ht-degree: 59%
 
 ---
 
@@ -54,7 +53,7 @@ CARDS
                     <p class="is-size-6">Erfahren Sie mehr über Barrierefreiheitsprobleme bei Formularen und wie Sie sie verwenden können, um die Interaktion mit Formularen auf Ihrer Website zu verbessern.</p>
                 </div>
                 <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
                 </a>
             </div>
         </div>
