@@ -3,11 +3,10 @@ title: Dokumentation zur Möglichkeit „Probleme mit der Barrierefreiheit von F
 description: Erfahren Sie mehr über die Möglichkeit „Probleme mit der Barrierefreiheit von Formularen“ und darüber, wie Sie sie zur Verbesserung der Barrierefreiheit von Formularen und des Anwendererlebnisses auf Ihrer Website verwenden können.
 badgeFormOptimization: label="Formularoptimierung" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Formularoptimierung"
 hide: true
-hidefromtoc: true
-source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+source-git-commit: c05518af996465226105421a8ea8dc3aaf04b8e3
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 63%
+source-wordcount: '311'
+ht-degree: 65%
 
 ---
 
