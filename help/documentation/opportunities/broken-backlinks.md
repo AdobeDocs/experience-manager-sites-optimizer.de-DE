@@ -2,10 +2,10 @@
 title: Dokumentation zur Möglichkeit „Fehlerhafte Backlinks“
 description: Erfahren Sie mehr über die Möglichkeit „Fehlerhafte Backlinks“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.
 badgeTrafficAcquisition: label="Traffic-Akquise" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Traffic-Akquise"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '547'
-ht-degree: 100%
+source-git-commit: 42f67f8ca52aa8e17ab780702023c0987e457f76
+workflow-type: tm+mt
+source-wordcount: '684'
+ht-degree: 33%
 
 ---
 
@@ -14,29 +14,31 @@ ht-degree: 100%
 
 ![Möglichkeit „Fehlerhafte Backlinks“](./assets/broken-backlinks/hero.png){align="center"}
 
-Die Möglichkeit „Fehlerhafte Backlinks“ identifiziert Links auf anderen Websites zu Ihrer Site, die zu einem 404-Fehler führen. Da Suchmaschinen Backlinks zur Bestimmung der Suchrelevanz verwenden, können fehlerhafte Links die SEO und Auffindbarkeit Ihrer Site negativ beeinflussen. Diese Probleme können durch Faktoren wie Änderungen der URL oder das Entfernen der verlinkten Seite verursacht werden.
-
-Die Möglichkeit „Fehlerhafte Backlinks“ zeigt oben auf der Seite eine Übersicht an, die eine Zusammenfassung des Problems und dessen Auswirkungen auf Ihre Site und Ihr Geschäft enthält.
-
-* **Prognostizierter Traffic-Verlust**: Der geschätzte Traffic-Verlust aufgrund von fehlerhaften Backlinks.
-* **Prognostizierter Traffic-Wert**: Der geschätzte Wert des verlorenen Traffics.
+Die defekte Backlinks-Opportunity identifiziert externe Links, die auf nicht vorhandene (404) Seiten Ihrer Site verweisen. Diese Links führen zu Referral Traffic-Verlusten und geringerem SEO-Wert, da Suchmaschinen auf Backlinks angewiesen sind, um Relevanz und Autorität zu bewerten. Diese Probleme treten auf, wenn URLs geändert, Inhalte entfernt oder Seiten ohne ordnungsgemäße Weiterleitungen nicht mehr verfügbar sind. AEM Sites Optimizer identifiziert alle fehlerhaften Backlinks, bietet spezifische KI-Empfehlungen und ermöglicht eine Bereitstellung mit einem Klick, um sie zu beheben, und das alles in einer zentralen Ansicht.
 
 ## Automatische Identifizierung
 
 ![Automatisches Identifizieren fehlerhafter Backlinks](./assets/broken-backlinks/auto-identify.png){align="center"}
 
-Die Möglichkeit „Fehlerhafte Backlinks“ führt alle fehlerhaften Backlinks auf Ihrer Site auf, einschließlich:
+AEM Sites Optimizer durchsucht kontinuierlich externe Datenquellen, um Backlinks zu erkennen, die auf nicht vorhandene 404-Seiten auf Ihrer Site verweisen. Die Daten werden aus verschiedenen Quellen aggregiert, einschließlich Google Search Console[ „Operational Telemetry](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) und SEO-Plattformen von Drittanbietern. Die Opportunity zur automatischen Identifizierung identifiziert externe Domains, die mit fehlerhaften URLs verknüpft sind, und priorisiert sie basierend auf den Auswirkungen, einschließlich Domain-Autorität und erwartetem Traffic sowie Verlusten bei der Link-Gerechtigkeit.
 
-* **Referrer-Seite**: Die Website-Domain, die den fehlerhaften Link enthält.
-* **Priorität**: Hoch, Mittel oder Niedrig. Gibt die Auswirkungen des fehlerhaften Links auf die SEO auf der Grundlage von TODO an.
-* **Fehlerhafte Ziel-URL**: Die nicht vorhandene URL auf Ihrer Site, auf die verlinkt wird.
+Bei dieser Opportunity werden alle identifizierten Probleme aufgelistet, einschließlich der folgenden Details:
+
+* **Verweisende Domain und**: Die externe Seite oder Domain, die den fehlerhaften Link enthält.
+* **Priorität** - Hoch, Mittel oder Niedrig, was die Auswirkungen des fehlerhaften Links auf den SEO-Prozess angibt.
+* **Beschädigte Ziel-URL** - Die nicht vorhandene URL auf Ihrer Site, mit der verknüpft wird.
 
 ## Automatische Vorschläge
 
 ![Automatische Vorschläge für fehlerhafte Backlinks](./assets/broken-backlinks/auto-suggest.png){align="center"}
 
-Die Möglichkeit „Fehlerhafte Backlinks“ bietet außerdem KI-generierte Vorschläge dazu, zu welcher Seite auf ihrer Website die fehlerhafte URL umleiten soll. Die Vorschläge basieren auf dem Text, der die fehlerhafte URL enthält, und dem Inhalt der vorgeschlagenen Seite.
+Für jeden identifizierten fehlerhaften Backlink empfiehlt AEM Sites Optimizer das am besten geeignete Ziel, um den Traffic und den SEO-Wert wiederherzustellen. Sie ermittelt die Absicht des Backlinks durch Analyse von:
 
+* URL-Struktur und Token
+* Ankertext
+* Titel und Kontext der verweisenden Seite
+
+Dieser Intent wird mit vorhandenem Site-Inhalt abgeglichen, um die relevanteste Zielseite zu identifizieren. Jede fehlerhafte URL wird entweder einer exakten oder der nächstgelegenen relevanten Ersatzseite zugeordnet. Wenn kein geeignetes Ziel ermittelt werden kann, wird das Problem zur manuellen Überprüfung angezeigt.
 
 >[!BEGINTABS]
 
@@ -56,7 +58,7 @@ Wenn Sie mit dem KI-generierten Vorschlag nicht einverstanden sind, können Sie 
 
 ![Ignorieren fehlerhafter Backlinks](./assets/broken-backlinks/ignore.png){align="center"}
 
-Sie können sich entscheiden, Einträge mit der fehlerhaften Ziel-URL zu ignorieren. Durch Auswählen von ![Symbol „Löschen“ oder „Ignorieren“](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) wird der fehlerhafte Backlink aus der Liste der Möglichkeiten entfernt. Ignorierte fehlerhafte Backlinks können über die Registerkarte **Ignoriert** oben auf der Seite der Möglichkeiten erneut aktiviert werden.
+Sie können Einträge mit den anvisierten fehlerhaften URLs ignorieren. Durch Auswählen von ![Symbol „Löschen“ oder „Ignorieren“](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) wird der fehlerhafte Backlink aus der Liste der Möglichkeiten entfernt. Ignorierte fehlerhafte Backlinks können über die Registerkarte **Ignoriert** oben auf der Seite der Möglichkeiten erneut aktiviert werden.
 
 >[!ENDTABS]
 
@@ -64,22 +66,12 @@ Sie können sich entscheiden, Einträge mit der fehlerhaften Ziel-URL zu ignorie
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Automatisches Optimieren fehlerhafter Backlinks](./assets/broken-backlinks/auto-optimize.png){align="center"}
+Sobald die Vorschläge geprüft und genehmigt wurden, können Sie auf **Optimierung bereitstellen** klicken. AEM Sites Optimizer wendet die Korrekturen dann in der Autorenumgebung an, je nachdem, wie Weiterleitungen innerhalb Ihrer Implementierung verwaltet werden. Der AEM-Autor kann dann die Änderungen über das Content Management System (CMS) veröffentlichen.
 
-Sites Optimizer Ultimate bietet jetzt die Möglichkeit, automatische Optimierungen von fehlerhaften Backlinks bereitzustellen. Durch das Auswählen der Schaltfläche **Automatisch optimieren** werden die Umleitungsregeln der AEM-Site automatisch aktualisiert, um die **fehlerhafte Ziel-URL** der **vorgeschlagenen URL** zuzuordnen. Dadurch wird sichergestellt, dass Besucherinnen und Besucher der Website und Suchbots, die den fehlerhaften Links auf den **Referrer-Seiten** folgen, auf Ihrer Site zur richtigen Seite weitergeleitet werden, was die SEO und das Anwendererlebnis verbessert.
+Abhängig von der Konfiguration werden Fehlerbehebungen entweder als Inhalts- oder als Code-Änderungen innerhalb der vorhandenen Bereitstellungs-Workflows angewendet. Der Optimierungsprozess umfasst die folgenden Schritte:
 
->[!BEGINTABS]
+* **Validierung** - Stellt sicher, dass die Änderungen erwartungsgemäß funktionieren und führt vor der Bereitstellung keine Regressionen ein.
+* **Bereitstellung**: Wendet Änderungen über bestehende Prozesse an, z. B. Inhaltsaktualisierungen in AEM oder Code-Bereitstellung über CI/CD-Pipelines.
+* **Berechtigungsprüfung** - Prüft, ob der Benutzer über die erforderlichen Berechtigungen zum Bereitstellen von Änderungen verfügt. Andernfalls werden alternative Ausgaben wie herunterladbare Umleitungslisten oder Code-Patches bereitgestellt.
 
->[!TAB Optimierung bereitstellen]
-
-![Bereitstellen der Optimierung fehlerhafter Backlinks](./assets/broken-backlinks/deploy-optimization.png){align="center"}
-
-Durch Auswählen der Schaltfläche **Optimierung bereitstellen** werden die Umleitungsregeln der AEM-Site automatisch aktualisiert und die **fehlerhafte Ziel-URL** wird der **vorgeschlagenen URL** zugeordnet. Dadurch wird sichergestellt, dass Besucherinnen und Besucher der Website sowie Suchbots, die den fehlerhaften Links auf den **Referrer-Seiten** folgen, auf Ihrer Site zur richtigen Seite weitergeleitet werden, was die SEO und das Anwendererlebnis verbessert.
-
->[!TAB Genehmigung anfordern]
-
-![Anfordern der Genehmigung bei fehlerhaften Backlinks](./assets/broken-backlinks/request-approval.png){align="center"}
-
-{{auto-optimize-request-approval}}
-
->[!ENDTABS]
+Dieser Prozess stellt sicher, dass Weiterleitungen genau implementiert, vor der Veröffentlichung validiert und mit bestehenden Konfigurationen und Governance-Prozessen abgestimmt werden.

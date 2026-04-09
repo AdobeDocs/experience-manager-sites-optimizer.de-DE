@@ -2,10 +2,10 @@
 title: Dokumentation zu fehlendem Alternativtext
 description: Erfahren Sie mehr über die Möglichkeit „Fehlender Alternativtext“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: 42f67f8ca52aa8e17ab780702023c0987e457f76
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 36%
 
 ---
 
@@ -14,30 +14,24 @@ ht-degree: 100%
 
 ![Möglichkeit „Fehlender Alternativtext“](./assets/missing-alt-text/hero.png){align="center"}
 
-Die Möglichkeit „Fehlender Alternativtext“ identifiziert Bilder ohne beschreibenden Alternativtext auf Ihrer Website. Suchmaschinen können Bilder ohne Alternativtext nicht richtig indizieren oder verstehen. Das reduziert die Auffindbarkeit und das Such-Ranking Ihrer Inhalte erheblich, wodurch Sie letztendlich Ihre Zielgruppe schlechter erreichen. Darüber hinaus werden Personen mit Sehbehinderungen, die sich auf Bildschirmlesehilfen verlassen, um Web-Inhalte zu verstehen, durch fehlenden Alternativtext bei Bildern ausgeschlossen, wodurch effektiv Barrieren für den Zugriff auf Informationen geschaffen werden.
-
-Die Möglichkeit „Fehlender Alternativtext“ zeigt oben auf der Seite eine Übersicht an, die eine Zusammenfassung des Problems und dessen Auswirkungen auf Ihre Site und Ihr Geschäft enthält.
-
-* **Prognostizierter Traffic-Verlust**: Der geschätzte Traffic-Verlust aufgrund von fehlendem Alternativtext.
-* **Prognostizierter Traffic-Wert**: Der geschätzte Wert des verlorenen Traffics.
-
-Es gibt außerdem ein zusätzliches Feld, das die Gründe, Erkenntnisse und Vorschläge im Zusammenhang mit der Möglichkeit anzeigt.
+Die fehlende Alternativtext-Opportunity identifiziert Bilder auf Ihrer Website, die keinen beschreibenden Alternativtext haben. Ohne Alternativtext können Benutzende, die auf Bildschirmlesehilfen angewiesen sind, visuelle Inhalte nicht interpretieren und schaffen somit Barrierefreiheitsbarrieren. Darüber hinaus wird die Art und Weise, wie Suchmaschinen Bilder verstehen und indizieren, eingeschränkt, was die Auffindbarkeit von Inhalten und die Suchleistung verringert. AEM Sites Optimizer erkennt Probleme mit fehlendem ALT-Text, bietet spezifische KI-Empfehlungen und ermöglicht eine Bereitstellung mit einem Klick, um sie zu beheben, und das alles in einer zentralen Ansicht.
 
 ## Automatische Identifizierung
 
 ![Automatisches Identifizieren von fehlendem Alternativtext](./assets/missing-alt-text/auto-identify.png){align="center"}
 
-Die Möglichkeit „Fehlender Alternativtext“ führt alle Bilder auf Ihrer Website auf, bei denen der Alternativtext fehlt. Dieser Abschnitt enthält die folgenden Kategorien:
+AEM Sites Optimizer scannt Ihre Website mithilfe eines mehrstufigen Audits, bei dem Website-crawlen, echte Benutzer-Traffic-Daten und KI-Analysen kombiniert werden, um Bilder zu identifizieren, für die Alt-Text erforderlich ist, aber nicht definiert wurde. Außerdem werden Bilder auf der Seite ausgewertet, um zu ermitteln, ob alternativer Text erforderlich ist. Ausgenommen sind dekorative oder nicht-informative Bilder gemäß den Web Content Accessibility Guidelines (WCAG). Bilder werden anhand ihrer Rolle und Relevanz innerhalb der Seite analysiert, wobei Korrekturen mit den höchsten Prioritäten für Barrierefreiheit und SEO-Optimierung ausgewählt werden.
+
+Diese Gelegenheit bietet eine Liste der identifizierten Probleme, einschließlich:
 
 * **Seite**: Der Pfad zu der Seite mit dem fehlenden Alternativtext.
 * **Bild**: Das Bild, bei dem der beschreibende Alternativtext fehlt.
-* **Vorschlag**: Ein KI-generierter Vorschlag für den Alternativtext. 
 
 ## Automatische Vorschläge
 
 ![Automatische Vorschläge für fehlenden Alternativtext](./assets/missing-alt-text/auto-suggest.png){align="center"}
 
-Das automatische Vorschlagen bietet KI-generierte Vorschläge für den Alternativtext von Bildern. Die KI-generierten Vorschläge helfen Ihnen dabei, schnell Alternativtext zu Bildern hinzuzufügen, ohne jedes Bild manuell analysieren zu müssen.
+Für jedes identifizierte Problem schlägt AEM Sites Optimizer einen beschreibenden Alternativtext für das Bild vor. Es verwendet KI-Vision-Modelle, um das Bild zu analysieren und eine Beschreibung zu generieren, die seinen Inhalt und seine Rolle innerhalb der Seite widerspiegelt. Die Empfehlungen sind kurz gefasst, relevant und auf die Best Practices zur Barrierefreiheit abgestimmt. Jeder Vorschlag kann vor seiner Anwendung überprüft und bearbeitet werden.
 
 >[!BEGINTABS]
 
@@ -63,16 +57,18 @@ Sie können Einträge aus der Liste der Möglichkeiten ignorieren. Durch Auswäh
 
 ![Automatisches Optimieren von fehlendem Alternativtext](./assets/missing-alt-text/auto-optimize.png){align="center"}
 
-Sites Optimizer Ultimate ermöglicht es, eine automatische Optimierung für die von der Möglichkeit „Fehlender Alternativtext“ gefundenen Probleme bereitzustellen.<!--- TBD-need more in-depth and opportunity specific information here. What does the auto-optimization do?-->
+Sobald die Vorschläge geprüft und genehmigt wurden, können Sie auf **Optimierung bereitstellen** klicken. AEM Sites Optimizer wendet die Fehlerbehebungen dann in der Autorenumgebung an, je nachdem, wie ALT-Text in Ihrer Implementierung verwaltet wird. Der AEM-Autor kann dann die Änderungen über das Content Management System (CMS) veröffentlichen.
 
->[!BEGINTABS]
+Abhängig von der Konfiguration können Aktualisierungen direkt auf Seiteninhalte, Asset-Metadaten oder unterstützende Inhaltsmodelle angewendet werden. Der Optimierungsprozess umfasst die folgenden Schritte:
 
->[!TAB Optimierung bereitstellen]
+* **Validierung** - Stellt sicher, dass Aktualisierungen sicher angewendet werden, ohne die vorhandene Funktionalität zu beeinträchtigen.
+* **Bereitstellung** - Wendet die Aktualisierungen über vorhandene Prozesse an, z. B. Inhaltsaktualisierungen in AEM oder die Integration in Inhalts-APIs.
+* **Berechtigungsprüfung** - Prüft, ob der Benutzer über die entsprechenden Berechtigungen zum Anwenden von Änderungen verfügt. Andernfalls können alternative Ausgaben wie herunterladbare Updates für die Übergabe verwendet werden.
 
-{{auto-optimize-deploy-optimization-slack}}
+Aktualisierungen werden versioniert, wo unterstützt, und bieten Sichtbarkeit und Rollback-Kapazität. Dadurch wird sichergestellt, dass ALT-Text-Aktualisierungen korrekt angewendet werden, mit bestehenden Implementierungen abgestimmt sind und mit Governance- und Barrierefreiheitsstandards konsistent sind.
 
->[!TAB Genehmigung anfordern]
+AEM Sites Optimizer wendet basierend auf Ihrer Einrichtung automatisch ALT-Text-Aktualisierungen an:
 
-{{auto-optimize-request-approval}}
-
->[!ENDTABS]
+* **Edge Delivery Services** - Aktualisiert das Quelldokument (z. B. Google Docs oder SharePoint).
+* **AEM as a Cloud Service** - Schreibt Aktualisierungen direkt über die Inhalts-API mit Versionierungs- und Fallback-Unterstützung.
+* **Digital Asset Management (optional)** - Aktualisiert gegebenenfalls Alt-Text auf Asset-Ebene.
