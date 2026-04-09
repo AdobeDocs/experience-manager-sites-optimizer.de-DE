@@ -2,10 +2,10 @@
 title: Dokumentation zur Möglichkeit „Core Web Vitals“
 description: Erfahren Sie mehr über die Möglichkeit „Core Web Vital“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.
 badgeSiteHealth: label="Site-Zustand" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Site-Zustand"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '376'
-ht-degree: 100%
+source-git-commit: 42f67f8ca52aa8e17ab780702023c0987e457f76
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 10%
 
 ---
 
@@ -14,37 +14,25 @@ ht-degree: 100%
 
 ![Möglichkeit „Core Web Vitals“](./assets/core-web-vitals/hero.png){align="center"}
 
-Die Möglichkeit „Core Web Vitals“ identifiziert Probleme, die das Anwendererlebnis Ihrer Web-Seiten und ihre Leistung bei der organischen Suche beeinträchtigen können. Diese Probleme ergeben sich aus einer Vielzahl von Faktoren, z. B. benutzerdefinierte Schriftarten, nicht optimierte JavaScript-Abhängigkeiten, Skripte von Drittanbietern usw. Die Möglichkeit „Core Web Vitals“ zeigt diese fehlerhaften Elemente auf und schlägt Fehlerbehebungen vor, die die Leistung Ihrer Web-Seite erhöhen können. Beachten Sie, dass nur Seiten mit mindestens 1000 Seitenansichten analysiert werden können.
+Die Core Web Vitals-Opportunity identifiziert Seiten auf Ihrer Website, deren Leistung das Benutzererlebnis und die organische Suchleistung unterschreitet. Diese Probleme können durch Faktoren wie benutzerdefinierte Schriftarten, nicht optimierte JavaScript-Abhängigkeiten und Drittanbieterskripte verursacht werden. Core Web Vitals misst, wie schnell Inhalte geladen werden, wie stabil das Seiten-Layout ist und wie responsiv die Seite auf Benutzerinteraktionen reagiert.
 
-Zunächst zeigt die Möglichkeit Core Web Vitals oben auf der Seite eine Übersicht an, die eine Zusammenfassung des Problems und dessen Auswirkungen auf Ihre Site und Ihr Geschäft enthält.
-
-* **Prognostizierter Traffic-Verlust**: Der geschätzte Traffic-Verlust aufgrund von Core Web Vitals unterhalb der Leistungsschwellenwerte.
-* **Prognostizierter Traffic-Wert**: Der geschätzte Wert des verlorenen Traffics.
+AEM Sites Optimizer erkennt von diesen Problemen betroffene Seiten, stellt spezifische KI-Empfehlungen auf Code-Ebene bereit und wendet Fehlerbehebungen über Ihre bestehenden Entwicklungs-Workflows an. Beachten Sie, dass nur Seiten mit mindestens 1000 Seitenansichten analysiert werden können.
 
 ## Automatische Identifizierung
 
 ![Automatisches Identifizieren von Core Web Vitals](./assets/core-web-vitals/auto-identify.png){align="center"}
 
-Im unteren Teil der Seite finden Sie eine Liste aller aktuellen Probleme, die nach Folgendem gruppiert sind:
+AEM Sites Optimizer überwacht kontinuierlich die Site-Performance mithilfe [Operative Telemetrie](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) um Regressionen in Core Web Vitals-Metriken wie Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS) und Interaction to Next Paint (INP) zu erkennen. Es verwendet echte Benutzerdaten, um Leistungsregressionen zu identifizieren, und priorisiert Probleme basierend auf ihren Auswirkungen auf das Benutzererlebnis.
 
-* **Probleme mit Mobilgeräten**: Eine Liste von Problemen, die sich auf die mobile Version der Seite auswirken.
-* **Probleme mit dem Desktop**: Eine Liste von Problemen, die sich auf die Desktop-Version der Seite auswirken.
-
-Jedes Problem wird in einer Tabelle angezeigt, wobei die Spalte **Seite** den Eintrag auf der betroffenen Seite angibt.
-
-Das System gruppiert diese Probleme anhand der Standardleistungsmetriken im Bericht für die Core Web Vitals:
-
-* Largest Contentful Paint (**LCP**)
-* Interaction to Next Paint (**INP**)
-* Cumulative Layout Shift (**CLS**)
+AEM Sites Optimizer zeigt eine Liste aller aktuellen Probleme an, die nach Mobilgerät und Desktop-Computer aufgeschlüsselt ist. Die Spalte **Seite** zeigt den betroffenen Seiteneintrag an und Probleme werden nach LCP, INP und CLS kategorisiert.
 
 ## Automatische Vorschläge
 
 ![Automatische Vorschläge der Möglichkeit „Core Web Vitals“](./assets/core-web-vitals/auto-suggest.png){align="center"}
 
-Die Möglichkeit „Core Web Vitals“ bietet KI-generierte Vorschläge zur Fehlerbehebung. Wenn Sie auf die Schaltfläche „Vorschläge“ klicken, wird ein neues Fenster mit den Leistungsmetriken **LCP**, **INP** und **CLS** als Kategorien angezeigt. Sie können zwischen diesen Kategorien wechseln, um jeweils eine Liste mit spezifischen Problemen anzuzeigen.
+Für jedes identifizierte Problem generiert AEM Sites Optimizer präskriptive Empfehlungen auf Code-Ebene, um die Core Web Vitals-Leistung zu verbessern. Er bewertet die zugrunde liegende Implementierung durch Zugriff auf Ihr Code-Repository. Auf diese Weise kann das System analysieren, wie Komponenten, Skripte und Stile implementiert werden, und die Grundursache der Leistungsprobleme identifizieren. Basierend auf dieser Analyse stellt das System zielgerichtete Empfehlungen bereit und generiert Code-Patches, die die Änderungen angeben, die zur Verbesserung der Leistung erforderlich sind. Jede Empfehlung kann vor ihrer Anwendung überprüft werden.
 
-Jede Kategorie kann mehrere Probleme enthalten. Scrollen Sie daher nach unten, um die vollständige Liste der Probleme und Empfehlungen anzuzeigen.  Darüber hinaus gibt es für jede Metrik zwei Leistungsmessungen, eine für Mobilgeräte und eine für Desktops.
+Wenn Sie auf die Schaltfläche „Vorschlag“ klicken, wird ein neues Fenster angezeigt, das die Leistungsmetriken LCP, INP und CLS als Kategorien enthält. Sie können zwischen diesen Kategorien wechseln, um die Liste der spezifischen Probleme anzuzeigen. Jede Kategorie kann mehrere Probleme enthalten. Achten Sie daher darauf, nach unten zu scrollen, um die vollständige Liste der Probleme und Empfehlungen zu sehen. Darüber hinaus gibt es für jede Metrik zwei Leistungsmessungen für Mobilgeräte und Desktops.
 
 ## Automatische Optimierung
 
@@ -52,17 +40,12 @@ Jede Kategorie kann mehrere Probleme enthalten. Scrollen Sie daher nach unten, u
 
 ![Automatisches Optimieren der Möglichkeit „Core Web Vitals“](./assets/core-web-vitals/auto-optimize.png){align="center"}
 
-Sites Optimizer Ultimate ermöglicht es, eine automatische Optimierung für die von der Möglichkeit „Core Web Vitals“ gefundenen Probleme bereitzustellen. <!--- TBD-need more in-depth and opportunity specific information here. What does the auto-optimization do?-->
+Sobald die Empfehlungen geprüft und genehmigt wurden, können Sie auf **Optimierung bereitstellen** klicken. AEM Sites Optimizer generiert Code-Patches basierend auf den identifizierten Problemen und stellt diese über Versionskontrollprozesse zur Verfügung. Der Optimierungsprozess umfasst die folgenden Schritte:
 
->[!BEGINTABS]
+* **Problem-Erstellung** - Erstellt für jede Fehlerbehebung ein gekennzeichnetes GitHub-Problem, einschließlich einer klaren Beschreibung und einer betroffenen URL für die Sichtbarkeit.
+* **Versand einer Pull-Anfrage** - Öffnet automatisch eine verknüpfte Pull-Anfrage mit der genauen Code-Fehlerbehebung, die für Überprüfung, Test und Zusammenführung bereit ist.
+* **Status-Tracking** - Verfolgt jede Fehlerbehebung bis zum Abschluss und kennzeichnet partielle oder fehlgeschlagene Versuche für die Nachverfolgung.
 
->[!TAB Optimierung bereitstellen]
+Bevor diese Aktualisierungen verfügbar gemacht werden, führt AEM Sites Optimizer eine Validierung durch, um sicherzustellen, dass die Fehlerbehebungen das zugrunde liegende Problem beheben und keine Regressionen einführen. Alle Aktualisierungen entsprechen den üblichen Entwicklungspraktiken, die überprüft und genehmigt werden müssen, bevor sie in die Produktion übernommen werden können.
 
-{{auto-optimize-deploy-optimization-slack}}
-
->[!TAB Genehmigung anfordern]
-
-{{auto-optimize-request-approval}}
-
->[!ENDTABS]
-
+Dadurch wird sichergestellt, dass Leistungsoptimierungen präzise, validiert und in bestehende Entwicklungs- und Governance-Prozesse integriert werden.
