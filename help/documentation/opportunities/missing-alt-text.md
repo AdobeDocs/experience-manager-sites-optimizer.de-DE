@@ -2,10 +2,10 @@
 title: Dokumentation zu fehlendem Alternativtext
 description: Erfahren Sie mehr über die Möglichkeit „Fehlender Alternativtext“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
-source-git-commit: 42f67f8ca52aa8e17ab780702023c0987e457f76
+source-git-commit: ba3f15903a3f551bd64351a3bb002b43cf5cb2cd
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 36%
+source-wordcount: '694'
+ht-degree: 37%
 
 ---
 
@@ -67,8 +67,20 @@ Abhängig von der Konfiguration können Aktualisierungen direkt auf Seiteninhalt
 
 Aktualisierungen werden versioniert, wo unterstützt, und bieten Sichtbarkeit und Rollback-Kapazität. Dadurch wird sichergestellt, dass ALT-Text-Aktualisierungen korrekt angewendet werden, mit bestehenden Implementierungen abgestimmt sind und mit Governance- und Barrierefreiheitsstandards konsistent sind.
 
-AEM Sites Optimizer wendet basierend auf Ihrer Einrichtung automatisch ALT-Text-Aktualisierungen an:
+AEM Sites Optimizer wendet basierend auf Ihrer Einrichtung automatisch Aktualisierungen des ALT-Texts an wie folgt:
 
-* **Edge Delivery Services** - Aktualisiert das Quelldokument (z. B. Google Docs oder SharePoint).
-* **AEM as a Cloud Service** - Schreibt Aktualisierungen direkt über die Inhalts-API mit Versionierungs- und Fallback-Unterstützung.
-* **Digital Asset Management (optional)** - Aktualisiert gegebenenfalls Alt-Text auf Asset-Ebene.
+>[!BEGINTABS]
+
+>[!TAB Edge Delivery Services]
+
+Aktualisiert das Quelldokument (z. B. Google Docs oder SharePoint)
+
+>[!TAB AEM as a Cloud Service]
+
+Schreibt Aktualisierungen direkt über die Content-API mit Versionierungs- und Fallback-Unterstützung.
+
+>[!TAB Digital Asset Management (optional)]
+
+Aktualisiert gegebenenfalls Alt-Text auf Asset-Ebene.
+
+>[!ENDTABS]
