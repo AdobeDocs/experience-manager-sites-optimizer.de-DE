@@ -1,9 +1,9 @@
 ---
 title: Audit-Ergebnisse in Preflight
-description: Erfahren Sie, wie Sie die Ergebnisse der Preflight-Prüfung und die Benutzer-Fortschrittsleiste interpretieren, zu Problemen in der Vorschau navigieren und KI-generierte Vorschläge anwenden können.
-source-git-commit: 10534d1fabdd88b11f45895d39bc1afd0d664ff1
+description: Erfahren Sie, wie Sie die Ergebnisse der Preflight-Prüfung und die Benutzer-Fortschrittsleiste interpretieren und zu Problemen in der Vorschau navigieren.
+source-git-commit: f513d2bb8ff8af203333bd0c27bd00092f69d014
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -26,33 +26,13 @@ Der Balken ist farbcodiert:
 
 Siehe die [vollständige Liste der verfügbaren Opportunity-Typen und wie Sie sie behandeln](./overview.md#preflight-opportunities).
 
-## Zu Problemen navigieren und Vorschläge anwenden
+## Zu Problemen navigieren
 
-Nach Abschluss des Audits können Sie schnell zu identifizierten Problemen wechseln und KI-generierte Vorschläge direkt in der Vorschau anwenden.
+Nach Abschluss des Audits können Sie schnell zu den identifizierten Problemen in der Vorschau wechseln.
 
-![Hervorhebung der Preflight-Vorschau und Bedienfeld für KI-Vorschläge](./assets/audit-results/highlight-issue.png){align="center"}
+![Preflight-Vorschau, die ein Problem hervorhebt](./assets/audit-results/highlight-issue.png){align="center"}
 
 ### Zu einem Problem navigieren
 
 1. Wählen Sie ein Problem aus der Problemliste im Preflight-Bedienfeld aus.
 1. Die Vorschau scrollt automatisch zu und markiert die entsprechende Position auf der Seite, sodass Sie das Problem im Kontext überprüfen können, ohne manuell danach zu suchen.
-
-### Anwenden von KI-generierten Vorschlägen
-
-Bei Problemen, die KI-generierte Empfehlungen enthalten, können Sie vorgeschlagene Optimierungen direkt über das Vorschlagsbedienfeld anwenden.
-
-#### Anwenden einer Optimierung
-
-1. Review the AI-generated suggestion.
-1. Select **Apply Optimization**.
-
-The recommended content is applied directly to the content.
-
-#### Edit before applying
-
-If adjustments are required:
-
-1. Modify the AI-generated suggestion in the suggestion panel.
-1. Select **Apply Optimization**.
-
-Your edited version is applied to the preview.
