@@ -1,9 +1,9 @@
 ---
 title: Audit-Ergebnisse in Preflight
 description: Erfahren Sie, wie Sie die Ergebnisse der Preflight-Prüfung und die Benutzer-Fortschrittsleiste interpretieren und zu Problemen in der Vorschau navigieren.
-source-git-commit: f513d2bb8ff8af203333bd0c27bd00092f69d014
+source-git-commit: 30060044e558774ab1e17684945f29d3e76dc3a7
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,14 @@ Der Balken ist farbcodiert:
 
 Siehe die [vollständige Liste der verfügbaren Opportunity-Typen und wie Sie sie behandeln](./overview.md#preflight-opportunities).
 
-## Zu Problemen navigieren
+## Chancen hervorheben
 
-Nach Abschluss des Audits können Sie schnell zu den identifizierten Problemen in der Vorschau wechseln.
+Nach Abschluss des Audits können Sie Opportunities schnell finden und verstehen, indem Sie sie direkt auf der Seite hervorheben.
 
-![Preflight-Vorschau, die ein Problem hervorhebt](./assets/audit-results/highlight-issue.png){align="center"}
+>[!VIDEO](https://video.tv.adobe.com/v/3483412/?learn=on&enablevpops)
 
-### Zu einem Problem navigieren
+Preflight hebt jede Opportunity im Kontext hervor und verbindet die Ergebnisse im Bedienfeld mit der genauen Position in Ihrem Inhalt. Dies erleichtert die Überprüfung und Lösung von Opportunitys, ohne die Seite manuell durchsuchen zu müssen.
 
-1. Wählen Sie ein Problem aus der Problemliste im Preflight-Bedienfeld aus.
-1. Die Vorschau scrollt automatisch zu und markiert die entsprechende Position auf der Seite, sodass Sie das Problem im Kontext überprüfen können, ohne manuell danach zu suchen.
+1. Öffnen Sie das Preflight-Bedienfeld im Kontext der zu prüfenden Seite und führen Sie die Prüfungen aus.
+1. Wählen Sie eine bestimmte Opportunity aus der Liste im Preflight-Bedienfeld aus.
+1. Die Vorschau scrollt automatisch zum relevanten Bereich und markiert das entsprechende Element, sodass Sie die Opportunity im Kontext einfach identifizieren und optimieren können.
