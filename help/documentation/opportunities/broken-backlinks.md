@@ -66,7 +66,7 @@ Sie können Einträge mit den anvisierten fehlerhaften URLs ignorieren. Durch Au
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
->[!VIDEO](https://video.tv.adobe.com/v/3483250/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483262/?captions=ger&learn=on&enablevpops)
 
 Sobald die Vorschläge geprüft und genehmigt wurden, können Sie auf **Optimierung bereitstellen** klicken. AEM Sites Optimizer wendet die Korrekturen dann in der Autorenumgebung an, je nachdem, wie Weiterleitungen innerhalb Ihrer Implementierung verwaltet werden. Der AEM-Autor kann dann die Änderungen über das Content Management System (CMS) veröffentlichen.
 
