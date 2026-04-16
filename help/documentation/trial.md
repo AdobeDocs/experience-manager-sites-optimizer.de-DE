@@ -17,7 +17,7 @@ Beginnen Sie mit Sites Optimizer und verwenden Sie diese Testversion für besteh
 
 >[!TIP]
 >
-> Wenden Sie sich bei Fragen ](mailto:siteoptimizer-now@adobe.com) Anfragen an [siteoptimizer-now@adobe.com.
+> Wenden Sie sich bei Fragen [&#128279;](mailto:siteoptimizer-now@adobe.com) Anfragen an siteoptimizer-now@adobe.com.
 
 ## Jetzt testen!
 
