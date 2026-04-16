@@ -1,7 +1,7 @@
 ---
 title: Sites Optimizer-Testversion
 description: Erste Schritte mit der AEM Sites Optimizer-Testversion für bestehende AEM Sites-Kunden.
-source-git-commit: 0c9acea024f436166c467d55a3d3697f3eaf08b6
+source-git-commit: 9fae4c52a977c34419037b131d2a70b404511502
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 15%
@@ -23,7 +23,7 @@ Beginnen Sie mit Sites Optimizer und verwenden Sie diese Testversion für besteh
 
 Führen Sie die folgenden Schritte aus, um mit Ihrer Testversion zu beginnen:
 
-1. Melden Sie sich mit Ihrer AEM Sites IMS-Organisations-ID bei [www.sitesoptimizer.now](https://www.sitesoptimizer.now) an.
+1. Melden Sie sich mit Ihrer AEM Sites IMS-Organisations-ID bei [www.sitesoptimizer.live](http://www.sitesoptimizer.live/) an.
 2. Zeigen Sie wichtige Metriken wie Seitenansichten, Ladezeit und Interaktionsrate zusammen mit Ihren wichtigsten Optimierungsmöglichkeiten an, die nach Wirkung priorisiert sind.
 3. Untersuchen Sie die drei verfügbaren Opportunity-Typen: [fehlerhafte Backlinks](./opportunities/broken-backlinks.md), [Core Web Vitals](./opportunities/core-web-vitals.md) und [fehlender Alternativtext](./opportunities/missing-alt-text.md).
 4. Überprüfen Sie für jede Gelegenheit bis zu drei identifizierte Probleme. Verwenden Sie KI-generierte Vorschläge und stellen Sie Optimierungen bei Bedarf direkt in Ihrer AEM-Umgebung bereit.
@@ -56,7 +56,7 @@ Bestehende AEM Sites-Kunden (Edge Delivery Services, Cloud Services und Managed 
 +++
 +++Wie greife ich auf die Testversion zu?
 
-Wechseln Sie zu [www.sitesoptimizer.now](https://www.sitesoptimizer.now) und melden Sie sich mit Ihrer AEM Sites IMS-Organisations-ID an.
+Wechseln Sie zu [www.sitesoptimizer.live](http://www.sitesoptimizer.live/) und melden Sie sich mit Ihrer AEM Sites IMS-Organisations-ID an.
 
 +++
 +++Kostet die Studie etwas?
