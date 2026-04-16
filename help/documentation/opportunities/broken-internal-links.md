@@ -2,10 +2,10 @@
 title: Dokumentation zur Möglichkeit „Interne fehlerhafte Links“
 description: Erfahren Sie mehr über die Möglichkeit „Fehlerhafte interne Links“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '447'
-ht-degree: 100%
+source-git-commit: 71c33f306db7c3aadb4e3884a840f45cf495ff48
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ Sie können Einträge mit den anvisierten fehlerhaften URLs ignorieren. Durch Au
 
 ## Automatische Optimierung
 
-[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"} [!BADGE Ultimate]{type=Positive tooltip="Sites Optimizer-Testversion"}
 
 <!---![Auto-optimize suggested invalid or missing metadata](./assets/broken-internal-links/auto-optimize.png){align="center"}-->
 
@@ -76,7 +76,7 @@ Sites Optimizer Ultimate ermöglicht es, eine automatische Optimierung für die 
 
 {{auto-optimize-deploy-optimization-slack}}
 
->[!TAB Genehmigung anfordern]
+>[!TAB Bestätigung anfordern]
 
 {{auto-optimize-request-approval}}
 

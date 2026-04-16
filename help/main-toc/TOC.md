@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Dies ist eine Beschreibung für das Benutzerhandbuch, die auf der Landingpage angezeigt wird.
-source-git-commit: 40740c68ea42b3c6a96766c88287407b7bce2d1b
+source-git-commit: 8052c94f778829012f023fe470411dfe77ef46b9
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '123'
 ht-degree: 91%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 91%
 + Dokumentation{#documentation}
    + [Überblick](/help/documentation/overview.md)
    + [Grundlagen](/help/documentation/basics.md)
+   + [Testversion](/help/documentation/trial.md)
    + Setup{#set-up}
       + [Onboarding von Benutzern](/help/documentation/setup/onboard-users.md)
    + Möglichkeiten{#opportunities}
