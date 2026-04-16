@@ -2,7 +2,7 @@
 title: Dokumentation zur Möglichkeit „Fehlerhafte Backlinks“
 description: Erfahren Sie mehr über die Möglichkeit „Fehlerhafte Backlinks“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.
 badgeTrafficAcquisition: label="Traffic-Akquise" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Traffic-Akquise"
-source-git-commit: 42f67f8ca52aa8e17ab780702023c0987e457f76
+source-git-commit: 643a639a233417b3295b7b66c1a6a12ef37abab0
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 33%
@@ -20,7 +20,7 @@ Die defekte Backlinks-Opportunity identifiziert externe Links, die auf nicht vor
 
 ![Automatisches Identifizieren fehlerhafter Backlinks](./assets/broken-backlinks/auto-identify.png){align="center"}
 
-AEM Sites Optimizer durchsucht kontinuierlich externe Datenquellen, um Backlinks zu erkennen, die auf nicht vorhandene 404-Seiten auf Ihrer Site verweisen. Die Daten werden aus verschiedenen Quellen aggregiert, einschließlich Google Search Console[&#x200B; „Operational Telemetry](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) und SEO-Plattformen von Drittanbietern. Die Opportunity zur automatischen Identifizierung identifiziert externe Domains, die mit fehlerhaften URLs verknüpft sind, und priorisiert sie basierend auf den Auswirkungen, einschließlich Domain-Autorität und erwartetem Traffic sowie Verlusten bei der Link-Gerechtigkeit.
+AEM Sites Optimizer durchsucht kontinuierlich externe Datenquellen, um Backlinks zu erkennen, die auf nicht vorhandene 404-Seiten auf Ihrer Site verweisen. Die Daten werden aus verschiedenen Quellen aggregiert, einschließlich Google Search Console[ „Operational Telemetry](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) und SEO-Plattformen von Drittanbietern. Die Opportunity zur automatischen Identifizierung identifiziert externe Domains, die mit fehlerhaften URLs verknüpft sind, und priorisiert sie basierend auf den Auswirkungen, einschließlich Domain-Autorität und erwartetem Traffic sowie Verlusten bei der Link-Gerechtigkeit.
 
 Bei dieser Opportunity werden alle identifizierten Probleme aufgelistet, einschließlich der folgenden Details:
 
@@ -65,6 +65,8 @@ Sie können Einträge mit den anvisierten fehlerhaften URLs ignorieren. Durch Au
 ## Automatische Optimierung
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483250/?learn=on&enablevpops)
 
 Sobald die Vorschläge geprüft und genehmigt wurden, können Sie auf **Optimierung bereitstellen** klicken. AEM Sites Optimizer wendet die Korrekturen dann in der Autorenumgebung an, je nachdem, wie Weiterleitungen innerhalb Ihrer Implementierung verwaltet werden. Der AEM-Autor kann dann die Änderungen über das Content Management System (CMS) veröffentlichen.
 

@@ -2,9 +2,9 @@
 title: Dokumentation zu fehlendem Alternativtext
 description: Erfahren Sie mehr über die Möglichkeit „Fehlender Alternativtext“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
-source-git-commit: ba3f15903a3f551bd64351a3bb002b43cf5cb2cd
+source-git-commit: 8052c94f778829012f023fe470411dfe77ef46b9
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '689'
 ht-degree: 37%
 
 ---
@@ -55,7 +55,7 @@ Sie können Einträge aus der Liste der Möglichkeiten ignorieren. Durch Auswäh
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Automatisches Optimieren von fehlendem Alternativtext](./assets/missing-alt-text/auto-optimize.png){align="center"}
+>[!VIDEO](https://video.tv.adobe.com/v/3483251/?learn=on&enablevpops)
 
 Sobald die Vorschläge geprüft und genehmigt wurden, können Sie auf **Optimierung bereitstellen** klicken. AEM Sites Optimizer wendet die Fehlerbehebungen dann in der Autorenumgebung an, je nachdem, wie ALT-Text in Ihrer Implementierung verwaltet wird. Der AEM-Autor kann dann die Änderungen über das Content Management System (CMS) veröffentlichen.
 
