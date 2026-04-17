@@ -36,7 +36,7 @@ Die Verbindung erfordert zwei Schritte:
 
 Wechseln Sie in AEM Sites Optimizer zu **Einstellungen → Verbindung mit AEM Sites herstellen** und geben Sie Folgendes ein:
 
-- **Code-Repository**URL - die GitHub-URL Ihrer EDS-Site, z. B.:
+- **Code-Repository**&#x200B;URL - die GitHub-URL Ihrer EDS-Site, z. B.:
   `https://github.com/owner/repo`
 
 - **Content Source URL** - die URL des SharePoint-Ordners oder Google Drive-Ordners, der Ihre EDS-Site unterstützt, z. B.:
