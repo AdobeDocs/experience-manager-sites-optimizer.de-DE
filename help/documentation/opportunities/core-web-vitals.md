@@ -14,7 +14,7 @@ ht-degree: 6%
 
 <!--![core web vitals opportunity](./assets/core-web-vitals/hero.png){align="center"}-->
 
->[!VIDEO](https://video.tv.adobe.com/v/3483371/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483380/?captions=ger&learn=on&enablevpops)
 
 Die Core Web Vitals-Opportunity identifiziert Seiten auf Ihrer Website, deren Leistung das Benutzererlebnis und die organische Suchleistung unterschreitet. Diese Probleme können durch Faktoren wie benutzerdefinierte Schriftarten, nicht optimierte JavaScript-Abhängigkeiten und Drittanbieterskripte verursacht werden. Core Web Vitals misst, wie schnell Inhalte geladen werden, wie stabil das Seiten-Layout ist und wie responsiv die Seite auf Benutzerinteraktionen reagiert.
 

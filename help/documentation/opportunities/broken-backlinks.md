@@ -14,7 +14,7 @@ ht-degree: 30%
 
 <!--![Broken backlinks opportunity](./assets/broken-backlinks/hero.png){align="center"}-->
 
->[!VIDEO](https://video.tv.adobe.com/v/3483250/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483262/?captions=ger&learn=on&enablevpops)
 
 Die defekte Backlinks-Opportunity identifiziert externe Links, die auf nicht vorhandene (404) Seiten Ihrer Site verweisen. Diese Links führen zu Referral Traffic-Verlusten und geringerem SEO-Wert, da Suchmaschinen auf Backlinks angewiesen sind, um Relevanz und Autorität zu bewerten. Diese Probleme treten auf, wenn URLs geändert, Inhalte entfernt oder Seiten ohne ordnungsgemäße Weiterleitungen nicht mehr verfügbar sind. AEM Sites Optimizer identifiziert alle fehlerhaften Backlinks, bietet spezifische KI-Empfehlungen und ermöglicht eine Bereitstellung mit einem Klick, um sie zu beheben, und das alles in einer zentralen Ansicht.
 
