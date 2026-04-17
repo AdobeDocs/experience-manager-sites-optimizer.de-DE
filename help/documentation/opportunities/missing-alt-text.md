@@ -2,23 +2,25 @@
 title: Dokumentation zu fehlendem Alternativtext
 description: Erfahren Sie mehr über die Möglichkeit „Fehlender Alternativtext“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
-source-git-commit: 8052c94f778829012f023fe470411dfe77ef46b9
+source-git-commit: fd992e5f4508ccd4236757167a16c744d98cc6ae
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 37%
+source-wordcount: '669'
+ht-degree: 35%
 
 ---
 
 
 # Möglichkeit „Fehlender Alternativtext“
 
-![Möglichkeit „Fehlender Alternativtext“](./assets/missing-alt-text/hero.png){align="center"}
+<!--![Missing alt text opportunity](./assets/missing-alt-text/hero.png){align="center"}-->
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483273/?captions=ger&learn=on&enablevpops)
 
 Die fehlende Alternativtext-Opportunity identifiziert Bilder auf Ihrer Website, die keinen beschreibenden Alternativtext haben. Ohne Alternativtext können Benutzende, die auf Bildschirmlesehilfen angewiesen sind, visuelle Inhalte nicht interpretieren und schaffen somit Barrierefreiheitsbarrieren. Darüber hinaus wird die Art und Weise, wie Suchmaschinen Bilder verstehen und indizieren, eingeschränkt, was die Auffindbarkeit von Inhalten und die Suchleistung verringert. AEM Sites Optimizer erkennt Probleme mit fehlendem ALT-Text, bietet spezifische KI-Empfehlungen und ermöglicht eine Bereitstellung mit einem Klick, um sie zu beheben, und das alles in einer zentralen Ansicht.
 
 ## Automatische Identifizierung
 
-![Automatisches Identifizieren von fehlendem Alternativtext](./assets/missing-alt-text/auto-identify.png){align="center"}
+<!--![Auto-identify missing alt text](./assets/missing-alt-text/auto-identify.png){align="center"}-->
 
 AEM Sites Optimizer scannt Ihre Website mithilfe eines mehrstufigen Audits, bei dem Website-crawlen, echte Benutzer-Traffic-Daten und KI-Analysen kombiniert werden, um Bilder zu identifizieren, für die Alt-Text erforderlich ist, aber nicht definiert wurde. Außerdem werden Bilder auf der Seite ausgewertet, um zu ermitteln, ob alternativer Text erforderlich ist. Ausgenommen sind dekorative oder nicht-informative Bilder gemäß den Web Content Accessibility Guidelines (WCAG). Bilder werden anhand ihrer Rolle und Relevanz innerhalb der Seite analysiert, wobei Korrekturen mit den höchsten Prioritäten für Barrierefreiheit und SEO-Optimierung ausgewählt werden.
 
@@ -29,7 +31,7 @@ Diese Gelegenheit bietet eine Liste der identifizierten Probleme, einschließlic
 
 ## Automatische Vorschläge
 
-![Automatische Vorschläge für fehlenden Alternativtext](./assets/missing-alt-text/auto-suggest.png){align="center"}
+<!--![Auto-suggest missing alt text](./assets/missing-alt-text/auto-suggest.png){align="center"}-->
 
 Für jedes identifizierte Problem schlägt AEM Sites Optimizer einen beschreibenden Alternativtext für das Bild vor. Es verwendet KI-Vision-Modelle, um das Bild zu analysieren und eine Beschreibung zu generieren, die seinen Inhalt und seine Rolle innerhalb der Seite widerspiegelt. Die Empfehlungen sind kurz gefasst, relevant und auf die Best Practices zur Barrierefreiheit abgestimmt. Jeder Vorschlag kann vor seiner Anwendung überprüft und bearbeitet werden.
 
@@ -37,7 +39,7 @@ Für jedes identifizierte Problem schlägt AEM Sites Optimizer einen beschreiben
 
 >[!TAB Fehlenden Alternativtext bearbeiten]
 
-![Fehlenden Alternativtext bearbeiten](./assets/missing-alt-text/edit-alt-text-value.png){align="center"}
+<!--![Edit missing alt text](./assets/missing-alt-text/edit-alt-text-value.png){align="center"}-->
 
 Wenn Sie mit dem KI-generierten Vorschlag nicht einverstanden sind, können Sie den vorgeschlagenen Alternativtext bearbeiten, indem Sie das **Symbol „Bearbeiten“** auswählen. Auf diese Weise können Sie manuell den Text eingeben, der Ihrer Meinung nach am besten für das Bild geeignet ist. Das Bearbeitungsfenster enthält Folgendes:
 
@@ -53,9 +55,7 @@ Sie können Einträge aus der Liste der Möglichkeiten ignorieren. Durch Auswäh
 
 ## Automatische Optimierung
 
-[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
-
->[!VIDEO](https://video.tv.adobe.com/v/3483273/?captions=ger&learn=on&enablevpops)
+<!--[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}-->
 
 Sobald die Vorschläge geprüft und genehmigt wurden, können Sie auf **Optimierung bereitstellen** klicken. AEM Sites Optimizer wendet die Fehlerbehebungen dann in der Autorenumgebung an, je nachdem, wie ALT-Text in Ihrer Implementierung verwaltet wird. Der AEM-Autor kann dann die Änderungen über das Content Management System (CMS) veröffentlichen.
 
