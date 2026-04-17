@@ -2,17 +2,19 @@
 title: Dokumentation zur Möglichkeit „Core Web Vitals“
 description: Erfahren Sie mehr über die Möglichkeit „Core Web Vital“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.
 badgeSiteHealth: label="Site-Zustand" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Site-Zustand"
-source-git-commit: 3a5354a8306c8700bdf63858da70f26b5c72e58d
+source-git-commit: fd992e5f4508ccd4236757167a16c744d98cc6ae
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 9%
+source-wordcount: '533'
+ht-degree: 6%
 
 ---
 
 
 # Möglichkeit „Core Web Vitals“
 
-![Möglichkeit „Core Web Vitals“](./assets/core-web-vitals/hero.png){align="center"}
+<!--![core web vitals opportunity](./assets/core-web-vitals/hero.png){align="center"}-->
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483371/?learn=on&enablevpops)
 
 Die Core Web Vitals-Opportunity identifiziert Seiten auf Ihrer Website, deren Leistung das Benutzererlebnis und die organische Suchleistung unterschreitet. Diese Probleme können durch Faktoren wie benutzerdefinierte Schriftarten, nicht optimierte JavaScript-Abhängigkeiten und Drittanbieterskripte verursacht werden. Core Web Vitals misst, wie schnell Inhalte geladen werden, wie stabil das Seiten-Layout ist und wie responsiv die Seite auf Benutzerinteraktionen reagiert.
 
@@ -20,15 +22,15 @@ AEM Sites Optimizer erkennt von diesen Problemen betroffene Seiten, stellt spezi
 
 ## Automatische Identifizierung
 
-![Automatisches Identifizieren von Core Web Vitals](./assets/core-web-vitals/auto-identify.png){align="center"}
+<!--![Auto-identify core web vitals](./assets/core-web-vitals/auto-identify.png){align="center"}-->
 
-AEM Sites Optimizer überwacht kontinuierlich die Site-Performance mithilfe [Operative Telemetrie](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) um Regressionen in Core Web Vitals-Metriken wie Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS) und Interaction to Next Paint (INP) zu erkennen. Es verwendet echte Benutzerdaten, um Leistungsregressionen zu identifizieren, und priorisiert Probleme basierend auf ihren Auswirkungen auf das Benutzererlebnis.
+AEM Sites Optimizer überwacht kontinuierlich die Site-Performance mithilfe [Operative Telemetrie](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) um Regressionen in Core Web Vitals-Metriken wie Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS) und Interaction to Next Paint (INP) zu erkennen. Es verwendet echte Benutzerdaten, um Leistungsregressionen zu identifizieren, und priorisiert Probleme basierend auf ihren Auswirkungen auf das Benutzererlebnis.
 
 AEM Sites Optimizer zeigt eine Liste aller aktuellen Probleme an, die nach Mobilgerät und Desktop-Computer aufgeschlüsselt ist. Die Spalte **Seite** zeigt den betroffenen Seiteneintrag an und Probleme werden nach LCP, INP und CLS kategorisiert.
 
 ## Automatische Vorschläge
 
-![Automatische Vorschläge der Möglichkeit „Core Web Vitals“](./assets/core-web-vitals/auto-suggest.png){align="center"}
+<!--![Auto-suggest core web vitals opportunity](./assets/core-web-vitals/auto-suggest.png){align="center"}-->
 
 Für jedes identifizierte Problem generiert AEM Sites Optimizer präskriptive Empfehlungen auf Code-Ebene, um die Core Web Vitals-Leistung zu verbessern. Er bewertet die zugrunde liegende Implementierung durch Zugriff auf Ihr Code-Repository. Auf diese Weise kann das System analysieren, wie Komponenten, Skripte und Stile implementiert werden, und die Grundursache der Leistungsprobleme identifizieren. Basierend auf dieser Analyse stellt das System zielgerichtete Empfehlungen bereit und generiert Code-Patches, die die Änderungen angeben, die zur Verbesserung der Leistung erforderlich sind. Jede Empfehlung kann vor ihrer Anwendung überprüft werden.
 
@@ -36,9 +38,7 @@ Wenn Sie auf die Schaltfläche „Vorschlag“ klicken, wird ein neues Fenster a
 
 ## Automatische Optimierung
 
-[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
-
->[!VIDEO](https://video.tv.adobe.com/v/3483380/?captions=ger&learn=on&enablevpops)
+<!--[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}-->
 
 Sobald die Empfehlungen geprüft und genehmigt wurden, können Sie auf **Optimierung bereitstellen** klicken. AEM Sites Optimizer generiert Code-Patches basierend auf den identifizierten Problemen und stellt diese über Versionskontrollprozesse zur Verfügung. Der Optimierungsprozess umfasst die folgenden Schritte:
 
