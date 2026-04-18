@@ -30,7 +30,7 @@ Siehe die [vollständige Liste der verfügbaren Opportunity-Typen und wie Sie si
 
 Nach Abschluss des Audits können Sie Opportunities schnell finden und verstehen, indem Sie sie direkt auf der Seite hervorheben.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483412/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483421/?captions=ger&learn=on&enablevpops)
 
 Preflight hebt jede Opportunity im Kontext hervor und verbindet die Ergebnisse im Bedienfeld mit der genauen Position in Ihrem Inhalt. Dies erleichtert die Überprüfung und Lösung von Opportunitys, ohne die Seite manuell durchsuchen zu müssen.
 
