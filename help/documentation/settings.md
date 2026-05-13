@@ -2,8 +2,10 @@
 title: Sites Optimizer-Einstellungen
 description: Erfahren Sie, wie Sie die Einstellungen für Sites Optimizer konfigurieren und mit anderen Tools integrieren.
 TQID: https://experienceleague.adobe.com/eznjSHZgAmCh-ek-XE-lLtuoGJxC0yY4UVrmPjc0KYo
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 749
@@ -38,7 +40,7 @@ Die Verbindung erfordert zwei Schritte:
 
 Wechseln Sie in AEM Sites Optimizer zu **Einstellungen → Verbindung mit AEM Sites herstellen** und geben Sie Folgendes ein:
 
-- **Code-Repository**URL - die GitHub-URL Ihrer EDS-Site, z. B.:
+- **Code-Repository**&#x200B;URL - die GitHub-URL Ihrer EDS-Site, z. B.:
   `https://github.com/owner/repo`
 
 - **Content Source URL** - die URL des SharePoint-Ordners oder Google Drive-Ordners, der Ihre EDS-Site unterstützt, z. B.:
