@@ -1,13 +1,15 @@
 ---
 title: Preflight-Setup
 description: Erfahren Sie, wie Sie die Preflight-Erweiterung für AEM Sites Optimizer einrichten.
-source-git-commit: e39930ebe2213dcca17209934173a7b521b34dbc
+TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 63%
+source-wordcount: 596
+ht-degree: 64%
 
 ---
-
 
 # Preflight-Setup
 
@@ -126,7 +128,7 @@ Um Preflight im Seiteneditor von AEM Sites zu verwenden, können Sie in Ihrem We
 
 1. Erstellen Sie ein neues Lesezeichen in Ihrem Browser:
 
-   * Klicken Sie mit der rechten Maustaste auf die Lesezeichenleiste und wählen Sie **Neue Seite** oder **Lesezeichen hinzufügen** aus. 
+   * Klicken Sie mit der rechten Maustaste auf die Lesezeichenleiste und wählen Sie **Neue Seite** oder **Lesezeichen hinzufügen** aus.
    * Fügen Sie im Feld **Adresse (URL)** den folgenden Code ein:
 
    ```javascript
@@ -151,7 +153,7 @@ Um Preflight im AEM Sites-Seiteneditor in einer AMS-Umgebung zu verwenden, erste
 
 1. Erstellen Sie ein neues Lesezeichen in Ihrem Browser:
 
-   * Klicken Sie mit der rechten Maustaste auf die Lesezeichenleiste und wählen Sie **Neue Seite** oder **Lesezeichen hinzufügen** aus. 
+   * Klicken Sie mit der rechten Maustaste auf die Lesezeichenleiste und wählen Sie **Neue Seite** oder **Lesezeichen hinzufügen** aus.
    * Fügen Sie im Feld **Adresse (URL)** den folgenden Code ein:
 
    ```javascript

@@ -1,13 +1,17 @@
 ---
 title: Optimieren des Site-Zustands mit Sites Optimizer
 description: Erfahren Sie, wie Sie mit Sites Optimizer den Zustand Ihrer Site verbessern können.
-source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
+TQID: https://experienceleague.adobe.com/-zDE6-ycqW-IkPEQA9J024GAHb8SOdfdwR4DCEd0Oyc
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 100%
+source-wordcount: 130
+ht-degree: 98%
 
 ---
-
 
 # Site-Zustand – Möglichkeiten
 
@@ -46,7 +50,7 @@ CARDS
                     <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Core Web Vitals“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.</p>
                 </div>
                 <a href="../documentation/opportunities/core-web-vitals.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
                 </a>
             </div>
         </div>

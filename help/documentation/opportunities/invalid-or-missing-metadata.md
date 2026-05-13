@@ -2,13 +2,18 @@
 title: Dokumentation zur Möglichkeit „Ungültige oder fehlende Metadaten“
 description: Erfahren Sie mehr über die Möglichkeit „Ungültige oder fehlende Metadaten“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise verwenden können.
 badgeTrafficAcquisition: label="Traffic-Akquise" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Traffic-Akquise"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '521'
+TQID: https://experienceleague.adobe.com/mNGZuKaPU9sxVOgXi4dRXPW1yU6FqHf9DC9WW9BsVBI
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
+workflow-type: tm+mt
+source-wordcount: 550
 ht-degree: 100%
 
 ---
-
 
 # Möglichkeit „Ungültige oder fehlende Metadaten“
 
@@ -25,7 +30,7 @@ Die Möglichkeit „Ungültige oder fehlende Metadaten“ zeigt oben auf der Sei
 
 ![Automatisches Identifizieren von ungültigen oder fehlenden Metadaten](./assets/missing-or-invalid-metadata/auto-identify.png){align="center"}
 
-Die Möglichkeit „Ungültige oder fehlende Metadaten“ führt alle fehlerhaften Metadaten auf Ihren Seiten auf, einschließlich der Folgenden: 
+Die Möglichkeit „Ungültige oder fehlende Metadaten“ führt alle fehlerhaften Metadaten auf Ihren Seiten auf, einschließlich der Folgenden:
 
 * **Seite**: Die Seite, mit den ungültigen oder fehlenden Metadaten.
 * **Problem**: Gibt die Art des Problems an, das sich auf das Metadaten-Tag auswirkt. Die Probleme reichen von fehlenden Titeln bis hin zu H1-Duplikaten usw.
@@ -78,7 +83,7 @@ Sites Optimizer Ultimate ermöglicht es, eine automatische Optimierung für die 
 
 {{auto-optimize-deploy-optimization-slack}}
 
->[!TAB Genehmigung anfordern]
+>[!TAB Bestätigung anfordern]
 
 {{auto-optimize-request-approval}}
 

@@ -2,14 +2,19 @@
 title: Dokumentation zur Möglichkeit „Probleme mit der Barrierefreiheit von Formularen“
 description: Erfahren Sie mehr über die Möglichkeit „Probleme mit der Barrierefreiheit von Formularen“ und darüber, wie Sie sie zur Verbesserung der Barrierefreiheit von Formularen und des Anwendererlebnisses auf Ihrer Website verwenden können.
 badgeFormOptimization: label="Formularoptimierung" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Formularoptimierung"
+TQID: https://experienceleague.adobe.com/LsxxwR0UUBZEB1AJDXwE8zHbPRJcrOqwn25xdsesPhg
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 hide: true
-source-git-commit: 06ab4dd17748f7ac97a3292deacce01c1c0331cf
+source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: 311
 ht-degree: 65%
 
 ---
-
 
 # Möglichkeit „Probleme mit der Barrierefreiheit von Formularen“
 

@@ -1,13 +1,18 @@
 ---
 title: AEM Sites Optimizer Preflight
 description: Erfahren Sie mehr über Preflight und die Opportunity-Typen, die vor der Veröffentlichung ausgewertet werden.
-source-git-commit: 626de60c72579fd6ed96f259fbf524ed0a7103ba
+TQID: https://experienceleague.adobe.com/pZrPXBAaroTlpEsfSluFiLW2Noy4y5sD4dZHTsXgSfA
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 40%
+source-wordcount: 307
+ht-degree: 36%
 
 ---
-
 
 # AEM Sites Optimizer Preflight
 
@@ -149,7 +154,7 @@ CARDS
                     <p class="is-size-6">Erfahren Sie mehr über die Preflight-Möglichkeit für Lesbarkeit in Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/readability.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
                 </a>
             </div>
         </div>

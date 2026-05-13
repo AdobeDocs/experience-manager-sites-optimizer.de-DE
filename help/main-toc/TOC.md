@@ -3,9 +3,9 @@ user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Dies ist eine Beschreibung für das Benutzerhandbuch, die auf der Landingpage angezeigt wird.
 source-git-commit: 8052c94f778829012f023fe470411dfe77ef46b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 91%
    + [Grundlagen](/help/documentation/basics.md)
    + [Testversion](/help/documentation/trial.md)
    + Setup{#set-up}
-      + [Onboarding von Benutzern](/help/documentation/setup/onboard-users.md)
+      + [Onboarding von Benutzenden](/help/documentation/setup/onboard-users.md)
    + Möglichkeiten{#opportunities}
       + [Überblick](/help/documentation/opportunities/overview.md)
       + [Probleme mit der Barrierefreiheit](/help/documentation/opportunities/accessibility-issues.md)
@@ -35,7 +35,7 @@ ht-degree: 91%
       + [Core Web Vitals](/help/documentation/opportunities/core-web-vitals.md)
       + [CORS-Konfiguration](/help/documentation/opportunities/cors-configuration.md)
       + [Cross-Site-Scripting](/help/documentation/opportunities/cross-site-scripting.md)
-      + [Hohe Bounce-Rate](/help/documentation/opportunities/high-bounce-rate.md)
+      + [Hohe Absprungrate](/help/documentation/opportunities/high-bounce-rate.md)
       + [Seite mit viel Traffic hat niedrige Klickrate](/help/documentation/opportunities/high-traffic-page-has-low-ctr.md)
       + [Ungültige oder fehlende Metadaten](/help/documentation/opportunities/invalid-or-missing-metadata.md)
       + [Fehlende oder ungültige strukturierte Daten](/help/documentation/opportunities/missing-invalid-structured-data.md)
@@ -43,14 +43,14 @@ ht-degree: 91%
       + {hide-from-toc}[Wenige Formularkonversionen](/help/documentation/opportunities/low-conversions.md)
       + {hide-from-toc}[Wenige Formularansichten](/help/documentation/opportunities/low-views.md)
       + {hide-from-toc}[Wenig Formularnavigation](/help/documentation/opportunities/low-navigation.md)
-      + {hide-from-toc}[Problem mit der Barrierefreiheit von Forms](/help/documentation/opportunities/forms-accessibility-issues.md)
+      + {hide-from-toc}[Problem mit der Barrierefreiheit von Formularen](/help/documentation/opportunities/forms-accessibility-issues.md)
       + [Sitemap-Probleme](/help/documentation/opportunities/sitemap-issues.md)
       + [Website-Berechtigungen](/help/documentation/opportunities/website-permissions.md)
       + [Website-Schwachstellen](/help/documentation/opportunities/website-vulnerabilities.md)
    + Preflight{#preflight}
       + [Überblick](/help/documentation/preflight/overview.md)
       + [Einrichtung](/help/documentation/preflight/setup.md)
-      + [Zugriff auf Preflight](/help/documentation/preflight/access-preflight.md)
+      + [Zugreifen auf Preflight](/help/documentation/preflight/access-preflight.md)
       + [Audits](/help/documentation/preflight/audits.md)
       + [Audit-Ergebnisse](/help/documentation/preflight/audit-results.md)
       + Möglichkeiten{#preflight-opportunities}
