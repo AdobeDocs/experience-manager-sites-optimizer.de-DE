@@ -2,18 +2,12 @@
 title: Dokumentation zu Möglichkeiten in Sites Optimizer
 description: Erfahren Sie mehr über alle verfügbaren Möglichkeiten in Sites Optimizer und darüber, wie Sie sie zur Verbesserung der Leistung Ihrer Site einsetzen können.
 TQID: https://experienceleague.adobe.com/x-9Vr-OhGbZV-RIJhD1sLhbEVJXeJWMX2Fs78Vb4Mdk
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 891
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +66,7 @@ Die Zusammenfassungsinformationen für jede Möglichkeit variieren je nach Typ u
 
 Klicken Sie zum Anzeigen der Details einer Möglichkeit auf die Schaltfläche **Details**.
 
-Um eine Möglichkeit aus dem Dashboard in Sites Optimizer auszuschließen, klicken Sie auf die Schaltfläche **Ignorieren**.  Diese Aktion verschiebt die Möglichkeit auf die Registerkarte[&#128279;](#opportunity-status) **Ignoriert**.
+Um eine Möglichkeit aus dem Dashboard in Sites Optimizer auszuschließen, klicken Sie auf die Schaltfläche **Ignorieren**.  Diese Aktion verschiebt die Möglichkeit auf die Registerkarte](#opportunity-status) [**Ignoriert**.
 
 ## Alle Möglichkeiten
 
@@ -144,7 +138,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./accessibility-issues.md" target="_blank" rel="referrer" title="Probleme mit der Barrierefreiheit">Probleme mit der Barrierefreiheit</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Probleme mit der Barrierefreiheit“ und finden Sie heraus, wie Sie damit die Sicherheit auf Ihrer Website erhöhen können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für Probleme mit der Barrierefreiheit und finden Sie heraus, wie Sie damit die Sicherheit auf Ihrer Website erhöhen können.</p>
                 </div>
                 <a href="./accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -167,7 +161,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./broken-backlinks.md" target="_blank" rel="referrer" title="Fehlerhafte Backlinks">Fehlerhafte Backlinks</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Fehlerhafte Backlinks“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für fehlerhafte Backlinks und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.</p>
                 </div>
                 <a href="./broken-backlinks.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -190,7 +184,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./broken-internal-links.md" target="_blank" rel="referrer" title="Fehlerhafte interne Links">Fehlerhafte interne Links</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Fehlerhafte interne Links“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für fehlerhafte interne Links und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="./broken-internal-links.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -213,7 +207,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./cors-configuration.md" target="_blank" rel="referrer" title="CORS-Konfiguration">CORS-Konfiguration</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Opportunity „CORS-Konfiguration“ und finden Sie heraus, wie Sie Sicherheitsschwachstellen auf der Site identifizieren und beheben.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für CORS-Konfiguration und darüber, wie Sie Sicherheitsschwachstellen auf der Site identifizieren und beheben.</p>
                 </div>
                 <a href="./cors-configuration.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -236,7 +230,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./core-web-vitals.md" target="_blank" rel="referrer" title="Core Web Vitals">Core Web Vitals</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Core Web Vital“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für Core Web Vital und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.</p>
                 </div>
                 <a href="./core-web-vitals.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -259,7 +253,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./cross-site-scripting.md" target="_blank" rel="referrer" title="Cross-Site-Scripting">Cross-Site-Scripting</a>
                     </p>
-                    <p class="is-size-6">Informieren Sie sich über die Möglichkeit von Cross-Site-Scripting und über das Erkennen und Beheben von Sicherheitsschwachstellen auf Websites.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für Cross-Site-Scripting und darüber, wie Sie Sicherheitsschwachstellen auf Websites erkennen und beheben.</p>
                 </div>
                 <a href="./cross-site-scripting.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -280,9 +274,9 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./high-bounce-rate.md" target="_blank" rel="referrer" title="Hohe Bounce-Rate">Hohe Absprungrate</a>
+                        <a href="./high-bounce-rate.md" target="_blank" rel="referrer" title="Hohe Absprungrate">Hohe Absprungrate</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit zu wenigen Aufrufen und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für wenig Ansichten und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="./high-bounce-rate.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -305,7 +299,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./invalid-or-missing-metadata.md" target="_blank" rel="referrer" title="Ungültige oder fehlende Metadaten">Ungültige oder fehlende Metadaten</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Ungültige oder fehlende Metadaten“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise verwenden können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für ungültige oder fehlende Metadaten und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise verwenden können.</p>
                 </div>
                 <a href="./invalid-or-missing-metadata.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -328,7 +322,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./low-conversions.md" target="_blank" rel="referrer" title="Wenige Formularkonversionen">Wenige Formularkonversionen</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Wenige Konversionen“ und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für wenig Konversionen und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="./low-conversions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -374,7 +368,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./low-navigation.md" target="_blank" rel="referrer" title="Wenig Formularnavigation">Wenig Formularnavigation</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die geringe Navigationsmöglichkeit und wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für wenig Navigation und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="./low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -397,7 +391,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" title="Probleme mit der Barrierefreiheit von Formularen">Probleme mit der Barrierefreiheit von Formularen</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über Barrierefreiheitsprobleme mit Forms und wie Sie damit die Interaktion mit Ihrer Website verbessern können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für Probleme mit der Barrierefreiheit von Formularen und darüber, wie Sie sie zur Verbesserung der Formularinteraktionen auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -420,7 +414,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./missing-alt-text.md" target="_blank" rel="referrer" title="Fehlender Alternativtext">Fehlender Alternativtext</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Fehlender Alternativtext“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für fehlenden Alternativtext und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="./missing-alt-text.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -443,7 +437,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./missing-invalid-structured-data.md" target="_blank" rel="referrer" title="Fehlende oder ungültige strukturierte Daten">Fehlende oder ungültige strukturierte Daten</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Fehlende oder ungültige strukturierte Daten“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise verwenden können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für fehlende oder ungültige strukturierte Daten und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise verwenden können.</p>
                 </div>
                 <a href="./missing-invalid-structured-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -466,7 +460,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./sitemap-issues.md" target="_blank" rel="referrer" title="Sitemap-Probleme">Sitemap-Probleme</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Sitemap-Probleme“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für Sitemap-Probleme und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.</p>
                 </div>
                 <a href="./sitemap-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -489,7 +483,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./website-permissions.md" target="_blank" rel="referrer" title="Website-Berechtigungen">Website-Berechtigungen</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Opportunity „Website-Berechtigungen“ und finden Sie heraus, wie Sie damit die Sicherheit auf Ihrer Website erhöhen können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für Website-Berechtigungen und darüber, wie Sie damit die Sicherheit auf Ihrer Website erhöhen können.</p>
                 </div>
                 <a href="./website-permissions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -512,7 +506,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./website-vulnerabilities.md" target="_blank" rel="referrer" title="Website-Schwachstellen">Website-Schwachstellen</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Opportunity „Website-Schwachstellen“ und finden Sie heraus, wie Sie damit die Sicherheit auf Ihrer Website erhöhen können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für Website-Schwachstellen und darüber, wie Sie damit die Sicherheit auf Ihrer Website erhöhen können.</p>
                 </div>
                 <a href="./website-vulnerabilities.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>

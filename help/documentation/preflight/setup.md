@@ -2,22 +2,21 @@
 title: Preflight-Setup
 description: Erfahren Sie, wie Sie die Preflight-Erweiterung für AEM Sites Optimizer einrichten.
 TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 596
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # Preflight-Setup
 
-Zur Identifizierung von AEM Sites Optimizer Preflight-Opportunitys muss die Preflight-Erweiterung eingerichtet werden. Sie können sie entweder im universellen Editor, in der dokumentbasierten Vorschau oder in AEM Cloud Service einrichten, damit Sie Preflight-Prüfungen auf Ihren Seiten durchführen können, bevor sie veröffentlicht werden.
+Zur Identifizierung von AEM Sites Optimizer Preflight-Möglichkeiten muss die Preflight-Erweiterung eingerichtet werden. Sie können sie entweder im universellen Editor, in der dokumentbasierten Vorschau oder in AEM Cloud Service einrichten, damit Sie Preflight-Audits auf Ihren Seiten durchführen können, bevor sie veröffentlicht werden.
 
 ## Aktivieren des Benutzerzugriffs
 
-Um die Preflight-Erweiterung zu verwenden, stellen Sie sicher, dass Ihr Benutzer mindestens einem der folgenden AEM Sites Optimizer-Produktprofile in [Adobe Admin Console zugewiesen ist](https://adminconsole.adobe.com):
+Um die Preflight-Erweiterung zu verwenden, stellen Sie sicher, dass Ihre Benutzenden mindestens einem der folgenden AEM Sites Optimizer-Produktprofile in [Adobe Admin Console](https://adminconsole.adobe.com) zugewiesen sind:
 
 * AEM Sites Optimizer – Benutzende automatisch vorschlagen
 * AEM Sites Optimizer – Benutzende automatisch optimieren
@@ -33,7 +32,7 @@ Gehen Sie wie folgt vor, um Preflight im universellen Editor einzurichten:
 1. Öffnen Sie den **Extension Manager** unter:
    [https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor](https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor)
 1. Suchen Sie nach der **AEM Sites Optimizer Preflight-Erweiterung** und senden Sie eine Anfrage, um sie zu aktivieren.
-1. Das **Adobe AEM** Team überprüft und aktiviert die Erweiterung für Ihr Unternehmen.
+1. Das **Adobe AEM-Team** prüft und aktiviert die Erweiterung für Ihr Unternehmen.
 1. Nachdem die Erweiterung aktiviert ist, öffnen Sie eine Seite im **universellen Editor**, z. B.:
    `https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/en/example/home.html`
 1. Die **Preflight-Erweiterung** wird in der **Seitenleiste** angezeigt.
@@ -122,7 +121,7 @@ Gehen Sie wie folgt vor, um Preflight für das dokumentenbasierte Authoring einz
 
 Um Preflight im Seiteneditor von AEM Sites zu verwenden, können Sie in Ihrem Webbrowser ein Bookmarklet erstellen. Führen Sie die folgenden Schritte aus:
 
-1. Zeigt Ihre **Lesezeichenleiste** in Ihrem Webbrowser an:
+1. Zeigen Sie Ihre **Lesezeichenleiste** in Ihrem Webbrowser an:
 
    * Drücken Sie **Strg+Umschalt+B** (Windows) oder **Befehl+Umschalt+B** (Mac).
 
@@ -136,7 +135,7 @@ Um Preflight im Seiteneditor von AEM Sites zu verwenden, können Sie in Ihrem We
    ```
 
 1. Nennen Sie das Lesezeichen **Preflight** (oder verwenden Sie einen beliebigen Namen, den Sie bevorzugen).
-1. Öffnen Sie die Vorschau-URL (`*.aem.page`) der Seite, die Sie im **AEM Sites-Seiteneditor überprüfen**.
+1. Öffnen Sie die Vorschau-URL (`*.aem.page`) der Seite, die Sie im **AEM Sites-Seiteneditor** prüfen möchten.
 1. Klicken Sie in Ihrer Lesezeichenleiste auf das **Preflight**-Lesezeichen, um den Audit für die aktuelle Seite zu starten.
 
 >[!TAB Adobe Managed Services]
@@ -172,5 +171,5 @@ Beachten Sie beim Ausführen von Preflight-Audits die folgenden Richtlinien:
 
 * Führen Sie Audits immer für **Staging- oder Vorschauseiten** durch, bevor Sie sie in der Produktion veröffentlichen.
 * Priorisieren Sie die Behebung von **schwerwiegenden Problemen** ( z. B. fehlerhafte Links, fehlende H1-Tags oder unsichere Links).
-* Stellen Sie sicher **dass die -Authentifizierung für** Staging-Umgebungen aktiviert ist, bevor Sie Audits ausführen.
+* Stellen Sie sicher, dass für Staging-Umgebungen die **Authentifizierung  aktiviert** ist, bevor Sie Audits ausführen.
 * Überprüfen und wenden Sie **Meta-Tag-Empfehlungen** an, um die SEO-Leistung zu verbessern.

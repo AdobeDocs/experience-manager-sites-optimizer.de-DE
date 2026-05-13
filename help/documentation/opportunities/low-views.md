@@ -3,21 +3,19 @@ title: Dokumentation zur Möglichkeit „Wenige Aufrufe“
 description: Erfahren Sie mehr über die Möglichkeit zu wenigen Aufrufen und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.
 badgeFormOptimization: label="Formularoptimierung" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Formularoptimierung"
 TQID: https://experienceleague.adobe.com/u29gRoTitg5MlQKeHqmRSWr-mB0W9wfvL66Q1sjENVA
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 332
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Möglichkeit „Wenige Formularaufrufe“
 
-<span class="preview"> Die Forms-Optimierungsfunktion ist im Rahmen eines Early-Access-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>
+<span class="preview"> Die Funktion „Formularoptimierung“ ist im Rahmen des Early-Adopter-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>
 
 ![Möglichkeit „Wenig Ansichten“](./assets/low-views/hero.png){align="center"}
 

@@ -2,29 +2,25 @@
 title: Formularoptimierung mit Sites Optimizer
 description: Erfahren Sie mehr über die Formularoptimierung mit Sites Optimizer.
 TQID: https://experienceleague.adobe.com/6YARKCyeKXDlXPs36QQK97WthDcUBdR3FtAqFFGWofQ
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 219
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # Möglichkeiten zur Formularoptimierung
 
-<span class="preview"> Die Forms-Optimierungsfunktion ist im Rahmen eines Early-Access-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>
+<span class="preview"> Die Funktion „Formularoptimierung“ ist im Rahmen des Early-Adopter-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>
 
 <!-- [!VIDEO](https://video.tv.adobe.com/v/3469472/) -->
 
 ![Möglichkeiten zur Formularoptimierung](./assets/form-optimization/hero.png){align="center"}
 
-Mit den Optimierungsmöglichkeiten von Forms können Unternehmen die Benutzerinteraktionen systematisch verbessern und die Formularkonversionen steigern. Durch die Erkennung von Problemen wie niedrige Ansichten, niedrige Konversionen und niedrige Navigationsraten können Teams datengesteuerte Anpassungen am Formularentwurf, an der Platzierung und an den Inhalten vornehmen. Diese Optimierungen tragen dazu bei, das Anwendererlebnis zu optimieren, sodass Besuchende Formulare einfacher ausfüllen und gewünschte Ergebnisse erzielen können. Die Verwendung der Erkenntnisse aus der Forms-Optimierung unterstützt die fortlaufende Identifizierung und Behebung von Leistungslücken, was zu effektiveren Formularen und verbesserten Geschäftsergebnissen führt.
+Mit den Möglichkeiten zur Formularoptimierung können Unternehmen die Benutzerinteraktionen systematisch verbessern und die Formularkonversionen steigern. Durch Ermitteln von Problemen wie wenige Ansichten, wenige Konversionen und niedrige Navigationsraten können Teams datengestützte Anpassungen an der Formulargestaltung, an der Platzierung und an den Inhalten vornehmen. Diese Optimierungen tragen dazu bei, das Anwendererlebnis zu optimieren, sodass Besuchende Formulare einfacher ausfüllen und gewünschte Ergebnisse erzielen können. Die Nutzung der Erkenntnisse aus der Formularoptimierung unterstützt die fortlaufende Identifizierung und Behebung von Leistungslücken, was zu effektiveren Formularen und besseren Geschäftsergebnissen führt.
 
 ## Möglichkeiten
 
@@ -57,7 +53,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/low-views.md" target="_blank" rel="referrer" title="Wenig Ansichten">Wenig Ansichten</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit zu wenigen Aufrufen und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für wenig Ansichten und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="../documentation/opportunities/low-views.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -80,7 +76,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/low-conversions.md" target="_blank" rel="referrer" title="Wenig Konversionen">Wenig Konversionen</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Wenige Konversionen“ und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für wenig Konversionen und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="../documentation/opportunities/low-conversions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -103,7 +99,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/low-navigation.md" target="_blank" rel="referrer" title="Probleme mit der Barrierefreiheit">Wenig Navigation</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Wenig Navigation“ und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für wenig Navigation und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="../documentation/opportunities/low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>

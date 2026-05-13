@@ -2,15 +2,12 @@
 title: Optimieren des Sicherheitsstatus mit Sites Optimizer
 description: Erfahren Sie, wie Sie die Sicherheit Ihrer Site mit Sites Optimizer verbessern können.
 TQID: https://experienceleague.adobe.com/f-WI-WIM2a7-NRuyfLU4Gut5tUqwJS08Ipvqe2Y9F7w
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 220
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +55,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/cors-configuration.md" target="_blank" rel="referrer" title="CORS-Konfiguration">CORS-Konfiguration</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Opportunity „CORS-Konfiguration“ und finden Sie heraus, wie Sie Sicherheitsschwachstellen auf der Site identifizieren und beheben.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für CORS-Konfiguration und darüber, wie Sie Sicherheitsschwachstellen auf der Site identifizieren und beheben.</p>
                 </div>
                 <a href="../documentation/opportunities/cors-configuration.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -81,7 +78,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/cross-site-scripting.md" target="_blank" rel="referrer" title="Cross-Site-Scripting">Cross-Site-Scripting</a>
                     </p>
-                    <p class="is-size-6">Informieren Sie sich über die Möglichkeit von Cross-Site-Scripting und über das Erkennen und Beheben von Sicherheitsschwachstellen auf Websites.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für Cross-Site-Scripting und darüber, wie Sie Sicherheitsschwachstellen auf Websites erkennen und beheben.</p>
                 </div>
                 <a href="../documentation/opportunities/cross-site-scripting.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -104,7 +101,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/website-permissions.md" target="_blank" rel="referrer" title="Website-Berechtigungen">Website-Berechtigungen</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Opportunity „Website-Berechtigungen“ und finden Sie heraus, wie Sie damit die Sicherheit auf Ihrer Website erhöhen können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für Website-Berechtigungen und darüber, wie Sie damit die Sicherheit auf Ihrer Website erhöhen können.</p>
                 </div>
                 <a href="../documentation/opportunities/website-permissions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -127,7 +124,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities//website-vulnerabilities.md" target="_blank" rel="referrer" title="Website-Schwachstellen">Website-Schwachstellen</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Opportunity „Website-Schwachstellen“ und finden Sie heraus, wie Sie damit die Sicherheit auf Ihrer Website erhöhen können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für Website-Schwachstellen und darüber, wie Sie damit die Sicherheit auf Ihrer Website erhöhen können.</p>
                 </div>
                 <a href="../documentation/opportunities//website-vulnerabilities.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>

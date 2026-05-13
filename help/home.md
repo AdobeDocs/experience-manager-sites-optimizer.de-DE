@@ -2,12 +2,11 @@
 title: AEM Sites Optimizer
 description: Steigern Sie die Leistung Ihrer Website mit Sites Optimizer. Verbessern Sie die Geschwindigkeit, senken Sie die Kosten und erhöhen Sie die Zuverlässigkeit, um bessere Interaktionen zu ermöglichen.
 TQID: https://experienceleague.adobe.com/tep2UnSJ4BsorZ9caKACfbOFyI1qvM2ZCxhjHd3vcSc
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 182
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -62,8 +61,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./documentation/preflight/overview.md" title="Dokumentation zu Preflight" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="documentation/preflight/assets/overview/hero.png" alt="Dokumentation zu Preflight"
+                    <a href="./documentation/preflight/overview.md" title="Preflight-Dokumentation" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="documentation/preflight/assets/overview/hero.png" alt="Preflight-Dokumentation"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -71,9 +70,9 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./documentation/preflight/overview.md" target="_blank" rel="referrer" title="Dokumentation zu Preflight">Preflight-Dokumentation</a>
+                        <a href="./documentation/preflight/overview.md" target="_blank" rel="referrer" title="Preflight-Dokumentation">Preflight-Dokumentation</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über den Preflight in Sites Optimizer und wie Sie Ihre Web-Seiten optimieren können, bevor sie veröffentlicht werden.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über den Preflight in Sites Optimizer und wie Sie Ihre Web-Seiten vor der Veröffentlichung optimieren können.</p>
                 </div>
                 <a href="./documentation/preflight/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -94,7 +93,7 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./documentation/overview.md" target="_blank" rel="referrer" title="Dokumentation zu Sites Optimizer">Dokumentation zu Sites Optimizer</a>
+                        <a href="./documentation/overview.md" target="_blank" rel="referrer" title="Sites Optimizer-Dokumentation">Sites Optimizer-Dokumentation</a>
                     </p>
                     <p class="is-size-6">Lesen Sie die Dokumentation zu Sites Optimizer, um mehr über alle darin enthaltenen Funktionen zu erfahren.</p>
                 </div>

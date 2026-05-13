@@ -2,15 +2,12 @@
 title: Dokumentation zu Sites Optimizer
 description: Dokumentation zu Experience Manager Sites Optimizer.
 TQID: https://experienceleague.adobe.com/Thzxo0-DNTCjk9C0MX7OR2yObUKxbUQDQFV3BtD7kmg
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 145
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +74,7 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./opportunities/overview.md" target="_blank" rel="referrer" title="Opportunitys">Möglichkeiten</a>
+                        <a href="./opportunities/overview.md" target="_blank" rel="referrer" title="Möglichkeiten">Möglichkeiten</a>
                     </p>
                     <p class="is-size-6">Erfahren Sie mehr über alle verfügbaren Möglichkeiten in Sites Optimizer und darüber, wie Sie sie zur Verbesserung der Leistung Ihrer Site einsetzen können.</p>
                 </div>
@@ -125,7 +122,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./trial.md" target="_blank" rel="referrer" title="Testversion">Testversion</a>
                     </p>
-                    <p class="is-size-6">Beginnen Sie mit der Sites Optimizer-Testversion, einschließlich Schritten, Einschränkungen und FAQs für bestehende AEM Sites-Kunden.</p>
+                    <p class="is-size-6">Beginnen Sie mit der Sites Optimizer-Testversion, einschließlich Schritten, Einschränkungen und FAQs für AEM Sites-Bestandskundschaft.</p>
                 </div>
                 <a href="./trial.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
