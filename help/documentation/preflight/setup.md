@@ -2,12 +2,11 @@
 title: Preflight-Setup
 description: Erfahren Sie, wie Sie die Preflight-Erweiterung für AEM Sites Optimizer einrichten.
 TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+source-git-commit: 511e784d7d484b18942ac4b711df1c802debfec9
 workflow-type: tm+mt
-source-wordcount: 596
-ht-degree: 100%
+source-wordcount: 587
+ht-degree: 97%
 
 ---
 
@@ -32,8 +31,8 @@ Gehen Sie wie folgt vor, um Preflight im universellen Editor einzurichten:
 
 1. Öffnen Sie den **Extension Manager** unter:
    [https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor](https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor)
-1. Suchen Sie nach der **AEM Sites Optimizer Preflight-Erweiterung** und senden Sie eine Anfrage, um sie zu aktivieren.
-1. Das **Adobe AEM-Team** prüft und aktiviert die Erweiterung für Ihr Unternehmen.
+1. Suchen Sie die Erweiterung **AEM Sites Optimizer Preflight**.
+1. Der Systemadministrator der Organisation muss diese Erweiterung aktivieren.
 1. Nachdem die Erweiterung aktiviert ist, öffnen Sie eine Seite im **universellen Editor**, z. B.:
    `https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/en/example/home.html`
 1. Die **Preflight-Erweiterung** wird in der **Seitenleiste** angezeigt.
