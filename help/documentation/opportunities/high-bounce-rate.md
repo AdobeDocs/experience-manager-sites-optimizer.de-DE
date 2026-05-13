@@ -2,13 +2,15 @@
 title: Dokumentation zur Möglichkeit „Hohe Bounce-Rate“
 description: Erfahren Sie mehr über die Möglichkeit zu wenigen Aufrufen und darüber, wie Sie sie zur Verbesserung der Formularinteraktion auf Ihrer Website verwenden können.
 badgeEngagement: label="Interaktion" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Interaktion"
-source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
-workflow-type: ht
-source-wordcount: '350'
+TQID: https://experienceleague.adobe.com/0P8QzHWJHZ21We0T8o3s3Bj60syHXSl2dmfUS85uXoE
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
+workflow-type: tm+mt
+source-wordcount: 359
 ht-degree: 100%
 
 ---
-
 
 # Möglichkeit „Hohe Bounce-Rate“
 
@@ -67,7 +69,7 @@ Sites Optimizer Ultimate ermöglicht es, eine automatische Optimierung für die 
 
 {{auto-optimize-deploy-optimization-slack}}
 
->[!TAB Genehmigung anfordern]
+>[!TAB Bestätigung anfordern]
 
 {{auto-optimize-request-approval}}
 

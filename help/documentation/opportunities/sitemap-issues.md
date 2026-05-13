@@ -2,13 +2,15 @@
 title: Dokumentation zur Möglichkeit „Sitemap-Probleme“
 description: Erfahren Sie mehr über die Möglichkeit „Sitemap-Probleme“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.
 badgeTrafficAcquisition: label="Traffic-Akquise" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Traffic-Akquise"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '490'
+TQID: https://experienceleague.adobe.com/fWfIWxwZ0SQpY4l0rjYrNZaNNhXqmh2t-etEwotYUfQ
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
+workflow-type: tm+mt
+source-wordcount: 497
 ht-degree: 100%
 
 ---
-
 
 # Möglichkeit „Sitemap-Probleme“
 
@@ -89,7 +91,7 @@ Sites Optimizer Ultimate bietet nun die Möglichkeit, automatische Optimierungen
 
 {{auto-optimize-deploy-optimization-slack}}
 
->[!TAB Genehmigung anfordern]
+>[!TAB Bestätigung anfordern]
 
 {{auto-optimize-request-approval}}
 

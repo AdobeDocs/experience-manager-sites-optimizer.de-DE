@@ -1,13 +1,15 @@
 ---
 title: Sites Optimizer-Einstellungen
 description: Erfahren Sie, wie Sie die Einstellungen für Sites Optimizer konfigurieren und mit anderen Tools integrieren.
-source-git-commit: b71d5510162864ee76931cf754164ea637cadd92
+TQID: https://experienceleague.adobe.com/eznjSHZgAmCh-ek-XE-lLtuoGJxC0yY4UVrmPjc0KYo
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 12%
+source-wordcount: 749
+ht-degree: 13%
 
 ---
-
 
 # Sites Optimizer-Einstellungen
 
@@ -23,7 +25,7 @@ Der Connector für die Google Search Console-Einstellungen in AEM Sites Optimize
 
 Für die Einrichtung dieses Connectors benötigen Sie Anmeldeinformationen mit Administratorzugriff auf die Google Search Console für die Domain.
 
-## Verbindung mit AEM Sites herstellen
+## Mit AEM Sites verbinden
 
 In diesem Handbuch wird beschrieben, wie Sie Ihre bestehende Edge Delivery Services-Site (EDS) mit AEM Sites Optimizer verbinden. Bevor Sie beginnen, stellen Sie sicher, dass Ihre EDS-Site bereits eingerichtet ist und funktioniert - diese Verbindung ist speziell für den Zugriff von AEM Sites Optimizer auf Ihre Inhalte vorgesehen.
 
@@ -36,7 +38,7 @@ Die Verbindung erfordert zwei Schritte:
 
 Wechseln Sie in AEM Sites Optimizer zu **Einstellungen → Verbindung mit AEM Sites herstellen** und geben Sie Folgendes ein:
 
-- **Code-Repository**&#x200B;URL - die GitHub-URL Ihrer EDS-Site, z. B.:
+- **Code-Repository**URL - die GitHub-URL Ihrer EDS-Site, z. B.:
   `https://github.com/owner/repo`
 
 - **Content Source URL** - die URL des SharePoint-Ordners oder Google Drive-Ordners, der Ihre EDS-Site unterstützt, z. B.:
@@ -138,7 +140,7 @@ Zurück im **Mit AEM Sites verbinden** geben Sie Folgendes unter **Content Repos
 
 Klicken Sie auf **Verbindung überprüfen**, um den Zugriff zu bestätigen, und klicken Sie dann auf **Speichern**.
 
-#### Google-Laufwerk
+#### Google Drive
 
 ![Dialogfeld „Verbindung mit AEM Sites herstellen“ mit dem Google Drive-Dienstkonto für den Freigabezugriff](./assets/settings/validate-eds-google.png){align="center"}
 
