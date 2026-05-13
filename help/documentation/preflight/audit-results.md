@@ -30,7 +30,7 @@ Siehe [Vollständige Liste der verfügbaren Arten von Möglichkeiten und wie Sie
 
 Nach Abschluss des Audits können Sie Möglichkeiten schnell finden und verstehen, indem Sie sie direkt auf der Seite hervorheben.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483412/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483421/?captions=ger&learn=on&enablevpops)
 
 Preflight hebt jede Möglichkeit im Kontext hervor und verbindet die Ergebnisse im Panel mit der genauen Position in Ihrem Inhalt. Dies erleichtert die Prüfung und Lösung von Möglichkeiten, ohne die Seite manuell durchsuchen zu müssen.
 
