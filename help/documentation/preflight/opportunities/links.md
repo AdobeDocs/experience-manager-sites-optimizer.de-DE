@@ -2,7 +2,7 @@
 title: Preflight-Möglichkeit für Links
 description: Erfahren Sie mehr über die Preflight-Möglichkeit für Links in Sites Optimizer.
 source-git-commit: d0fda0afad66289298e79edd1f84be251433a9f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '55'
 ht-degree: 100%
 

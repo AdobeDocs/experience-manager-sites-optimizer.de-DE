@@ -2,9 +2,9 @@
 title: Preflight-Möglichkeit für Lesbarkeit
 description: Erfahren Sie mehr über die Preflight-Möglichkeit für Lesbarkeit in Sites Optimizer.
 source-git-commit: d0fda0afad66289298e79edd1f84be251433a9f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '85'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -24,4 +24,4 @@ Preflight-Möglichkeiten für Lesbarkeit sind in mehreren Sprachen verfügbar, d
 * Deutsch
 * Niederländisch
 
-Dadurch wird sichergestellt, dass Teams die Lesbarkeit von Inhalten für eine Vielzahl von Zielgruppen bewerten und optimieren können.
+Dadurch wird sichergestellt, dass Teams die Lesbarkeit von Inhalten für eine Vielzahl von Zielgruppen auswerten und optimieren können.

@@ -1,39 +1,39 @@
 ---
 title: Audit-Ergebnisse in Preflight
-description: Erfahren Sie, wie Sie die Ergebnisse der Preflight-Prüfung und die Benutzer-Fortschrittsleiste interpretieren und zu Problemen in der Vorschau navigieren.
+description: Erfahren Sie, wie Sie die Audit-Ergebnisse in Preflight und in der Leiste mit Benutzerfortschritten interpretieren und zu Problemen in der Vorschau navigieren.
 source-git-commit: 30060044e558774ab1e17684945f29d3e76dc3a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # Audit-Ergebnisse in Preflight
 
-Wenn die Prüfung abgeschlossen ist, zeigt Preflight die Prüfergebnisse als Opportunities an. Jede Opportunity ist nach Typ organisiert und enthält Empfehlungen, wie Sie die Seite verbessern und optimieren können. Innerhalb einer Opportunity identifizieren einzelne Probleme bestimmte Elemente, die überprüft oder behoben werden müssen.
+Wenn das Audit abgeschlossen ist, zeigt Preflight die Audit-Ergebnisse als Möglichkeiten an. Die Möglichkeiten sind je nach Art organisiert und enthalten Empfehlungen zur Verbesserung und Optimierung der Seite. Innerhalb einer Möglichkeit stehen die einzelnen Probleme für bestimmte Elemente, die geprüft oder korrigiert werden müssen.
 
-Am oberen Rand des AEM Preflight-Dialogfelds befindet sich eine Benutzer-Fortschrittsleiste, die die gesamten Auditergebnisse widerspiegelt. Es zeigt den Prozentsatz der Opportunitys an, die ohne Probleme bestanden wurden, und die Gesamtzahl der gefundenen Probleme für alle Opportunitys. Mit der Fortschrittsleiste für Benutzende können Autoren den Gesamtzustand der Seite auf einen Blick erfassen.
+Am oberen Rand des Dialogfelds „AEM Preflight“ befindet sich eine Leiste mit Benutzerfortschritten, die die gesamten Audit-Ergebnisse widerspiegelt. Sie zeigt den Prozentsatz der Möglichkeiten an, die keine Probleme gemeldet haben, und die Gesamtzahl der gefundenen Probleme für alle Möglichkeiten. Mit der Leiste für Benutzerfortschritte können Autorinnen und Autoren den Gesamtstatus der Seite auf einen Blick erfassen.
 
-![Benutzer-Fortschrittsleiste und Audit-Möglichkeiten im AEM Preflight-Dialogfeld](./assets/overview/hero.png){align="center"}
+![Leiste für Benutzerfortschritte und Audit-Möglichkeiten im Dialogfeld „AEM Preflight“](./assets/overview/hero.png){align="center"}
 
-Der Balken ist farbcodiert:
+Die Leiste ist farb-codiert:
 
-* Rot für **weniger als 1/3** der abgeschlossenen Chancen
-* Orange für **1/3 bis 2/3 vollständig**
-* Grün für **mehr als 2/3 vollständig**
-* Blau , während Audits **noch laufen**
+* Rot: **Weniger als 1/3** der Möglichkeiten sind abgeschlossen
+* Orange: **1/3 bis 2/3 sind abgeschlossen**
+* Grün: **Mehr als 2/3 sind abgeschlossen**
+* Blau: Audits **werden noch ausgeführt**
 
-Siehe die [vollständige Liste der verfügbaren Opportunity-Typen und wie Sie sie behandeln](./overview.md#preflight-opportunities).
+Siehe [Vollständige Liste der verfügbaren Arten von Möglichkeiten und wie Sie sie verwenden](./overview.md#preflight-opportunities).
 
-## Chancen hervorheben
+## Hervorheben von Möglichkeiten
 
-Nach Abschluss des Audits können Sie Opportunities schnell finden und verstehen, indem Sie sie direkt auf der Seite hervorheben.
+Nach Abschluss des Audits können Sie Möglichkeiten schnell finden und verstehen, indem Sie sie direkt auf der Seite hervorheben.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483421/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483412/?learn=on&enablevpops)
 
-Preflight hebt jede Opportunity im Kontext hervor und verbindet die Ergebnisse im Bedienfeld mit der genauen Position in Ihrem Inhalt. Dies erleichtert die Überprüfung und Lösung von Opportunitys, ohne die Seite manuell durchsuchen zu müssen.
+Preflight hebt jede Möglichkeit im Kontext hervor und verbindet die Ergebnisse im Panel mit der genauen Position in Ihrem Inhalt. Dies erleichtert die Prüfung und Lösung von Möglichkeiten, ohne die Seite manuell durchsuchen zu müssen.
 
-1. Öffnen Sie das Preflight-Bedienfeld im Kontext der zu prüfenden Seite und führen Sie die Prüfungen aus.
-1. Wählen Sie eine bestimmte Opportunity aus der Liste im Preflight-Bedienfeld aus.
-1. Die Vorschau scrollt automatisch zum relevanten Bereich und markiert das entsprechende Element, sodass Sie die Opportunity im Kontext einfach identifizieren und optimieren können.
+1. Öffnen Sie das Panel „Preflight“ im Kontext der zu prüfenden Seite und führen Sie die Audits durch.
+1. Wählen Sie eine bestimmte Möglichkeit aus der Liste im Panel „Preflight“ aus.
+1. Die Vorschau scrollt automatisch zum relevanten Bereich und hebt das entsprechende Element hervor, sodass Sie die Möglichkeit im Kontext einfach identifizieren und optimieren können.
