@@ -10,7 +10,7 @@ topic_v2:
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 669
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 35%
 
 <!--![Missing alt text opportunity](./assets/missing-alt-text/hero.png){align="center"}-->
 
->[!VIDEO](https://video.tv.adobe.com/v/3483251/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483273/?captions=ger&learn=on&enablevpops)
 
-Die fehlende Alternativtext-Opportunity identifiziert Bilder auf Ihrer Website, die keinen beschreibenden Alternativtext haben. Ohne Alternativtext können Benutzende, die auf Bildschirmlesehilfen angewiesen sind, visuelle Inhalte nicht interpretieren und schaffen somit Barrierefreiheitsbarrieren. Darüber hinaus wird die Art und Weise, wie Suchmaschinen Bilder verstehen und indizieren, eingeschränkt, was die Auffindbarkeit von Inhalten und die Suchleistung verringert. AEM Sites Optimizer erkennt Probleme mit fehlendem ALT-Text, bietet spezifische KI-Empfehlungen und ermöglicht eine Bereitstellung mit einem Klick, um sie zu beheben, und das alles in einer zentralen Ansicht.
+Die Möglichkeit für fehlenden Alternativtext identifiziert Bilder auf Ihrer Website, die keinen beschreibenden Alternativtext haben. Ohne Alternativtext können Benutzende, die auf Bildschirmlesehilfen angewiesen sind, visuelle Inhalte nicht interpretieren. Dies bedeutet Hindernisse bei der Barrierefreiheit. Darüber hinaus wird die Art und Weise eingeschränkt, wie Suchmaschinen Bilder verstehen und indizieren, was die Auffindbarkeit von Inhalten und die Suchleistung verringert. AEM Sites Optimizer erkennt Probleme mit fehlendem Alternativtext, bietet spezifische KI-Empfehlungen und ermöglicht die Bereitstellung einer Korrektur mit einem Klick, und das alles in einer zentralen Ansicht.
 
 ## Automatische Identifizierung
 
 <!--![Auto-identify missing alt text](./assets/missing-alt-text/auto-identify.png){align="center"}-->
 
-AEM Sites Optimizer scannt Ihre Website mithilfe eines mehrstufigen Audits, bei dem Website-crawlen, echte Benutzer-Traffic-Daten und KI-Analysen kombiniert werden, um Bilder zu identifizieren, für die Alt-Text erforderlich ist, aber nicht definiert wurde. Außerdem werden Bilder auf der Seite ausgewertet, um zu ermitteln, ob alternativer Text erforderlich ist. Ausgenommen sind dekorative oder nicht-informative Bilder gemäß den Web Content Accessibility Guidelines (WCAG). Bilder werden anhand ihrer Rolle und Relevanz innerhalb der Seite analysiert, wobei Korrekturen mit den höchsten Prioritäten für Barrierefreiheit und SEO-Optimierung ausgewählt werden.
+AEM Sites Optimizer scannt Ihre Website mithilfe eines mehrstufigen Audits, bei dem Website-Crawling, Daten aus realem Benutzer-Traffic und KI-Analysen kombiniert werden, um Bilder zu identifizieren, für die Alternativtext erforderlich ist, aber nicht definiert wurde. Außerdem werden Bilder auf der Seite ausgewertet, um zu ermitteln, ob Alternativtext erforderlich ist. Ausgenommen sind dekorative oder nicht-informative Bilder gemäß den Web Content Accessibility Guidelines (WCAG). Bilder werden anhand ihrer Rolle und Relevanz innerhalb der Seite analysiert, wobei Korrekturen mit den höchsten Prioritäten für Barrierefreiheit und SEO-Optimierung ausgewählt werden.
 
-Diese Gelegenheit bietet eine Liste der identifizierten Probleme, einschließlich:
+Diese Möglichkeit stellt eine Liste der identifizierten Probleme bereit, zum Beispiel:
 
 * **Seite**: Der Pfad zu der Seite mit dem fehlenden Alternativtext.
 * **Bild**: Das Bild, bei dem der beschreibende Alternativtext fehlt.
@@ -37,7 +37,7 @@ Diese Gelegenheit bietet eine Liste der identifizierten Probleme, einschließlic
 
 <!--![Auto-suggest missing alt text](./assets/missing-alt-text/auto-suggest.png){align="center"}-->
 
-Für jedes identifizierte Problem schlägt AEM Sites Optimizer einen beschreibenden Alternativtext für das Bild vor. Es verwendet KI-Vision-Modelle, um das Bild zu analysieren und eine Beschreibung zu generieren, die seinen Inhalt und seine Rolle innerhalb der Seite widerspiegelt. Die Empfehlungen sind kurz gefasst, relevant und auf die Best Practices zur Barrierefreiheit abgestimmt. Jeder Vorschlag kann vor seiner Anwendung überprüft und bearbeitet werden.
+Für jedes identifizierte Problem schlägt AEM Sites Optimizer einen beschreibenden Alternativtext für das Bild vor. Mit AI Vision Models wird das Bild analysiert und eine Beschreibung generiert, die seinen Inhalt und seine Rolle innerhalb der Seite widerspiegelt. Die Empfehlungen sind kurz gefasst, relevant und auf die Best Practices zur Barrierefreiheit abgestimmt. Jeder Vorschlag kann vor seiner Anwendung geprüft und bearbeitet werden.
 
 >[!BEGINTABS]
 
@@ -61,23 +61,23 @@ Sie können Einträge aus der Liste der Möglichkeiten ignorieren. Durch Auswäh
 
 <!--[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}-->
 
-Sobald die Vorschläge geprüft und genehmigt wurden, können Sie auf **Optimierung bereitstellen** klicken. AEM Sites Optimizer wendet die Fehlerbehebungen dann in der Autorenumgebung an, je nachdem, wie ALT-Text in Ihrer Implementierung verwaltet wird. Der AEM-Autor kann dann die Änderungen über das Content Management System (CMS) veröffentlichen.
+Sobald die Vorschläge geprüft und genehmigt wurden, können Sie auf **Optimierung bereitstellen** klicken. AEM Sites Optimizer wendet die Korrekturen dann in der Autorenumgebung an, je nachdem, wie Alternativtext in Ihrer Implementierung verwaltet wird. AEM-Autorinnen und -Autoren können dann die Änderungen über das Content Management System (CMS) veröffentlichen.
 
-Abhängig von der Konfiguration können Aktualisierungen direkt auf Seiteninhalte, Asset-Metadaten oder unterstützende Inhaltsmodelle angewendet werden. Der Optimierungsprozess umfasst die folgenden Schritte:
+Je nach Konfiguration können Aktualisierungen direkt auf Seiteninhalte, Asset-Metadaten oder unterstützende Inhaltsmodelle angewendet werden. Der Optimierungsprozess umfasst die folgenden Schritte:
 
-* **Validierung** - Stellt sicher, dass Aktualisierungen sicher angewendet werden, ohne die vorhandene Funktionalität zu beeinträchtigen.
-* **Bereitstellung** - Wendet die Aktualisierungen über vorhandene Prozesse an, z. B. Inhaltsaktualisierungen in AEM oder die Integration in Inhalts-APIs.
-* **Berechtigungsprüfung** - Prüft, ob der Benutzer über die entsprechenden Berechtigungen zum Anwenden von Änderungen verfügt. Andernfalls können alternative Ausgaben wie herunterladbare Updates für die Übergabe verwendet werden.
+* **Validierung** – Stellt sicher, dass Aktualisierungen sicher angewendet werden, ohne die vorhandene Funktionalität zu beeinträchtigen.
+* **Bereitstellung** – Wendet die Aktualisierungen über vorhandene Prozesse an, z. B. Inhaltsaktualisierungen in AEM oder die Integration mit Inhalts-APIs.
+* **Berechtigungsprüfung** – Prüft, ob Benutzende über die entsprechenden Berechtigungen zum Anwenden von Änderungen verfügen. Ist dies nicht der Fall, können alternative Ausgaben wie herunterladbare Updates für die Übergabe verwendet werden.
 
-Aktualisierungen werden versioniert, wo unterstützt, und bieten Sichtbarkeit und Rollback-Kapazität. Dadurch wird sichergestellt, dass ALT-Text-Aktualisierungen korrekt angewendet werden, mit bestehenden Implementierungen abgestimmt sind und mit Governance- und Barrierefreiheitsstandards konsistent sind.
+Sofern unterstützt, werden Aktualisierungen versioniert, damit Sichtbarkeit und Rollback-Fähigkeit bereitgestellt werden. Dadurch wird sichergestellt, dass Aktualisierungen von Alternativtexten korrekt angewendet werden, mit bestehenden Implementierungen abgestimmt sind und mit Governance- und Barrierefreiheitsstandards konsistent sind.
 
-AEM Sites Optimizer wendet basierend auf Ihrer Einrichtung automatisch Aktualisierungen des ALT-Texts an wie folgt:
+Basierend auf Ihrem Setup wendet AEM Sites Optimizer Aktualisierungen des Alternativtexts automatisch wie folgt an:
 
 >[!BEGINTABS]
 
 >[!TAB Edge Delivery Services]
 
-Aktualisiert das Quelldokument (z. B. Google Docs oder SharePoint)
+Aktualisiert das Quelldokument (z. B. Google Docs oder SharePoint)
 
 >[!TAB AEM as a Cloud Service]
 
@@ -85,6 +85,6 @@ Schreibt Aktualisierungen direkt über die Content-API mit Versionierungs- und F
 
 >[!TAB Digital Asset Management (optional)]
 
-Aktualisiert gegebenenfalls Alt-Text auf Asset-Ebene.
+Aktualisiert Alternativtext bei Bedarf auf Asset-Ebene.
 
 >[!ENDTABS]

@@ -7,13 +7,13 @@ product_v2:
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: tm+mt
 source-wordcount: 182
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # AEM Sites Optimizer
 
->[!VIDEO](https://video.tv.adobe.com/v/3455085/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3455094/?captions=ger&learn=on&enablevpops)
 
 Adobe Experience Manager (AEM) Sites Optimizer ist ein Cloud-basierter Dienst, der die Leistung von auf AEM basierenden Websites analysiert und verbessert. Sites Optimizer identifiziert Verbesserungsmöglichkeiten für das Laden von Seiten, die Verwendung von Komponenten und die Bereitstellung von Inhalten. Diese Funktion trägt dazu bei, die Leistung Ihrer Website zu erhöhen und gleichzeitig die Kosten für Wartung und Aktualisierungen zu senken. Durch die Verwendung von Sites Optimizer können Sie ein reibungsloses und zuverlässiges Online-Erlebnis gewährleisten – ein wichtiger Faktor für die Aufrechterhaltung von Interaktionen und Konversionen.
 
@@ -62,8 +62,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./documentation/preflight/overview.md" title="Dokumentation zu Preflight" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="documentation/preflight/assets/overview/hero.png" alt="Dokumentation zu Preflight"
+                    <a href="./documentation/preflight/overview.md" title="Preflight-Dokumentation" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="documentation/preflight/assets/overview/hero.png" alt="Preflight-Dokumentation"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -71,9 +71,9 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./documentation/preflight/overview.md" target="_blank" rel="referrer" title="Dokumentation zu Preflight">Preflight-Dokumentation</a>
+                        <a href="./documentation/preflight/overview.md" target="_blank" rel="referrer" title="Preflight-Dokumentation">Preflight-Dokumentation</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über den Preflight in Sites Optimizer und wie Sie Ihre Web-Seiten optimieren können, bevor sie veröffentlicht werden.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über den Preflight in Sites Optimizer und wie Sie Ihre Web-Seiten vor der Veröffentlichung optimieren können.</p>
                 </div>
                 <a href="./documentation/preflight/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -94,7 +94,7 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./documentation/overview.md" target="_blank" rel="referrer" title="Dokumentation zu Sites Optimizer">Dokumentation zu Sites Optimizer</a>
+                        <a href="./documentation/overview.md" target="_blank" rel="referrer" title="Sites Optimizer-Dokumentation">Sites Optimizer-Dokumentation</a>
                     </p>
                     <p class="is-size-6">Lesen Sie die Dokumentation zu Sites Optimizer, um mehr über alle darin enthaltenen Funktionen zu erfahren.</p>
                 </div>
@@ -111,13 +111,13 @@ CARDS
 
 <!--
 CARDS 
-* https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html
+* https://helpx.adobe.com/de/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html
     {title=Packages and licensing}
     {description=Learn about AEM Sites Optimizer packages and licensing.}
     {image=./assets/home/licensing.png}
     {target=_blank}
     {cta=Learn more}
-* https://business.adobe.com/products/experience-manager/sites/optimizer.html
+* https://business.adobe.com/de/products/experience-manager/sites/optimizer.html
     {title=Explore the capabilities of AEM Sites Optimizer}
     {description=Learn what AEM Site Optimizer can do for your company.}
     {image=./assets/home/business-adobe-com.png}

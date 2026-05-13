@@ -10,7 +10,7 @@ topic_v2:
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 655
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
@@ -18,33 +18,33 @@ ht-degree: 30%
 
 <!--![Broken backlinks opportunity](./assets/broken-backlinks/hero.png){align="center"}-->
 
->[!VIDEO](https://video.tv.adobe.com/v/3483250/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483262/?captions=ger&learn=on&enablevpops)
 
-Die defekte Backlinks-Opportunity identifiziert externe Links, die auf nicht vorhandene (404) Seiten Ihrer Site verweisen. Diese Links führen zu Referral Traffic-Verlusten und geringerem SEO-Wert, da Suchmaschinen auf Backlinks angewiesen sind, um Relevanz und Autorität zu bewerten. Diese Probleme treten auf, wenn URLs geändert, Inhalte entfernt oder Seiten ohne ordnungsgemäße Weiterleitungen nicht mehr verfügbar sind. AEM Sites Optimizer identifiziert alle fehlerhaften Backlinks, bietet spezifische KI-Empfehlungen und ermöglicht eine Bereitstellung mit einem Klick, um sie zu beheben, und das alles in einer zentralen Ansicht.
+Die Möglichkeit für fehlerhafte Backlinks identifiziert externe Links, die auf nicht vorhandene (404) Seiten Ihrer Site verweisen. Diese Links führen zu Referral-Traffic-Verlusten und geringerem SEO-Wert, da Suchmaschinen auf Backlinks angewiesen sind, um Relevanz und Autorität zu bewerten. Diese Probleme treten auf, wenn URLs geändert oder Inhalte entfernt werden oder Seiten nicht mehr verfügbar sind, ohne dass ordnungsgemäße Weiterleitungen vorhanden sind. AEM Sites Optimizer identifiziert alle fehlerhaften Backlinks, bietet spezifische KI-Empfehlungen und ermöglicht die Bereitstellung einer Korrektur mit einem Klick, und das alles in einer zentralen Ansicht.
 
 ## Automatische Identifizierung
 
 <!--![Auto-identify broken backlinks](./assets/broken-backlinks/auto-identify.png){align="center"}-->
 
-AEM Sites Optimizer durchsucht kontinuierlich externe Datenquellen, um Backlinks zu erkennen, die auf nicht vorhandene 404-Seiten auf Ihrer Site verweisen. Die Daten werden aus verschiedenen Quellen aggregiert, einschließlich Google Search Console[&#x200B; „Operational Telemetry](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) und SEO-Plattformen von Drittanbietern. Die Opportunity zur automatischen Identifizierung identifiziert externe Domains, die mit fehlerhaften URLs verknüpft sind, und priorisiert sie basierend auf den Auswirkungen, einschließlich Domain-Autorität und erwartetem Traffic sowie Verlusten bei der Link-Gerechtigkeit.
+AEM Sites Optimizer durchsucht kontinuierlich externe Datenquellen, um Backlinks zu erkennen, die auf nicht vorhandene 404-Seiten auf Ihrer Site verweisen. Die Daten werden aus verschiedenen Quellen aggregiert, einschließlich Google Search Console, [Operational Telemetry](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) und SEO-Plattformen von Drittanbietern. Die Möglichkeit zur automatischen Identifizierung identifiziert externe Domains, die mit fehlerhaften URLs verknüpft sind, und priorisiert sie basierend auf den Auswirkungen, einschließlich Domain-Autorität und erwartetem Traffic sowie Verlusten des Link-Werts.
 
-Bei dieser Opportunity werden alle identifizierten Probleme aufgelistet, einschließlich der folgenden Details:
+Diese Möglichkeit listet alle identifizierten Probleme auf, einschließlich der folgenden Details:
 
-* **Verweisende Domain und**: Die externe Seite oder Domain, die den fehlerhaften Link enthält.
-* **Priorität** - Hoch, Mittel oder Niedrig, was die Auswirkungen des fehlerhaften Links auf den SEO-Prozess angibt.
-* **Beschädigte Ziel-URL** - Die nicht vorhandene URL auf Ihrer Site, mit der verknüpft wird.
+* **Referrer-Domain und -Seite** – Die externe Seite oder Domain, die den fehlerhaften Link enthält.
+* **Priorität** – Hoch, Mittel oder Niedrig. Gibt die Auswirkungen des fehlerhaften Links auf den SEO-Prozess an.
+* **Fehlerhafte Ziel-URL** – Die nicht vorhandene URL auf Ihrer Site, auf die verlinkt wird.
 
 ## Automatische Vorschläge
 
 <!--![Auto-suggest broken backlinks](./assets/broken-backlinks/auto-suggest.png){align="center"}-->
 
-Für jeden identifizierten fehlerhaften Backlink empfiehlt AEM Sites Optimizer das am besten geeignete Ziel, um den Traffic und den SEO-Wert wiederherzustellen. Sie ermittelt die Absicht des Backlinks durch Analyse von:
+Für jeden identifizierten fehlerhaften Backlink empfiehlt AEM Sites Optimizer das am besten geeignete Ziel, um den Traffic und den SEO-Wert wiederherzustellen. Er ermittelt die Absicht des Backlinks durch Analyse folgender Elemente:
 
 * URL-Struktur und Token
 * Ankertext
 * Titel und Kontext der verweisenden Seite
 
-Dieser Intent wird mit vorhandenem Site-Inhalt abgeglichen, um die relevanteste Zielseite zu identifizieren. Jede fehlerhafte URL wird entweder einer exakten oder der nächstgelegenen relevanten Ersatzseite zugeordnet. Wenn kein geeignetes Ziel ermittelt werden kann, wird das Problem zur manuellen Überprüfung angezeigt.
+Diese Absicht wird mit vorhandenem Site-Inhalt abgeglichen, um die relevanteste Zielseite zu identifizieren. Jede fehlerhafte URL wird entweder einer exakten Ersatzseite oder der nächstgelegenen relevanten Seite zugeordnet. Wenn kein geeignetes Ziel ermittelt werden kann, wird das Problem zur manuellen Prüfung angezeigt.
 
 >[!BEGINTABS]
 
@@ -72,12 +72,12 @@ Sie können Einträge mit den anvisierten fehlerhaften URLs ignorieren. Durch Au
 
 <!--[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}-->
 
-Sobald die Vorschläge geprüft und genehmigt wurden, können Sie auf **Optimierung bereitstellen** klicken. AEM Sites Optimizer wendet die Korrekturen dann in der Autorenumgebung an, je nachdem, wie Weiterleitungen innerhalb Ihrer Implementierung verwaltet werden. Der AEM-Autor kann dann die Änderungen über das Content Management System (CMS) veröffentlichen.
+Sobald die Vorschläge geprüft und genehmigt wurden, können Sie auf **Optimierung bereitstellen** klicken. AEM Sites Optimizer wendet die Korrekturen dann in der Autorenumgebung an, je nachdem, wie Weiterleitungen innerhalb Ihrer Implementierung verwaltet werden. AEM-Autorinnen und -Autoren können dann die Änderungen über das Content Management System (CMS) veröffentlichen.
 
 Abhängig von der Konfiguration werden Fehlerbehebungen entweder als Inhalts- oder als Code-Änderungen innerhalb der vorhandenen Bereitstellungs-Workflows angewendet. Der Optimierungsprozess umfasst die folgenden Schritte:
 
-* **Validierung** - Stellt sicher, dass die Änderungen erwartungsgemäß funktionieren und führt vor der Bereitstellung keine Regressionen ein.
-* **Bereitstellung**: Wendet Änderungen über bestehende Prozesse an, z. B. Inhaltsaktualisierungen in AEM oder Code-Bereitstellung über CI/CD-Pipelines.
-* **Berechtigungsprüfung** - Prüft, ob der Benutzer über die erforderlichen Berechtigungen zum Bereitstellen von Änderungen verfügt. Andernfalls werden alternative Ausgaben wie herunterladbare Umleitungslisten oder Code-Patches bereitgestellt.
+* **Validierung** – Stellt vor der Bereitstellung sicher, dass die Änderungen wie erwartet funktionieren und keine Regressionen einführen.
+* **Bereitstellung** – Wendet Änderungen über bestehende Prozesse an, z. B. Inhaltsaktualisierungen in AEM oder Code-Bereitstellung über CI/CD-Pipelines.
+* **Berechtigungsprüfung** – Prüft, ob die Person über die erforderlichen Berechtigungen zum Bereitstellen von Änderungen verfügt. Anderenfalls werden alternative Ausgaben wie herunterladbare Umleitungslisten oder Code-Patches bereitgestellt.
 
-Dieser Prozess stellt sicher, dass Weiterleitungen genau implementiert, vor der Veröffentlichung validiert und mit bestehenden Konfigurationen und Governance-Prozessen abgestimmt werden.
+Dieser Prozess stellt sicher, dass Umleitungen korrekt implementiert, vor der Veröffentlichung validiert und mit bestehenden Konfigurationen und Governance-Prozessen abgestimmt werden.

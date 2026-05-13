@@ -1,6 +1,6 @@
 ---
 title: AEM Sites Optimizer Preflight
-description: Erfahren Sie mehr über Preflight und die Opportunity-Typen, die vor der Veröffentlichung ausgewertet werden.
+description: Erfahren Sie mehr über Preflight und die Arten von Möglichkeiten, die vor der Veröffentlichung ausgewertet werden.
 TQID: https://experienceleague.adobe.com/pZrPXBAaroTlpEsfSluFiLW2Noy4y5sD4dZHTsXgSfA
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
@@ -10,7 +10,7 @@ topic_v2:
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: tm+mt
 source-wordcount: 307
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -18,18 +18,18 @@ ht-degree: 36%
 
 ![Preflight-Möglichkeiten](./assets/overview/hero.png){align="center"}
 
-Mit Preflight in AEM Sites Optimizer können Sie Seiten vor der Live-Schaltung validieren und optimieren, indem Sie Inhalte und Struktur analysieren und Probleme mit umsetzbaren Empfehlungen kennzeichnen. Sie wurde für Autoren, Marketing-Experten und Entwickler entwickelt, die sicherstellen möchten, dass Seiten von hoher Qualität, Leistung und Veröffentlichungsbereitschaft sind, während die Nachbearbeitung reduziert wird.
+Mit Preflight in AEM Sites Optimizer können Sie Seiten vor der Veröffentlichung validieren und optimieren, indem Sie Inhalte und Struktur analysieren und Probleme mit umsetzbaren Empfehlungen kennzeichnen. Er wurde für Autorinnen und Autoren, Marketing-Fachleute und Entwickelnde erstellt, die sicherstellen möchten, dass Seiten hohe Qualität und Leistung aufweisen und bereit zur Veröffentlichung sind, während die Nachbearbeitung reduziert wird.
 
-Im Mittelpunkt von Preflight stehen Opportunities, die durch eine Reihe von Audits identifiziert werden, die wichtige Aspekte Ihrer Seite vor der Veröffentlichung bewerten. Diese Prüfungen decken potenzielle Probleme auf und geben klare, umsetzbare Empfehlungen zur Verbesserung der Gesamtqualität und -leistung.
+Im Mittelpunkt von Preflight stehen Möglichkeiten, die durch eine Reihe von Audits identifiziert werden, die wichtige Aspekte Ihrer Seite vor der Veröffentlichung bewerten. Diese Audits decken potenzielle Probleme auf und geben klare, umsetzbare Empfehlungen zur Verbesserung der Gesamtqualität und -leistung.
 
 ## Erste Schritte mit Preflight
 
-Der Einstieg in Preflight ist einfach. Richten Sie einfach Preflight ein, öffnen Sie es in Ihrer Authoring-Umgebung und führen Sie einen Audit auf Ihrer Seite durch, und Preflight erledigt den Rest.
+Der Einstieg in Preflight ist einfach. Richten Sie einfach Preflight ein, öffnen Sie es in Ihrer Authoring-Umgebung und führen Sie ein Audit auf Ihrer Seite durch. Preflight erledigt den Rest.
 
-1. [Preflight einrichten](./setup.md) - Erfahren Sie, wie Sie Preflight für Ihre AEM-Instanz einrichten
-1. [Zugriff auf Preflight](./access-preflight.md) - Erfahren Sie, wo Preflight in Ihrer Authoring-Umgebung angezeigt wird
-1. [Audits ausführen](./audits.md) - Erfahren Sie, wie Sie ein Preflight-Audit starten.
-1. [Audit-Ergebnisse und -](./audit-results.md): Erfahren Sie, wie Audit-Ergebnisse interpretiert werden.
+1. [Einrichten von Preflight](./setup.md) – Erfahren Sie, wie Sie Preflight für Ihre AEM-Instanz einrichten
+1. [Zugreifen auf Preflight](./access-preflight.md) – Erfahren Sie, wo Sie Preflight in Ihrer Authoring-Umgebung finden
+1. [Ausführen von Audits](./audits.md) – Erfahren Sie, wie Sie ein Preflight-Audit starten
+1. [Audit-Ergebnisse und -Möglichkeiten](./audit-results.md) – Erfahren Sie, wie Audit-Ergebnisse interpretiert werden
 
 ## Preflight-Möglichkeiten
 

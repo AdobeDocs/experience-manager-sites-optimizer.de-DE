@@ -12,7 +12,7 @@ topic_v2:
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: tm+mt
 source-wordcount: 348
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ AEM Sites Optimizer bietet wertvolle Erkenntnisse und Empfehlungen, mit denen Si
 
 Jede Kategorie zeigt einen anderen Weg zur Verbesserung Ihrer Site auf. Eine Kategorie kann zum Beispiel die Besucherinteraktion erhöhen. Eine andere kann die Auffindbarkeit verbessern. Weitere Kategorien konzentrieren sich auf die Stärkung der Sicherheit oder die Aufrechterhaltung der Site-Stabilität. Preflight hilft Ihnen bei der Analyse und Optimierung von Seiten, bevor sie veröffentlicht werden.
 
-Durch das Nutzen dieser Möglichkeiten können Sie das Anwendererlebnis verbessern, die richtige Zielgruppe ansprechen und dafür sorgen, dass Ihre Site sicher und zuverlässig bleibt. Die Verbesserung der Interaktion und der Traffic-Akquise verbessert die Kundenbeziehung und Sichtbarkeit, während ein starker Sicherheitsstatus und ein guter Site-Zustand dazu beitragen, Vertrauen und Stabilität sicherzustellen. Die Preflight-Analyse stellt sicher, dass Ihre Inhalte vor der Live-Schaltung optimiert werden. Erkunden Sie die unten stehenden Links, um die nach Kategorie geordneten Möglichkeiten zu sehen, und entdecken Sie Wege zum Verbessern Ihrer Site.
+Durch das Nutzen dieser Möglichkeiten können Sie das Anwendererlebnis verbessern, die richtige Zielgruppe ansprechen und dafür sorgen, dass Ihre Site sicher und zuverlässig bleibt. Die Verbesserung der Interaktion und der Traffic-Akquise verbessert die Kundenbeziehung und Sichtbarkeit, während ein starker Sicherheitsstatus und ein guter Site-Zustand dazu beitragen, Vertrauen und Stabilität sicherzustellen. Die Preflight-Analyse stellt sicher, dass Ihre Inhalte vor der Veröffentlichung optimiert werden. Erkunden Sie die unten stehenden Links, um die nach Kategorie geordneten Möglichkeiten zu sehen, und entdecken Sie Wege zum Verbessern Ihrer Site.
 
 ## Arten von Möglichkeiten
 
@@ -219,4 +219,4 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-<span class="preview"> Die Funktionen Forms-Optimierung und Forms-Barrierefreiheit sind im Early-Access-Programm verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>
+<span class="preview"> Die Funktionen „Formularoptimierung“ und „Barrierefreiheit von Formularen“ sind im Rahmen des Early-Access-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>

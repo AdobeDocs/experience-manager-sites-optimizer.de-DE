@@ -11,13 +11,13 @@ hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 154
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
-# Forms - Möglichkeiten zur Barrierefreiheit
+# Möglichkeiten zur Barrierefreiheit von Formularen
 
-<span class="preview"> Die Forms-Optimierungsfunktion ist im Rahmen eines Early-Access-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>
+<span class="preview"> Die Funktion „Formularoptimierung“ ist im Rahmen des Early-Adopter-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>
 
 ![Möglichkeiten zur Barrierefreiheit von Formularen](./assets/form-accesibility/hero.png){align="center"}
 
@@ -55,7 +55,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" title="Probleme mit der Barrierefreiheit von Formularen">Probleme mit der Barrierefreiheit von Formularen</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über Barrierefreiheitsprobleme bei Formularen und wie Sie sie verwenden können, um die Interaktion mit Formularen auf Ihrer Website zu verbessern.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für Probleme mit der Barrierefreiheit von Formularen und darüber, wie Sie sie zur Verbesserung der Formularinteraktionen auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>

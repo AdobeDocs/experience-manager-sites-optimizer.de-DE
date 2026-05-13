@@ -11,13 +11,13 @@ hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 332
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Möglichkeit „Wenige Formularaufrufe“
 
-<span class="preview"> Die Forms-Optimierungsfunktion ist im Rahmen eines Early-Access-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>
+<span class="preview"> Die Funktion „Formularoptimierung“ ist im Rahmen des Early-Adopter-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-ID aus an aem-forms-ea@adobe.com schreiben, um dem Early-Access-Programm beizutreten und den Zugriff auf diese Funktion anzufordern. </span>
 
 ![Möglichkeit „Wenig Ansichten“](./assets/low-views/hero.png){align="center"}
 
