@@ -5,9 +5,9 @@ TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 source-git-commit: 511e784d7d484b18942ac4b711df1c802debfec9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 587
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Gehen Sie wie folgt vor, um Preflight im universellen Editor einzurichten:
 1. Öffnen Sie den **Extension Manager** unter:
    [https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor](https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor)
 1. Suchen Sie die Erweiterung **AEM Sites Optimizer Preflight**.
-1. Der Systemadministrator der Organisation muss diese Erweiterung aktivieren.
+1. Die Systemadmins der Organisation müssen diese Erweiterung aktivieren.
 1. Nachdem die Erweiterung aktiviert ist, öffnen Sie eine Seite im **universellen Editor**, z. B.:
    `https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/en/example/home.html`
 1. Die **Preflight-Erweiterung** wird in der **Seitenleiste** angezeigt.
@@ -172,5 +172,5 @@ Beachten Sie beim Ausführen von Preflight-Audits die folgenden Richtlinien:
 
 * Führen Sie Audits immer für **Staging- oder Vorschauseiten** durch, bevor Sie sie in der Produktion veröffentlichen.
 * Priorisieren Sie die Behebung von **schwerwiegenden Problemen** ( z. B. fehlerhafte Links, fehlende H1-Tags oder unsichere Links).
-* Stellen Sie sicher, dass für Staging-Umgebungen die **Authentifizierung  aktiviert** ist, bevor Sie Audits ausführen.
+* Stellen Sie sicher, dass für Staging-Umgebungen die **Authentifizierung aktiviert** ist, bevor Sie Audits ausführen.
 * Überprüfen und wenden Sie **Meta-Tag-Empfehlungen** an, um die SEO-Leistung zu verbessern.
