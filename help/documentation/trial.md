@@ -13,7 +13,7 @@ ht-degree: 100%
 
 Beginnen Sie mit Sites Optimizer und verwenden Sie diese Testversion für AEM Sites-Bestandskundschaft (Edge Delivery Services, Cloud Services und Managed Services). Ihre Domain-Daten sind bereits vorkonfiguriert, sodass Sie sofort mit der Optimierung beginnen können. Das folgende Video führt Sie durch das Testerlebnis und zeigt Ihnen, wie Sie beginnen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483296/?captions=ger&learn=on&enablevpops)
 
 >[!TIP]
 >
