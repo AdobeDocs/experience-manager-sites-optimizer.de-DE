@@ -2,8 +2,8 @@
 title: Sites Optimizer-Testversion
 description: Beginnen Sie mit der AEM Sites Optimizer-Testversion für AEM Sites-Bestandskundschaft.
 source-git-commit: 9fae4c52a977c34419037b131d2a70b404511502
-workflow-type: ht
-source-wordcount: '541'
+workflow-type: tm+mt
+source-wordcount: '535'
 ht-degree: 100%
 
 ---
@@ -109,11 +109,11 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./opportunities/core-web-vitals.md" target="_blank" rel="referrer" title="Core Web Vitals">Core Web Vitals</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für Core Web Vital und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Core Web Vital“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.</p>
                 </div>
                 <a href="./opportunities/core-web-vitals.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>
@@ -135,8 +135,8 @@ CARDS
                     <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für fehlenden Alternativtext und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="./opportunities/missing-alt-text.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>
@@ -158,8 +158,8 @@ CARDS
                     <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für fehlerhafte Backlinks und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.</p>
                 </div>
                 <a href="./opportunities/broken-backlinks.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>

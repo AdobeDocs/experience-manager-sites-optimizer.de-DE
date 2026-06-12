@@ -82,7 +82,7 @@ Sites Optimizer Ultimate ermöglicht es, eine automatische Optimierung für die 
 
 {{auto-optimize-deploy-optimization-slack}}
 
->[!TAB Bestätigung anfordern]
+>[!TAB Genehmigung anfordern]
 
 {{auto-optimize-request-approval}}
 

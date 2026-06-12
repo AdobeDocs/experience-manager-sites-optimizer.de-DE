@@ -2,7 +2,7 @@
 title: Audit-Ergebnisse in Preflight
 description: Erfahren Sie, wie Sie die Audit-Ergebnisse in Preflight und in der Leiste mit Benutzerfortschritten interpretieren und zu Problemen in der Vorschau navigieren.
 source-git-commit: 30060044e558774ab1e17684945f29d3e76dc3a7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
 

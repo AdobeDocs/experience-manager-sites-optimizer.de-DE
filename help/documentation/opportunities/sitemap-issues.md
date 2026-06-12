@@ -8,7 +8,7 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 497
 ht-degree: 100%
 
@@ -93,7 +93,7 @@ Sites Optimizer Ultimate bietet nun die Möglichkeit, automatische Optimierungen
 
 {{auto-optimize-deploy-optimization-slack}}
 
->[!TAB Bestätigung anfordern]
+>[!TAB Genehmigung anfordern]
 
 {{auto-optimize-request-approval}}
 

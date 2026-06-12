@@ -10,7 +10,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: tm+mt
-source-wordcount: 286
+source-wordcount: 276
 ht-degree: 100%
 
 ---
@@ -64,8 +64,8 @@ CARDS
                     <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für Probleme mit der Barrierefreiheit und finden Sie heraus, wie Sie damit die Sicherheit auf Ihrer Website erhöhen können.</p>
                 </div>
                 <a href="../documentation/opportunities/accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>
@@ -87,8 +87,8 @@ CARDS
                     <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für fehlerhafte interne Links und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="../documentation/opportunities//broken-internal-links.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>
@@ -97,7 +97,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../documentation/opportunities//high-bounce-rate.md" title="Hohe Absprungrate" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-arrows.png" alt="Hohe Absprungrate"
+                        <img class="is-bordered-r-small" src="../assets/common/card-arrows.png" alt="Hohe Bounce-Rate"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -133,8 +133,8 @@ CARDS
                     <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Seite mit viel Traffic hat niedrige Klickrate“ und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="../documentation/opportunities/high-traffic-page-has-low-ctr.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>
@@ -156,8 +156,8 @@ CARDS
                     <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für fehlenden Alternativtext und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="../documentation/opportunities/missing-alt-text.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+</a>
             </div>
         </div>
     </div>
