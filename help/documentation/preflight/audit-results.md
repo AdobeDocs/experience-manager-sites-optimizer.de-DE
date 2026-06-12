@@ -2,7 +2,7 @@
 title: Audit-Ergebnisse in Preflight
 description: Erfahren Sie, wie Sie die Audit-Ergebnisse in Preflight und in der Leiste mit Benutzerfortschritten interpretieren und zu Problemen in der Vorschau navigieren.
 source-git-commit: 30060044e558774ab1e17684945f29d3e76dc3a7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Siehe [Vollständige Liste der verfügbaren Arten von Möglichkeiten und wie Sie
 
 Nach Abschluss des Audits können Sie Möglichkeiten schnell finden und verstehen, indem Sie sie direkt auf der Seite hervorheben.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483421/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483412/?learn=on&enablevpops)
 
 Preflight hebt jede Möglichkeit im Kontext hervor und verbindet die Ergebnisse im Panel mit der genauen Position in Ihrem Inhalt. Dies erleichtert die Prüfung und Lösung von Möglichkeiten, ohne die Seite manuell durchsuchen zu müssen.
 
