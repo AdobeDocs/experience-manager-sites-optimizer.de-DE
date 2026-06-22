@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Dies ist eine Beschreibung für das Benutzerhandbuch, die auf der Landingpage angezeigt wird.
-source-git-commit: 8052c94f778829012f023fe470411dfe77ef46b9
-workflow-type: ht
-source-wordcount: '123'
+source-git-commit: d17008c39f231c45a9ba41ca7f0aa96b9878f674
+workflow-type: tm+mt
+source-wordcount: '125'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 100%
       + [Core Web Vitals](/help/documentation/opportunities/core-web-vitals.md)
       + [CORS-Konfiguration](/help/documentation/opportunities/cors-configuration.md)
       + [Cross-Site-Scripting](/help/documentation/opportunities/cross-site-scripting.md)
-      + [Hohe Absprungrate](/help/documentation/opportunities/high-bounce-rate.md)
+      + [Hohe Bounce-Rate](/help/documentation/opportunities/high-bounce-rate.md)
       + [Seite mit viel Traffic hat niedrige Klickrate](/help/documentation/opportunities/high-traffic-page-has-low-ctr.md)
       + [Ungültige oder fehlende Metadaten](/help/documentation/opportunities/invalid-or-missing-metadata.md)
       + [Fehlende oder ungültige strukturierte Daten](/help/documentation/opportunities/missing-invalid-structured-data.md)
@@ -60,3 +60,4 @@ ht-degree: 100%
          + [Metadaten](/help/documentation/preflight/opportunities/meta-data.md)
          + [Lesbarkeit](/help/documentation/preflight/opportunities/readability.md)
    + [Einstellungen](/help/documentation/settings.md)
+   + [Versionshinweise](/help/documentation/release-notes.md)
