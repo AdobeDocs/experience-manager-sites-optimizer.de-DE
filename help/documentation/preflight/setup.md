@@ -1,28 +1,27 @@
 ---
 title: Preflight-Setup
-description: Erfahren Sie, wie Sie die Preflight-Erweiterung für AEM Sites Optimizer einrichten.
+description: Erfahren Sie, wie Sie Preflight für AEM Sites Optimizer einrichten.
 TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-source-git-commit: 511e784d7d484b18942ac4b711df1c802debfec9
-workflow-type: ht
-source-wordcount: 587
-ht-degree: 100%
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+workflow-type: tm+mt
+source-wordcount: 577
+ht-degree: 72%
 
 ---
 
 # Preflight-Setup
 
-Zur Identifizierung von AEM Sites Optimizer Preflight-Möglichkeiten muss die Preflight-Erweiterung eingerichtet werden. Sie können sie entweder im universellen Editor, in der dokumentbasierten Vorschau oder in AEM Cloud Service einrichten, damit Sie Preflight-Audits auf Ihren Seiten durchführen können, bevor sie veröffentlicht werden.
+Um Preflight ausführen zu können, muss es in Ihrer Authoring-Umgebung eingerichtet werden. Sie können Preflight für den universellen Editor, die dokumentbasierte Bearbeitung, den AEM Sites-Seiteneditor oder Adobe Managed Services einrichten, damit Sie Preflight-Prüfungen auf Ihren Seiten durchführen können, bevor sie veröffentlicht werden.
 
 ## Aktivieren des Benutzerzugriffs
 
-Um die Preflight-Erweiterung zu verwenden, stellen Sie sicher, dass Ihre Benutzenden mindestens einem der folgenden AEM Sites Optimizer-Produktprofile in [Adobe Admin Console](https://adminconsole.adobe.com) zugewiesen sind:
+Um Preflight zu verwenden, stellen Sie sicher, dass Ihr Benutzer mindestens einem der folgenden AEM Sites Optimizer-Produktprofile in [Adobe Admin Console zugewiesen ist](https://adminconsole.adobe.com):
 
 * AEM Sites Optimizer – Benutzende automatisch vorschlagen
 * AEM Sites Optimizer – Benutzende automatisch optimieren
 
-## Aktivieren der Preflight-Erweiterung
+## Preflight aktivieren
 
 >[!BEGINTABS]
 
@@ -37,7 +36,7 @@ Gehen Sie wie folgt vor, um Preflight im universellen Editor einzurichten:
 1. Nachdem die Erweiterung aktiviert ist, öffnen Sie eine Seite im **universellen Editor**, z. B.:
    `https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/en/example/home.html`
 1. Die **Preflight-Erweiterung** wird in der **Seitenleiste** angezeigt.
-1. Wenn Sie in der Seitenleiste auf die **Preflight-Erweiterung** klicken, wird das **Preflight-Audit** für die aktuelle Seite gestartet.
+1. Wählen Sie in **Seitenleiste die** Preflight-Erweiterung) aus, um Preflight für die aktuelle Seite zu öffnen.
 
 >[!TAB Dokumentenbasiertes Authoring]
 
@@ -116,7 +115,7 @@ Gehen Sie wie folgt vor, um Preflight für das dokumentenbasierte Authoring einz
    ```
 
 1. Öffnen Sie die Vorschau-URL (`*.aem.page`) der Seite, die Sie prüfen möchten.
-1. Klicken Sie in **Sidekick** auf die Schaltfläche **Preflight**, um die Prüfung für die aktuelle Seite zu starten.
+1. Klicken Sie in **Sidekick** auf die Schaltfläche **Preflight**, um Preflight für die aktuelle Seite zu öffnen.
 
 >[!TAB AEM-Sites – Seiteneditor]
 
@@ -137,7 +136,7 @@ Um Preflight im Seiteneditor von AEM Sites zu verwenden, können Sie in Ihrem We
 
 1. Nennen Sie das Lesezeichen **Preflight** (oder verwenden Sie einen beliebigen Namen, den Sie bevorzugen).
 1. Öffnen Sie die Vorschau-URL (`*.aem.page`) der Seite, die Sie im **AEM Sites-Seiteneditor** prüfen möchten.
-1. Klicken Sie in Ihrer Lesezeichenleiste auf das **Preflight**-Lesezeichen, um den Audit für die aktuelle Seite zu starten.
+1. Klicken Sie auf **Preflight** Lesezeichen in Ihrer Lesezeichenleiste, um Preflight für die aktuelle Seite zu öffnen.
 
 >[!TAB Adobe Managed Services]
 
@@ -162,7 +161,7 @@ Um Preflight im AEM Sites-Seiteneditor in einer AMS-Umgebung zu verwenden, erste
 
 1. Nennen Sie das Lesezeichen **Preflight** (oder verwenden Sie einen beliebigen Namen, den Sie bevorzugen).
 1. Öffnen Sie die zu prüfende Seite im **AEM Sites-Seiteneditor**.
-1. Klicken Sie in Ihrer Lesezeichenleiste auf das **Preflight**-Lesezeichen, um den Audit für die aktuelle Seite zu starten.
+1. Klicken Sie auf **Preflight** Lesezeichen in Ihrer Lesezeichenleiste, um Preflight für die aktuelle Seite zu öffnen.
 
 >[!ENDTABS]
 
