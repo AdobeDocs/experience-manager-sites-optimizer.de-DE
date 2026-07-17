@@ -1,16 +1,17 @@
 ---
-title: Preflight-Möglichkeit für Barrierefreiheit
-description: Erfahren Sie mehr über die Preflight-Möglichkeit für Barrierefreiheit in Sites Optimizer.
-source-git-commit: d0fda0afad66289298e79edd1f84be251433a9f1
-workflow-type: ht
-source-wordcount: '64'
-ht-degree: 100%
+title: PreFlight-Zugänglichkeitsprüfungen
+description: Erfahren Sie mehr über die Zugänglichkeitsprüfungen, die Preflight auf Ihrer Seite in AEM Sites Optimizer ausführt.
+source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 0%
 
 ---
 
+# Zugänglichkeitsprüfungen
 
-# Preflight-Möglichkeit für Barrierefreiheit
+![Zugänglichkeitsprüfungen im Dashboard für die Flugbereitschaft vor dem Flug](./assets/accessibility/hero.png){align="center"}
 
-![Preflight-Möglichkeit für Barrierefreiheit](./assets/accessibility/hero.png){align="center"}
+Beim **Barrierefreiheits**-Audit in Preflight wird Ihre Seite anhand der Web Content Accessibility Guidelines (WCAG) bewertet, um sicherzustellen, dass die Seite für alle, auch für Menschen mit Behinderungen, nutzbar ist. Wenn Sie einen Preflight-Audit ausführen, wird die Seite anhand dieser Barrierefreiheitsstandards bewertet und die gefundenen Probleme werden in Chancen gruppiert, die Sie vor der Veröffentlichung überprüfen und beheben können.
 
-Die Preflight-Möglichkeit für Barrierefreiheit in Sites Optimizer hilft Ihnen, Barrierefreiheitsprobleme auf Ihrer Website zu identifizieren und zu beheben, um sicherzustellen, dass sie für alle Personen, nutzbar sind, einschließlich Personen mit Einschränkungen. Diese Möglichkeit konzentriert sich auf die Bewertung der Konformität Ihrer Site mit Standards für Barrierefreiheit und liefert umsetzbare Empfehlungen für Verbesserungen.
+Erweitern Sie im Bereitschafts-Dashboard die Kategorie **Barrierefreiheit**, um zu sehen, ob die Prüfung bestanden wurde und wie viele Gelegenheiten sie gefunden hat. Wählen Sie das Audit aus, um seine Detailseite zu öffnen und die Opportunitys zu durcharbeiten. Jede Opportunity beschreibt das Problem der Barrierefreiheit, den Schweregrad, die zugehörige WCAG-Regel und Konformitätsstufe sowie das betroffene Element auf der Seite. Informationen zur Interpretation der Ergebnisse und zur Lösung von Opportunities finden Sie unter [Audit results in Preflight](../audit-results.md).
