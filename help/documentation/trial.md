@@ -1,19 +1,23 @@
 ---
 title: Sites Optimizer-Testversion
 description: Beginnen Sie mit der AEM Sites Optimizer-Testversion für AEM Sites-Bestandskundschaft.
-source-git-commit: 9fae4c52a977c34419037b131d2a70b404511502
+source-git-commit: 225f039d88627a88b8c3989f963d5602cbaaab57
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '558'
+ht-degree: 92%
 
 ---
 
 
 # Sites Optimizer-Testversion
 
-Beginnen Sie mit Sites Optimizer und verwenden Sie diese Testversion für AEM Sites-Bestandskundschaft (Edge Delivery Services, Cloud Services und Managed Services). Ihre Domain-Daten sind bereits vorkonfiguriert, sodass Sie sofort mit der Optimierung beginnen können. Das folgende Video führt Sie durch das Testerlebnis und zeigt Ihnen, wie Sie beginnen.
+Beginnen Sie mit Sites Optimizer und verwenden Sie diese Testversion für bestehende **AEM Sites-Kunden (Edge Delivery Services, Cloud Services und Managed Services)**. Ihre Domain-Daten sind bereits vorkonfiguriert, sodass Sie sofort mit der Optimierung beginnen können. Das folgende Video führt Sie durch das Testerlebnis und zeigt Ihnen, wie Sie beginnen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483296/?captions=ger&learn=on&enablevpops)
+>[!NOTE]
+>
+>Die AEM Sites Optimizer-Testversion unterstützt derzeit keine Headless-Websites. Um die Testversion zu verwenden, integrieren Sie eine Website, die die AEM Sites-Frontend-Bereitstellung verwendet.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
 
 >[!TIP]
 >
@@ -36,9 +40,9 @@ In der Testversion ist Folgendes enthalten:
 * Drei Arten von Möglichkeiten: [Fehlerhafte Backlinks](./opportunities/broken-backlinks.md), [Core Web Vitals](./opportunities/core-web-vitals.md) und [Fehlender Alternativtext](./opportunities/missing-alt-text.md).
 * Bis zu drei Probleme pro Möglichkeit und Monat.
 * Vollständiger Workflow für jedes Problem: automatisches Identifizieren, automatisches Vorschlagen und automatisches Optimieren.
-   * **Automatisches Identifizieren** – Erkennt Probleme auf Ihrer Site mithilfe mehrerer Datenquellen.
-   * **Automatisches Vorschlagen** – Stellt präskriptive, KI-generierte Empfehlungen für jedes Problem bereit.
-   * **Automatisches Optimieren** – Stellen Sie nach der Genehmigung Fehlerbehebungen direkt in Ihrer Autorenumgebung bereit. Aktualisierungen folgen Ihren bestehenden Workflows, sodass Ihr Team sie über AEM prüfen und veröffentlichen kann.
+  * **Automatisches Identifizieren** – Erkennt Probleme auf Ihrer Site mithilfe mehrerer Datenquellen.
+  * **Automatisches Vorschlagen** – Stellt präskriptive, KI-generierte Empfehlungen für jedes Problem bereit.
+  * **Automatisches Optimieren** – Stellen Sie nach der Genehmigung Fehlerbehebungen direkt in Ihrer Autorenumgebung bereit. Aktualisierungen folgen Ihren bestehenden Workflows, sodass Ihr Team sie über AEM prüfen und veröffentlichen kann.
 
 ## Häufig gestellte Fragen
 
