@@ -6,7 +6,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
+source-git-commit: 89291cb72c3cb56fcf43564cb04461750d748219
 workflow-type: tm+mt
 source-wordcount: 749
 ht-degree: 100%
@@ -148,7 +148,7 @@ Klicken Sie auf **Verbindung überprüfen**, um den Zugriff zu bestätigen, und 
 
 1. Klicken Sie in Google Drive mit der rechten Maustaste auf den Ordner, auf dem Ihre EDS-Site basiert, und wählen Sie **Freigeben**.
 2. Geben Sie im Feld **Personen und Gruppen hinzufügen** die E-Mail-Adresse des Service-Kontos ein, die im Dialogfeld **Mit AEM Sites verbinden** angezeigt wird:
-   `experience-success-studio@helix-225321.iam.gserviceaccount.com`
+   `aem-sites-optimizer@adbe-gcp0843.iam.gserviceaccount.com`
 3. Setzen Sie die Berechtigungsstufe auf **Editor**.
 4. Deaktivieren Sie **Personen benachrichtigen** und klicken Sie auf **Freigeben**.
 
