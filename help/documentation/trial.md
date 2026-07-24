@@ -17,7 +17,7 @@ Beginnen Sie mit Sites Optimizer und verwenden Sie diese Testversion für besteh
 >
 >Die AEM Sites Optimizer-Testversion unterstützt derzeit keine Headless-Websites. Um die Testversion zu verwenden, integrieren Sie eine Website, die die AEM Sites-Frontend-Bereitstellung verwendet.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483296/?captions=ger&learn=on&enablevpops)
 
 >[!TIP]
 >
