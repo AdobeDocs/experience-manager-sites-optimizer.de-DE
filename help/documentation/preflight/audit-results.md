@@ -1,10 +1,10 @@
 ---
 title: Audit-Ergebnisse in Preflight
 description: Erfahren Sie, wie Sie die Ergebnisse der Preflight-Prüfung, den Bereitschaftszähler und die Auditkategorien interpretieren und zu Opportunities in der Vorschau navigieren können.
-source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+source-git-commit: 9989144c429da97e3ea303c0c8caf5a9b38e2634
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 5%
+source-wordcount: '671'
+ht-degree: 4%
 
 ---
 
@@ -13,13 +13,20 @@ ht-degree: 5%
 
 Nach Abschluss der Audits zeigt Preflight die Ergebnisse im Bereitschafts-Dashboard an. Im Dashboard werden die Gesamtbereitschaftsanzeige und die gefundenen Opportunities gruppiert nach Auditkategorie angezeigt. Innerhalb jeder Kategorie werden bei individuellen Audits spezifische Elemente identifiziert, die überprüft oder korrigiert werden müssen.
 
+## Symbolleiste
+
+Die Symbolleiste am oberen Rand des Bereitschafts-Dashboards enthält Aktionen für die aktuelle Ausführung. Die **Mehr Aktionen** (**…**) Menüangebote:
+
+* **Neu analysieren** - Startet einen brandneuen Audit-Durchgang auf der aktuellen Seite. Bei der Neuanalyse werden die angezeigten Ergebnisse immer verworfen und alle Prüfungen werden erneut ausgeführt. Verwenden Sie sie daher, wann immer Sie neue Ergebnisse wünschen - beispielsweise nach der Bearbeitung der Seite.
+* **Exportieren (CSV)** - Laden Sie die aktuellen Ergebnisse als CSV-Datei herunter, einschließlich der Opportunities und Metadaten aus dem aktuellen Audit-Durchgang.
+
 ## Betriebsbereitschaftsmesser
 
 Oben im Dashboard zeigt die Bereitschaftsanzeige die Ergebnisse der Prüfung an. Er zeigt einen Bereitschaftswert in Prozent an, basierend auf dem Anteil der Prüfungen, die ohne Opportunities abgeschlossen wurden, und der Gesamtzahl der in allen Prüfungen gefundenen Opportunitys. Mit dem Readiness Meter können Sie den Gesamtzustand der Seite auf einen Blick erfassen.
 
 ![Die Bereitschaftszähler- und Auditkategorien im Preflight-Dashboard](./assets/overview/hero.png){align="center"}
 
-Während die Audits noch ausgeführt werden, zeigt die Bereitschaftsanzeige eine Fortschrittsleiste mit einem Status wie &quot;**Audits“** die Anzahl der noch laufenden Audits an. Wenn die Audits abgeschlossen sind, zeigt das Messgerät den endgültigen Bereitschaftsprozentsatz und die Opportunity-Anzahl an.
+Während die Audits noch ausgeführt werden, zeigt die Bereitschaftsanzeige eine Fortschrittsleiste mit einem kurzen Status darunter an, der den aktuellen Schritt anzeigt. Wenn die Audits abgeschlossen sind, zeigt das Messgerät den endgültigen Bereitschaftsprozentsatz und die Opportunity-Anzahl an.
 
 ## Audit-Kategorien
 
