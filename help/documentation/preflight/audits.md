@@ -1,10 +1,10 @@
 ---
 title: Durchführen von Audits in Preflight
 description: Erfahren Sie, wie Sie ein Preflight-Audit für Ihre Seite starten.
-source-git-commit: 9989144c429da97e3ea303c0c8caf5a9b38e2634
+source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 21%
+source-wordcount: '366'
+ht-degree: 17%
 
 ---
 
@@ -22,6 +22,12 @@ So führen Sie Preflight-Audits für eine Seite durch:
 1. Wählen Sie **Seite analysieren** aus. Preflight führt alle seine Audits auf der aktuellen Seite aus und öffnet das Bereitschafts-Dashboard, in dem nach Kategorie gruppiert ein Bereitschaftswert und die gefundenen Opportunitys angezeigt werden.
 
 Informationen zu den Vorschauergebnissen und Optimierungsmöglichkeiten finden Sie unter [Audit results in Preflight](./audit-results.md).
+
+## Verwenden der integrierten Preflight-Schaltfläche
+
+Wenn in Ihrer Autorenumgebung [AEM 2026.7.0 (Version 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) oder höher ausgeführt wird, ist Preflight in die Symbolleiste des AEM Sites-Seiteneditors integriert. Wählen Sie das **Preflight**-Symbol (die Wiedergabeschaltfläche) aus, um das Bedienfeld für die aktuelle Seite zu öffnen, und wählen Sie dann **Seite analysieren** aus, um die Audits durchzuführen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496629?learn=on&enablevpops)
 
 ## Fortsetzen einer vorherigen Sitzung
 
