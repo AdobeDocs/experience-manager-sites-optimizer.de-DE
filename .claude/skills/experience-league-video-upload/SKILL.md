@@ -41,6 +41,7 @@ benötigt den `chrome-devtools` MCP-Server, der **nicht** diesem Repository zuge
      }
    }
    ```
+
 2. `.mcp.json` zu `.gitignore` hinzufügen (persönliche Tools, nicht freigegeben).
 3. Fügen Sie `.claude/settings.local.json` `"enableAllProjectMcpServers": true` und `"enabledMcpjsonServers": ["chrome-devtools"]` hinzu.
 4. Der Benutzer soll Claude-Code neu starten (oder `/mcp` ausführen) - MCP-Server werden nur beim Start geladen. Dies kann nicht während der Sitzung geschehen.

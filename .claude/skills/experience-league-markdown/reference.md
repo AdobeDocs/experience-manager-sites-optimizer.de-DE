@@ -156,17 +156,19 @@ Inline: `` `code` `` - oder in dreifache Backticks inline einschließen, wenn ei
 
 Eingezäunt:
 
-````markdown
+&grave;&grave;&grave;&grave;markdown
+
 ```javascript
 var x = 1;
 ```
-````
+
+&grave;&grave;&grave;&grave;
 
 - Geben Sie immer eine Sprache für die Syntaxhervorhebung an + die Schaltfläche „Kopieren“.
 - Leerzeile erforderlich oberhalb und unterhalb des umzäunten Blocks.
-- Zeilennummern: `` ```html {line-numbers="true"} ``
-- Nummerierung an anderer Stelle beginnen: `` ```html {line-numbers="true" start-line="7"} ``
-- Hervorhebungszeilen: `` ```html {line-numbers="true" start-line="7" highlight="11-13, 16"} ``
+- Zeilennummern: `` ``&#x200B;`html {line-numbers="true"} `&#x200B;&grave;
+- Nummerierung an anderer Stelle beginnen: `` ``&#x200B;`html {line-numbers="true" start-line="7"} `&#x200B;&grave;
+- Hervorhebungszeilen: `` ``&#x200B;`html {line-numbers="true" start-line="7" highlight="11-13, 16"} `&#x200B;&grave;
 - Code-Block-Inhalte werden nie lokalisiert (mit Ausnahme von `!UICONTROL`-/`!DNL`-Tags, die bei der Veröffentlichung entfernt werden).
 - Keine Markdown-/HTML-Formatierung (wie `<i>`) funktioniert innerhalb von Code-Blöcken - verwenden Sie spitze Klammern oder einfachen Text für Platzhalter.
 

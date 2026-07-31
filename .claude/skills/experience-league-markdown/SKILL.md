@@ -37,7 +37,7 @@ Vollständige Syntaxreferenz mit jeder Kurzwahlnummer und Regel: [reference.md](
 | Aufzählungsliste | `* item` (Wählen Sie eines von `*`/`-`/`+`, bleiben Sie konsistent) | Leere Zeile vor/nach Liste; Mischungsmarken = Validierungsfehler |
 | Nummerierte Liste | `1. item` (`1.` jede Zeile wiederholen) | GitHub rendert die echten Zahlen |
 | Code (inline) | `` `code` `` | Für Dateinamen, Befehle, Werte und nicht validierte Beispiel-URLs |
-| Code (eingezäunt) | ` ```language ` ... ` ``` ` | Sprache immer angeben; Leerzeile vor/nach, `{line-numbers="true" start-line="n" highlight="n-m"}` optional |
+| Code (eingezäunt) | ` `&#x200B;``language ` ... ` ``&#x200B;` ` | Sprache immer angeben; Leerzeile vor/nach, `{line-numbers="true" start-line="n" highlight="n-m"}` optional |
 | Badge (inline) | `[!BADGE Beta]{type=Informative url="..." tooltip="..."}` | `type`: informativ/positiv/negativ/neutral/Achtung |
 | Reduzierbar | `+++Summary` ... `+++` | Keine verschachtelten reduzierbaren Elemente; leere Zeilen um interne Listen/Code |
 | Leerzeilen-Hack | `<br>&nbsp;` auf eigener Leitung | Einfache, zusätzliche leere Zeilen werden vom Renderer reduziert/ignoriert |
