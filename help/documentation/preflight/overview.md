@@ -20,7 +20,7 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->Ab [AEM 2026.7.0 (Version 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) ist Preflight in die Symbolleiste des AEM Sites-Seiteneditors integriert. Siehe [Preflight-Einrichtung](./setup.md) für Details.
+>Ab [AEM 2026.7.0 (Version 27083)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) ist Preflight in die Symbolleiste des AEM Sites-Seiteneditors integriert. Siehe [Preflight-Einrichtung](./setup.md) für Details.
 
 Preflight in AEM Sites Optimizer hilft Ihnen bei der Validierung und Optimierung von Seiten vor der Live-Schaltung, indem es Inhalte und Struktur analysiert und Chancen mit umsetzbaren Empfehlungen aufzeigt. Er wurde für Autorinnen und Autoren, Marketing-Fachleute und Entwickelnde erstellt, die sicherstellen möchten, dass Seiten hohe Qualität und Leistung aufweisen und bereit zur Veröffentlichung sind, während die Nachbearbeitung reduziert wird.
 
