@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Preflight für AEM Sites Optimizer einrichten
 TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
 workflow-type: tm+mt
-source-wordcount: 577
-ht-degree: 72%
+source-wordcount: 785
+ht-degree: 52%
 
 ---
 
@@ -120,7 +120,23 @@ Gehen Sie wie folgt vor, um Preflight für das dokumentenbasierte Authoring einz
 
 >[!TAB AEM-Sites – Seiteneditor]
 
-Um Preflight im Seiteneditor von AEM Sites zu verwenden, können Sie in Ihrem Webbrowser ein Bookmarklet erstellen. Führen Sie die folgenden Schritte aus:
+Wenn Ihre Autorenumgebung [AEM 2026.7.0 (Version 27083)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) oder höher ausführt, ist Preflight in den AEM Sites-Seiteneditor integriert und es ist keine Lesezeichenliste erforderlich. Führen Sie die folgenden Schritte aus:
+
+1. Öffnen Sie die zu prüfende Seite im **AEM Sites-Seiteneditor**.
+1. Wählen Sie in der Editor-Symbolleiste das **Preflight**-Symbol (die unten hervorgehobene Wiedergabeschaltfläche) aus, um das Preflight-Bedienfeld für die aktuelle Seite zu öffnen.
+
+   ![Das Preflight-Symbol in der Symbolleiste des AEM Sites-Seiteneditors](./assets/setup/toolbar-preflight-button.png){align="center"}
+
+>[!NOTE]
+>
+>Wird das Symbol **Preflight** in der Symbolleiste nicht angezeigt? Überprüfen Sie Folgendes:
+>
+>* **Unterstützte Version** - Für die integrierte Schaltfläche ist AEM 2026.7.0 (Version 27083) oder höher erforderlich. Verwenden Sie in früheren Versionen die unten stehende Lesezeichenmethode.
+>* **Rollout** - Die integrierte Schaltfläche wird für Organisationen in Phasen aktiviert, sodass sie Ihre Organisation möglicherweise noch nicht erreicht hat, auch nicht bei einer unterstützten Version. Bis dahin können Sie die unten stehende Lesezeichenmethode verwenden oder sich an Adobe oder Ihren Administrator wenden.
+>* **Seitenzugriff** - Die Schaltfläche wird nur angezeigt, wenn Sie Bearbeitungszugriff auf die Seite haben.
+>* **Benutzerzugriff** - Bestätigen Sie, dass Ihrem Benutzer das Profil **AEM Sites Optimizer - Benutzer automatisch vorschlagen** oder **AEM Sites Optimizer - Benutzer automatisch optimieren**. Siehe [Benutzerzugriff aktivieren](#enable-user-access).
+
+Um Preflight im AEM Sites-Seiteneditor in früheren AEM-Versionen zu verwenden, können Sie eine Lesezeichenliste in Ihrem Webbrowser erstellen. Führen Sie die folgenden Schritte aus:
 
 1. Zeigen Sie Ihre **Lesezeichenleiste** in Ihrem Webbrowser an:
 
