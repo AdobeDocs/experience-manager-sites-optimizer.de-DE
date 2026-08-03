@@ -5,10 +5,10 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d5cc34fd40395fc13ce3554a0b80c0216d859157
+source-git-commit: c3279d62d56503108a6c28389cfbf14b95cd5a1a
 workflow-type: tm+mt
-source-wordcount: 1471
-ht-degree: 2%
+source-wordcount: 1803
+ht-degree: 1%
 
 ---
 
@@ -17,11 +17,33 @@ ht-degree: 2%
 
 Auf dieser Seite werden die neuesten Aktualisierungen, neuen Funktionen und Verbesserungen in Adobe Experience Manager Sites Optimizer dokumentiert.
 
+Mit **(Early Access)** gekennzeichnete Funktionen sind auf Anfrage verfügbar. Wenden Sie sich an Ihr Account Team oder Ihren Customer Success Engineer, um sie für Ihr Unternehmen zu aktivieren.
+
+## &#x200B;1. bis 19. Juli 2026
+
+### Neue Funktionen
+
+- **Berechtigungsverwaltung** - Benutzer mit der Funktion „Benutzer verwalten“ können jetzt den Site-Zugriff über eine neue Registerkarte „Berechtigungen“ steuern. Sie können Personen nach Namen oder E-Mail suchen und bestimmte Funktionen gewähren oder widerrufen. Aktionen, die ein Benutzer nicht ausführen darf, werden mit einer QuickInfo deaktiviert, die erklärt, wie der Zugriff angefordert wird.
+- **Bereitstellungsstatus-Badges** - Fehlerkorrekturen, die als manuell bereitgestellt gekennzeichnet sind, zeigen jetzt in der Ansicht „Bereitgestellt“ ein eigenes Badge „Als bereitgestellt“ an, sodass manuelle Aktualisierungen von automatischen Bereitstellungen unterschieden werden können.
+
+### Verbesserungen
+
+- **Automatische Fehlerbehebung für GitHub (Cloud Manager)** - Code-Patch-Autopatches für Opportunities wie Core Web Vitals, Sicherheit und Barrierefreiheit von Formularen können jetzt Pull-Anfragen für auf GitHub gehostete bring-your-own-git-Repositorys von Cloud Manager auslösen, die mit der bestehenden Unterstützung für GitLab, Bitbucket und Azure DevOps übereinstimmen. Mit dem neuen Umschalter Einstellungen können Sie die einmalige Einrichtungsbestätigung für Ihre Site steuern.
+- **Automatische Fehlerbehebung über Verzweigung (Cloud Manager Standard)** - Die automatische Fehlerbehebung über Verzweigung ist jetzt für Cloud Manager Standard-Repositorys verfügbar, wenn sie für Ihre Site aktiviert ist.
+- **Bereitgestellte Ansicht: Durchgeführt von** - Die bereitgestellte Ansicht zeigt jetzt über die neuen Spalten „Durchgeführt von“ und „Status zuletzt aktualisiert“ an, wer jede Fehlerbehebung als bereitgestellt und wann ihr Status zuletzt aktualisiert wurde.
+- **Google Ads Disconnect Feedback** — Wenn Sie ein Google Ads-Konto in den Einstellungen trennen, wird jetzt der Status „Verbindung wird getrennt…“ angezeigt. Wenn die Trennung fehlschlägt, wird eine Fehlermeldung angezeigt, die angezeigt wird, dass die Verbindung getrennt werden kann, damit Sie es erneut versuchen können.
+
+### Fehlerbehebungen
+
+- Die Opportunity ARIA-Beschriftungen reparieren zeigt jetzt die richtige Seiten-URL im Dialogfeld Details an, wenn eine Fehlerbehebung mehrere Seiten umfasst.
+- Die Informationsmeldung zum Überspringen des Dialogfelds wird jetzt korrekt mit ordnungsgemäß ausgerichtetem Text auf Koreanisch, vereinfachtes Chinesisch und traditionelles Chinesisch angezeigt.
+- Verwandte Dialogfelder für ALT-Text und ungültige oder fehlende Metadaten werden jetzt zuverlässig geladen, und die Ansicht „Ungültige oder fehlende bereitgestellte Metadaten“ und die Korrekturen von Meta-Tags funktionieren jetzt korrekt mit dem neuesten Vorschlagsformat.
+
 ## &#x200B;11. bis 22. Mai 2026
 
 ### Neue Funktionen
 
-- **Site-Warnhinweisbericht** - Ein neuer 90-tägiger Site-Warnhinweisbericht bietet eine vierteljährliche Übersicht über den Zustand Ihrer Site. Dabei werden farbcodierte tägliche Blöcke verwendet, um Zeiträume mit erhöhten Warnhinweisen hervorzuheben, sodass Sie Trends im Zeitverlauf schnell identifizieren und untersuchen können.
+- **Site-Warnhinweisbericht (frühzeitiger Zugriff)** - Ein neuer 90-tägiger Site-Warnhinweisbericht bietet eine vierteljährliche Übersicht über den Zustand Ihrer Site, wobei farbcodierte tägliche Blöcke verwendet werden, um Zeiträume mit erhöhten Warnhinweisen hervorzuheben, damit Sie Trends im Laufe der Zeit schnell identifizieren und untersuchen können.
 - **Onboarding von Betriebstelemetrien** - Websites, die noch keine betriebstelemetrischen Daten verbunden haben, erhalten jetzt ein beständiges Banner auf der Startseite und ein geführtes Onboarding-Dialogfeld, um die Einrichtung abzuschließen, sodass Sie vollständige Einblicke in die Leistung von echten Benutzern erhalten.
 - **ALT-Text: Multi-Site-Manager-**: Beim Generieren von ALT-Text-Korrekturen für Sites, die AEM Multi-Site-Manager oder Sprachkopie verwenden, prüft Sites Optimizer jetzt, ob Korrekturen sicher auf jede Sprachvariante angewendet werden können, bevor es sie vorschlägt.
 
@@ -58,7 +80,7 @@ Auf dieser Seite werden die neuesten Aktualisierungen, neuen Funktionen und Verb
 - **Onboarding von Testversionen** - Benutzende an neuen Testversionen erleben jetzt einen geführten Einrichtungsablauf: Geben Sie Ihre Domain ein, warten Sie auf die Analyse und erkunden Sie dann Ihre ersten Opportunities - keine Konfiguration erforderlich, um zu beginnen.
 - **Seite „Opportunities-Testversion** - Testbenutzer können Opportunities suchen, sortieren und filtern, wobei drei entsperrte Vorschläge und die verbleibenden Vorschläge in einer gesperrten Vorschau mit einer Upgrade-Eingabeaufforderung angezeigt werden.
 - **Monatlicher Optimierungsfortschritt** - Eine Fortschrittsleiste auf der Startseite zeigt an, wie viele Optimierungsaktionen Sie in diesem Monat durchgeführt haben, sodass Sie die gesteckten Ziele für Ihre Website immer im Auge behalten können.
-- **Audit-Ziel-URLs** - Unter „Einstellungen“ können Sie jetzt bis zu 100 benutzerdefinierte URLs angeben, um sicherzustellen, dass diese Seiten immer in Audits enthalten sind.
+- **Audit-Ziel-URLs (frühzeitiger Zugriff)** - Unter „Einstellungen“ können Sie jetzt bis zu 100 benutzerdefinierte URLs angeben, um sicherzustellen, dass diese Seiten immer in Audits enthalten sind.
 - **Konfiguration des Bereitstellungstyps** - In den Einstellungen können Sie jetzt den Bereitstellungstyp Ihrer Site angeben (Edge Delivery Services, AEM Cloud Service oder AEM Managed Services) und Ihren Inhaltsanbieter verbinden.
 - **Core Web Vitals-Neugestaltung** - Die Core Web Vitals-Opportunity wurde mit Jira-Verknüpfung, CSV-Download und Mehrfachauswahl-Unterstützung für Batch-Aktionen neu gestaltet.
 - **Zerbrochene Backlinks Einheitliche Tabelle** - Zerbrochene Backlinks aus allen Quellen werden jetzt in einer einzigen einheitlichen Tabelle angezeigt, mit der Möglichkeit, CDN-Umleitungsregeln direkt zu exportieren.
@@ -104,7 +126,7 @@ Auf dieser Seite werden die neuesten Aktualisierungen, neuen Funktionen und Verb
 - **Wartungsmodus** - Sites Optimizer verarbeitet jetzt geplante Wartungsfenster problemlos und zeigt während der Ausfallzeit eine klare Statusmeldung anstelle unvollständiger oder irreführender Daten an.
 - **Bereitgestellte Ansicht für fehlerhafte Backlinks** - Fehlerkorrekte Backlinks werden jetzt auf einer bereitgestellten Registerkarte nach Datum gruppiert nachverfolgt, sodass Sie Ihren Korrekturverlauf auf einen Blick sehen können.
 - **Kein CTA über der Faltgelegenheit** - Ein neuer Opportunity-Typ zeigt Seiten an, auf denen über der Faltfläche kein eindeutiges call-to-action zu sehen ist. So können Sie Seiten mit geringem Konversionspotenzial identifizieren und verbessern.
-- **Jira-Integration für Barrierefreiheit und Farbkontrast** - Barrierefreiheitsmöglichkeiten für Forms und Farbkontrast können jetzt direkt mit Jira-Tickets verknüpft werden, um die Problemverfolgung innerhalb Ihres bestehenden Workflows zu optimieren.
+- **Jira-Integration für Barrierefreiheit und Farbkontrast (Early Access)** - Barrierefreiheitsmöglichkeiten für Forms und Farbkontrast können jetzt direkt mit Jira-Tickets verknüpft werden, um die Problemverfolgung innerhalb Ihres bestehenden Workflows zu optimieren.
 
 ### Verbesserungen
 
