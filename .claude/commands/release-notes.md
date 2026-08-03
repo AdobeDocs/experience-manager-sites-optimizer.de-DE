@@ -1,8 +1,8 @@
 ---
 description: Konvertieren Sie interne ASO-Sprint-Versionshinweise in das kundenorientierte Experience League-Format und fügen Sie sie an die Seite mit den Versionshinweisen an.
-source-git-commit: d17008c39f231c45a9ba41ca7f0aa96b9878f674
+source-git-commit: 5f400c37283d1a3d8285b4d2ac5246761a7275e6
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Rufen Sie diese Fähigkeit auf und fügen Sie dann den Inhalt der internen Versi
 
 5. **Genauer Umfang.** Nur Änderungen einschließen, die eine Kundin oder ein Kunde in der Produkt-Benutzeroberfläche oder in seinem Erlebnis in den Workflows sieht. Änderungen an Infrastruktur, Tools und Entwicklererlebnissen sind ausgeschlossen.
 
+6. **Kennzeichnen der Funktionen für frühzeitigen Zugriff.** Wenn eine Funktion hinter einem Feature Flag ausgeliefert wird, das standardmäßig deaktiviert ist (Opt-in pro Organisation/Site, z. B. über LaunchDarkly `FeatureGate`/`isEnabledByDefault={false}`), hängen Sie `(Early Access)` an den fett gedruckten Funktionsnamen an - entsprechend der vorhandenen `(General Availability)`, die für abgestufte Funktionen verwendet wird. Überprüfen Sie im Zweifelsfall, ob die Funktion standardmäßig für alle Kunden aktiviert ist. Andernfalls handelt es sich um Frühzugriff. Mit dem Feature Flag-Standard im Code vergleichen — nicht erraten.
+
 ### Seitenstrukturvorlage
 
 Jeder Veröffentlichungseintrag folgt dieser Struktur:
@@ -54,7 +56,7 @@ Jeder Veröffentlichungseintrag folgt dieser Struktur:
 
 ### New Features
 
-- **[Feature Name]** — [One-sentence benefit statement. One sentence of business context if needed.]
+- **[Feature Name]** — [One-sentence benefit statement. One sentence of business context if needed.] (append `(Early Access)` or `(General Availability)` to the feature name when the feature's availability status is notable)
 
 ### Enhancements
 
