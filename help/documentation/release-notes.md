@@ -1,14 +1,12 @@
 ---
 title: Versionshinweise
 description: Erfahren Sie mehr über die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Experience Manager Sites Optimizer.
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d5cc34fd40395fc13ce3554a0b80c0216d859157
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 8e4fe6595fc7e872a00387d92892710c61e8632b
 workflow-type: tm+mt
-source-wordcount: 1471
-ht-degree: 2%
+source-wordcount: 1775
+ht-degree: 1%
 
 ---
 
@@ -16,6 +14,26 @@ ht-degree: 2%
 # Versionshinweise
 
 Auf dieser Seite werden die neuesten Aktualisierungen, neuen Funktionen und Verbesserungen in Adobe Experience Manager Sites Optimizer dokumentiert.
+
+## &#x200B;1. bis 19. Juli 2026
+
+### Neue Funktionen
+
+- **Berechtigungsverwaltung** - Benutzer mit der Funktion „Benutzer verwalten“ können jetzt den Site-Zugriff über eine neue Registerkarte „Berechtigungen“ steuern. Sie können Personen nach Namen oder E-Mail suchen und bestimmte Funktionen gewähren oder widerrufen. Aktionen, die ein Benutzer nicht ausführen darf, werden mit einer QuickInfo deaktiviert, die erklärt, wie der Zugriff angefordert wird.
+- **Bereitstellungsstatus-Badges** - Fehlerkorrekturen, die als manuell bereitgestellt gekennzeichnet sind, zeigen jetzt in der Ansicht „Bereitgestellt“ ein eigenes Badge „Als bereitgestellt“ an, sodass manuelle Aktualisierungen von automatischen Bereitstellungen unterschieden werden können.
+
+### Verbesserungen
+
+- **Automatische Fehlerbehebung für GitHub (Cloud Manager)** - Code-Patch-Autopatches für Opportunities wie Core Web Vitals, Sicherheit und Barrierefreiheit von Formularen können jetzt Pull-Anfragen für auf GitHub gehostete bring-your-own-git-Repositorys von Cloud Manager auslösen, die mit der bestehenden Unterstützung für GitLab, Bitbucket und Azure DevOps übereinstimmen. Mit dem neuen Umschalter Einstellungen können Sie die einmalige Einrichtungsbestätigung für Ihre Site steuern.
+- **Automatische Fehlerbehebung über Verzweigung (Cloud Manager Standard)** - Die automatische Fehlerbehebung über Verzweigung ist jetzt für Cloud Manager Standard-Repositorys verfügbar, wenn sie für Ihre Site aktiviert ist.
+- **Bereitgestellte Ansicht: Durchgeführt von** - Die bereitgestellte Ansicht zeigt jetzt über die neuen Spalten „Durchgeführt von“ und „Status zuletzt aktualisiert“ an, wer jede Fehlerbehebung als bereitgestellt und wann ihr Status zuletzt aktualisiert wurde.
+- **Google Ads Disconnect Feedback** — Wenn Sie ein Google Ads-Konto in den Einstellungen trennen, wird jetzt der Status „Verbindung wird getrennt…“ angezeigt. Wenn die Trennung fehlschlägt, wird eine Fehlermeldung angezeigt, die angezeigt wird, dass die Verbindung getrennt werden kann, damit Sie es erneut versuchen können.
+
+### Fehlerbehebungen
+
+- Die Opportunity ARIA-Beschriftungen reparieren zeigt jetzt die richtige Seiten-URL im Dialogfeld Details an, wenn eine Fehlerbehebung mehrere Seiten umfasst.
+- Die Informationsmeldung zum Überspringen des Dialogfelds wird jetzt korrekt mit ordnungsgemäß ausgerichtetem Text auf Koreanisch, vereinfachtes Chinesisch und traditionelles Chinesisch angezeigt.
+- Verwandte Dialogfelder für ALT-Text und ungültige oder fehlende Metadaten werden jetzt zuverlässig geladen, und die Ansicht „Ungültige oder fehlende bereitgestellte Metadaten“ und die Korrekturen von Meta-Tags funktionieren jetzt korrekt mit dem neuesten Vorschlagsformat.
 
 ## &#x200B;11. bis 22. Mai 2026
 
