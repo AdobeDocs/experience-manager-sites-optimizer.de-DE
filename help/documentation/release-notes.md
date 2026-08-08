@@ -1,13 +1,11 @@
 ---
 title: Versionshinweise
 description: Erfahren Sie mehr über die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Experience Manager Sites Optimizer.
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c3279d62d56503108a6c28389cfbf14b95cd5a1a
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 9af59e18de7ce016778f25d4add450b50e0b1fde
 workflow-type: tm+mt
-source-wordcount: 1803
+source-wordcount: 1805
 ht-degree: 1%
 
 ---
@@ -23,7 +21,7 @@ Mit **(Early Access)** gekennzeichnete Funktionen sind auf Anfrage verfügbar. W
 
 ### Neue Funktionen
 
-- **Berechtigungsverwaltung** - Benutzer mit der Funktion „Benutzer verwalten“ können jetzt den Site-Zugriff über eine neue Registerkarte „Berechtigungen“ steuern. Sie können Personen nach Namen oder E-Mail suchen und bestimmte Funktionen gewähren oder widerrufen. Aktionen, die ein Benutzer nicht ausführen darf, werden mit einer QuickInfo deaktiviert, die erklärt, wie der Zugriff angefordert wird.
+- **Berechtigungsverwaltung (Early Access)** - Benutzer mit der Funktion „Benutzer verwalten“ können jetzt den Site-Zugriff über eine neue Registerkarte „Berechtigungen“ steuern - Personen nach Namen oder E-Mail suchen und bestimmte Funktionen gewähren oder widerrufen. Aktionen, die ein Benutzer nicht ausführen darf, werden mit einer QuickInfo deaktiviert, die erklärt, wie der Zugriff angefordert wird.
 - **Bereitstellungsstatus-Badges** - Fehlerkorrekturen, die als manuell bereitgestellt gekennzeichnet sind, zeigen jetzt in der Ansicht „Bereitgestellt“ ein eigenes Badge „Als bereitgestellt“ an, sodass manuelle Aktualisierungen von automatischen Bereitstellungen unterschieden werden können.
 
 ### Verbesserungen
