@@ -1,10 +1,10 @@
 ---
 title: Audit-Ergebnisse in Preflight
 description: Erfahren Sie, wie Sie die Ergebnisse der Preflight-Prüfung, den Bereitschaftszähler und die Auditkategorien interpretieren und zu Opportunities in der Vorschau navigieren können.
-source-git-commit: 9989144c429da97e3ea303c0c8caf5a9b38e2634
+source-git-commit: 7224badecd83652a0971f669e23ff325b26892f3
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 4%
+source-wordcount: '930'
+ht-degree: 3%
 
 ---
 
@@ -15,16 +15,27 @@ Nach Abschluss der Audits zeigt Preflight die Ergebnisse im Bereitschafts-Dashbo
 
 ## Symbolleiste
 
-Die Symbolleiste am oberen Rand des Bereitschafts-Dashboards enthält Aktionen für die aktuelle Ausführung. Die **Mehr Aktionen** (**…**) Menüangebote:
+Die Symbolleiste am oberen Rand des Bereitschafts-Dashboards enthält Aktionen für die aktuelle Ausführung:
 
-* **Neu analysieren** - Startet einen brandneuen Audit-Durchgang auf der aktuellen Seite. Bei der Neuanalyse werden die angezeigten Ergebnisse immer verworfen und alle Prüfungen werden erneut ausgeführt. Verwenden Sie sie daher, wann immer Sie neue Ergebnisse wünschen - beispielsweise nach der Bearbeitung der Seite.
-* **Exportieren (CSV)** - Laden Sie die aktuellen Ergebnisse als CSV-Datei herunter, einschließlich der Opportunities und Metadaten aus dem aktuellen Audit-Durchgang.
+* **Neu analysieren** - Startet einen brandneuen Audit-Durchgang auf der aktuellen Seite. Bei der Neuanalyse werden die angezeigten Ergebnisse immer verworfen und alle Prüfungen werden erneut ausgeführt. Verwenden Sie sie daher, wann immer Sie neue Ergebnisse wünschen - beispielsweise nach der Bearbeitung der Seite. Neu analysieren ist in **Mehr Aktionen** (**…**) Menü.
+* **Exportieren** - Laden Sie die aktuelle Ausführung als **CSV** (Tabellenfreundlich) oder **PDF** (formatiertes Dokument) herunter. Wählen Sie je nach Umgebung **Exportieren** in der Symbolleiste oder unter **Mehr Aktionen** aus (**…**) Menü.
+
+Beim Exportieren können Sie auch auswählen, was einbezogen werden soll:
+
+* **Metadatentabelle einschließen** - Fügen Sie eine Tabelle mit Ausführungsdetails hinzu, z. B. den Host, den Inhaltspfad und Erzeugungsdetails.
+* **Bestehende Audits einschließen** - Schließt die Audits ein, die ohne Opportunities bestanden wurden, nicht nur die gefundenen Opportunities.
+
+>[!NOTE]
+>
+>PDF-Exporte werden unabhängig von der Sprache der Benutzeroberfläche immer in englischer Sprache generiert. CSV-Exporte folgen der Sprache Ihrer Benutzeroberfläche so genau wie möglich.
 
 ## Betriebsbereitschaftsmesser
 
 Oben im Dashboard zeigt die Bereitschaftsanzeige die Ergebnisse der Prüfung an. Er zeigt einen Bereitschaftswert in Prozent an, basierend auf dem Anteil der Prüfungen, die ohne Opportunities abgeschlossen wurden, und der Gesamtzahl der in allen Prüfungen gefundenen Opportunitys. Mit dem Readiness Meter können Sie den Gesamtzustand der Seite auf einen Blick erfassen.
 
 ![Die Bereitschaftszähler- und Auditkategorien im Preflight-Dashboard](./assets/overview/hero.png){align="center"}
+
+Wenn Sie eine Ausführung anzeigen, die von einer vorherigen Sitzung neu geladen wurde, wird in der Kopfzeile angezeigt, wie lange sie durchgeführt wurde, z. B *„gestern*. Weitere Informationen finden Sie unter [Fortsetzen einer vorherigen Sitzung](./audits.md#continue-a-previous-session).
 
 Während die Audits noch ausgeführt werden, zeigt die Bereitschaftsanzeige eine Fortschrittsleiste mit einem kurzen Status darunter an, der den aktuellen Schritt anzeigt. Wenn die Audits abgeschlossen sind, zeigt das Messgerät den endgültigen Bereitschaftsprozentsatz und die Opportunity-Anzahl an.
 
@@ -38,7 +49,7 @@ Eine vollständige Liste der Audit-Kategorien und der Audits in den einzelnen Ka
 
 ## Details der Möglichkeiten
 
-Auf der Detailseite werden die Chancen angezeigt, die der ausgewählte Audit gefunden hat. Wenn dasselbe Problem an mehr als einer Stelle auftritt, wird jedes Vorkommen als -Instanz bezeichnet. Verwenden Sie den Navigator (**vorherige Instanz** und **nächste Instanz**), um sie zu durchlaufen. Er zeigt Ihre Position an, z. B. *1 von 5 gefundenen Instanzen*.
+Auf der Detailseite werden die Chancen angezeigt, die der ausgewählte Audit gefunden hat. Wenn dasselbe Problem an mehr als einer Stelle auftritt, wird jedes Vorkommen als -Instanz bezeichnet. Verwenden Sie den Navigator (**vorherige Instanz** und **nächste Instanz**), um sie zu durchlaufen. Er zeigt Ihre Position an, z. B. *1 von 5 gefundenen Instanzen*. Um zum Bereitschafts-Dashboard zurückzukehren, klicken Sie auf den Rückwärtspfeil neben dem Audittitel. Das Dashboard wird erneut geöffnet, wobei die Kategorie des Audits erweitert ist.
 
 ![Die Detailseite für eine Prüfung, auf der eine Opportunity und ihr Vorschlag angezeigt werden](./assets/audit-results/audit-detail.png){align="center"}
 
@@ -46,7 +57,7 @@ Jede Opportunity umfasst:
 
 * Ein Badge für den Schweregrad oder eine Auswirkung, das anzeigt, wie wichtig die Opportunity ist.
 * Details zur Opportunity, z. B. eine Beschreibung des Problems, eine Empfehlung und, bei Barrierefreiheit, die zugehörige WCAG-Regel und Konformitätsstufe.
-* Ein **Element**-Abschnitt, der das betroffene Element auf der Seite mit einer Schaltfläche **Hervorheben auf der Seite** anzeigt.
+* Ein **Element**-Abschnitt, der das betroffene Element auf der Seite mit einer Schaltfläche **Hervorheben auf der Seite** identifiziert. Wenn das Element lesbaren Text enthält, wird der Abschnitt **Element: Text** bezeichnet und dieser Text angezeigt, wodurch das Element leichter zu erkennen ist. Wählen Sie **Weitere Informationen**, um langen Text zu erweitern. Wenn das Element keinen lesbaren Text enthält (z. B. einen nur mit einem Symbol versehenen Link), heißt der Abschnitt **Element: Selektor** und zeigt stattdessen die CSS-Auswahl des Elements an. Um den Wert zu kopieren, klicken Sie im Auswahlmodus auf das Symbol „Kopieren“ oder öffnen Sie **Mehr Aktionen** (**…**) im Textmodus auswählen und „Text kopieren **oder &quot;** kopieren **auswählen**.
 * Ein **Vorschlag** mit einer empfohlenen Fehlerbehebung. Wenn der Vorschlag von KI generiert wird, wird er als von KI generierter Vorschlag markiert und kann eine kurze Begründung zur Erläuterung der vorgeschlagenen Korrektur enthalten.
 
 ## Auf Seite hervorheben
@@ -62,3 +73,5 @@ Preflight markiert das betroffene Element im Kontext und verbindet das Ergebnis 
 ## Vorgangs-ID
 
 Jeder PreFlight-Durchgang hat eine eindeutige Auftrags-ID, die unten im Bedienfeld angezeigt wird. Dies ist vor allem dann nützlich, wenn ein Administrator die Fehlerbehebung bei einer bestimmten Ausführung durchführt. Bewegen Sie den Mauszeiger über die ID und wählen Sie das Kopiersymbol rechts neben der ID aus. Die ID wird in die Zwischenablage kopiert und eine Bestätigungsmeldung wird angezeigt. Fügen Sie diese ID bei der Meldung eines Problems hinzu.
+
+Wenn Sie Preflight außerhalb des universellen Editors verwenden - z. B. über die Sidekick oder eine Lesezeichenliste -, wird in der Fußzeile des Bedienfelds auch Ihr Organisationsname über der Auftrags-ID angezeigt. Im universellen Editor wird Ihre Organisation stattdessen in der Kopfzeile von AEM angezeigt.

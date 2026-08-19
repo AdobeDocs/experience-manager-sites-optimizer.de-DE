@@ -1,10 +1,10 @@
 ---
 title: Durchführen von Audits in Preflight
 description: Erfahren Sie, wie Sie ein Preflight-Audit für Ihre Seite starten.
-source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
+source-git-commit: 7224badecd83652a0971f669e23ff325b26892f3
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 17%
+source-wordcount: '422'
+ht-degree: 14%
 
 ---
 
@@ -25,7 +25,7 @@ Informationen zu den Vorschauergebnissen und Optimierungsmöglichkeiten finden S
 
 ## Verwenden der integrierten Preflight-Schaltfläche
 
-Wenn in Ihrer Autorenumgebung [AEM 2026.7.0 (Version 27083)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) oder höher ausgeführt wird, ist Preflight in die Symbolleiste des AEM Sites-Seiteneditors integriert. Wählen Sie das **Preflight**-Symbol (die Wiedergabeschaltfläche) aus, um das Bedienfeld für die aktuelle Seite zu öffnen, und wählen Sie dann **Seite analysieren** aus, um die Audits durchzuführen.
+Wenn in Ihrer Autorenumgebung [AEM 2026.7.0 (Version 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) oder höher ausgeführt wird, ist Preflight in die Symbolleiste des AEM Sites-Seiteneditors integriert. Wählen Sie das **Preflight**-Symbol (die Wiedergabeschaltfläche) aus, um das Bedienfeld für die aktuelle Seite zu öffnen, und wählen Sie dann **Seite analysieren** aus, um die Audits durchzuführen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496629?learn=on&enablevpops)
 
@@ -37,6 +37,8 @@ Preflight speichert Ihre letzte Ausführung, sodass Sie die Prüfungen nicht ern
 * Wenn Sie auf **neuen Registerkarte oder nach dem Schließen des Browsers zurückkehren** wird auf dem Landingscreen neben der Seite **Analysieren** die Schaltfläche „Letzte **fortsetzen** angezeigt. Wählen Sie **Letzte Sitzung fortsetzen**, um Ihre letzten Ergebnisse neu zu laden, oder wählen Sie **Seite analysieren**, um einen neuen Durchgang zu starten.
 
 Preflight verfolgt den letzten Durchlauf für jede Seite separat, sodass **Letzte Sitzung fortsetzen** immer den letzten Durchlauf für die Seite neu lädt, auf der Sie sich befinden.
+
+Wenn Sie einen vorherigen Durchgang neu laden, zeigt die Kopfzeile an, wie lange dieser Durchgang schon durchgeführt wurde - z. B. vor *2 Minuten* oder *gestern* - sodass Sie auf einen Blick erkennen können, wie aktuell die Ergebnisse sind. Die Beschriftung wird im Laufe der Zeit aktualisiert und bleibt sichtbar, wenn Sie zwischen dem Bereitschafts-Dashboard und den Audit-Detailseiten wechseln.
 
 Sobald die Audits abgeschlossen und die Ergebnisse angezeigt werden, wählen Sie **Neu analysieren** aus den **Mehr Aktionen** (**…**) in der Symbolleiste verwenden, um die Ergebnisse zu verwerfen und jedes Audit erneut auszuführen. Siehe [Audit-Ergebnisse in Preflight](./audit-results.md#toolbar).
 
