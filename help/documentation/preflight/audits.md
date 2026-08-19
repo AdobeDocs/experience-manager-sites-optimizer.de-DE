@@ -1,10 +1,10 @@
 ---
 title: Durchführen von Audits in Preflight
 description: Erfahren Sie, wie Sie ein Preflight-Audit für Ihre Seite starten.
-source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
+source-git-commit: 7224badecd83652a0971f669e23ff325b26892f3
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 17%
+source-wordcount: '422'
+ht-degree: 14%
 
 ---
 
@@ -37,6 +37,8 @@ Preflight speichert Ihre letzte Ausführung, sodass Sie die Prüfungen nicht ern
 * Wenn Sie auf **neuen Registerkarte oder nach dem Schließen des Browsers zurückkehren** wird auf dem Landingscreen neben der Seite **Analysieren** die Schaltfläche „Letzte **fortsetzen** angezeigt. Wählen Sie **Letzte Sitzung fortsetzen**, um Ihre letzten Ergebnisse neu zu laden, oder wählen Sie **Seite analysieren**, um einen neuen Durchgang zu starten.
 
 Preflight verfolgt den letzten Durchlauf für jede Seite separat, sodass **Letzte Sitzung fortsetzen** immer den letzten Durchlauf für die Seite neu lädt, auf der Sie sich befinden.
+
+Wenn Sie einen vorherigen Durchgang neu laden, zeigt die Kopfzeile an, wie lange dieser Durchgang schon durchgeführt wurde - z. B. vor *2 Minuten* oder *gestern* - sodass Sie auf einen Blick erkennen können, wie aktuell die Ergebnisse sind. Die Beschriftung wird im Laufe der Zeit aktualisiert und bleibt sichtbar, wenn Sie zwischen dem Bereitschafts-Dashboard und den Audit-Detailseiten wechseln.
 
 Sobald die Audits abgeschlossen und die Ergebnisse angezeigt werden, wählen Sie **Neu analysieren** aus den **Mehr Aktionen** (**…**) in der Symbolleiste verwenden, um die Ergebnisse zu verwerfen und jedes Audit erneut auszuführen. Siehe [Audit-Ergebnisse in Preflight](./audit-results.md#toolbar).
 
