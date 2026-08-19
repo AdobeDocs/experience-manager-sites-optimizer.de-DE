@@ -120,7 +120,7 @@ Gehen Sie wie folgt vor, um Preflight für das dokumentenbasierte Authoring einz
 
 >[!TAB AEM-Sites – Seiteneditor]
 
-Wenn Ihre Autorenumgebung [AEM 2026.7.0 (Version 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) oder höher ausführt, ist Preflight in den AEM Sites-Seiteneditor integriert und es ist keine Lesezeichenliste erforderlich. Führen Sie die folgenden Schritte aus:
+Wenn Ihre Autorenumgebung [AEM 2026.7.0 (Version 27083)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) oder höher ausführt, ist Preflight in den AEM Sites-Seiteneditor integriert und es ist keine Lesezeichenliste erforderlich. Führen Sie die folgenden Schritte aus:
 
 1. Öffnen Sie die zu prüfende Seite im **AEM Sites-Seiteneditor**.
 1. Wählen Sie in der Editor-Symbolleiste das **Preflight**-Symbol (die unten hervorgehobene Wiedergabeschaltfläche) aus, um das Preflight-Bedienfeld für die aktuelle Seite zu öffnen.
