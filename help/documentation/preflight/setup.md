@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Preflight für AEM Sites Optimizer einrichten
 TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
+source-git-commit: 9edf940bffa7407ca58ea9f504ea8afe4bdd7a50
 workflow-type: tm+mt
-source-wordcount: 785
-ht-degree: 52%
+source-wordcount: 896
+ht-degree: 47%
 
 ---
 
@@ -161,7 +161,18 @@ Um Preflight im AEM Sites-Seiteneditor in früheren AEM-Versionen zu verwenden, 
 >
 >Es werden nur Adobe Managed Services (AMS)-Umgebungen unterstützt, die Adobe Identity Provider (IMS) für die Authentifizierung auf der AEM-Autoreninstanz verwenden. Preflight funktioniert nicht, wenn Ihr Unternehmen einen anderen Identitätsanbieter für die AMS-Authentifizierung verwendet.
 
-Um Preflight im AEM Sites-Seiteneditor in einer AMS-Umgebung zu verwenden, erstellen Sie eine Lesezeichenliste in Ihrem Webbrowser, indem Sie die folgenden Schritte ausführen:
+Wenn Preflight in der AEM Sites-Symbolleiste des Seiteneditors integriert ist, ist keine Lesezeichenliste erforderlich. Wenden Sie sich an Adobe, um es für Ihr Unternehmen installieren zu lassen. Führen Sie nach der Installation die folgenden Schritte aus:
+
+1. Öffnen Sie die zu prüfende Seite im **AEM Sites-Seiteneditor**.
+1. Wählen Sie in der Editor-Symbolleiste das **Preflight**-Symbol (die unten hervorgehobene Wiedergabeschaltfläche) aus, um das Preflight-Bedienfeld für die aktuelle Seite zu öffnen.
+
+   ![Das Preflight-Symbol in der Symbolleiste des AEM Sites-Seiteneditors](./assets/setup/toolbar-preflight-button.png){align="center"}
+
+>[!NOTE]
+>
+>Wird das Symbol **Preflight** in der Symbolleiste nicht angezeigt? Möglicherweise ist die integrierte Schaltfläche für Ihre Organisation noch nicht installiert. Wenden Sie sich an Adobe, um es installieren zu lassen, oder verwenden Sie die unten stehende Lesezeichenmethode.
+
+Um Preflight im AEM Sites-Seiteneditor in einer AMS-Umgebung ohne das Symbolleistensymbol zu verwenden, erstellen Sie eine Lesezeichenliste in Ihrem Webbrowser, indem Sie die folgenden Schritte ausführen:
 
 1. Zeigen Sie Ihre **Lesezeichenleiste** in Ihrem Webbrowser an:
 

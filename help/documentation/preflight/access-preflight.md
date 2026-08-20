@@ -1,10 +1,10 @@
 ---
 title: Zugreifen auf Preflight
 description: Erfahren Sie, wo Sie Preflight in Ihrer Authoring-Umgebung finden.
-source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
+source-git-commit: 9edf940bffa7407ca58ea9f504ea8afe4bdd7a50
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 17%
+source-wordcount: '152'
+ht-degree: 18%
 
 ---
 
@@ -15,7 +15,7 @@ Preflight ist in den Authoring-Umgebungen von AEM Sites verfügbar, einschließl
 
 * **Universeller Editor** – Die Preflight-Erweiterung wird in der **Seitenleiste** angezeigt. Wählen Sie es aus, um das Preflight-Bedienfeld zu öffnen.
 * **Dokumentenbasiertes Authoring** - Öffnen Sie das Preflight-Bedienfeld über die Sidekick oder eine Lesezeichenliste für die Vorschau Ihres Seiteninhalts.
-* **AEM Sites-Seiteneditor** - Klicken Sie in AEM 2026.7.0 (Version 27083) oder höher auf das Symbol **Preflight** in der Editor-Symbolleiste, um das Bedienfeld „Preflight“ zu öffnen. In früheren Versionen verwenden Sie stattdessen die Preflight-Lesezeichenliste in Ihrem Browser.
+* **AEM Sites-Seiteneditor** - Wählen Sie das Symbol **Preflight** in der Editor-Symbolleiste aus, um das Preflight-Bedienfeld zu öffnen. Wenn das Symbol nicht verfügbar ist, verwenden Sie stattdessen die Preflight-Lesezeichenliste in Ihrem Browser.
 
 Wählen Sie nach dem Öffnen des Bedienfelds **Seite analysieren**, um eine Prüfung der aktuellen Seite zu starten.
 
