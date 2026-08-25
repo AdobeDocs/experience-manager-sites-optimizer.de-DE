@@ -1,10 +1,10 @@
 ---
 title: Sites Optimizer-Testversion
 description: Beginnen Sie mit der AEM Sites Optimizer-Testversion für AEM Sites-Bestandskundschaft.
-source-git-commit: 225f039d88627a88b8c3989f963d5602cbaaab57
+source-git-commit: da39fb8ccf51e24f5f5eb1bac33e51ecd959874a
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 92%
+source-wordcount: '728'
+ht-degree: 89%
 
 ---
 
@@ -13,11 +13,16 @@ ht-degree: 92%
 
 Beginnen Sie mit Sites Optimizer und verwenden Sie diese Testversion für bestehende **AEM Sites-Kunden (Edge Delivery Services, Cloud Services und Managed Services)**. Ihre Domain-Daten sind bereits vorkonfiguriert, sodass Sie sofort mit der Optimierung beginnen können. Das folgende Video führt Sie durch das Testerlebnis und zeigt Ihnen, wie Sie beginnen.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Die AEM Sites Optimizer-Testversion unterstützt derzeit keine Headless-Websites. Um die Testversion zu verwenden, integrieren Sie eine Website, die die AEM Sites-Frontend-Bereitstellung verwendet.
+>Stellen Sie vor dem Start sicher, dass Ihre Site die folgenden Anforderungen erfüllt:
+>
+>* Sie basiert auf AEM Sites (Edge Delivery Services, Cloud Service oder Managed Services).
+>* Es handelt sich um eine Produktions-, keine Entwicklungs-, QS-, Staging-, Autoren- oder Vorschauumgebung.
+>* Es ist öffentlich zugänglich und nicht hinter einer Anmeldung.
+>* Es wird die AEM Sites-Frontend-Bereitstellung verwendet. Die Headless-Bereitstellung wird derzeit nicht unterstützt.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483296/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
 
 >[!TIP]
 >
@@ -116,8 +121,8 @@ CARDS
                     <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Core Web Vital“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.</p>
                 </div>
                 <a href="./opportunities/core-web-vitals.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
+                </a>
             </div>
         </div>
     </div>
@@ -139,8 +144,8 @@ CARDS
                     <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für fehlenden Alternativtext und darüber, wie Sie sie zur Verbesserung der Interaktion auf Ihrer Website verwenden können.</p>
                 </div>
                 <a href="./opportunities/missing-alt-text.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
+                </a>
             </div>
         </div>
     </div>
@@ -162,8 +167,8 @@ CARDS
                     <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für fehlerhafte Backlinks und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.</p>
                 </div>
                 <a href="./opportunities/broken-backlinks.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
+                </a>
             </div>
         </div>
     </div>
