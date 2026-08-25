@@ -42,7 +42,7 @@ Verallgemeinern Sie nicht auf zukünftige Entwürfe, sodass ein dauerhafter Eint
 Neueste Einträge oben. Wenn eine spätere Lektion eine frühere Lektion ersetzt oder einengt, bearbeiten Sie
 Der frühere Eintrag zu beachten, dass anstatt zwei widersprüchliche Regeln in der Datei.
 
----
+&#x200B;---
 
 Noch keine Einträge - diese Datei erhält ihren ersten Eintrag, wenn ein Mensch zum ersten Mal Änderungen anfordert
 in einem der PRs dieses Agenten.
