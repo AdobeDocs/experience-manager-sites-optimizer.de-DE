@@ -1,9 +1,9 @@
 ---
 title: Audit-Ergebnisse in Preflight
 description: Erfahren Sie, wie Sie die Ergebnisse der Preflight-Prüfung, den Bereitschaftszähler und die Auditkategorien interpretieren und zu Opportunities in der Vorschau navigieren können.
-source-git-commit: 7224badecd83652a0971f669e23ff325b26892f3
+source-git-commit: 56a56991a262d9f19a228dc9ca6ec440acdc2999
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '1009'
 ht-degree: 3%
 
 ---
@@ -57,7 +57,7 @@ Jede Opportunity umfasst:
 
 * Ein Badge für den Schweregrad oder eine Auswirkung, das anzeigt, wie wichtig die Opportunity ist.
 * Details zur Opportunity, z. B. eine Beschreibung des Problems, eine Empfehlung und, bei Barrierefreiheit, die zugehörige WCAG-Regel und Konformitätsstufe.
-* Ein **Element**-Abschnitt, der das betroffene Element auf der Seite mit einer Schaltfläche **Hervorheben auf der Seite** identifiziert. Wenn das Element lesbaren Text enthält, wird der Abschnitt **Element: Text** bezeichnet und dieser Text angezeigt, wodurch das Element leichter zu erkennen ist. Wählen Sie **Weitere Informationen**, um langen Text zu erweitern. Wenn das Element keinen lesbaren Text enthält (z. B. einen nur mit einem Symbol versehenen Link), heißt der Abschnitt **Element: Selektor** und zeigt stattdessen die CSS-Auswahl des Elements an. Um den Wert zu kopieren, klicken Sie im Auswahlmodus auf das Symbol „Kopieren“ oder öffnen Sie **Mehr Aktionen** (**…**) im Textmodus auswählen und „Text kopieren **oder &quot;** kopieren **auswählen**.
+* Ein **Element**-Abschnitt, der das betroffene Element auf der Seite mit einer Schaltfläche **Hervorheben auf der Seite** identifiziert. Wenn das Element lesbaren Text enthält, wird der Abschnitt **Element: Text** benannt, andernfalls wird er mit **Element: Selektor** bezeichnet und die CSS-Auswahl des Elements angezeigt. Bei **Links** und **Canonical** wird im Abschnitt **Aktuelle URL** auch die betroffene URL angezeigt, die Sie nach Möglichkeit in einer neuen Registerkarte öffnen können.
 * Ein **Vorschlag** mit einer empfohlenen Fehlerbehebung. Wenn der Vorschlag von KI generiert wird, wird er als von KI generierter Vorschlag markiert und kann eine kurze Begründung zur Erläuterung der vorgeschlagenen Korrektur enthalten.
 
 ## Auf Seite hervorheben
@@ -69,6 +69,12 @@ Preflight markiert das betroffene Element im Kontext und verbindet das Ergebnis 
 1. Öffnen Sie das Preflight-Bedienfeld im Kontext der zu prüfenden Seite und wählen Sie **Seite analysieren** aus, um die Prüfungen durchzuführen.
 1. Wählen Sie im Bereitschafts-Dashboard eine Prüfung und dann eine zu überprüfende Gelegenheit aus.
 1. Wählen Sie **Markieren auf Seite** aus. Die Vorschau scrollt automatisch zum relevanten Bereich und markiert das entsprechende Element, sodass Sie die Opportunity im Kontext leicht identifizieren und optimieren können.
+
+Hervorheben ist nicht bei jeder Opportunity möglich. Wenn eine Opportunity beispielsweise nicht mit einem bestimmten Element verknüpft ist, ist das Element ausgeblendet oder befindet es sich nicht mehr auf der Seite. In diesen Fällen ist die Schaltfläche **Markieren auf Seite** abgeblendet. Bewegen Sie den Mauszeiger darüber, um zu sehen, warum.
+
+Im universellen Editor wird die Hervorhebung für Opportunities **Barrierefreiheit** noch nicht unterstützt. Die Schaltfläche **Auf Seite hervorheben** ist abgeblendet, und Sie können den Mauszeiger darüber bewegen, um zu sehen, warum das so ist.
+
+Im AEM Sites-Seiteneditor und in Adobe Managed Services (AMS) ist zum Hervorheben auch **Bearbeitungsmodus** erforderlich. Im **Vorschaumodus** zeigt Preflight **Hervorheben von Problemen nicht verfügbar** Hinweis: Wechseln Sie in den **Bearbeitungsmodus**, um Elemente auf der Seite hervorzuheben.
 
 ## Vorgangs-ID
 
