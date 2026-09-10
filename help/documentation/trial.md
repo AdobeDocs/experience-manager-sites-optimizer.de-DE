@@ -1,10 +1,10 @@
 ---
 title: Sites Optimizer-Testversion
 description: Beginnen Sie mit der AEM Sites Optimizer-Testversion für AEM Sites-Bestandskundschaft.
-source-git-commit: da39fb8ccf51e24f5f5eb1bac33e51ecd959874a
+source-git-commit: 5bd55dcc380f0721fb9818413207c22e21e8299b
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 89%
+source-wordcount: '1102'
+ht-degree: 59%
 
 ---
 
@@ -22,7 +22,7 @@ Beginnen Sie mit Sites Optimizer und verwenden Sie diese Testversion für besteh
 >* Es ist öffentlich zugänglich und nicht hinter einer Anmeldung.
 >* Es wird die AEM Sites-Frontend-Bereitstellung verwendet. Die Headless-Bereitstellung wird derzeit nicht unterstützt.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483296/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
 
 >[!TIP]
 >
@@ -48,6 +48,40 @@ In der Testversion ist Folgendes enthalten:
   * **Automatisches Identifizieren** – Erkennt Probleme auf Ihrer Site mithilfe mehrerer Datenquellen.
   * **Automatisches Vorschlagen** – Stellt präskriptive, KI-generierte Empfehlungen für jedes Problem bereit.
   * **Automatisches Optimieren** – Stellen Sie nach der Genehmigung Fehlerbehebungen direkt in Ihrer Autorenumgebung bereit. Aktualisierungen folgen Ihren bestehenden Workflows, sodass Ihr Team sie über AEM prüfen und veröffentlichen kann.
+
+## Automatische Fehlerbehebung für Edge Delivery-Test-Sites aktivieren
+
+Erfahren Sie, wie Testkunden die Aktion **Für Autor bereitstellen** für automatische Fehlerbehebungsvorschläge für Edge Delivery Services (EDS)-Sites aktivieren, die in Google Drive oder SharePoint erstellt wurden.
+
+>[!NOTE]
+>
+>Diese Anforderung gilt nur für Testorganisationen, deren Sites in Google Drive oder SharePoint verfasst wurden. Bezahlte Kunden und in Crosswalk oder Dark Alley erstellte Websites sind davon nicht betroffen.
+
+Testkunden müssen zur IMS-Gruppe **ASO-EDS-Autofix-Users** gehören. Wenn die Gruppe nicht vorhanden ist, kann der Administrator Ihres Unternehmens sie erstellen und Sie hinzufügen.
+
+1. Melden Sie sich bei der [Adobe Admin Console](https://adminconsole.adobe.com/) an.
+1. Wählen Sie **Benutzer** > **Benutzergruppen** aus.
+1. Wählen **Benutzergruppe hinzufügen** aus.
+1. Geben **unter „Name der Benutzergruppe** genau Folgendes ein:
+
+   ```
+   ASO-EDS-Autofix-Users
+   ```
+
+   >[!IMPORTANT]
+   >
+   > Der Gruppenname muss exakt übereinstimmen, einschließlich der Groß-/Kleinschreibung. Die Groß-/Kleinschreibung wird beachtet, sodass eine andere Schreibweise oder Groß-/Kleinschreibung (z. B. `ASO-EDS-Autofix-users`) nicht funktioniert. Benennen Sie die Gruppe nach dem Erstellen nicht um.
+
+1. Klicken Sie auf **Speichern**.
+
+   ![Erstellen Sie in der Adobe Admin Console ein Dialogfeld für eine neue Benutzergruppe, wobei das Feld „Name der Benutzergruppe“ auf „ASO-EDS-Autofix-Users“ eingestellt ist](./assets/trial/create-user-group.png){align="center"}
+
+1. Öffnen Sie die neue Gruppe und wählen Sie **Benutzer hinzufügen** aus.
+1. Geben Sie die E-Mail-Adresse oder den Benutzernamen jeder Person ein, die automatische Korrekturen bereitstellen kann, und wählen Sie dann **Speichern**.
+
+   ![Im Dialogfeld „Benutzer zu dieser Benutzergruppe hinzufügen“ in der Adobe Admin Console](./assets/trial/add-users-to-group.png){align="center"}
+
+Wenn Sie Mitglied der Gruppe sind, ist die Schaltfläche **Für Autor bereitstellen** aktiviert. Wenn Sie noch kein Mitglied sind, wird **Für Autor bereitstellen** mit einer QuickInfo deaktiviert, mit der Sie aufgefordert werden, sich an Ihren Administrator zu wenden, um Sie der Gruppe hinzuzufügen. Nachdem Sie von Ihrem Administrator zur Gruppe hinzugefügt wurden, melden Sie sich ab und wieder bei Sites Optimizer an, damit Ihre Sitzung die neue Gruppenmitgliedschaft annimmt.
 
 ## Häufig gestellte Fragen
 
@@ -87,6 +121,16 @@ Sites Optimizer identifiziert kontinuierlich Probleme, die sich auf Ihre Leistun
 Führen Sie das Upgrade aus, verwenden Sie die Schaltfläche für den Kontakt mit dem Vertrieb im Produkterlebnis oder senden Sie eine E-Mail an [siteoptimizer-now@adobe.com](mailto:siteoptimizer-now@adobe.com).
 
 +++
++++Ich gehöre zur Gruppe ASO-EDS-Autofix-Users , aber die Bereitstellung für die Autoreninstanz ist immer noch deaktiviert. Was soll ich überprüfen?
+
+Abmelden und wieder anmelden - Die Gruppenmitgliedschaft wird gelesen, wenn Sie sich anmelden. Bestätigen Sie außerdem, dass der Gruppenname exakt `ASO-EDS-Autofix-Users` geschrieben und in Großbuchstaben geschrieben wurde und in derselben Organisation erstellt wurde, zu der die Site gehört.
+
++++
++++Gilt die Gruppenanforderung ASO-EDS-Autofix-Users für alle Edge Delivery Services-Sites?
+
+Nein. Gilt nur für Test-Sites, die in **Google Drive** oder **SharePoint erstellt**. In **Crosswalk** oder **Dark Alley** erstellte Websites und alle **gebührenpflichtigen**-Websites sind davon nicht betroffen.
+
++++
 
 <!--
 CARDS
@@ -118,7 +162,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./opportunities/core-web-vitals.md" target="_blank" rel="referrer" title="Core Web Vitals">Core Web Vitals</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit „Core Web Vital“ und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit bei Core Web Vitals und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.</p>
                 </div>
                 <a href="./opportunities/core-web-vitals.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
@@ -164,7 +208,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./opportunities/broken-backlinks.md" target="_blank" rel="referrer" title="Fehlerhafte Backlinks">Fehlerhafte Backlinks</a>
                     </p>
-                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit für fehlerhafte Backlinks und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.</p>
+                    <p class="is-size-6">Erfahren Sie mehr über die Möglichkeit bei fehlerhaften Backlinks und darüber, wie Sie sie zur Verbesserung der Traffic-Akquise nutzen können.</p>
                 </div>
                 <a href="./opportunities/broken-backlinks.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
