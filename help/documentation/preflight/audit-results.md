@@ -1,13 +1,11 @@
 ---
 title: Audit-Ergebnisse in Preflight
 description: Erfahren Sie, wie Sie die Ergebnisse der Preflight-Prüfung, den Bereitschaftszähler und die Auditkategorien interpretieren und zu Opportunities in der Vorschau navigieren können.
-source-git-commit: 56a56991a262d9f19a228dc9ca6ec440acdc2999
+source-git-commit: dd2637e61e15a6b8364456ae7d11717a0b81ad09
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 3%
-
+source-wordcount: '1066'
+ht-degree: 2%
 ---
-
 
 # Audit-Ergebnisse in Preflight
 
@@ -73,6 +71,8 @@ Preflight markiert das betroffene Element im Kontext und verbindet das Ergebnis 
 Hervorheben ist nicht bei jeder Opportunity möglich. Wenn eine Opportunity beispielsweise nicht mit einem bestimmten Element verknüpft ist, ist das Element ausgeblendet oder befindet es sich nicht mehr auf der Seite. In diesen Fällen ist die Schaltfläche **Markieren auf Seite** abgeblendet. Bewegen Sie den Mauszeiger darüber, um zu sehen, warum.
 
 Im universellen Editor wird die Hervorhebung für Opportunities **Barrierefreiheit** noch nicht unterstützt. Die Schaltfläche **Auf Seite hervorheben** ist abgeblendet, und Sie können den Mauszeiger darüber bewegen, um zu sehen, warum das so ist.
+
+Im universellen Editor kann Preflight nur bearbeitbare Inhalte markieren. Wenn das betroffene Element nicht Teil des bearbeitbaren Inhalts ist, ist die Schaltfläche **Hervorheben auf Seite** abgeblendet. Bewegen Sie den Mauszeiger darüber, um zu sehen, warum. Wenn das Element selbst nicht direkt bearbeitbar ist, aber der nächste bearbeitbare Block ist, markiert Preflight diesen Block stattdessen und fügt einen Hinweis hinzu, der erklärt, warum.
 
 Im AEM Sites-Seiteneditor und in Adobe Managed Services (AMS) ist zum Hervorheben auch **Bearbeitungsmodus** erforderlich. Im **Vorschaumodus** zeigt Preflight **Hervorheben von Problemen nicht verfügbar** Hinweis: Wechseln Sie in den **Bearbeitungsmodus**, um Elemente auf der Seite hervorzuheben.
 
