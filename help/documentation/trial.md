@@ -20,7 +20,7 @@ Beginnen Sie mit Sites Optimizer und verwenden Sie diese Testversion für besteh
 >* Es ist öffentlich zugänglich und nicht hinter einer Anmeldung.
 >* Es wird die AEM Sites-Frontend-Bereitstellung verwendet. Die Headless-Bereitstellung wird derzeit nicht unterstützt.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483296/?captions=ger&learn=on&enablevpops)
 
 >[!TIP]
 >
