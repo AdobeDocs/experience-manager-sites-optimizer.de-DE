@@ -1,13 +1,11 @@
 ---
 title: Sites Optimizer-Testversion
 description: Beginnen Sie mit der AEM Sites Optimizer-Testversion für AEM Sites-Bestandskundschaft.
-source-git-commit: 5bd55dcc380f0721fb9818413207c22e21e8299b
+source-git-commit: 052faac621530a5b9e74bd8e4790a604887515f7
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 59%
-
+source-wordcount: '1481'
+ht-degree: 45%
 ---
-
 
 # Sites Optimizer-Testversion
 
@@ -22,7 +20,7 @@ Beginnen Sie mit Sites Optimizer und verwenden Sie diese Testversion für besteh
 >* Es ist öffentlich zugänglich und nicht hinter einer Anmeldung.
 >* Es wird die AEM Sites-Frontend-Bereitstellung verwendet. Die Headless-Bereitstellung wird derzeit nicht unterstützt.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483296/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
 
 >[!TIP]
 >
@@ -48,6 +46,25 @@ In der Testversion ist Folgendes enthalten:
   * **Automatisches Identifizieren** – Erkennt Probleme auf Ihrer Site mithilfe mehrerer Datenquellen.
   * **Automatisches Vorschlagen** – Stellt präskriptive, KI-generierte Empfehlungen für jedes Problem bereit.
   * **Automatisches Optimieren** – Stellen Sie nach der Genehmigung Fehlerbehebungen direkt in Ihrer Autorenumgebung bereit. Aktualisierungen folgen Ihren bestehenden Workflows, sodass Ihr Team sie über AEM prüfen und veröffentlichen kann.
+
+## Zugriff von Sites Optimizer auf Ihre Website zulassen
+
+Sites Optimizer scannt Ihre Site, um Optimierungsmöglichkeiten zu identifizieren. Wenn sich Ihre Site hinter einer Firewall, einem Content Delivery Network (CDN) oder einer anderen Sicherheitskonfiguration befindet, die nicht erkannte Clients blockiert, kann der Scanner Ihre Seiten nicht erreichen. In diesem Fall wird beim Onboarding die Meldung **Aktion erforderlich** angezeigt, dass Sites Optimizer nicht auf Ihre Website zugreifen kann. Außerdem wird der Scanvorgang angehalten, bis Sie den Zugriff zulassen.
+
+![Onboarding-Dialogfeld, in dem angegeben wird, dass Sites Optimizer nicht auf die Website zugreifen kann, mit einer Liste der zu kopierenden Benutzeragenten- und Scanner-IP-Adressen, jeweils mit einer Schaltfläche zum Kopieren und einer Schaltfläche zum Aktualisieren, um den Zugriff erneut zu überprüfen](./assets/trial/ip-allowlist-action-required.png){align="center"}
+
+Um den Scanner durchzulassen, führen Sie die folgenden Zulassungslisten in Ihrer Firewall, Ihrem Hosting-Anbieter oder Ihrer Sicherheitskonfiguration durch. Fügen Sie für AEM Cloud Service-Sites eine Zulassungsregel für den Scanner zu Ihren [CDN-Traffic-Filterregeln](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf) in Cloud Manager hinzu, die sowohl für den Benutzeragenten als auch für die IP-Adresse übereinstimmen kann. Wenn Sie den Zugriff mithilfe von [Cloud Manager IP-Zulassungslisten ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction) einschränken, fügen Sie auch die IP-Adressen der Scanner zur angewendeten Zulassungsliste hinzu.
+
+* **Benutzeragent** - Der Scanner identifiziert sich mit einem Benutzeragenten, der die Token-`Spacecat/1.0` enthält. Zulassungsliste dieses Tokens, im Idealfall eine Übereinstimmung mit „contains“, sodass es auch dann funktioniert, wenn sich die vollständige Benutzeragenten-Zeichenfolge ändert.
+* **Scanner-IP** Adressen: Hiermit werden die ausgehenden IP-Adressen des Scanners Auf die Zulassungsliste gesetzt.
+
+Der Onboarding-Bildschirm zeigt die genauen zu kopierenden Benutzeragenten- und IP-Adressen mit jeweils einer **Kopieren**-Schaltfläche an, sodass Sie die aktuellen Werte direkt in Ihre Konfiguration kopieren können.
+
+Wählen Sie nach der Zulassungsliste des Scanners **Aktualisieren** auf dem Onboarding-Bildschirm aus. Sobald der Zugriff gewährt wurde, wird die Überprüfung automatisch fortgesetzt und Ihre Optimierungsmöglichkeiten werden angezeigt.
+
+>[!NOTE]
+>
+>Diese IP-Adressen werden nur zur Analyse Ihrer Site verwendet. Durch ihre Zulassungsauflistung wird kein anderer Zugriff gewährt.
 
 ## Automatische Fehlerbehebung für Edge Delivery-Test-Sites aktivieren
 
@@ -129,6 +146,11 @@ Abmelden und wieder anmelden - Die Gruppenmitgliedschaft wird gelesen, wenn Sie 
 +++Gilt die Gruppenanforderung ASO-EDS-Autofix-Users für alle Edge Delivery Services-Sites?
 
 Nein. Gilt nur für Test-Sites, die in **Google Drive** oder **SharePoint erstellt**. In **Crosswalk** oder **Dark Alley** erstellte Websites und alle **gebührenpflichtigen**-Websites sind davon nicht betroffen.
+
++++
++++Sites Optimizer gibt an, dass es nicht auf meine Website zugreifen kann. Was soll ich tun?
+
+Ihre Site befindet sich wahrscheinlich hinter einer Firewall, einem CDN oder einer Sicherheitskonfiguration, die den Scanner blockiert. Zulassungsliste des Benutzeragenten des Scanners (das `Spacecat/1.0`-Token) und der IP-Adressen in Ihrer Sicherheitskonfiguration oder, bei AEM Cloud Service-Sites, in den CDN-Zulassungslisten von Cloud Manager. Wählen Sie dann **Aktualisieren** aus. Siehe [Zugriff von Sites Optimizer auf Ihre Site zulassen](#allow-sites-optimizer-to-access-your-site).
 
 +++
 
