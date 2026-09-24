@@ -173,7 +173,7 @@ Es gibt zwei Möglichkeiten, wie eine Person Zugriff erhalten kann, und sie arbe
 
 #### Unternehmensweite Rollen (Admin Console)
 
-Der organisationsweite Zugriff erfolgt über eine von zwei **AEM Sites Optimizer**-Produktrollen, die in der [Adobe Admin Console zugewiesen ](https://adminconsole.adobe.com/):
+Der organisationsweite Zugriff erfolgt über eine von zwei **AEM Sites Optimizer**-Produktrollen, die in der [Adobe Admin Console zugewiesen &#x200B;](https://adminconsole.adobe.com/):
 
 - **ASO Manager** - Vollständiger Zugriff auf jede Website, einschließlich **Benutzer verwalten**. Ein Manager kann die Seite **Berechtigungen** für jede Site öffnen und anderen Zugriff zuweisen.
 - **ASO User** — Nur-Ansicht-Zugriff auf jede Website. Keine Änderungen und keine Benutzerverwaltung.
