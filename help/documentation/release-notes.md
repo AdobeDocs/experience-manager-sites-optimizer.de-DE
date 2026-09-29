@@ -3,21 +3,48 @@ title: Versionshinweise
 description: Erfahren Sie mehr über die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Experience Manager Sites Optimizer.
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9af59e18de7ce016778f25d4add450b50e0b1fde
+    internal-label: Optimization
+source-git-commit: 42f44053eae27ad9068c1a34fc19288f59e77b7e
 workflow-type: tm+mt
-source-wordcount: 1805
+source-wordcount: '2120'
 ht-degree: 1%
-
 ---
-
 
 # Versionshinweise
 
 Auf dieser Seite werden die neuesten Aktualisierungen, neuen Funktionen und Verbesserungen in Adobe Experience Manager Sites Optimizer dokumentiert.
 
 Mit **(Early Access)** gekennzeichnete Funktionen sind auf Anfrage verfügbar. Wenden Sie sich an Ihr Account Team oder Ihren Customer Success Engineer, um sie für Ihr Unternehmen zu aktivieren.
+
+## &#x200B;20. bis 27. August 2026
+
+### Neue Funktionen
+
+- **Warnhinweisansicht** - Überprüfen Sie einen 90-tägigen Zeitrahmen automatisch erkannter Site-Health-Vorfälle, korrelieren Sie Änderungen mit Bereitstellungen und Inhaltsaktualisierungen und inspizieren Sie die betroffenen Seiten und Leistungsmetriken an einem Ort.
+- **Berichte und Erfolge** - Im Bereich „Berichte“ können Sie den Optimierungsverlauf, Leistungstrends sowie die Erfolge vor und nach der Optimierung überprüfen. Diese Informationen helfen Ihnen dabei, die Auswirkungen Ihrer Optimierungsarbeit zu kommunizieren.
+- **Neue Funktionen und Hilfe-Center** - Entdecken Sie die kürzlich veröffentlichten Funktionen, öffnen Sie die Produktdokumentation und greifen Sie direkt über das In-App-Hilfe-Center auf die Versionshinweise zu.
+- **Google Ads-Verbindung (früher Zugriff)** - Verbinden Sie ein Google Ads-Konto, um Paid-Traffic-Leistungsdaten in Sites Optimizer-Opportunities und -Empfehlungen zu integrieren.
+
+### Verbesserungen
+
+- **Opportunity-Listensteuerelemente** - Filtern und Sortieren von Opportunities nach URL, Startstatus, Priorität oder Neuigkeit, Speichern von Ansichten in der URL für die Freigabe und Exportieren von Vorschlagsdaten in CSV.
+- **Workflow-Steuerelemente für Vorschläge** - Bearbeiten von KI-generierten Vorschlägen vor der Bereitstellung, Ignorieren einzelner Vorschläge, Überspringen vollständiger Opportunitys und Wiederherstellen übersprungener Opportunitys, wenn sie wieder relevant werden.
+- **Bereitstellungsverlauf** - Überprüfen Sie den Bereitstellungsverlauf nach Datum, unterscheiden Sie automatische Bereitstellungen von Änderungen, die als manuell bereitgestellt markiert sind, und folgen Sie Pull-Request-Links für Code-basierte Fehlerbehebungen.
+- **Integration von Marken und Slack** - Wählen Sie eine Adobe GenStudio-Marke für die Erstellung markeninterner Inhalte aus und teilen Sie relevante Optimierungsaktualisierungen mit einem konfigurierten Slack-Kanal.
+
+## &#x200B;6. bis 19. August 2026
+
+### Neue Funktionen
+
+- **Preflight im AEM Sites-Seiteneditor** - Wenn Ihre Authoring-Umgebung AEM 2026.7.0 oder höher ausführt, können Sie Preflight direkt über die Seiteneditor-Symbolleiste öffnen, um die aktuelle Seite zu analysieren, ohne den Authoring-Workflow zu verlassen.
+- **PreFlight-Exportoptionen** - Exportieren Sie Preflight-Ergebnisse als CSV oder PDF mit Optionen zum Einschließen von durchlaufenen Metadaten und Audits, um die Freigabe von Ergebnissen und die Nachverfolgung der Bereitschaft zu erleichtern.
+
+### Verbesserungen
+
+- **Preflight-Sitzungsdetails** - Wenn Sie eine vorherige Audit-Sitzung fortsetzen, zeigt Preflight an, wann der Durchlauf durchgeführt wurde, und erleichtert die Identifizierung betroffener Elemente durch die Anzeige von lesbarem Text oder einer CSS-Auswahl.
 
 ## &#x200B;1. bis 19. Juli 2026
 
