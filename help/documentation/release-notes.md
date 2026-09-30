@@ -7,10 +7,10 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 42f44053eae27ad9068c1a34fc19288f59e77b7e
+source-git-commit: 5399b579133dc11cd8a8154b55467b8bc5291b4d
 workflow-type: tm+mt
-source-wordcount: '2120'
-ht-degree: 1%
+source-wordcount: '2510'
+ht-degree: 2%
 ---
 
 # Versionshinweise
@@ -18,6 +18,72 @@ ht-degree: 1%
 Auf dieser Seite werden die neuesten Aktualisierungen, neuen Funktionen und Verbesserungen in Adobe Experience Manager Sites Optimizer dokumentiert.
 
 Mit **(Early Access)** gekennzeichnete Funktionen sind auf Anfrage verfügbar. Wenden Sie sich an Ihr Account Team oder Ihren Customer Success Engineer, um sie für Ihr Unternehmen zu aktivieren.
+
+## &#x200B;28. bis 29. September 2026
+
+### Verbesserungen
+
+- **Beschädigte Bereitstellung interner Links (Early Access)** - Geben Sie eine Ersatz-URL für einen Link an, der nicht automatisch korrigiert werden kann, und stellen Sie das validierte Update bereit.
+- **Veröffentlichungsbereitstellungsstatus** - Zeigt an, wann eine bereitgestellte Änderung auf der veröffentlichten Seite live bestätigt wird, wobei der Status „Fehler eindeutig“ und „erneute Erkennung“ beibehalten wird.
+
+### Fehlerbehebungen
+
+- Forms-Barrierefreiheitsmöglichkeiten unterstützen jetzt das Erstellen von Jira-Problemen.
+- Mithilfe von Follow-up-Links zur Bereitstellung wird jetzt das konfigurierte Code-Repository geöffnet.
+
+## &#x200B;21. bis 27. September 2026
+
+### Verbesserungen
+
+- **Häufig gestellte Fragen zur Bereitstellung strukturierter Daten (Early Access)** - Wählen Sie für Seiten, die mit AEM Multi-Site Manager verwaltet werden, aus, ob strukturierte Datenaktualisierungen auf die Quellseite oder nur auf die lokale Seite angewendet werden sollen.
+- **Formularbereitstellung** - Stellen Sie die Fehlerbehebung für die ausgewählte Formularvariante zuverlässig bereit.
+- **Lokalisierte Erlebnisse** - Berechtigungsbeschriftungen und abgeschnittene Tabelleninhalte sind in den unterstützten Sprachen klarer.
+
+### Fehlerbehebungen
+
+- Patch-Downloads für Core Web Vitals sind immer verfügbar, wenn ein Patch vorhanden ist.
+- CSV-Exporte behalten jetzt lokalisierte Zeichen in Excel bei.
+- Leistungsmetriken bleiben beim Laden nicht mehr hängen, wenn die Quelldaten unvollständig sind.
+
+## &#x200B;14. bis 20. September 2026
+
+### Verbesserungen
+
+- **Granulare Berechtigungen** - Administratoren können Mitgliedern Zugriff auf ausgewählte Opportunity-Typen gewähren und gleichzeitig Site-weite Berechtigungen separat verwalten.
+
+### Fehlerbehebungen
+
+- Die Metadatenbereitstellung stellt jetzt die Warnung wieder her, die beim Korrigieren einer lokalen Seite angezeigt wird, die die Vererbung unterbricht.
+
+## &#x200B;7. bis 13. September 2026
+
+### Neue Funktionen
+
+- **Google Ads-Platzierungsausschlüsse** — Überprüfen Sie die Platzierungsrisiken für verbundene Google Ads-Konten und laden Sie Site-spezifische Ausschlusslisten für automatisierte und Performance Max-Kampagnen herunter.
+
+### Verbesserungen
+
+- **Anleitung zu Bereitstellungsfehlern** - Fehlermeldungen erklären jetzt, ob eine Inhaltsaktualisierung Verbindungszugriff, eine erneute Suche oder Support benötigt.
+
+### Fehlerbehebungen
+
+- Die Werte und Layouts der Berichte zur Barrierefreiheit werden jetzt in allen unterstützten Sprachen deutlicher angezeigt.
+- Die Gesamtwerte für Paid Traffic-Kanal und -Plattform enthalten jetzt nicht klassifizierten Traffic.
+- Die unterbrochenen Zählungen der bereitgestellten Backlinks stimmen jetzt mit den angezeigten Zeilen überein, einschließlich des Status der zurückgesetzten und aufgestockten Bereitstellung.
+- Berechtigte Edge Delivery Services-Sites werden nicht mehr fälschlicherweise für die Bereitstellung fehlerhafter Links blockiert.
+
+## &#x200B;31. August bis 6. September 2026
+
+### Verbesserungen
+
+- **AEM Content Connections** - Einstellungen erkennen jetzt von AEM erstellte Edge Delivery Services-Konfigurationen, behalten ihre Quelldetails bei und blockieren nicht unterstützte Quell-URLs vor dem Speichern.
+- **Test-Onboarding** - Der Domäneneintrag erklärt jetzt die unterstützten Anforderungen an die Produktions-Site, bevor eine Test-Site hinzugefügt wird.
+
+### Fehlerbehebungen
+
+- Bezeichnungen und Selektoren für Paid Traffic-Monate werden nun in allen unterstützten Sprachen korrekt angezeigt.
+- CSV-Exporte verwenden jetzt die richtige Seiten-URL jedes Barrierefreiheitsproblems.
+- Berechtigte Edge Delivery Services-Sites werden nicht mehr fälschlicherweise für die Bereitstellung von Alt-Text blockiert.
 
 ## &#x200B;20. bis 27. August 2026
 
