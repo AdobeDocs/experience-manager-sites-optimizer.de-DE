@@ -1,9 +1,9 @@
 ---
 title: Audit-Ergebnisse in Preflight
 description: Erfahren Sie, wie Sie die Ergebnisse der Preflight-Prüfung, den Bereitschaftszähler und die Auditkategorien interpretieren und zu Opportunities in der Vorschau navigieren können.
-source-git-commit: dd2637e61e15a6b8364456ae7d11717a0b81ad09
+source-git-commit: d87b607248efdeecf1ba29ede03bf1628d1dff30
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1168'
 ht-degree: 2%
 ---
 
@@ -49,13 +49,17 @@ Eine vollständige Liste der Audit-Kategorien und der Audits in den einzelnen Ka
 
 Auf der Detailseite werden die Chancen angezeigt, die der ausgewählte Audit gefunden hat. Wenn dasselbe Problem an mehr als einer Stelle auftritt, wird jedes Vorkommen als -Instanz bezeichnet. Verwenden Sie den Navigator (**vorherige Instanz** und **nächste Instanz**), um sie zu durchlaufen. Er zeigt Ihre Position an, z. B. *1 von 5 gefundenen Instanzen*. Um zum Bereitschafts-Dashboard zurückzukehren, klicken Sie auf den Rückwärtspfeil neben dem Audittitel. Das Dashboard wird erneut geöffnet, wobei die Kategorie des Audits erweitert ist.
 
+Bei Prüfungen, die eine bestimmte URL auf der Seite identifizieren, wird der **Element**-Abschnitt oben auf der Karte angezeigt, um das Element einzuführen, und der Rest der Opportunity folgt darunter in seinem eigenen Abschnitt.
+
+Wenn mehrere Opportunities dasselbe Element betreffen - z. B. mehrere Probleme mit demselben Link -, zeigt Preflight sie zusammen auf einer Karte an, jede in einem eigenen Abschnitt mit der zugehörigen Instanznummer, z. B. **Instanz 3**. Der Navigator zeigt dann anstelle einer einzelnen Position einen Bereich an, z. B. *3-5 von 12 gefundenen Instanzen*.
+
 ![Die Detailseite für eine Prüfung, auf der eine Opportunity und ihr Vorschlag angezeigt werden](./assets/audit-results/audit-detail.png){align="center"}
 
 Jede Opportunity umfasst:
 
 * Ein Badge für den Schweregrad oder eine Auswirkung, das anzeigt, wie wichtig die Opportunity ist.
 * Details zur Opportunity, z. B. eine Beschreibung des Problems, eine Empfehlung und, bei Barrierefreiheit, die zugehörige WCAG-Regel und Konformitätsstufe.
-* Ein **Element**-Abschnitt, der das betroffene Element auf der Seite mit einer Schaltfläche **Hervorheben auf der Seite** identifiziert. Wenn das Element lesbaren Text enthält, wird der Abschnitt **Element: Text** benannt, andernfalls wird er mit **Element: Selektor** bezeichnet und die CSS-Auswahl des Elements angezeigt. Bei **Links** und **Canonical** wird im Abschnitt **Aktuelle URL** auch die betroffene URL angezeigt, die Sie nach Möglichkeit in einer neuen Registerkarte öffnen können.
+* Ein **Element**-Abschnitt, der das betroffene Element auf der Seite mit einer Schaltfläche **Hervorheben auf der Seite** identifiziert. Wenn das Element lesbaren Text enthält, wird der Abschnitt **Element: Text** benannt, andernfalls wird er mit **Element: Selektor** bezeichnet und die CSS-Auswahl des Elements angezeigt. Bei **internen Links** und **kanonischen** Opportunities wird in einem Abschnitt **Aktuelle URL** auch die beteiligte URL angezeigt. Wählen Sie **URL kopieren**, um sie in die Zwischenablage zu kopieren, oder **In neuer Registerkarte öffnen**, um sie zu öffnen.
 * Ein **Vorschlag** mit einer empfohlenen Fehlerbehebung. Wenn der Vorschlag von KI generiert wird, wird er als von KI generierter Vorschlag markiert und kann eine kurze Begründung zur Erläuterung der vorgeschlagenen Korrektur enthalten.
 
 ## Auf Seite hervorheben
