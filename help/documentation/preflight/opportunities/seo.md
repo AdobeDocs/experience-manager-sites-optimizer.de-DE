@@ -1,9 +1,9 @@
 ---
 title: Preflight-SEO-Audits
 description: Erfahren Sie mehr über die SEO-Audits, die Preflight auf Ihrer Seite in AEM Sites Optimizer ausführt.
-source-git-commit: d87b607248efdeecf1ba29ede03bf1628d1dff30
+source-git-commit: 8a465f3ef54dbd295255f326eda2e8f37a114ace
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '221'
 ht-degree: 0%
 ---
 # SEO-Audits
@@ -20,6 +20,7 @@ Die SEO-Kategorie umfasst die folgenden Audits:
 * [Überschriften](./seo/headings.md) - Überprüft die Überschriftenstruktur und -reihenfolge der Seite.
 * [H1 count](./seo/h1-count.md) - Prüft die Anzahl der H1-Überschriften auf der Seite.
 * [Interne Links](./seo/internal-links.md) - Überprüft die Links auf der Seite, die auf Ihre eigene Site verweisen.
+* [Externe Links](./seo/external-links.md) - Überprüft die Links auf der Seite, die auf andere Sites verweisen.
 * [Lesbarkeit](./seo/readability.md) - Prüft, wie einfach der Seiteninhalt zu lesen ist.
 * [Canonical](./seo/canonical.md) - Prüft den kanonischen Link der Seite.
 * [Textkörpergröße](./seo/body-size.md) - Prüft die Menge des Textkörperinhalts auf der Seite.
