@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 5399b579133dc11cd8a8154b55467b8bc5291b4d
+source-git-commit: 8d6936c2c577d7a98937cb8ddf90d18a6e82a9bb
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2628'
 ht-degree: 2%
 ---
 
@@ -19,17 +19,26 @@ Auf dieser Seite werden die neuesten Aktualisierungen, neuen Funktionen und Verb
 
 Mit **(Early Access)** gekennzeichnete Funktionen sind auf Anfrage verfügbar. Wenden Sie sich an Ihr Account Team oder Ihren Customer Success Engineer, um sie für Ihr Unternehmen zu aktivieren.
 
-## &#x200B;28. bis 29. September 2026
+## &#x200B;28. September bis 4. Oktober 2026 {#september-28-october-4-2026}
+
+### Neue Funktionen
+
+- **Personal AI Agent Opportunities (Early Access)** - Filtern Sie Möglichkeiten, wie Personal AI Agents Ihre Website lesen und mit ihr interagieren können, mit Abzeichen und Anleitungen, die die Vorteile erläutern.
 
 ### Verbesserungen
 
 - **Beschädigte Bereitstellung interner Links (Early Access)** - Geben Sie eine Ersatz-URL für einen Link an, der nicht automatisch korrigiert werden kann, und stellen Sie das validierte Update bereit.
-- **Veröffentlichungsbereitstellungsstatus** - Zeigt an, wann eine bereitgestellte Änderung auf der veröffentlichten Seite live bestätigt wird, wobei der Status „Fehler eindeutig“ und „erneute Erkennung“ beibehalten wird.
+- **Veröffentlichungsstatus für Alt-Text** - Zeigt an, wann eine Änderung des Alt-Texts live auf der veröffentlichten Seite bestätigt wird, wobei der Status „Fehler löschen“ und „Erneut erkennen“ beibehalten wird.
+- **Core Web Vitals-Code-Patches** - Überprüfen Sie die Patches dateiweise mit Zeilennummern und hervorgehobenen Hinzufügungen und Löschungen.
+- **Core Web Vitals-Code-Bereitstellung (früher Zugriff)** — Senden Sie geeignete Code-Patches als Pull-Anfrage in Ihrem konfigurierten Code-Repository.
 
 ### Fehlerbehebungen
 
 - Forms-Barrierefreiheitsmöglichkeiten unterstützen jetzt das Erstellen von Jira-Problemen.
 - Mithilfe von Follow-up-Links zur Bereitstellung wird jetzt das konfigurierte Code-Repository geöffnet.
+- Detaillierte Barrierefreiheitsberichte werden jetzt geöffnet und zeigen ihren Inhalt an, anstatt zur Startseite weiterzuleiten oder leer zu erscheinen.
+- Die Anzahl der bereitgestellten Alt-Texte und die Datumgruppen stimmen nun mit den angezeigten Fehlerbehebungen überein, ohne dass leere Gruppen für die fehlgeschlagene Bereitstellung vorhanden sind.
+- Beim Wiederherstellen übersprungener Sitemap- und Core Web Vitals-Vorschläge wird ihr Status jetzt zuverlässig aktualisiert.
 
 ## &#x200B;21. bis 27. September 2026
 
