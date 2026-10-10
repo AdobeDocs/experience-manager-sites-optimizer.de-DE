@@ -1,13 +1,14 @@
 ---
 title: PreFlight-Zugänglichkeitsprüfungen
 description: Erfahren Sie mehr über die Zugänglichkeitsprüfungen, die Preflight auf Ihrer Seite in AEM Sites Optimizer ausführt.
-source-git-commit: 7224badecd83652a0971f669e23ff325b26892f3
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
-
 ---
-
 # Zugänglichkeitsprüfungen
 
 ![Zugänglichkeitsprüfungen im Dashboard für die Flugbereitschaft vor dem Flug](./assets/accessibility/hero.png){align="center"}
