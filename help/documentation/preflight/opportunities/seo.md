@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die SEO-Audits, die Preflight auf Ihrer Sei
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: 913fd85808a08eb8f6ba7de8207d53ee7b68409e
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '211'
 ht-degree: 0%
 ---
 # SEO-Audits
@@ -19,7 +19,7 @@ Erweitern Sie im Bereitschafts-Dashboard die Kategorie **SEO**, um jede Prüfung
 
 Die SEO-Kategorie umfasst die folgenden Audits:
 
-* [MetaTags](./seo/metatags.md) - Prüft die Tags für den Seitentitel und die Metabeschreibung.
+* [MetaTags](./seo/metatags.md) - Prüft den Seitentitel, die Meta-Beschreibung und die Überschrift H1.
 * [Überschriften](./seo/headings.md) - Überprüft die Überschriftenstruktur und -reihenfolge der Seite.
 * [Interne Links](./seo/internal-links.md) - Überprüft die Links auf der Seite, die auf Ihre eigene Site verweisen.
 * [Externe Links](./seo/external-links.md) - Überprüft die Links auf der Seite, die auf andere Sites verweisen.
