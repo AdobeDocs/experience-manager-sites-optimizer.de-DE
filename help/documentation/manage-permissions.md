@@ -35,7 +35,7 @@ Es gibt zwei Möglichkeiten, wie eine Person Zugriff erhalten kann, und sie arbe
 
 ### Unternehmensweite Rollen (Admin Console)
 
-Der organisationsweite Zugriff erfolgt über eine von zwei **AEM Sites Optimizer**-Produktrollen, die in der [Adobe Admin Console zugewiesen ](https://adminconsole.adobe.com/):
+Der organisationsweite Zugriff erfolgt über eine von zwei **AEM Sites Optimizer**-Produktrollen, die in der [Adobe Admin Console zugewiesen &#x200B;](https://adminconsole.adobe.com/):
 
 - **ASO Manager** - Vollständiger Zugriff auf jede Website, einschließlich **Benutzer verwalten**. Ein Manager kann die Registerkarte **Berechtigungen** für jede Site öffnen und anderen Zugriff zuweisen.
 - **ASO User** — Nur-Ansicht-Zugriff auf jede Website. Keine Änderungen und keine Benutzerverwaltung.
@@ -93,7 +93,7 @@ Jede in den Umfang einbezogene Finanzhilfe wird als eigene Zeile für das Mitgli
 
 ## Gewähren von Zugriff für Benutzergruppen
 
-Neben Einzelpersonen können Sie über die [Adobe Admin Console **Ihres Unternehmens Zugriff auf** Site-Ebene für eine ](https://adminconsole.adobe.com/) gewähren. Jeder Benutzer in der Gruppe erhält die Funktionen, die Sie der Gruppe auf dieser Site gewähren, sodass Sie den Zugriff für ein ganzes Team mit einer einzigen Gewährung verwalten können.
+Neben Einzelpersonen können Sie über die [Adobe Admin Console **Ihres Unternehmens Zugriff auf** Site-Ebene für eine &#x200B;](https://adminconsole.adobe.com/) gewähren. Jeder Benutzer in der Gruppe erhält die Funktionen, die Sie der Gruppe auf dieser Site gewähren, sodass Sie den Zugriff für ein ganzes Team mit einer einzigen Gewährung verwalten können.
 
 - Benutzergruppen werden in der Admin Console unter **Benutzer** > **Benutzergruppen** erstellt und verwaltet. Sites Optimizer listet die Gruppen auf, die bereits in Ihrer Organisation vorhanden sind. Sie können keine Gruppe auf der Registerkarte **Berechtigungen** erstellen.
 - Wenn Personen der Gruppe im Admin Console beitreten oder sie verlassen, ändert sich ihr Zugriff auf die Website mit ihr. Sie müssen in Sites Optimizer keine Aktualisierungen vornehmen.
