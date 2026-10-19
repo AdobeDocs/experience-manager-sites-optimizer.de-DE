@@ -1,20 +1,20 @@
 ---
 title: Verwalten von Benutzerberechtigungen
-description: Erfahren Sie, wie Sie den Benutzerzugriff und die Funktionen in AEM Sites Optimizer verwalten.
+description: Erfahren Sie, wie Sie den Zugriff und die Funktionen für Benutzende und Benutzergruppen in AEM Sites Optimizer verwalten.
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: c372679073253df686a77daccb6cb548622181f5
+source-git-commit: 99cab67b45300bb89cec79e714761e67e19bc2dc
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1708'
 ht-degree: 1%
 ---
 # Verwalten von Benutzerberechtigungen
 
-Steuern Sie, wer auf eine Site in Sites Optimizer zugreifen kann und was damit möglich ist. Der Zugriff basiert auf einer kleinen Anzahl unabhängiger *Funktionen* - Anzeigen, Bearbeiten, Bereitstellen, Konfigurieren und Verwalten von Benutzern -, die Sie jeder Person gewähren.
+Steuern Sie, wer auf eine Site in Sites Optimizer zugreifen kann und was damit möglich ist. Der Zugriff basiert auf einer kleinen Reihe unabhängiger *Funktionen* - Anzeigen, Bearbeiten, Bereitstellen, Konfigurieren und Verwalten von Benutzern -, die Sie einzelnen Personen oder Benutzergruppen gewähren.
 
 Zugriff ist **additiv**: Die Berechtigungen einer Person sind die Summe von allem, was ihr gewährt wurde. Es gibt kein „Verweigern“, daher widersprechen sich Zuschüsse nie oder löschen sich gegenseitig aus. Um jemandem weniger Zugriff zu gewähren, entfernen Sie eine Grant-ID, anstatt zu versuchen, sie zu überschreiben.
 
@@ -35,7 +35,7 @@ Es gibt zwei Möglichkeiten, wie eine Person Zugriff erhalten kann, und sie arbe
 
 ### Unternehmensweite Rollen (Admin Console)
 
-Der organisationsweite Zugriff erfolgt über eine von zwei **AEM Sites Optimizer**-Produktrollen, die in der [Adobe Admin Console zugewiesen &#x200B;](https://adminconsole.adobe.com/):
+Der organisationsweite Zugriff erfolgt über eine von zwei **AEM Sites Optimizer**-Produktrollen, die in der [Adobe Admin Console zugewiesen ](https://adminconsole.adobe.com/):
 
 - **ASO Manager** - Vollständiger Zugriff auf jede Website, einschließlich **Benutzer verwalten**. Ein Manager kann die Registerkarte **Berechtigungen** für jede Site öffnen und anderen Zugriff zuweisen.
 - **ASO User** — Nur-Ansicht-Zugriff auf jede Website. Keine Änderungen und keine Benutzerverwaltung.
@@ -66,7 +66,7 @@ Weitere Informationen zum Hinzufügen von Benutzern finden Sie unter [Onboarden 
 
 Jede Funktion steuert eine Art von Aktion. Sie sind unabhängig, z. B. können Sie die Bereitstellung ohne Bearbeitung gewähren.
 
-| Funktion | Was es erlaubt | Was nicht zulässig ist |
+| Funktion | Möglichkeiten | Was nicht zulässig ist |
 |---|---|---|
 | Anzeigen | Anzeigen der Daten der Website - Chancen, Vorschläge, Fehlerbehebungen, Berichte und Konfiguration - ohne Änderungen. | Jede Änderung. |
 | Bearbeiten | Gelegenheiten und Vorschläge erstellen und ändern (was sollte sich ändern). | Veröffentlichen von Änderungen, Ändern von Einstellungen oder Verwalten von Benutzern. |
@@ -91,11 +91,26 @@ Jede in den Umfang einbezogene Finanzhilfe wird als eigene Zeile für das Mitgli
 >
 >Der Umfang beschränkt nur *, was* Gewährt - er entfernt nie den Zugriff, den ein anderer Gewährt gewährt. Wenn eine Person auch über organisationsweiten Zugriff verfügt oder eine **Alle**-Typ-Gewährung verfügt, gilt dieser breitere Zugriff weiterhin. Um jemanden wirklich auf bestimmte Opportunity-Typen zu beschränken, stellen Sie sicher, dass er nicht auch eine breitere Rolle oder eine **All**-types-Förderung innehat.
 
+## Gewähren von Zugriff für Benutzergruppen
+
+Neben Einzelpersonen können Sie über die [Adobe Admin Console **Ihres Unternehmens Zugriff auf** Site-Ebene für eine ](https://adminconsole.adobe.com/) gewähren. Jeder Benutzer in der Gruppe erhält die Funktionen, die Sie der Gruppe auf dieser Site gewähren, sodass Sie den Zugriff für ein ganzes Team mit einer einzigen Gewährung verwalten können.
+
+- Benutzergruppen werden in der Admin Console unter **Benutzer** > **Benutzergruppen** erstellt und verwaltet. Sites Optimizer listet die Gruppen auf, die bereits in Ihrer Organisation vorhanden sind. Sie können keine Gruppe auf der Registerkarte **Berechtigungen** erstellen.
+- Wenn Personen der Gruppe im Admin Console beitreten oder sie verlassen, ändert sich ihr Zugriff auf die Website mit ihr. Sie müssen in Sites Optimizer keine Aktualisierungen vornehmen.
+- Einer Gruppe werden Funktionen und Opportunity-Typen genau wie einer Person gewährt und sie wird in der Tabelle **Mitglieder** mit der Bezeichnung **Gruppe** angezeigt. Sie können sie auf die gleiche Weise bearbeiten oder entfernen.
+- Der Gruppenzugriff fügt zu allen anderen Inhalten einer Person hinzu. Eine Person, die zu einer Gruppe gehört und auch ein eigenes Grant hat, erhält die Kombination aus beiden.
+
+>[!NOTE]
+>
+>Wenn der Name einer Gruppe nicht geladen werden kann, wird stattdessen in der Zeile in der Tabelle **Mitglieder** eine gekürzte Gruppen-ID angezeigt. Bewegen Sie den Mauszeiger über die ID oder konzentrieren Sie sich auf sie, um sie vollständig anzuzeigen. Der Zuschuss gilt weiterhin.
+
 ## Mitglied hinzufügen
+
+Ein Mitglied ist entweder eine Person oder eine Benutzergruppe.
 
 1. Öffnen Sie die **Berechtigungen** (das Sperrsymbol im linken Navigationsbereich) und wählen Sie die Site aus.
 1. Klicken Sie **Mitglieder hinzufügen**.
-1. Nach Name oder E-Mail suchen und eine oder mehrere Personen auswählen.
+1. Suchen Sie **Personen und Gruppen** nach Personen anhand des Namens oder der E-Mail-Adresse oder nach Benutzergruppen anhand des Namens. Wählen Sie eine oder mehrere Personen oder Gruppen aus. Gruppen sind mit einer Beschriftung **Gruppe** gekennzeichnet.
 1. Wählen Sie die **Opportunity-Typen** für die der Zugriff gilt (oder **Alle**), und wählen Sie dann die zu gewährenden Funktionen aus.
 1. Klicken Sie auf **Hinzufügen**.
 
@@ -105,6 +120,8 @@ In der **Mitglieder** Tabelle:
 
 - Klicken Sie **Funktionen bearbeiten** in der Zeile eines Mitglieds, um zu ändern, was es tun kann. Wenn Sie ein vorhandenes Grant bearbeiten, bleibt sein Opportunity-Typ unverändert - Sie ändern nur die Funktionen und mindestens eine Funktion muss ausgewählt bleiben.
 - Klicken Sie **Entfernen**, um dem Abonnenten den Zugriff auf die Website vollständig zu entziehen.
+
+Eine Person, die nicht mehr Teil Ihrer Organisation ist, z. B. eine Person, die die Organisation verlassen hat, wird in der **Mitglieder**-Tabelle mit einer **Inaktiver Benutzer**-Kennzeichnung und deren ID anstelle eines Namens angezeigt. Sie können ihren Zugriff nicht bearbeiten, aber Sie können das Mitglied entfernen, um den Eintrag zu bereinigen.
 
 >[!NOTE]
 >
@@ -156,6 +173,10 @@ Das Erstellen einer organisationsweiten Rolle ist eine Admin Console-Aktion. Ein
 **Wie kann ich einer Person den Zugriff auf eine Website entziehen?**
 
 Entfernen Sie die Gewährung auf der Registerkarte **Berechtigungen** . Dies unterscheidet sich von den Bearbeitungsfunktionen, bei denen immer mindestens eine Funktion verbleiben muss.
+
+**Kann ich gleichzeitig Zugriff auf ein ganzes Team gewähren?**
+
+Ja. Fügen Sie eine Admin Console-Benutzergruppe als Mitglied auf der Registerkarte **Berechtigungen“**. Jeder in der Gruppe erhält die Funktionen der Gruppe auf dieser Website, und der Zugriff erfolgt entsprechend der Gruppenmitgliedschaft in der Admin Console. Siehe [Gewähren des Zugriffs für Benutzergruppen](#grant-access-to-user-groups).
 
 **Kann ich eine Person auf bestimmte Opportunity-Typen beschränken?**
 
