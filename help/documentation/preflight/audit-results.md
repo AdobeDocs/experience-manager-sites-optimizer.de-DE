@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie die Ergebnisse der Preflight-Prüfung, den Be
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1362'
 ht-degree: 2%
 ---
 
@@ -18,8 +18,11 @@ Nach Abschluss der Audits zeigt Preflight die Ergebnisse im Bereitschafts-Dashbo
 
 Die Symbolleiste am oberen Rand des Bereitschafts-Dashboards enthält Aktionen für die aktuelle Ausführung:
 
-* **Neu analysieren** - Startet einen brandneuen Audit-Durchgang auf der aktuellen Seite. Bei der Neuanalyse werden die angezeigten Ergebnisse immer verworfen und alle Prüfungen werden erneut ausgeführt. Verwenden Sie sie daher, wann immer Sie neue Ergebnisse wünschen - beispielsweise nach der Bearbeitung der Seite. Neu analysieren ist in **Mehr Aktionen** (**…**) Menü.
+* **Neu analysieren** - Startet einen brandneuen Audit-Durchgang auf der aktuellen Seite. Bei der Neuanalyse werden die angezeigten Ergebnisse immer verworfen und alle Prüfungen werden erneut ausgeführt. Verwenden Sie sie daher, wann immer Sie neue Ergebnisse wünschen - beispielsweise nach der Bearbeitung der Seite. Wählen **in** Symbolleiste „Neu analysieren“ aus.
 * **Exportieren** - Laden Sie die aktuelle Ausführung als **CSV** (Tabellenfreundlich) oder **PDF** (formatiertes Dokument) herunter. Wählen Sie je nach Umgebung **Exportieren** in der Symbolleiste oder unter **Mehr Aktionen** aus (**…**) Menü.
+* **Einstellungen** - Verwenden Sie **Site-Navigations-Links anzeigen** um Site-Navigations-Links einzuschließen (derzeit nur interne Links). Wählen Sie das Zahnradsymbol aus oder öffnen Sie **Mehr Aktionen** (**…**) und wählen Sie **Einstellungen** aus. Einstellungen sind vor oder nach der Ausführung verfügbar, nicht jedoch während der Ausführung von Audits oder im universellen Editor. Siehe [Einschließen von Site-Navigations-Links](./opportunities/seo/internal-links.md#include-site-navigation-links).
+
+Wenn Sie eine Einstellung nach einem Durchlauf ändern, geben ein Punkt auf **Neu analysieren** und die Beschriftung **Neu analysieren, um neue Einstellungen anzuwenden** an, dass die angezeigten Ergebnisse eine andere Einstellung verwendet haben. Wählen Sie **Neu analysieren** aus, um die gespeicherte Einstellung auf eine neue Ausführung anzuwenden.
 
 Beim Exportieren können Sie auch auswählen, was einbezogen werden soll:
 
@@ -32,19 +35,21 @@ Beim Exportieren können Sie auch auswählen, was einbezogen werden soll:
 
 ## Betriebsbereitschaftsmesser
 
-Oben im Dashboard zeigt die Bereitschaftsanzeige die Ergebnisse der Prüfung an. Er zeigt einen Bereitschaftswert in Prozent an, basierend auf dem Anteil der Prüfungen, die ohne Opportunities abgeschlossen wurden, und der Gesamtzahl der in allen Prüfungen gefundenen Opportunitys. Mit dem Readiness Meter können Sie den Gesamtzustand der Seite auf einen Blick erfassen.
+Oben im Dashboard zeigt die Bereitschaftsanzeige die Ergebnisse der Prüfung an. Er zeigt den Prozentsatz der Prüfungen, die ohne Opportunities abgeschlossen wurden, mit der Bezeichnung **% bestanden**, zusammen mit der Gesamtzahl der in allen Prüfungen gefundenen Opportunitys. Beispielsweise **85 % bestanden** bedeutet, dass 85 % der abgeschlossenen Prüfungen keine Chancen fanden. Dieser Prozentsatz beschreibt die Audit-Ergebnisse, nicht den Fortschritt während des Durchgangs.
 
 ![Die Bereitschaftszähler- und Auditkategorien im Preflight-Dashboard](./assets/overview/hero.png){align="center"}
 
 Wenn Sie eine Ausführung anzeigen, die von einer vorherigen Sitzung neu geladen wurde, wird in der Kopfzeile angezeigt, wie lange sie durchgeführt wurde, z. B *„gestern*. Weitere Informationen finden Sie unter [Fortsetzen einer vorherigen Sitzung](./audits.md#continue-a-previous-session).
 
-Während die Audits noch ausgeführt werden, zeigt die Bereitschaftsanzeige eine Fortschrittsleiste mit einem kurzen Status darunter an, der den aktuellen Schritt anzeigt. Wenn die Audits abgeschlossen sind, zeigt das Messgerät den endgültigen Bereitschaftsprozentsatz und die Opportunity-Anzahl an.
+Während die Audits noch ausgeführt werden, zeigt das Dashboard **Analysierende Seite** mit einem kurzen Status darunter an. Zunächst wird eine Fortschrittsleiste angezeigt, bevor benannte Auditkategorien eintreffen. Sobald Kategorien angezeigt werden, zeigen ihre individuellen Verarbeitungsindikatoren an, welche Kategorien noch in Arbeit sind. Wenn alle Prüfungen abgeschlossen sind, zeigt das Messgerät den endgültigen Prozentsatz und die Anzahl der Vertriebschancen an.
 
 ## Audit-Kategorien
 
 Preflight gruppiert verwandte Audits in Kategorien wie **SEO** und **Accessibility**. Jede Kategorie wird als Karte angezeigt, die die Anzahl der gefundenen Opportunitys anzeigt oder angibt, dass alle ihre Audits ohne Opportunitys erfolgreich waren.
 
 Erweitern Sie eine Kategorie, um ihre individuellen Audits anzuzeigen. Bei jedem Audit wird angezeigt, ob Opportunities bestanden oder gefunden wurden, eine kurze Beschreibung und eine Anzahl der gefundenen Opportunitys. Wählen Sie ein Audit aus, bei dem Möglichkeiten zum Öffnen der Detailseite gefunden wurden.
+
+Eine Kategorie kann Ergebnisse anzeigen, während einige ihrer Prüfungen noch laufen. Sein Symbol zeigt einen Verarbeitungsanzeiger an, und sein Status zeigt beispielsweise an, dass **3/3 Audits bisher bestanden**. Diese Anzahl umfasst nur die Audits, die Ergebnisse zurückgegeben haben. Sie kann sich also ändern, wenn weitere Ergebnisse eingehen. Erweitern Sie die Kategorie, um einzelne Audits anzuzeigen, die noch in Bearbeitung sind. Eine Kategorie ohne Opportunities zeigt erst nach Abschluss ihrer ausstehenden Arbeiten ihr Häkchen mit einem Häkchen an.
 
 Eine vollständige Liste der Audit-Kategorien und der Audits in den einzelnen Kategorien finden Sie unter [Preflight-Auditkategorien](./overview.md#preflight-audit-categories).
 
@@ -56,7 +61,7 @@ Bei Prüfungen, die eine bestimmte URL auf der Seite identifizieren, wird der **
 
 Wenn mehrere Opportunities dasselbe Element betreffen - z. B. mehrere Probleme mit demselben Link -, zeigt Preflight sie zusammen auf einer Karte an, jede in einem eigenen Abschnitt mit der zugehörigen Instanznummer, z. B. **Instanz 3**. Der Navigator zeigt dann anstelle einer einzelnen Position einen Bereich an, z. B. *3-5 von 12 gefundenen Instanzen*.
 
-![Die Detailseite für eine Prüfung, auf der eine Opportunity und ihr Vorschlag angezeigt werden](./assets/audit-results/audit-detail.png){align="center"}
+![Die Detailseite für den Audit „Interne Links“, auf der eine Opportunity und der Abschnitt „Aktuelle URL“ angezeigt werden](./assets/audit-results/audit-detail.png){align="center"}
 
 Jede Opportunity umfasst:
 

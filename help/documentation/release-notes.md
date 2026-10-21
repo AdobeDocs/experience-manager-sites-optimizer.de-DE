@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 8d6936c2c577d7a98937cb8ddf90d18a6e82a9bb
+source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
 workflow-type: tm+mt
-source-wordcount: '2628'
+source-wordcount: '2920'
 ht-degree: 2%
 ---
 
@@ -18,6 +18,23 @@ ht-degree: 2%
 Auf dieser Seite werden die neuesten Aktualisierungen, neuen Funktionen und Verbesserungen in Adobe Experience Manager Sites Optimizer dokumentiert.
 
 Mit **(Early Access)** gekennzeichnete Funktionen sind auf Anfrage verfügbar. Wenden Sie sich an Ihr Account Team oder Ihren Customer Success Engineer, um sie für Ihr Unternehmen zu aktivieren.
+
+## &#x200B;5. bis 20. Oktober 2026 {#october-5-20-2026}
+
+### Neue Funktionen
+
+- **Einstellung für Preflight-Site-Navigations-Links** — Wählen Sie aus, ob die Prüfung „Interne Links“ Links innerhalb der Site-Navigationsmenüs prüft. Die Einstellung ist standardmäßig deaktiviert, sodass Prüfungen schneller abgeschlossen werden. **Neu analysieren** zeigt an, wenn eine geänderte Einstellung noch nicht angewendet wurde.
+
+### Verbesserungen
+
+- **Fortschritt der Vorflugprüfung** - Die Bereitschaftsanzeige zeigt jetzt den Prozentsatz der bestandenen Prüfungen an, und jede Kategorie zeigt an, wann die Prüfungen noch laufen. Die Zahl „Bisher bestanden“ wird angezeigt, bis die Ergebnisse endgültig sind.
+- **Abdeckung interner Preflight-Links** - Der Audit „Interne Links“ überprüft jetzt jeden zulässigen Gleich-Host-Link auf der Seite, einschließlich Links in wiederholten Komponenten wie Kartenlisten. Site-Navigations-Links sind nur enthalten, wenn **Site-Navigations-Links anzeigen** ausgewählt ist. Links außerhalb der Site-Navigation werden zuerst aufgelistet und Preflight zeigt eindeutig an, wenn eine Seite zu viele Links zum Einchecken in der Zeit hat.
+- **Preflight-**: Fehlerhafte Links, die vom Link-Checker von AEM gekennzeichnet werden, zeigen jetzt den sichtbaren Text des Links anstelle einer CSS-Auswahl an.
+- **Preflight-Kopfzeilenaktionen** — **Reanalysieren** und **Schließen** bleiben immer im Preflight-Header sichtbar und **Exportieren** und **Einstellungen** wechseln bei begrenztem Platz in das Menü **Mehr Aktionen**.
+- **Preflight-Site-Matching** - Wenn eine Seite mit mehreren eingegliederten Sites übereinstimmt, erklärt Preflight das Problem und lässt Sie mit einer der übereinstimmenden Sites fortfahren.
+- **PreFlight Alt-**: Gelegenheiten für Alternativtext zeigen den vorgeschlagenen Alternativtext als einsatzbereiten Vorschlag an, gefolgt vom Grund für den Vorschlag, wenn er verfügbar ist.
+- **Preflight Lorem Ipsum Details** - Wenn Platzhaltertext in einem Attribut gefunden wird, z. B. im Alternativtext eines Bildes, zeigt die Opportunity an, welches Attribut übereinstimmt.
+- **Preflight im universellen Editor** - Prüfungen im universellen Editor verwenden jetzt die gerenderten Inhalte der Seite, wodurch sie schneller und zuverlässiger werden.
 
 ## &#x200B;28. September bis 4. Oktober 2026 {#september-28-october-4-2026}
 
