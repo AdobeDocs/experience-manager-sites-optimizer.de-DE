@@ -4,16 +4,17 @@ description: Erfahren Sie mehr über Preflight und die durchgeführten Audits zu
 TQID: https://experienceleague.adobe.com/pZrPXBAaroTlpEsfSluFiLW2Noy4y5sD4dZHTsXgSfA
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
+    internal-label: Accessibility
+source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
 workflow-type: tm+mt
-source-wordcount: 300
-ht-degree: 28%
-
+source-wordcount: '389'
+ht-degree: 48%
 ---
-
 # AEM Sites Optimizer Preflight
 
 ![Das Dashboard „PreFlight-Bereitschaft“](./assets/overview/hero.png){align="center"}
@@ -22,9 +23,9 @@ ht-degree: 28%
 >
 >Ab [AEM 2026.7.0 (Version 27083)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) ist Preflight in die Symbolleiste des AEM Sites-Seiteneditors integriert. Siehe [Preflight-Einrichtung](./setup.md) für Details.
 
-Preflight in AEM Sites Optimizer hilft Ihnen bei der Validierung und Optimierung von Seiten vor der Live-Schaltung, indem es Inhalte und Struktur analysiert und Chancen mit umsetzbaren Empfehlungen aufzeigt. Er wurde für Autorinnen und Autoren, Marketing-Fachleute und Entwickelnde erstellt, die sicherstellen möchten, dass Seiten hohe Qualität und Leistung aufweisen und bereit zur Veröffentlichung sind, während die Nachbearbeitung reduziert wird.
+Preflight in AEM Sites Optimizer hilft Ihnen bei der Validierung und Optimierung von Seiten vor der Live-Schaltung, indem es Inhalte und Struktur analysiert und Chancen mit umsetzbaren Empfehlungen aufzeigt. Er wurde für Autorinnen und Autoren, Marketing-Fachleute und Entwickelnde entwickelt, die sicherstellen möchten, dass Seiten hochwertig und leistungsstark sind und veröffentlicht werden können, während die Nacharbeit reduziert wird.
 
-Sie starten Preflight aus Ihrer Authoring-Umgebung und wählen **Seite analysieren**, um die Audits durchzuführen. Bei einer Prüfung wird ein Aspekt Ihrer Seite bewertet, z. B. die Metadaten- oder Überschriftenstruktur, und bei der Prüfung vor dem Flug werden zugehörige Prüfungen in Kategorien wie **SEO** und **Barrierefreiheit** zusammengefasst. Preflight meldet dann einen Bereitschaftswert für die Seite zusammen mit den gefundenen Opportunitys - die spezifischen Dinge, die Sie verbessern können, jeweils mit einer umsetzbaren Empfehlung.
+Sie starten Preflight aus Ihrer Authoring-Umgebung und wählen **Seite analysieren**, um die Audits durchzuführen. Bei einer Prüfung wird ein Aspekt Ihrer Seite bewertet, z. B. die Metadaten- oder Überschriftenstruktur, und bei der Prüfung vor dem Flug werden zugehörige Prüfungen in Kategorien wie **SEO** und **Barrierefreiheit** zusammengefasst. Preflight zeigt dann den Prozentsatz der Audits an, die für die Seite bestanden wurden, zusammen mit den gefundenen Opportunitys - die spezifischen Dinge, die Sie verbessern können, jeweils mit einer umsetzbaren Empfehlung.
 
 ## Erste Schritte mit Preflight
 
@@ -86,7 +87,7 @@ CARDS
                     <p class="is-size-6">Erfahren Sie mehr über die Preflight-SEO-Audits in Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/seo.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mehr erfahren</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Weitere Informationen</span>
                 </a>
             </div>
         </div>

@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über den Audit „Interne Links“ in Preflight 
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '889'
 ht-degree: 0%
 ---
 # Prüfung interner Links
@@ -36,6 +36,28 @@ Der Audit überprüft Links aus Ihrer Autorensitzung, sodass sie so angezeigt we
 Links, die der Link-Checker von AEM bereits als ungültig markiert hat, werden in die Prüfung einbezogen, auch wenn der Editor den anklickbaren Link von der Seite entfernt. Sie werden dann erneut überprüft, anstatt sie als vertrauenswürdig anzusehen, sodass ein Link, der seitdem funktioniert hat, nicht gemeldet wird.
 
 Für jeden Ort, an dem ein Link angezeigt wird, wird eine Opportunity gemeldet. Ein fehlerhafter Link, der an drei Stellen verwendet wird, liefert also drei zu behebende Instanzen, von denen jede ihren eigenen Platz auf der Seite hervorhebt. Wenn einer dieser Orte mehr als ein Problem hat, zeigt Preflight sie zusammen auf einer Karte an.
+
+## Links zur Site-Navigation einschließen
+
+Standardmäßig überspringt die Prüfung Interne Links die Links zur Site-Navigation. Diese Links werden weder überprüft noch gemeldet. Ein Link im Seitentext wird immer noch aktiviert, selbst wenn dieselbe URL auch im Menü angezeigt wird.
+
+Ein Link zählt als Navigation, wenn der Link selbst oder ein Vorgänger ein `<nav>` Element ist oder ein `role="navigation"` hat.
+
+Gehen Sie wie folgt vor, um Navigationslinks in die nächste Auditausführung aufzunehmen:
+
+1. Öffnen Sie vor dem Starten eines Audits oder nach Abschluss eines **(Einstellungen** (das Zahnradsymbol) in der Preflight-Kopfzeile. Wenn das Zahnradsymbol nicht sichtbar ist, öffnen Sie **Weitere Aktionen** (**…**) und wählen Sie **Einstellungen** aus.
+1. Wählen Sie **Site-Navigationslinks anzeigen** aus.
+1. Wählen Sie **Seite analysieren**, um einen Durchlauf zu starten, oder **Erneut analysieren**, wenn die Ergebnisse bereits angezeigt werden.
+
+![Das Menü Preflight-Einstellungen mit der Option Site-Navigationslinks anzeigen](./assets/internal-links/settings-menu.png){align="center"}
+
+**Site-Navigations-Links anzeigen** steuert, welche Links die Audit-Prüfungen verknüpfen und nicht nur, welche Ergebnisse angezeigt werden (derzeit nur interne Links).
+
+Durch Ändern der Einstellung wird keine Prüfung gestartet und die Ergebnisse werden nicht bereits auf dem Bildschirm geändert. Wenn für diese Ergebnisse eine andere Einstellung verwendet wird, wird bei **Neu analysieren** ein Punkt mit der Bezeichnung **Neu analysieren, um neue Einstellungen anzuwenden** angezeigt. Führen Sie die Audits erneut aus, um die Änderung anzuwenden, oder stellen Sie die vorherige Einstellung wieder her, um den Punkt zu löschen.
+
+Preflight speichert die Einstellung in Ihrem Browser und behält sie nach der Abmeldung bei. Registerkarten auf derselben Site nutzen die gleiche Einstellung. Um Navigationslinks erneut zu überspringen, deaktivieren Sie **Site-Navigationslinks anzeigen** vor der nächsten Ausführung.
+
+Die Einstellung ist während der Ausführung von Audits oder im universellen Editor nicht verfügbar.
 
 ## Bekannte Einschränkungen
 
