@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Prüfung externer Links in Preflight f�
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 13bc34bf4c3d31e730dbe597b84fd6d594df6fea
+source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '753'
 ht-degree: 0%
 ---
 # Prüfung externer Links
@@ -23,7 +23,7 @@ Der Audit meldet eine Opportunity für jeden externen Link, der eines der folgen
 
 * **Beschädigter Link:** Der Link gibt `Status 404` oder `Status 410` zurück oder seine Site kann überhaupt nicht erreicht werden, z. B. weil die Domain nicht mehr existiert. Ein Link, der nach einer Umleitung zum Fehler führt, wird auf die gleiche Weise gemeldet.
 * **Nicht sicherer Link:** der Link verwendet `http://` und die Site leitet ihn nicht zu `https://` weiter. Ein Link, der als `http://` beginnt, aber zu einer sicheren `https://` umgeleitet wird, ist nicht gekennzeichnet. Aktualisieren Sie den Link, um `https://` zu verwenden.
-* **Nicht verifizierter Link:** Preflight konnte nicht bestätigen, dass der Link funktioniert, z. B. weil die Website eine Anmeldung erfordert, automatisierte Prüfungen blockiert, weiterhin einen Server-Fehler zurückgibt, nicht rechtzeitig reagiert oder zu oft umleitet. Einige soziale Netzwerke, wie LinkedIn und Instagram, melden Seiten, die als fehlend für automatisierte Prüfungen existieren, sodass Fehler fehlender Seiten von diesen Seiten ebenfalls als nicht verifiziert gemeldet werden. Diese Links funktionieren sehr wahrscheinlich in einem Browser, sodass Preflight sie nicht als beschädigt meldet. Stattdessen werden Sie aufgefordert, den Link zu öffnen und selbst zu bestätigen, und es wird mit geringer Auswirkung berichtet.
+* **Nicht verifizierter Link:** Preflight konnte nicht bestätigen, dass der Link funktioniert, z. B. weil die Website eine Anmeldung erfordert, automatisierte Prüfungen blockiert, weiterhin einen Server-Fehler zurückgibt, nicht rechtzeitig reagiert oder zu oft umleitet. Einige soziale Netzwerke, wie LinkedIn und Instagram, melden Seiten, die als fehlend für automatisierte Prüfungen existieren, sodass Fehler fehlender Seiten von diesen Seiten ebenfalls als nicht verifiziert gemeldet werden. Diese Links funktionieren sehr wahrscheinlich in einem Browser, sodass Preflight sie nicht als beschädigt meldet. Stattdessen werden Sie aufgefordert, den Link zu öffnen und selbst zu bestätigen.
 
 Ein Link kann sowohl unsicher als auch defekt oder sowohl unsicher als auch unverifiziert sein. In diesem Fall werden beide Opportunitys gemeldet. Ein Link, der erfolgreich aufgelöst wird, wird nicht markiert, selbst wenn er unterwegs Umleitungen aufweist.
 
@@ -34,6 +34,18 @@ Jeder externe Link auf der Seite wird überprüft. Ein externer Link ist ein Lin
 Jeder Link wird einmal gemeldet, auch wenn er mehrmals auf der Seite oder mit verschiedenen Ankern wie `#pricing` und `#features` angezeigt wird. Die Opportunity hebt die erste Stelle hervor, an der der Link angezeigt wird.
 
 Links, die der Link-Checker von AEM bereits als ungültig markiert hat, werden in die Prüfung einbezogen, auch wenn der Editor den anklickbaren Link von der Seite entfernt. Sie werden erneut überprüft, anstatt sie als vertrauenswürdig anzusehen, sodass ein Link, der seitdem funktioniert hat, nicht gemeldet wird.
+
+## Filtern der Ergebnisse
+
+Verwenden Sie auf der Detailseite den Filter neben der Überschrift **Instanzen** um nur einige der Opportunities anzuzeigen:
+
+| Filter | Angezeigte Opportunities |
+|---|---|
+| **Alle** (Standard) | Jede Gelegenheit |
+| **gebrochen** | Beschädigte Links |
+| **Erfordert Verifizierung** | Nicht verifizierte Links und unsichere Links |
+
+Wenn ein Link mehr als eine Opportunity hat, z. B. einen unsicheren Link, der ebenfalls unterbrochen ist, wird jede Opportunity unter einem eigenen Filter angezeigt. Weitere Informationen finden Sie unter [Instanzen filtern](../../audit-results.md#filter-instances).
 
 ## Bekannte Einschränkungen
 

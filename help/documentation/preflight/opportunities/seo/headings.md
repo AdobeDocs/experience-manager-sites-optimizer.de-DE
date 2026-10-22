@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über den Überschriften-Audit in Preflight für 
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '649'
 ht-degree: 0%
 ---
 # Überschriften-Audit
@@ -23,8 +23,6 @@ Die Prüfung bietet eine Gelegenheit für jedes der folgenden Probleme:
 
 * **Leere Überschrift:** ein H2, H3, H4, H5 oder H6, das keinen Text hat. Eine Überschrift, die nur Leerzeichen oder nur ein Bild enthält, zählt als leer.
 * **Überschriftenebene übersprungen:** eine Überschrift, die mehr als eine Ebene tiefer als die Überschrift unmittelbar davor ist, z. B. ein H2 gefolgt von einem H4 oder ein H1 gefolgt von einem H3. Die Opportunity wird in der tieferen Überschrift beschrieben.
-
-Beide werden mit moderater Wirkung gemeldet.
 
 H1-Überschriften werden vom Audit [Metatags](./metatags.md) geprüft, bei dem geprüft wird, ob ein H1 fehlt, leer ist oder zu lang ist und ob mehr als ein H1 auf einer Seite vorhanden ist.
 

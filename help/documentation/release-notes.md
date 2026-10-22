@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
+source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '3026'
 ht-degree: 2%
 ---
 
@@ -18,6 +18,22 @@ ht-degree: 2%
 Auf dieser Seite werden die neuesten Aktualisierungen, neuen Funktionen und Verbesserungen in Adobe Experience Manager Sites Optimizer dokumentiert.
 
 Mit **(Early Access)** gekennzeichnete Funktionen sind auf Anfrage verfügbar. Wenden Sie sich an Ihr Account Team oder Ihren Customer Success Engineer, um sie für Ihr Unternehmen zu aktivieren.
+
+## &#x200B;21. bis 22. Oktober 2026 {#october-21-22-2026}
+
+### Neue Funktionen
+
+- **Preflight-Instanzfilter** - Auf den Detailseiten „Interne Links“ und „Externe Links“ werden Instanzen nach **beschädigt** oder **Überprüfung erforderlich** gefiltert.
+
+### Verbesserungen
+
+- **Wiederholungen interner Links vor dem Flug** - Die Prüfung interner Links versucht jetzt Links erneut, die vorübergehend fehlschlagen, sodass ein kurzer Ausfall weniger wahrscheinlich als defekter Link gemeldet wird.
+- **PreFlight-Fortschrittsanzeigen** - Verarbeitungsindikatoren werden jetzt nur noch in den noch laufenden Audits angezeigt, nicht in ihren Kategorien.
+- **Details zur PreFlight-Opportunity** - Opportunities zeigen keine Schweregrade mehr an und CSV- und PDF-Exporte enthalten keinen Schweregrad mehr.
+
+### Fehlerbehebungen
+
+- Lange URLs in Preflight-Opportunity-Details werden jetzt umschlossen, anstatt die Karte zu erweitern.
 
 ## &#x200B;5. bis 20. Oktober 2026 {#october-5-20-2026}
 

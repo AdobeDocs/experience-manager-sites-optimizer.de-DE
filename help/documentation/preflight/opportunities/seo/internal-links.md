@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über den Audit „Interne Links“ in Preflight 
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
+source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '1038'
 ht-degree: 0%
 ---
 # Prüfung interner Links
@@ -21,19 +21,21 @@ Ein defekter interner Link ist eine Sackgasse für den Leser und ein vergeudeter
 
 Die Prüfung zeigt für jeden internen Link, der eines der folgenden Probleme aufweist, eine Opportunity auf:
 
-* **Beschädigter Link:** Der Link gibt einen Fehler zurück, z. B. `Status 404` oder `Status 500`. Ein Link, der nach einer Umleitung zum Fehler führt, wird auf die gleiche Weise gemeldet.
+* **Beschädigter Link:** der Link gibt einen Fehler zurück, z. B. `Status 403` oder `Status 404`, oder gibt nach einem erneuten Versuch durch Preflight weiterhin `Status 500` oder `Status 501` zurück. Ein Link, der nach einer Umleitung zum Fehler führt, wird auf die gleiche Weise gemeldet.
 * **Nicht sicherer Link:** Der Link verwendet `http://` anstelle von `https://`. Wenn die sichere Version derselben URL funktioniert, bietet Preflight diese als Vorschlag an.
 * **Editor-URL:** der Link verweist auf eine AEM-Editor-URL anstelle auf die Inhaltsseite. Der Link funktioniert für Sie, während Sie Inhalte erstellen, was leicht zu übersehen ist, aber jeder Besucher landet auf der Authoring-Oberfläche. Preflight schlägt die Inhalts-URL vor.
-* **Fehlendes Fragment** Der Link verweist auf einen Anker, z. B. `#pricing`, den die Zielseite nicht hat. Die Seite wird weiterhin geöffnet, aber der Leser gelangt an den Anfang der Seite anstatt an den Abschnitt, den Sie gemeint haben. Daher ist die Wirkung geringer als bei einem fehlerhaften Link. Wenn auf der Seite derselbe Anker unterschiedlich großgeschrieben ist, schlägt Preflight den korrigierten Anker vor. Wenn die Zielseite selbst beschädigt ist, wird sie stattdessen als &quot;**Link“**.
-* **Nicht verifizierter Link:** der Überprüfung ist ein Zeitlimit überschritten oder ein Netzwerkfehler aufgetreten. Preflight kann nicht erkennen, ob der Link funktioniert, daher werden Sie aufgefordert, den Link selbst zu überprüfen, anstatt ihn als beschädigt zu melden.
+* **Fehlendes Fragment** Der Link verweist auf einen Anker, z. B. `#pricing`, den die Zielseite nicht hat. Die Seite wird weiterhin geöffnet, aber der Leser gelangt an den Anfang der Seite anstatt des Abschnitts, den Sie gemeint haben, sodass es weniger ernst ist als ein defekter Link. Wenn auf der Seite derselbe Anker unterschiedlich großgeschrieben ist, schlägt Preflight den korrigierten Anker vor. Wenn die Zielseite selbst beschädigt ist, wird sie stattdessen als &quot;**Link“**.
+* **Nicht verifizierter Link:** die Prüfung ist abgelaufen oder hat einen Netzwerkfehler ausgelöst, oder der Link hat weiterhin `Status 429` zurückgegeben (zu viele Anfragen) oder einen anderen Server-Fehler als `Status 500` oder `Status 501`, z. B. `Status 503`. Preflight kann nicht erkennen, ob der Link funktioniert, daher werden Sie aufgefordert, den Link selbst zu überprüfen, anstatt ihn als beschädigt zu melden.
 
 Ein Link, der erfolgreich aufgelöst wird, wird nicht markiert, selbst wenn mehrere Umleitungen unterwegs sind. Es ist auch kein Link, der zu einer anderen Site umleitet, da es sich nicht mehr um einen internen Link handelt.
 
 ## Wie die Links überprüft werden
 
-Der Audit überprüft Links aus Ihrer Autorensitzung, sodass sie so angezeigt werden, wie Sie angemeldet sind, um sie zu sehen. Eine Seite, die nur auf der Autoreninstanz vorhanden ist, wird korrekt aufgelöst, anstatt beschädigt auszusehen.
+Der Audit überprüft Links aus Ihrer Autorensitzung, sodass sie so angezeigt werden, wie Sie angemeldet sind, um sie zu sehen. Eine Seite, die nur auf der Autoreninstanz vorhanden ist, wird korrekt aufgelöst, anstatt beschädigt auszusehen. Da die Site ausgeführt wird und Sie angemeldet sind, deutet ein Fehler wie `Status 403` oder `Status 500` auf ein Problem mit der verknüpften Seite hin.
 
 Links, die der Link-Checker von AEM bereits als ungültig markiert hat, werden in die Prüfung einbezogen, auch wenn der Editor den anklickbaren Link von der Seite entfernt. Sie werden dann erneut überprüft, anstatt sie als vertrauenswürdig anzusehen, sodass ein Link, der seitdem funktioniert hat, nicht gemeldet wird.
+
+Wenn bei einem Check-out eine Zeitüberschreitung auftritt, ein Netzwerkfehler auftritt oder `Status 429` oder ein Server-Fehler zurückgegeben wird, versucht Preflight die Verbindung bis zu zweimal erneut. Ein Link, der bei einem erneuten Versuch funktioniert, wird nicht gemeldet.
 
 Für jeden Ort, an dem ein Link angezeigt wird, wird eine Opportunity gemeldet. Ein fehlerhafter Link, der an drei Stellen verwendet wird, liefert also drei zu behebende Instanzen, von denen jede ihren eigenen Platz auf der Seite hervorhebt. Wenn einer dieser Orte mehr als ein Problem hat, zeigt Preflight sie zusammen auf einer Karte an.
 
@@ -51,13 +53,25 @@ Gehen Sie wie folgt vor, um Navigationslinks in die nächste Auditausführung au
 
 ![Das Menü Preflight-Einstellungen mit der Option Site-Navigationslinks anzeigen](./assets/internal-links/settings-menu.png){align="center"}
 
-**Site-Navigations-Links anzeigen** steuert, welche Links die Audit-Prüfungen verknüpfen und nicht nur, welche Ergebnisse angezeigt werden (derzeit nur interne Links).
+**Site-Navigationslinks anzeigen** steuert, welche Links die Audit-Prüfungen verknüpfen und nicht nur, welche Ergebnisse angezeigt werden.
 
 Durch Ändern der Einstellung wird keine Prüfung gestartet und die Ergebnisse werden nicht bereits auf dem Bildschirm geändert. Wenn für diese Ergebnisse eine andere Einstellung verwendet wird, wird bei **Neu analysieren** ein Punkt mit der Bezeichnung **Neu analysieren, um neue Einstellungen anzuwenden** angezeigt. Führen Sie die Audits erneut aus, um die Änderung anzuwenden, oder stellen Sie die vorherige Einstellung wieder her, um den Punkt zu löschen.
 
 Preflight speichert die Einstellung in Ihrem Browser und behält sie nach der Abmeldung bei. Registerkarten auf derselben Site nutzen die gleiche Einstellung. Um Navigationslinks erneut zu überspringen, deaktivieren Sie **Site-Navigationslinks anzeigen** vor der nächsten Ausführung.
 
-Die Einstellung ist während der Ausführung von Audits oder im universellen Editor nicht verfügbar.
+Die Einstellung ist während der Ausführung von Audits nicht verfügbar.
+
+## Filtern der Ergebnisse
+
+Verwenden Sie auf der Detailseite den Filter neben der Überschrift **Instanzen** um nur einige der Opportunities anzuzeigen:
+
+| Filter | Angezeigte Opportunities |
+|---|---|
+| **Alle** (Standard) | Jede Gelegenheit |
+| **gebrochen** | Beschädigte Links und Editor-URLs |
+| **Erfordert Verifizierung** | Nicht sichere Links, fehlende Fragmente und nicht verifizierte Links |
+
+Ein unsicherer `http://`-Link, dessen `https://` Version unterbrochen ist, hat zwei Möglichkeiten auf derselben Karte. **Beschädigt** zeigt nur die Opportunity mit dem beschädigten Link an und **Benötigt eine**) zeigt nur die Opportunity mit dem nicht sicheren Link an. Weitere Informationen finden Sie unter [Instanzen filtern](../../audit-results.md#filter-instances).
 
 ## Bekannte Einschränkungen
 

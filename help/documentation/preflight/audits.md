@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie ein Preflight-Audit für Ihre Seite starten.
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
+source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 17%
@@ -21,7 +21,7 @@ So führen Sie Preflight-Audits für eine Seite durch:
 1. Öffnen Sie die Seite, für die Sie das Audit durchführen möchten, in der [Autorenumgebung](./access-preflight.md) (universeller Editor, dokumentenbasiertes Authoring oder AEM Sites-Seiteneditor).
 1. Öffnen Sie das [Panel „Preflight“](./access-preflight.md). PreFlight öffnet den **Audit „Leistungsbereitschaft ausführen** Landingscreen.
 1. Öffnen Sie bei Bedarf **Einstellungen** (das Zahnradsymbol), um Website-Navigations-Links in die Prüfung „Interne Links“ aufzunehmen. Diese Einstellung ist standardmäßig deaktiviert und im universellen Editor nicht verfügbar. Je nach Umgebung wird **Einstellungen** in der Kopfzeile oder in **Weitere Aktionen** angezeigt (**…**). Siehe [Einschließen von Site-Navigations-Links](./opportunities/seo/internal-links.md#include-site-navigation-links).
-1. Wählen Sie **Seite analysieren** aus. Preflight führt alle Prüfungen auf der aktuellen Seite aus und öffnet das Bereitschafts-Dashboard, in dem der Prozentsatz der bestandenen Prüfungen und die gefundenen Chancen gruppiert nach Kategorie angezeigt werden.
+1. Wählen Sie **Seite analysieren** aus. Preflight führt alle seine Audits auf der aktuellen Seite aus und öffnet das Ergebnis-Dashboard, in dem der Prozentsatz der erfolgreich durchgeführten Audits und die gefundenen Opportunitys gruppiert nach Kategorie angezeigt werden.
 
 Informationen zu den Vorschauergebnissen und Optimierungsmöglichkeiten finden Sie unter [Audit results in Preflight](./audit-results.md).
 
@@ -40,6 +40,6 @@ Preflight speichert Ihre letzte Ausführung, sodass Sie die Prüfungen nicht ern
 
 Preflight verfolgt den letzten Durchlauf für jede Seite separat, sodass **Letzte Sitzung fortsetzen** immer den letzten Durchlauf für die Seite neu lädt, auf der Sie sich befinden.
 
-Wenn Sie einen vorherigen Durchgang neu laden, zeigt die Kopfzeile an, wie lange dieser Durchgang schon durchgeführt wurde - z. B. vor *2 Minuten* oder *gestern* - sodass Sie auf einen Blick erkennen können, wie aktuell die Ergebnisse sind. Die Beschriftung wird im Laufe der Zeit aktualisiert und bleibt sichtbar, wenn Sie zwischen dem Bereitschafts-Dashboard und den Audit-Detailseiten wechseln.
+Wenn Sie einen vorherigen Durchgang neu laden, zeigt die Kopfzeile an, wie lange dieser Durchgang schon durchgeführt wurde - z. B. vor *2 Minuten* oder *gestern* - sodass Sie auf einen Blick erkennen können, wie aktuell die Ergebnisse sind. Die Beschriftung wird im Laufe der Zeit aktualisiert und bleibt sichtbar, wenn Sie zwischen dem Ergebnis-Dashboard und den Audit-Detailseiten wechseln.
 
 Nachdem die Audits abgeschlossen und die Ergebnisse angezeigt wurden, wählen Sie **Erneut analysieren** in der Symbolleiste aus, um die Ergebnisse zu verwerfen und jedes Audit erneut auszuführen. Siehe [Audit-Ergebnisse in Preflight](./audit-results.md#toolbar).
