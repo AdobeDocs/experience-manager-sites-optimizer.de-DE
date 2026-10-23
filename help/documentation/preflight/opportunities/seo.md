@@ -4,18 +4,18 @@ description: Erfahren Sie mehr über die SEO-Audits, die Preflight auf Ihrer Sei
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 913fd85808a08eb8f6ba7de8207d53ee7b68409e
+source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
 ---
 # SEO-Audits
 
-![SEO-Audits im Preflight-Readiness-Dashboard](./assets/seo/hero.png){align="center"}
+![SEO-Audits im Preflight-Ergebnisdashboard](./assets/seo/hero.png){align="center"}
 
 Die Kategorie **SEO** in Preflight gruppiert die Prüfungen, die bewerten, wie gut eine Seite für Suchmaschinen optimiert ist. Wenn Sie eine Preflight-Prüfung durchführen, bewerten diese Prüfungen die Metadaten, die Überschriftenstruktur, Links und Inhalte der Seite sowie die Oberflächen-Chancen, die Sie vor der Veröffentlichung überprüfen und auflösen können.
 
-Erweitern Sie im Bereitschafts-Dashboard die Kategorie **SEO**, um jede Prüfung anzuzeigen, ob sie bestanden wurde und wie viele Opportunities sie gefunden hat. Wählen Sie ein Audit aus, um seine Detailseite zu öffnen und die Opportunities zu durcharbeiten. Informationen zur Interpretation der Ergebnisse und zur Lösung von Opportunities finden Sie unter [Audit results in Preflight](../audit-results.md).
+Erweitern Sie im Ergebnisse-Dashboard die Kategorie **SEO**, um jede Prüfung anzuzeigen, ob sie bestanden wurde und wie viele Gelegenheiten sie gefunden hat. Wählen Sie ein Audit aus, um seine Detailseite zu öffnen und die Opportunities zu durcharbeiten. Informationen zur Interpretation der Ergebnisse und zur Lösung von Opportunities finden Sie unter [Audit results in Preflight](../audit-results.md).
 
 Die SEO-Kategorie umfasst die folgenden Audits:
 

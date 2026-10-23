@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über den MetaTags-Audit in Preflight für AEM Si
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 913fd85808a08eb8f6ba7de8207d53ee7b68409e
+source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '801'
 ht-degree: 1%
 ---
 # MetaTags-Audit
@@ -34,12 +34,6 @@ Ein Wert, der einige Zeichen über der idealen Länge liegt, wird als **über de
 | Überschrift H1 | Bis zu 70 Zeichen | 71 bis 75 Zeichen | Mehr als 75 Zeichen |
 
 Diese Bereiche sind empfohlene Richtlinien und keine Suchmaschinenanforderungen. Preflight verwendet sie, um zu entscheiden, wann eine Opportunity gemeldet wird.
-
-Jede Opportunity wird auf einer von drei Auswirkungsstufen gemeldet:
-
-* **Hoch:** ein fehlendes oder leeres Tag.
-* **Mittelmäßig:** einen Seitentitel oder eine Metabeschreibung, die zu kurz ist, eine Metabeschreibung oder H1, die zu lang ist, oder eine Seite mit mehr als einem H1.
-* **Niedrig** Ein Wert, der über der idealen Länge liegt, aber nicht zu lang ist, einschließlich Seitentitel, die länger als 60 Zeichen sind.
 
 ## Lesen der Werte
 
