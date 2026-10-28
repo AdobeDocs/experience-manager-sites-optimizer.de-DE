@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 733056458d3e34a9ef2e285adfc810a98159002b
 workflow-type: tm+mt
-source-wordcount: '3026'
+source-wordcount: '3666'
 ht-degree: 2%
 ---
 
@@ -19,38 +19,77 @@ Auf dieser Seite werden die neuesten Aktualisierungen, neuen Funktionen und Verb
 
 Mit **(Early Access)** gekennzeichnete Funktionen sind auf Anfrage verfügbar. Wenden Sie sich an Ihr Account Team oder Ihren Customer Success Engineer, um sie für Ihr Unternehmen zu aktivieren.
 
-## &#x200B;21. bis 22. Oktober 2026 {#october-21-22-2026}
+## &#x200B;26. bis 28. Oktober 2026 {#october-26-28-2026}
 
 ### Neue Funktionen
 
+- **Auditabdeckung in Einstellungen** - Die Einstellungen enthalten jetzt einen Abschnitt **Auditabdeckung**, in dem die für Ihre Site ausgeführten Audits nach Kategorie wie SEO, Barrierefreiheit, Sicherheit sowie Konversion und Interaktion gruppiert aufgeführt sind.
+- **Geschätzter Wert (frühzeitiger Zugriff)** - Core Web Vitals, Alternativtext, Barrierefreiheit, Farbkontrast, Barrierefreiheit von Formularen und Sicherheitsmöglichkeiten zeigen jetzt einen geschätzten Wert an, z. B. eingesparte Arbeitskräfte oder vermiedene Risiken, damit Sie Korrekturen priorisieren können. Arbeit, die für Barrierefreiheits- und Sicherheitskorrekturen eingespart wurde, wird als einmaliger Wert angezeigt, und Sitemap- und Heflang-Gelegenheiten zeigen, wie viele Probleme gekennzeichnet wurden.
+
+### Verbesserungen
+
+- **Jira Tickets für Alt-Text (Early Access)** - Erstellen Sie Jira-Tickets für ein oder mehrere Probleme mit Alt-Text, wobei die Seiten-URL, Bild-URL und der vorgeschlagene Alt-Text in jedem Ticket enthalten sind.
+
+## &#x200B;19. bis 25. Oktober 2026 {#october-19-25-2026}
+
+### Neue Funktionen
+
+- **Einheitlicher Barrierefreiheitsbericht (Early Access)** - Der Barrierefreiheitsbericht fasst jetzt alle Ergebnisse in einem Bericht zusammen, mit einer Problemübersicht und einer Aufschlüsselung nach Problemtyp, Seitengruppe und Seite. Öffnen Sie ein seitliches Bedienfeld für Korrekturhilfen auf Elementebene und exportieren Sie den Bericht als CSV-Datei.
+- **Einstellung für Preflight-Site-Navigations-Links** — Wählen Sie aus, ob die Prüfung „Interne Links“ Links innerhalb der Site-Navigationsmenüs prüft. Die Einstellung ist standardmäßig deaktiviert, sodass Prüfungen schneller abgeschlossen werden. **Neu analysieren** zeigt an, wenn eine geänderte Einstellung noch nicht angewendet wurde.
 - **Preflight-Instanzfilter** - Auf den Detailseiten „Interne Links“ und „Externe Links“ werden Instanzen nach **beschädigt** oder **Überprüfung erforderlich** gefiltert.
 
 ### Verbesserungen
 
+- **Beschädigte Backlinks Dispatcher-Umleitungen (frühzeitiger Zugriff)** - Auf AEM as a Cloud Service-Sites, auf denen Sites Optimizer Umleitungen über Dispatcher bereitstellt, werden beschädigte Backlink-Korrekturen jetzt als in Dispatcher bereitgestellt anstelle von AEM Author gekennzeichnet, und Sie können eine bereitgestellte Umleitung zurücksetzen.
+- **Site Health Monitor-Überwachungsstatus** - Die Konsistenzwerte spiegeln jetzt die für Ihre Site aktivierten Prüfungen wider. Deaktivierte Prüfungen werden ausgeblendet, Prüfungen, die eingerichtet werden müssen, werden mit einer Erklärung angezeigt und keiner der Prüfungen zählt zu den Kategoriebewertungen.
+- **Kein CTA über den Einfaltvorschlägen** - Kein CTA über den Einfaltvorschlägen zeigt jetzt einen strukturierten call-to-action-Vorschlag mit nebeneinander **Kontrolle** und **Vorschlag** Screenshots an, und Opportunities werden nur angezeigt, wenn beide Screenshots verfügbar sind.
+- **Gruppenberechtigungen (früher Zugriff)** - Gewähren Sie Benutzergruppen in Ihrer Organisation Zugriff auf die Site, nicht nur einzelnen Personen, und sehen Sie ein **Inaktiver Benutzer**-Badge für Mitglieder, die sich nicht mehr im Verzeichnis Ihrer Organisation befinden.
+- **Wiederherstellbare strukturierte Daten überspringen** - Übersprungene Probleme mit strukturierten Daten werden jetzt auf der Registerkarte **Übersprungen** angezeigt, wo Sie sie wiederherstellen können.
+- **FAQ Strukturierte Datenvorschläge** - FAQ-Vorschläge zeigen jetzt genau die Frage-Antwort-Paare an, die bereitgestellt werden. Einzelne Paare können nicht mehr aus der Tabelle gelöscht werden.
+- **Fortschritt der Vorflugprüfung** - Die Bereitschaftsanzeige zeigt jetzt den Prozentsatz der bestandenen Prüfungen an, und jede Kategorie zeigt an, wann die Prüfungen noch laufen. Die Zahl „Bisher bestanden“ wird angezeigt, bis die Ergebnisse endgültig sind.
+- **Abdeckung interner Preflight-Links** - Der Audit „Interne Links“ überprüft jetzt jeden zulässigen Gleich-Host-Link auf der Seite, einschließlich Links in wiederholten Komponenten wie Kartenlisten. Site-Navigations-Links sind nur enthalten, wenn **Site-Navigations-Links anzeigen** ausgewählt ist. Links außerhalb der Site-Navigation werden zuerst aufgelistet und Preflight zeigt eindeutig an, wenn eine Seite zu viele Links zum Einchecken in der Zeit hat.
+- **Preflight-Kopfzeilenaktionen** — **Reanalysieren** und **Schließen** bleiben immer im Preflight-Header sichtbar und **Exportieren** und **Einstellungen** wechseln bei begrenztem Platz in das Menü **Mehr Aktionen**.
 - **Wiederholungen interner Links vor dem Flug** - Die Prüfung interner Links versucht jetzt Links erneut, die vorübergehend fehlschlagen, sodass ein kurzer Ausfall weniger wahrscheinlich als defekter Link gemeldet wird.
 - **PreFlight-Fortschrittsanzeigen** - Verarbeitungsindikatoren werden jetzt nur noch in den noch laufenden Audits angezeigt, nicht in ihren Kategorien.
 - **Details zur PreFlight-Opportunity** - Opportunities zeigen keine Schweregrade mehr an und CSV- und PDF-Exporte enthalten keinen Schweregrad mehr.
 
 ### Fehlerbehebungen
 
+- Die Opportunity-Suche gibt jetzt konsistente Ergebnisse zurück, unabhängig von Groß-/Kleinschreibung, Akzenten, Bindestrichen oder zusätzlichen Leerzeichen, auch beim Einfügen eines Opportunity-Namens.
+- Site Health Monitor listet PDF-Dokumente nicht mehr als Seiten auf.
+- **Weitere Informationen** Links im Dialogfeld Mit AEM Sites verbinden , zusammengesetzte Schweregrade und Testmetrikkarten werden jetzt in allen unterstützten Sprachen korrekt angezeigt.
 - Lange URLs in Preflight-Opportunity-Details werden jetzt umschlossen, anstatt die Karte zu erweitern.
 
-## &#x200B;5. bis 20. Oktober 2026 {#october-5-20-2026}
-
-### Neue Funktionen
-
-- **Einstellung für Preflight-Site-Navigations-Links** — Wählen Sie aus, ob die Prüfung „Interne Links“ Links innerhalb der Site-Navigationsmenüs prüft. Die Einstellung ist standardmäßig deaktiviert, sodass Prüfungen schneller abgeschlossen werden. **Neu analysieren** zeigt an, wenn eine geänderte Einstellung noch nicht angewendet wurde.
+## &#x200B;12. bis 18. Oktober 2026 {#october-12-18-2026}
 
 ### Verbesserungen
 
-- **Fortschritt der Vorflugprüfung** - Die Bereitschaftsanzeige zeigt jetzt den Prozentsatz der bestandenen Prüfungen an, und jede Kategorie zeigt an, wann die Prüfungen noch laufen. Die Zahl „Bisher bestanden“ wird angezeigt, bis die Ergebnisse endgültig sind.
-- **Abdeckung interner Preflight-Links** - Der Audit „Interne Links“ überprüft jetzt jeden zulässigen Gleich-Host-Link auf der Seite, einschließlich Links in wiederholten Komponenten wie Kartenlisten. Site-Navigations-Links sind nur enthalten, wenn **Site-Navigations-Links anzeigen** ausgewählt ist. Links außerhalb der Site-Navigation werden zuerst aufgelistet und Preflight zeigt eindeutig an, wenn eine Seite zu viele Links zum Einchecken in der Zeit hat.
-- **Preflight-**: Fehlerhafte Links, die vom Link-Checker von AEM gekennzeichnet werden, zeigen jetzt den sichtbaren Text des Links anstelle einer CSS-Auswahl an.
-- **Preflight-Kopfzeilenaktionen** — **Reanalysieren** und **Schließen** bleiben immer im Preflight-Header sichtbar und **Exportieren** und **Einstellungen** wechseln bei begrenztem Platz in das Menü **Mehr Aktionen**.
+- **Jira-Massen-Tickets für Barrierefreiheit (Early Access)** - Wählen Sie mehrere Barrierefreiheitsprobleme hinsichtlich Barrierefreiheit, Farbkontrast und Formular-Barrierefreiheit aus und erstellen Sie ein Jira-Ticket mit einem gruppierten Titel und einem einzigen kombinierten Code-Fix-Anhang.
+- **Site Health Monitor-Metriken** - Der Site Health Monitor verwendet nicht mehr die CTR-Metrik (Clickthrough-Rate) der Einstellung in seiner Konsistenzlogik oder seinem Dashboard.
 - **Preflight-Site-Matching** - Wenn eine Seite mit mehreren eingegliederten Sites übereinstimmt, erklärt Preflight das Problem und lässt Sie mit einer der übereinstimmenden Sites fortfahren.
 - **PreFlight Alt-**: Gelegenheiten für Alternativtext zeigen den vorgeschlagenen Alternativtext als einsatzbereiten Vorschlag an, gefolgt vom Grund für den Vorschlag, wenn er verfügbar ist.
 - **Preflight Lorem Ipsum Details** - Wenn Platzhaltertext in einem Attribut gefunden wird, z. B. im Alternativtext eines Bildes, zeigt die Opportunity an, welches Attribut übereinstimmt.
+
+### Fehlerbehebungen
+
+- Opportunitys mit veralteten Vorschlägen zeigen jetzt auf den Seiten Opportunitys-Liste und Details einen einheitlichen Status an.
+
+## &#x200B;5. bis 11. Oktober 2026 {#october-5-11-2026}
+
+### Neue Funktionen
+
+- **FAQ-Ansicht („Strukturierte Daten bereitgestellt“, früher Zugriff** - Eine **bereitgestellt**-Ansicht listet bereitgestellte FAQ-Fehlerbehebungen für strukturierte Daten auf und zeigt die Seite an, auf die die einzelnen Fehlerbehebungen angewendet wurden, einschließlich eines Links zum Öffnen in AEM.
+
+### Verbesserungen
+
+- **Site-Warnhinweise und Core Web Vitals (frühzeitiger Zugriff)** - Wechseln Sie mit einem Klick zwischen Site-Warnhinweisen und Core Web Vitals-Vorschlägen. Warnhinweis-Incidents-Link zu verfügbaren Fehlerbehebungen und Core Web Vitals-Zeilen zeigen ein **Warnhinweis**-Badge an, wenn die Seite über eine Website-Warnhinweise verfügt.
 - **Preflight im universellen Editor** - Prüfungen im universellen Editor verwenden jetzt die gerenderten Inhalte der Seite, wodurch sie schneller und zuverlässiger werden.
+- **Preflight-**: Fehlerhafte Links, die vom Link-Checker von AEM gekennzeichnet werden, zeigen jetzt den sichtbaren Text des Links anstelle einer CSS-Auswahl an.
+
+### Fehlerbehebungen
+
+- Das Verbinden eines Google Ads-Kontos in Experience Cloud wird jetzt zuverlässig abgeschlossen. Die Kontoauswahl wird nach dem Speichern der Auswahl nicht mehr erneut geöffnet. Die Verbindungskarte wird nach dem Trennen der Verbindung aktualisiert.
+- **Bereitstellen** in einer einzelnen häufig gestellten Frage wird jetzt das Dialogfeld Multi-Site-Manager geöffnet, in dem Sie auswählen können, ob die Quellseite oder nur die lokale Seite aktualisiert werden soll.
 
 ## &#x200B;28. September bis 4. Oktober 2026 {#september-28-october-4-2026}
 
