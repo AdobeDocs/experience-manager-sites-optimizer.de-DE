@@ -16,7 +16,7 @@ Um Preflight ausführen zu können, muss es in Ihrer Authoring-Umgebung eingeric
 
 ## Aktivieren des Benutzerzugriffs
 
-Um Preflight verwenden zu können, muss Benutzenden das Produkt **Adobe Experience Manager Sites Optimizer** in [Adobe Admin Console zugewiesen ](https://adminconsole.adobe.com).
+Um Preflight verwenden zu können, muss Benutzenden das Produkt **Adobe Experience Manager Sites Optimizer** in [Adobe Admin Console zugewiesen &#x200B;](https://adminconsole.adobe.com).
 
 ## Preflight aktivieren
 
