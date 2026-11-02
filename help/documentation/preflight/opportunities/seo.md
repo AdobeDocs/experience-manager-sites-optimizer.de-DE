@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die SEO-Audits, die Preflight auf Ihrer Sei
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 7c362d99632758d1aba0af2bdccaa75c48abd2ec
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '201'
 ht-degree: 0%
 ---
 # SEO-Audits
@@ -23,7 +23,6 @@ Die SEO-Kategorie umfasst die folgenden Audits:
 * [Überschriften](./seo/headings.md) - Überprüft die Überschriftenstruktur und -reihenfolge der Seite.
 * [Interne Links](./seo/internal-links.md) - Überprüft die Links auf der Seite, die auf Ihre eigene Site verweisen.
 * [Externe Links](./seo/external-links.md) - Überprüft die Links auf der Seite, die auf andere Sites verweisen.
-* [Lesbarkeit](./seo/readability.md) - Prüft, wie einfach der Seiteninhalt zu lesen ist.
 * [Canonical](./seo/canonical.md) - Prüft den kanonischen Link der Seite.
 * [Textkörpergröße](./seo/body-size.md) - Prüft die Menge des Textkörperinhalts auf der Seite.
 * [Lorem ipsum](./seo/lorem-ipsum.md) - Erkennt im Inhalt verbleibenden Platzhaltertext.
