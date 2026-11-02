@@ -5,23 +5,18 @@ TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9edf940bffa7407ca58ea9f504ea8afe4bdd7a50
+source-git-commit: 00dbc1a9033cf327da68df99c9604b50f45b43ee
 workflow-type: tm+mt
-source-wordcount: 896
-ht-degree: 47%
-
+source-wordcount: '877'
+ht-degree: 49%
 ---
-
 # Preflight-Setup
 
 Um Preflight ausführen zu können, muss es in Ihrer Authoring-Umgebung eingerichtet werden. Sie können Preflight für den universellen Editor, die dokumentbasierte Bearbeitung, den AEM Sites-Seiteneditor oder Adobe Managed Services einrichten, damit Sie Preflight-Prüfungen auf Ihren Seiten durchführen können, bevor sie veröffentlicht werden.
 
 ## Aktivieren des Benutzerzugriffs
 
-Um Preflight zu verwenden, stellen Sie sicher, dass Ihr Benutzer mindestens einem der folgenden AEM Sites Optimizer-Produktprofile in [Adobe Admin Console zugewiesen ist](https://adminconsole.adobe.com):
-
-* AEM Sites Optimizer – Benutzende automatisch vorschlagen
-* AEM Sites Optimizer – Benutzende automatisch optimieren
+Um Preflight verwenden zu können, muss Benutzenden das Produkt **Adobe Experience Manager Sites Optimizer** in [Adobe Admin Console zugewiesen &#x200B;](https://adminconsole.adobe.com).
 
 ## Preflight aktivieren
 
@@ -160,7 +155,7 @@ Um Preflight im AEM Sites-Seiteneditor in früheren AEM-Versionen zu verwenden, 
 
 >[!IMPORTANT]
 >
->Es werden nur Adobe Managed Services (AMS)-Umgebungen unterstützt, die Adobe Identity Provider (IMS) für die Authentifizierung auf der AEM-Autoreninstanz verwenden. Preflight funktioniert nicht, wenn Ihr Unternehmen einen anderen Identitätsanbieter für die AMS-Authentifizierung verwendet.
+>Es werden nur Adobe Managed Services (AMS)-Umgebungen unterstützt, die Adobe Identity Provider (IMS) für die Authentifizierung auf AEM Author verwenden. Preflight funktioniert nicht, wenn Ihr Unternehmen einen anderen Identitätsanbieter für die AMS-Authentifizierung verwendet.
 
 Wenn Preflight in der AEM Sites-Symbolleiste des Seiteneditors integriert ist, ist keine Lesezeichenliste erforderlich. Wenden Sie sich an Adobe, um es für Ihr Unternehmen installieren zu lassen. Führen Sie nach der Installation die folgenden Schritte aus:
 

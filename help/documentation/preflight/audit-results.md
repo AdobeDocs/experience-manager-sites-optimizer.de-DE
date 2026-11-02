@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie die Ergebnisse des Preflight-Audits, die Erge
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 00dbc1a9033cf327da68df99c9604b50f45b43ee
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 2%
+source-wordcount: '1653'
+ht-degree: 0%
 ---
 
 # Audit-Ergebnisse in Preflight
@@ -28,6 +28,8 @@ Beim Exportieren können Sie auch auswählen, was einbezogen werden soll:
 
 * **Metadatentabelle einschließen** - Fügen Sie eine Tabelle mit Ausführungsdetails hinzu, z. B. den Host, den Inhaltspfad und Erzeugungsdetails.
 * **Bestehende Audits einschließen** - Schließt die Audits ein, die ohne Opportunities bestanden wurden, nicht nur die gefundenen Opportunities.
+
+Audits, die nicht abgeschlossen werden konnten, sind immer enthalten, egal, was Sie auswählen. Weitere Informationen finden Sie unter [Prüfungen, die nicht abgeschlossen werden konnten](#audits-that-could-not-be-completed).
 
 >[!NOTE]
 >
@@ -50,6 +52,15 @@ Preflight gruppiert verwandte Audits in Kategorien wie **SEO** und **Accessibili
 Erweitern Sie eine Kategorie, um ihre individuellen Audits anzuzeigen. Bei jedem Audit wird angezeigt, ob Opportunities bestanden oder gefunden wurden, eine kurze Beschreibung und eine Anzahl der gefundenen Opportunitys. Wählen Sie ein Audit aus, bei dem Möglichkeiten zum Öffnen der Detailseite gefunden wurden.
 
 Eine Kategorie kann Ergebnisse anzeigen, während einige ihrer Prüfungen noch laufen. Ihr Status besagt beispielsweise, dass **3/3 Audits bisher bestanden**. Diese Anzahl umfasst nur die Audits, die Ergebnisse zurückgegeben haben. Sie kann sich also ändern, wenn weitere Ergebnisse eingehen. Erweitern Sie die Kategorie, um zu sehen, welche Audits noch ausgeführt werden. Eine Kategorie ohne Opportunities zeigt erst nach Abschluss ihrer ausstehenden Arbeiten ihr Häkchen mit einem Häkchen an.
+
+### Prüfungen, die nicht abgeschlossen werden konnten
+
+Gelegentlich kann eine Prüfung für eine Seite nicht abgeschlossen werden, z. B. weil die Prüfung die Seite nicht auswerten konnte oder auf einen Fehler gestoßen ist. Preflight zeigt eine solche Prüfung nicht als bestanden an. Stattdessen:
+
+* Die Zeile Audit zeigt ein neutrales Symbol und den Grund, warum das Audit nicht abgeschlossen werden konnte, anstelle der üblichen Beschreibung an. Wenn der Grund dies nahe legt, führen Sie Preflight erneut aus, um es erneut zu versuchen.
+* Die Prüfung zählt als nicht bestanden in der **% bestanden** Zahl und in der Anzahl der bestanden Prüfungen ihrer Kategorie.
+* In seiner Kategorie ist das Häkchen nicht vollständig.
+* Der exportierte Bericht listet immer die Prüfung und ihren Grund auf, auch wenn **Bestehende Prüfungen einschließen** nicht ausgewählt ist. In der Zusammenfassung des Berichts steht nie, dass alle Prüfungen bestanden wurden.
 
 Eine vollständige Liste der Audit-Kategorien und der Audits in den einzelnen Kategorien finden Sie unter [Preflight-Auditkategorien](./overview.md#preflight-audit-categories).
 
@@ -81,15 +92,15 @@ Der Filter ändert nicht die Anzahl der Opportunities im Ergebnis-Dashboard oder
 
 Nach Abschluss der Audits können Sie eine Opportunity schnell finden und verstehen, indem Sie sie direkt auf der Seite hervorheben.
 
-Preflight markiert das betroffene Element im Kontext und verbindet das Ergebnis im Bedienfeld mit der genauen Position in Ihrem Inhalt. Dies erleichtert die Prüfung und Lösung von Möglichkeiten, ohne die Seite manuell durchsuchen zu müssen.
+Preflight markiert das betroffene Element im Kontext und verbindet das Ergebnis im Bedienfeld mit seiner Position im Inhalt. Im universellen Editor verwendet Preflight den Auswahlumriss des Editors. In anderen Authoring-Umgebungen verwendet die Hervorhebung kontrastierende Umrissringe, um vor dem Seitenhintergrund sichtbar zu bleiben.
 
 1. Öffnen Sie das Preflight-Bedienfeld im Kontext der zu prüfenden Seite und wählen Sie **Seite analysieren** aus, um die Prüfungen durchzuführen.
 1. Wählen Sie im Ergebnis-Dashboard eine Prüfung und dann eine zu überprüfende Gelegenheit aus.
-1. Wählen Sie **Markieren auf Seite** aus. Die Vorschau scrollt automatisch zum relevanten Bereich und markiert das entsprechende Element, sodass Sie die Opportunity im Kontext leicht identifizieren und optimieren können.
+1. Wählen Sie **Markieren auf Seite** aus. Die Vorschau scrollt automatisch zum relevanten Bereich und markiert das entsprechende Element, sodass Sie die Opportunity im Kontext leicht identifizieren und optimieren können. Wählen Sie **erneut** Markieren auf Seite) aus, um die Markierung zu entfernen, ohne die Opportunity zu verlassen.
 
 Hervorheben ist nicht bei jeder Opportunity möglich. Wenn eine Opportunity beispielsweise nicht mit einem bestimmten Element verknüpft ist, ist das Element ausgeblendet oder befindet es sich nicht mehr auf der Seite. In diesen Fällen ist die Schaltfläche **Markieren auf Seite** abgeblendet. Bewegen Sie den Mauszeiger darüber, um zu sehen, warum.
 
-Im universellen Editor wird die Hervorhebung für Opportunities **Barrierefreiheit** noch nicht unterstützt. Die Schaltfläche **Auf Seite hervorheben** ist abgeblendet, und Sie können den Mauszeiger darüber bewegen, um zu sehen, warum das so ist.
+Im universellen Editor wird die Hervorhebung für **SEO** Opportunities und **ALT-Text** Opportunities in der Kategorie **Barrierefreiheit** unterstützt. Andere **Barrierefreiheits**-Möglichkeiten werden noch nicht unterstützt. In diesen Fällen ist die Schaltfläche **Hervorheben auf Seite** abgeblendet. Bewegen Sie den Mauszeiger darüber, um den Grund dafür zu sehen.
 
 Im universellen Editor kann Preflight nur bearbeitbare Inhalte markieren. Wenn das betroffene Element nicht Teil des bearbeitbaren Inhalts ist, ist die Schaltfläche **Hervorheben auf Seite** abgeblendet. Bewegen Sie den Mauszeiger darüber, um zu sehen, warum. Wenn das Element selbst nicht direkt bearbeitbar ist, aber der nächste bearbeitbare Block ist, markiert Preflight diesen Block stattdessen und fügt einen Hinweis hinzu, der erklärt, warum.
 
