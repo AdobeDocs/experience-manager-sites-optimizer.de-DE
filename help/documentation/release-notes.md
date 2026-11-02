@@ -7,10 +7,10 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 733056458d3e34a9ef2e285adfc810a98159002b
+source-git-commit: 12279cd1468a3442709cb73a8691922598a33dab
 workflow-type: tm+mt
-source-wordcount: '3666'
-ht-degree: 2%
+source-wordcount: '3815'
+ht-degree: 1%
 ---
 
 # Versionshinweise
@@ -29,6 +29,10 @@ Mit **(Early Access)** gekennzeichnete Funktionen sind auf Anfrage verfügbar. W
 ### Verbesserungen
 
 - **Jira Tickets für Alt-Text (Early Access)** - Erstellen Sie Jira-Tickets für ein oder mehrere Probleme mit Alt-Text, wobei die Seiten-URL, Bild-URL und der vorgeschlagene Alt-Text in jedem Ticket enthalten sind.
+- **Preflight-Prüfungen, die nicht abgeschlossen werden konnten** - Ein Audit, das jetzt nicht abgeschlossen werden konnte, zeigt den Grund an, anstatt als bestanden angezeigt zu werden. In der **% übergebenen** wird sie als nicht übergeben gezählt, und CSV- und PDF-Exporte führen sie immer auf.
+- **PreFlight Alt Text Progress** - Während die KI-Prüfung für ein Bild noch ausgeführt wird, wird die Opportunity für den Alt-Text mit einem Indikator **Vorschlag wird erstellt** angezeigt. Die Detailansicht der Opportunity bleibt auch auf der Opportunity, die Sie anzeigen, wenn sich die Ergebnisse ändern.
+- **Gründe für externe Links in Preflight** - Der Audit „Externe Links“ erläutert jetzt weitere Fehlertypen, darunter Server-Fehler, Umleitungsschleifen, Links, für die eine Anmeldung erforderlich ist, und Links, die aus rechtlichen Gründen nicht verfügbar sind. Für Links, bei denen eine Zeitüberschreitung auftritt oder automatisierte Prüfungen blockiert werden, wird jetzt eine manuelle Bestätigung angefordert.
+- **Preflight-Seitenerfassung** - Preflight wartet jetzt bis zu 30 Sekunden, bis eine langsame Seite geladen wird, bevor sie die Seite außerhalb des universellen Editors analysiert.
 
 ## &#x200B;19. bis 25. Oktober 2026 {#october-19-25-2026}
 

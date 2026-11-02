@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie die Ergebnisse des Preflight-Audits, die Erge
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 12279cd1468a3442709cb73a8691922598a33dab
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 2%
+source-wordcount: '1616'
+ht-degree: 1%
 ---
 
 # Audit-Ergebnisse in Preflight
@@ -28,6 +28,8 @@ Beim Exportieren können Sie auch auswählen, was einbezogen werden soll:
 
 * **Metadatentabelle einschließen** - Fügen Sie eine Tabelle mit Ausführungsdetails hinzu, z. B. den Host, den Inhaltspfad und Erzeugungsdetails.
 * **Bestehende Audits einschließen** - Schließt die Audits ein, die ohne Opportunities bestanden wurden, nicht nur die gefundenen Opportunities.
+
+Audits, die nicht abgeschlossen werden konnten, sind immer enthalten, egal, was Sie auswählen. Weitere Informationen finden Sie unter [Prüfungen, die nicht abgeschlossen werden konnten](#audits-that-could-not-be-completed).
 
 >[!NOTE]
 >
@@ -50,6 +52,15 @@ Preflight gruppiert verwandte Audits in Kategorien wie **SEO** und **Accessibili
 Erweitern Sie eine Kategorie, um ihre individuellen Audits anzuzeigen. Bei jedem Audit wird angezeigt, ob Opportunities bestanden oder gefunden wurden, eine kurze Beschreibung und eine Anzahl der gefundenen Opportunitys. Wählen Sie ein Audit aus, bei dem Möglichkeiten zum Öffnen der Detailseite gefunden wurden.
 
 Eine Kategorie kann Ergebnisse anzeigen, während einige ihrer Prüfungen noch laufen. Ihr Status besagt beispielsweise, dass **3/3 Audits bisher bestanden**. Diese Anzahl umfasst nur die Audits, die Ergebnisse zurückgegeben haben. Sie kann sich also ändern, wenn weitere Ergebnisse eingehen. Erweitern Sie die Kategorie, um zu sehen, welche Audits noch ausgeführt werden. Eine Kategorie ohne Opportunities zeigt erst nach Abschluss ihrer ausstehenden Arbeiten ihr Häkchen mit einem Häkchen an.
+
+### Prüfungen, die nicht abgeschlossen werden konnten
+
+Gelegentlich kann eine Prüfung für eine Seite nicht abgeschlossen werden, z. B. weil die Prüfung die Seite nicht auswerten konnte oder auf einen Fehler gestoßen ist. Preflight zeigt eine solche Prüfung nicht als bestanden an. Stattdessen:
+
+* Die Zeile Audit zeigt ein neutrales Symbol und den Grund, warum das Audit nicht abgeschlossen werden konnte, anstelle der üblichen Beschreibung an. Wenn der Grund dies nahe legt, führen Sie Preflight erneut aus, um es erneut zu versuchen.
+* Die Prüfung zählt als nicht bestanden in der **% bestanden** Zahl und in der Anzahl der bestanden Prüfungen ihrer Kategorie.
+* In seiner Kategorie ist das Häkchen nicht vollständig.
+* Der exportierte Bericht listet immer die Prüfung und ihren Grund auf, auch wenn **Bestehende Prüfungen einschließen** nicht ausgewählt ist. In der Zusammenfassung des Berichts steht nie, dass alle Prüfungen bestanden wurden.
 
 Eine vollständige Liste der Audit-Kategorien und der Audits in den einzelnen Kategorien finden Sie unter [Preflight-Auditkategorien](./overview.md#preflight-audit-categories).
 
