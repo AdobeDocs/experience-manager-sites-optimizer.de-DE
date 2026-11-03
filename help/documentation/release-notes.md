@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 12279cd1468a3442709cb73a8691922598a33dab
+source-git-commit: 7a1c63e47cd778635fd18113bc2b08c83447fe35
 workflow-type: tm+mt
-source-wordcount: '3815'
+source-wordcount: '3973'
 ht-degree: 1%
 ---
 
@@ -19,20 +19,28 @@ Auf dieser Seite werden die neuesten Aktualisierungen, neuen Funktionen und Verb
 
 Mit **(Early Access)** gekennzeichnete Funktionen sind auf Anfrage verfügbar. Wenden Sie sich an Ihr Account Team oder Ihren Customer Success Engineer, um sie für Ihr Unternehmen zu aktivieren.
 
-## &#x200B;26. bis 28. Oktober 2026 {#october-26-28-2026}
+## &#x200B;26. Oktober bis 1. November 2026 {#october-26-november-1-2026}
 
 ### Neue Funktionen
 
-- **Auditabdeckung in Einstellungen** - Die Einstellungen enthalten jetzt einen Abschnitt **Auditabdeckung**, in dem die für Ihre Site ausgeführten Audits nach Kategorie wie SEO, Barrierefreiheit, Sicherheit sowie Konversion und Interaktion gruppiert aufgeführt sind.
+- **Auditabdeckung in Einstellungen** - Die Einstellungen enthalten jetzt einen Abschnitt **Auditabdeckung**, in dem die für Ihre Site ausgeführten Audits nach Kategorie wie SEO, Barrierefreiheit, Sicherheit sowie Konversion und Interaktion gruppiert aufgelistet sind, einschließlich aktivierter Prüfungen auf 404-Fehlerseiten, Cross-Site-Scripting und Cookie-Zustimmung.
 - **Geschätzter Wert (frühzeitiger Zugriff)** - Core Web Vitals, Alternativtext, Barrierefreiheit, Farbkontrast, Barrierefreiheit von Formularen und Sicherheitsmöglichkeiten zeigen jetzt einen geschätzten Wert an, z. B. eingesparte Arbeitskräfte oder vermiedene Risiken, damit Sie Korrekturen priorisieren können. Arbeit, die für Barrierefreiheits- und Sicherheitskorrekturen eingespart wurde, wird als einmaliger Wert angezeigt, und Sitemap- und Heflang-Gelegenheiten zeigen, wie viele Probleme gekennzeichnet wurden.
 
 ### Verbesserungen
 
 - **Jira Tickets für Alt-Text (Early Access)** - Erstellen Sie Jira-Tickets für ein oder mehrere Probleme mit Alt-Text, wobei die Seiten-URL, Bild-URL und der vorgeschlagene Alt-Text in jedem Ticket enthalten sind.
+- **Details zur Farbkontrastkorrektur** - Überprüfen Sie auf unterstützten Websites für jede Seite und die Grundursache eine separate Zeile mit einer gemeinsamen Fehlerbehebung für die betroffenen Elemente und einer Erklärung der Benutzerauswirkungen der einzelnen Elemente.
+- **Cloud Manager-Bereitstellungskontext** - Die Zeitleiste für Site-Warnhinweise identifiziert jetzt **Cloud Manager-Bereitstellungen** und erklärt, welche Produktionsbereitstellungen angezeigt werden.
+- **Meta-Tag-Bereitstellung** - Wenn Seitenbeziehungsinformationen verfügbar sind, wird das Bereitstellungsdialogfeld ohne zusätzliche Verbindung zur AEM-Autoreninstanz geöffnet, sodass zuverlässiger ausgewählt werden kann, ob die Quellseite oder eine lokale Kopie in AEM Multi-Site-Manager korrigiert werden soll.
 - **Preflight-Prüfungen, die nicht abgeschlossen werden konnten** - Ein Audit, das jetzt nicht abgeschlossen werden konnte, zeigt den Grund an, anstatt als bestanden angezeigt zu werden. In der **% übergebenen** wird sie als nicht übergeben gezählt, und CSV- und PDF-Exporte führen sie immer auf.
 - **PreFlight Alt Text Progress** - Während die KI-Prüfung für ein Bild noch ausgeführt wird, wird die Opportunity für den Alt-Text mit einem Indikator **Vorschlag wird erstellt** angezeigt. Die Detailansicht der Opportunity bleibt auch auf der Opportunity, die Sie anzeigen, wenn sich die Ergebnisse ändern.
 - **Gründe für externe Links in Preflight** - Der Audit „Externe Links“ erläutert jetzt weitere Fehlertypen, darunter Server-Fehler, Umleitungsschleifen, Links, für die eine Anmeldung erforderlich ist, und Links, die aus rechtlichen Gründen nicht verfügbar sind. Für Links, bei denen eine Zeitüberschreitung auftritt oder automatisierte Prüfungen blockiert werden, wird jetzt eine manuelle Bestätigung angefordert.
 - **Preflight-Seitenerfassung** - Preflight wartet jetzt bis zu 30 Sekunden, bis eine langsame Seite geladen wird, bevor sie die Seite außerhalb des universellen Editors analysiert.
+
+### Fehlerbehebungen
+
+- Der Ereignisverlauf für Site-Warnhinweise zeigt jetzt für jeden Vorfall die richtige Core Web Vitals-Metrik und den richtigen Wert an, Leistungsrückgänge werden **Beeinträchtigung** konsistent über Site-Warnhinweise hinweg gekennzeichnet und durch Vorschläge-Links wird ein verfügbarer Vorschlag anstelle eines veralteten geöffnet.
+- Fehlerkorrektur - Bereitgestellte Opportunity-Fehlerbehebungen können jetzt rückgängig gemacht werden.
 
 ## &#x200B;19. bis 25. Oktober 2026 {#october-19-25-2026}
 
