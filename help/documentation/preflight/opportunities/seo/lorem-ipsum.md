@@ -45,4 +45,4 @@ Die Prüfung sucht nach der Phrase „lorem ipsum“ in einer beliebigen Kombina
 
 Verwenden Sie **Hervorheben auf Seite** sofern verfügbar. Ein ausgeblendetes Element kann an anderen Bildschirmgrößen oder in einem Menü oder Dialogfeld angezeigt werden.
 
-Ersetzen oder entfernen Sie den Platzhaltertext. Beschreiben Sie das Bild oder das Steuerelement für Alt-Text und Barrierefreiheitsbeschriftungen. Weitere Anleitungen [ Sie unter ](../../audit-results.md) in Preflight prüfen.
+Ersetzen oder entfernen Sie den Platzhaltertext. Beschreiben Sie das Bild oder das Steuerelement für Alt-Text und Barrierefreiheitsbeschriftungen. Weitere Anleitungen [&#x200B; Sie unter &#x200B;](../../audit-results.md) in Preflight prüfen.
