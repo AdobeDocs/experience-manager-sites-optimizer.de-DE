@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7a1c63e47cd778635fd18113bc2b08c83447fe35
+source-git-commit: 64709247e9a900f505b47235bf303984ce918faa
 workflow-type: tm+mt
-source-wordcount: '3973'
+source-wordcount: '3999'
 ht-degree: 1%
 ---
 
@@ -35,6 +35,7 @@ Mit **(Early Access)** gekennzeichnete Funktionen sind auf Anfrage verfügbar. W
 - **Preflight-Prüfungen, die nicht abgeschlossen werden konnten** - Ein Audit, das jetzt nicht abgeschlossen werden konnte, zeigt den Grund an, anstatt als bestanden angezeigt zu werden. In der **% übergebenen** wird sie als nicht übergeben gezählt, und CSV- und PDF-Exporte führen sie immer auf.
 - **PreFlight Alt Text Progress** - Während die KI-Prüfung für ein Bild noch ausgeführt wird, wird die Opportunity für den Alt-Text mit einem Indikator **Vorschlag wird erstellt** angezeigt. Die Detailansicht der Opportunity bleibt auch auf der Opportunity, die Sie anzeigen, wenn sich die Ergebnisse ändern.
 - **Gründe für externe Links in Preflight** - Der Audit „Externe Links“ erläutert jetzt weitere Fehlertypen, darunter Server-Fehler, Umleitungsschleifen, Links, für die eine Anmeldung erforderlich ist, und Links, die aus rechtlichen Gründen nicht verfügbar sind. Für Links, bei denen eine Zeitüberschreitung auftritt oder automatisierte Prüfungen blockiert werden, wird jetzt eine manuelle Bestätigung angefordert.
+- **Preflight Lorem Ipsum Details** - Lorem Ipsum-Funde identifizieren jetzt, wo Platzhaltertext angezeigt wird, erklären, wie er repariert werden kann, und zeigen den Text innerhalb seines HTML-Tags an.
 - **Preflight-Seitenerfassung** - Preflight wartet jetzt bis zu 30 Sekunden, bis eine langsame Seite geladen wird, bevor sie die Seite außerhalb des universellen Editors analysiert.
 
 ### Fehlerbehebungen
