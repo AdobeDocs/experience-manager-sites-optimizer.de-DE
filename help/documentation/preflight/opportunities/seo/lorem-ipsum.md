@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über den Lorem-ipsum-Audit in Preflight für AEM
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 587aec4eb905a2b1ced746590ca25b8ed97b16c1
+source-git-commit: 64709247e9a900f505b47235bf303984ce918faa
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '370'
 ht-degree: 1%
 ---
 # Lorem-ipsum-Audit
@@ -37,8 +37,12 @@ Die Prüfung sucht nach der Phrase „lorem ipsum“ in einer beliebigen Kombina
 ## Bekannte Einschränkungen
 
 * **Nur „lorem ipsum“:** anderer Platzhaltertext, wie „TBD“ oder andere lateinische Füllwörter ohne „lorem ipsum“, wird nicht erkannt.
-* **Auf Seite hervorheben:** ist für den Seitentitel oder die Metadaten nicht verfügbar, da sie nicht auf der Seite angezeigt werden. Verwende den Text, der bei der Gelegenheit angezeigt wird, um sie zu finden.
+* **Auf Seite hervorheben:** ist für den Seitentitel oder die Metadaten nicht verfügbar, da sie nicht auf der Seite angezeigt werden. Verwenden Sie **Details** und das Feld **Element**, um den Text zu finden.
 
 ## Beheben von Problemen
 
-Wenn die Prüfung Chancen findet, identifiziert jede, wo der Platzhaltertext angezeigt wird. Sofern verfügbar, verwenden Sie **Hervorhebung auf Seite** um zum Text in Ihrem Inhalt zu springen. Ersetzen Sie den Platzhalter durch echten Inhalt oder entfernen Sie ihn. Schreiben Sie für Alt-Text und Barrierefreiheitsbeschriftungen eine Beschreibung des Bildes oder Steuerelements. Informationen zum Überprüfen und Beheben von Opportunities finden Sie unter [Audit results in Preflight](../../audit-results.md).
+Überprüfen Sie **Details** auf die Position des Textes, z. B. Seitentitel, Alternativtext oder Überschrift. **Recommendation** erläutert, wie dies behoben werden kann, und das Feld **Element** zeigt den Text innerhalb des Tags an.
+
+Verwenden Sie **Hervorheben auf Seite** sofern verfügbar. Ein ausgeblendetes Element kann an anderen Bildschirmgrößen oder in einem Menü oder Dialogfeld angezeigt werden.
+
+Ersetzen oder entfernen Sie den Platzhaltertext. Beschreiben Sie das Bild oder das Steuerelement für Alt-Text und Barrierefreiheitsbeschriftungen. Weitere Anleitungen [&#x200B; Sie unter &#x200B;](../../audit-results.md) in Preflight prüfen.
