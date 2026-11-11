@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie die Ergebnisse des Preflight-Audits, die Erge
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 00dbc1a9033cf327da68df99c9604b50f45b43ee
+source-git-commit: b17260f7dbb82fd26120fd90c1d21a22d33949b1
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1703'
 ht-degree: 0%
 ---
 
@@ -77,7 +77,13 @@ Wenn mehrere Opportunities dasselbe Element betreffen - z. B. mehrere Probleme m
 Jede Opportunity umfasst:
 
 * Details zur Opportunity, z. B. eine Beschreibung des Problems, eine Empfehlung und, bei Barrierefreiheit, die zugehörige WCAG-Regel und Konformitätsstufe.
-* Ein **Element**-Abschnitt, der das betroffene Element auf der Seite mit einer Schaltfläche **Hervorheben auf der Seite** identifiziert. Wenn das Element lesbaren Text enthält, wird der Abschnitt **Element: Text** benannt, andernfalls wird er mit **Element: Selektor** bezeichnet und die CSS-Auswahl des Elements angezeigt. Bei **internen Links** und **kanonischen** Opportunities wird in einem Abschnitt **Aktuelle URL** auch die beteiligte URL angezeigt. Wählen Sie **URL kopieren**, um sie in die Zwischenablage zu kopieren, oder **In neuer Registerkarte öffnen**, um sie zu öffnen.
+* Ein **Element**-Abschnitt, der das betroffene Element identifiziert. Der Titel zeigt, was angezeigt wird:
+  * **Element: Text** - der Text des Elements oder die Adresse, mit der es verknüpft ist.
+  * **Element: Image** - eine Miniaturansicht des Bildes, z. B. in **Alternativtext** und anderen **Barrierefreiheit**.
+  * **Element: Selektor** - die CSS-Auswahl des Elements, wenn kein Text oder Bild verfügbar ist.
+
+  Zum Kopieren bewegen Sie den Mauszeiger über den Abschnitt oder konzentrieren Sie sich auf den Abschnitt. **Element: Text** zeigt eine **Weitere Aktionen** (**…**) Menü mit **Text kopieren** und **Auswahl kopieren**. **Element: Bild** und **Element: Selektor** zeigen ein Kopiersymbol an, das den CSS-Selektor kopiert. Nach erfolgreicher Kopie wird eine Bestätigungsmeldung angezeigt.
+* Bei **internen Links** und **kanonischen** Opportunities ein **Aktuelle URL** Abschnitt, der die beteiligte URL anzeigt. Wählen Sie **URL kopieren**, um sie zu kopieren, oder **In neuer Registerkarte öffnen**, um sie zu öffnen.
 * Ein **Vorschlag** mit einer empfohlenen Fehlerbehebung. Wenn der Vorschlag von KI generiert wird, wird er als von KI generierter Vorschlag markiert und kann eine kurze Begründung zur Erläuterung der vorgeschlagenen Korrektur enthalten.
 
 ### Instanzen filtern
