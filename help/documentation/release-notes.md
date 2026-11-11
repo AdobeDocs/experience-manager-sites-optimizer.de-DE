@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 64709247e9a900f505b47235bf303984ce918faa
+source-git-commit: b17260f7dbb82fd26120fd90c1d21a22d33949b1
 workflow-type: tm+mt
-source-wordcount: '3999'
+source-wordcount: '4035'
 ht-degree: 1%
 ---
 
@@ -18,6 +18,12 @@ ht-degree: 1%
 Auf dieser Seite werden die neuesten Aktualisierungen, neuen Funktionen und Verbesserungen in Adobe Experience Manager Sites Optimizer dokumentiert.
 
 Mit **(Early Access)** gekennzeichnete Funktionen sind auf Anfrage verfügbar. Wenden Sie sich an Ihr Account Team oder Ihren Customer Success Engineer, um sie für Ihr Unternehmen zu aktivieren.
+
+## &#x200B;11. November 2026 {#november-11-2026}
+
+### Verbesserungen
+
+- **Bedienfeld für PreFlight** - Der Abschnitt **Element** zeigt jetzt anstelle einer CSS-Auswahl eine Miniaturansicht oder einen lesbaren Text an und ermöglicht es Ihnen, den Text oder die CSS-Auswahl des Elements zu kopieren.
 
 ## &#x200B;26. Oktober bis 1. November 2026 {#october-26-november-1-2026}
 
