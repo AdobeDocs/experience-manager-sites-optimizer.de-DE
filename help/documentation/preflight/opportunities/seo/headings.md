@@ -1,15 +1,16 @@
 ---
 title: Preflight-Kopfzeilenprüfung
 description: Erfahren Sie mehr über den Überschriften-Audit in Preflight für AEM Sites Optimizer.
+badgePreflightSEO: label="PreFlight - SEO" type="Caution" url="../seo.md" tooltip="PreFlight - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '654'
 ht-degree: 0%
 ---
-# Überschriften-Audit
+# PreFlight - Überschriften-Audit
 
 Der **Überschriften**-Audit überprüft die Unterüberschriften auf Ihrer Seite (H2 bis H6). Kennzeichnet Überschriften ohne Text und Überschriften, die eine Ebene überspringen, z. B. ein H2 gefolgt von einem H4.
 
