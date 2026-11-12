@@ -1,15 +1,16 @@
 ---
 title: PreFlight-MetaTags-Audit
 description: Erfahren Sie mehr über den MetaTags-Audit in Preflight für AEM Sites Optimizer.
+badgePreflightSEO: label="PreFlight - SEO" type="Caution" url="../seo.md" tooltip="PreFlight - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '806'
 ht-degree: 1%
 ---
-# MetaTags-Audit
+# PreFlight - MetaTags-Audit
 
 Der **MetaTags**-Audit überprüft den Seitentitel, die Metabeschreibung und die Hauptüberschrift (H1). Sie kennzeichnet fehlende, leere oder außerhalb der empfohlenen Länge befindliche Seiten und kennzeichnet Seiten mit mehr als einer H1-Überschrift.
 

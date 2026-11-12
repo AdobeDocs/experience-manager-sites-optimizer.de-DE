@@ -1,15 +1,16 @@
 ---
 title: Überprüfung der Körpergröße vor dem Flug
 description: Erfahren Sie mehr über das Körpergrößenaudit in Preflight für AEM Sites Optimizer.
+badgePreflightSEO: label="PreFlight - SEO" type="Caution" url="../seo.md" tooltip="PreFlight - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '697'
 ht-degree: 0%
 ---
-# Körpergrößenprüfung
+# Preflight - Überprüfung der Körpergröße
 
 Der Audit **Textgröße** überprüft die Menge des Textkörpers auf Ihrer Seite. Seiten mit sehr wenig Inhalt können für Leser weniger nützlich sein und in den Suchergebnissen schlecht abschneiden. Die Prüfung kennzeichnet Seiten, die zu wenig Text zu enthalten scheinen.
 

@@ -1,15 +1,16 @@
 ---
 title: Canonical Audit Preflight
 description: Erfahren Sie mehr über das Canonical Audit in Preflight für AEM Sites Optimizer.
+badgePreflightSEO: label="PreFlight - SEO" type="Caution" url="../seo.md" tooltip="PreFlight - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 5c97431c2029e117339877219c2d6e4e30902a70
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
 ---
-# Kanonische Prüfung
+# Preflight - Canonical Audit
 
 Der Audit **Canonical** überprüft den kanonischen Link auf Ihrer Seite. Der kanonische Link ist ein `<link rel="canonical">`-Tag im `<head>` der Seite, das die bevorzugte URL für den Seiteninhalt benennt. Audit kennzeichnet kanonische Links, die fehlen, falsch eingerichtet sind oder auf eine andere Stelle als die Seite selbst verweisen.
 
@@ -25,7 +26,7 @@ Die Prüfung deckt Probleme in drei Bereichen ab:
 
 * **Ob die Seite einen kanonischen Link hat:** der kanonische Link fehlt oder die Seite mehr als einen hat. Mehrere kanonische Links, die auf verschiedene URLs verweisen, werden separat gemeldet, da Suchmaschinen alle ignorieren können.
 * **Ob das Tag korrekt eingerichtet ist:** das Tag sich außerhalb des `<head>` befindet, kein `href` oder ein leeres hat oder ein Attribut wie `hreflang`, `media` oder `type` trägt, das dazu führen kann, dass Suchmaschinen es ignorieren.
-* **Ob die URL korrekt ist:** Die kanonische URL ist relativ statt absolut, enthält Großbuchstaben im Pfad oder in der Abfragezeichenfolge, verwendet ein anderes Protokoll (`http://` oder `https://`) als die Seite oder verweist auf eine andere Seite als die, die Sie bearbeiten.
+* **Ob die URL korrekt ist:** Die kanonische URL ist relativ statt absolut, enthält Großbuchstaben im Pfad oder in der Abfragezeichenfolge, verwendet `http://` anstelle von `https://` oder verweist auf eine andere Seite als die, die Sie bearbeiten.
 
 ## Vergleich der kanonischen URL
 
@@ -38,4 +39,4 @@ Preflight wird auf Vorschauseiten ausgeführt, deren Host sich in der Regel von 
 
 ## Beheben von Problemen
 
-Wenn der Audit Chancen findet, beschreibt jede das Problem und die empfohlene Änderung. In den meisten Fällen sollte die Seite genau einen kanonischen Link aufweisen, im `<head>` mit einer absoluten URL mit einem Pfad in Kleinbuchstaben, der auf die Seite selbst verweist. Wenn die Seite absichtlich auf eine andere Seite als kanonische Version verweist, z. B. ein Duplikat oder eine druckerfreundliche Kopie, können Sie sie unverändert lassen. Die Prüfung wird dennoch darüber berichten. Informationen zum Überprüfen und Beheben von Opportunities finden Sie unter [Audit results in Preflight](../../audit-results.md).
+Wenn der Audit Chancen findet, beschreibt jede das Problem und die empfohlene Änderung. In den meisten Fällen sollte die Seite genau einen kanonischen Link haben, im `<head>`, mit einer absoluten `https://`-URL mit einem Pfad in Kleinbuchstaben, der auf die Seite selbst verweist. Wenn die Seite absichtlich auf eine andere Seite als kanonische Version verweist, z. B. ein Duplikat oder eine druckerfreundliche Kopie, können Sie sie unverändert lassen. Die Prüfung wird dennoch darüber berichten. Informationen zum Überprüfen und Beheben von Opportunities finden Sie unter [Audit results in Preflight](../../audit-results.md).

@@ -1,15 +1,16 @@
 ---
 title: PreFlight-Zugänglichkeitsprüfungen
 description: Erfahren Sie mehr über die Zugänglichkeitsprüfungen, die Preflight auf Ihrer Seite in AEM Sites Optimizer ausführt.
+badgePreflightAccessibility: label="PreFlight - Barrierefreiheit" type="Caution" url="./accessibility.md" tooltip="PreFlight - Barrierefreiheit"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '198'
 ht-degree: 0%
 ---
-# Zugänglichkeitsprüfungen
+# Preflight - Zugänglichkeitsprüfungen
 
 ![Zugänglichkeitsprüfungen im Preflight-Ergebnisdashboard](./assets/accessibility/hero.png){align="center"}
 

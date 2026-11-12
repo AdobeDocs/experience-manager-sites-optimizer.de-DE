@@ -1,15 +1,16 @@
 ---
 title: Prüfung externer Links vor einem Flug
 description: Erfahren Sie mehr über die Prüfung externer Links in Preflight für AEM Sites Optimizer.
+badgePreflightSEO: label="PreFlight - SEO" type="Caution" url="../seo.md" tooltip="PreFlight - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 12279cd1468a3442709cb73a8691922598a33dab
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1117'
 ht-degree: 0%
 ---
-# Prüfung externer Links
+# Preflight - Prüfung externer Links
 
 Der Audit **Externe Links** überprüft die Links auf Ihrer Seite, die auf andere Sites verweisen. Die Prüfung prüft jeden externen Link auf der Seite, die Sie bearbeiten, und kennzeichnet die fehlerhaften, unsicheren oder nicht automatisch verifizierten Links.
 

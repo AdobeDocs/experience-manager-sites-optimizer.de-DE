@@ -1,15 +1,16 @@
 ---
 title: Prüfung interner Links vor einem Flug
 description: Erfahren Sie mehr über den Audit „Interne Links“ in Preflight für AEM Sites Optimizer.
+badgePreflightSEO: label="PreFlight - SEO" type="Caution" url="../seo.md" tooltip="PreFlight - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1043'
 ht-degree: 0%
 ---
-# Prüfung interner Links
+# Preflight - Prüfung interner Links
 
 Der Audit **Interne Links** überprüft die Links auf Ihrer Seite, die auf Ihre eigene Site verweisen. Die Prüfung prüft jeden internen Link auf der Seite, die Sie bearbeiten, und kennzeichnet die fehlerhaften, unsicheren oder spitzen Links, denen ein Besucher nicht folgen kann.
 

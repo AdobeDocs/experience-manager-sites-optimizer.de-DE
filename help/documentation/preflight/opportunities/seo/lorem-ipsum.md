@@ -1,15 +1,16 @@
 ---
 title: Lorem-IPSUM-Audit vor dem Flug
 description: Erfahren Sie mehr über den Lorem-ipsum-Audit in Preflight für AEM Sites Optimizer.
+badgePreflightSEO: label="PreFlight - SEO" type="Caution" url="../seo.md" tooltip="PreFlight - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 64709247e9a900f505b47235bf303984ce918faa
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '375'
 ht-degree: 1%
 ---
-# Lorem-ipsum-Audit
+# Preflight - Lorem-ipsum-Audit
 
 Der **Lorem-Ipsum**-Audit erkennt Platzhaltertext, der in Ihrem Seiteninhalt hinterlassen wurde.
 
@@ -45,4 +46,4 @@ Die Prüfung sucht nach der Phrase „lorem ipsum“ in einer beliebigen Kombina
 
 Verwenden Sie **Hervorheben auf Seite** sofern verfügbar. Ein ausgeblendetes Element kann an anderen Bildschirmgrößen oder in einem Menü oder Dialogfeld angezeigt werden.
 
-Ersetzen oder entfernen Sie den Platzhaltertext. Beschreiben Sie das Bild oder das Steuerelement für Alt-Text und Barrierefreiheitsbeschriftungen. Weitere Anleitungen [&#x200B; Sie unter &#x200B;](../../audit-results.md) in Preflight prüfen.
+Ersetzen oder entfernen Sie den Platzhaltertext. Beschreiben Sie das Bild oder das Steuerelement für Alt-Text und Barrierefreiheitsbeschriftungen. Weitere Anleitungen [ Sie unter ](../../audit-results.md) in Preflight prüfen.
