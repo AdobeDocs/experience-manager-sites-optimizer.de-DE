@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
+source-git-commit: e522ca835da67851faebe486165ba8f7fc850998
 workflow-type: tm+mt
-source-wordcount: '4063'
+source-wordcount: '4702'
 ht-degree: 1%
 ---
 
@@ -19,12 +19,54 @@ Auf dieser Seite werden die neuesten Aktualisierungen, neuen Funktionen und Verb
 
 Mit **(Early Access)** gekennzeichnete Funktionen sind auf Anfrage verfügbar. Wenden Sie sich an Ihr Account Team oder Ihren Customer Success Engineer, um sie für Ihr Unternehmen zu aktivieren.
 
-## &#x200B;11. November 2026 {#november-11-2026}
+## &#x200B;9. bis 12. November 2026 {#november-9-12-2026}
+
+### Neue Funktionen
+
+- **Zusätzliche Barrierefreiheitsmöglichkeiten (Early Access)** - Suchen Sie nach Tastaturzugriff, Seitensprache und Titel, Datentabellen, Medien und Bewegung sowie Problemen mit Abstand und Zielgröße als separate Barrierefreiheitsmöglichkeiten, jeweils mit einer eigenen Detailseite.
 
 ### Verbesserungen
 
 - **Bedienfeld für PreFlight** - Der Abschnitt **Element** zeigt jetzt anstelle einer CSS-Auswahl eine Miniaturansicht oder einen lesbaren Text an und ermöglicht es Ihnen, den Text oder die CSS-Auswahl des Elements zu kopieren.
 - **Kanonische HTTPS-Prüfung vor einem Flug** - Die kanonische Prüfung kennzeichnet jetzt eine kanonische URL, die `http://` anstelle von `https://` verwendet, anstatt eine kanonische URL zu kennzeichnen, deren Protokoll sich vom Protokoll der Seite unterscheidet.
+- **Core Web Vitals Fix Priorization** - Auf der Registerkarte **Current** werden nun zuerst Core Web Vitals-Probleme mit den gründlich getesteten Code-Patches aufgeführt, sodass Sie mit den zuverlässigsten Fehlerbehebungen beginnen können.
+
+### Fehlerbehebungen
+
+- Es wurde ein Problem behoben, durch das eine Opportunity sowohl in den Registerkarten **Aktuell** als auch **Bereitgestellt** ausgeblendet werden konnte.
+- Der Link KI-Benutzerrichtlinien in der KI-Offenlegung wird jetzt in der ausgewählten Sprache geöffnet.
+- Ankündigungen zu neuen Inhalten werden jetzt in vereinfachtem und traditionellem Chinesisch anstelle von Englisch angezeigt.
+
+## &#x200B;2. bis 8. November 2026 {#november-2-8-2026}
+
+### Neue Funktionen
+
+- **ARIA Label Code Fixes (Early Access)** - Überprüfen und laden Sie Code-Patches auf Komponentenebene für unterstützte ARIA-Label-Probleme herunter. Ermitteln Sie, bei welchen Labels zuerst eine Code-Änderung erforderlich ist, und identifizieren Sie Probleme, für die ein Entwickler erforderlich ist.
+- **Agentic Opportunities (Early Access)** - Erfahren Sie, wie gut Ihre Website KI-Agenten bedient, die im Namen von Besuchern browsen, mit Möglichkeiten für Agent-Tools, Agent-lesbarer Barrierefreiheit und Website-Stabilität und -Auffindbarkeit.
+
+### Verbesserungen
+
+- **Geschätzte Wertabdeckung (frühzeitiger Zugriff)** - Geschätzter Wert ist jetzt für fehlerhafte Backlinks, interne Links, kanonische, strukturierte Daten, Meta-Tags, Cookie-Einverständnis und Formularkonvertierungsmöglichkeiten verfügbar, wenn unterstützende Daten verfügbar sind. Hrefang-Möglichkeiten können auch geschätzte Einmaleinsparungen von Arbeitskräften aufzeigen.
+- **Geschätzte Wertdetails (Early Access)** - Opportunity-Karten und -Detailseiten zeigen jetzt eine einzige Überschriftenschätzung mit Bereichen und klareren Erklärungen in der Aufschlüsselung. Core Web Vitals-Arbeitseinsparungen werden als einmalige Einsparungen anstatt als monatliche Einsparungen bezeichnet.
+- **Jira-Tickets für Core Web Vitals (Early Access)** - Erstellen Sie Jira-Tickets für ausgewählte Seiten mit Problemen mit Desktops und Mobilgeräten, Empfehlungen und verfügbaren Code-Patches, auch wenn eine Seite keinen bereitstellbaren Patch hat.
+- **Jira Tickets für Testbenutzer** - Testbenutzer können Jira verbinden und Tickets für Alt-Text, fehlerhafte Backlinks, interne Links, Core Web Vitals, Barrierefreiheit, Farbkontrast und Probleme mit der Barrierefreiheit von Formularen erstellen.
+- **Image-First Alt Text Review** - Die Registerkarte Alt-Text **Aktuell** listet nun Vorschläge nach Bild auf, zeigt jede betroffene Seite an und fügt ein Detailfenster zur Bearbeitung und Bereitstellung hinzu. Wählen Sie für AEM Multi-Site-Manager-Sites aus, ob Sie eine Fehlerbehebung an der Quelle oder lokal im selben Bereitstellungsfluss anwenden möchten.
+- **Code Fix Deployment Confirmation (Early Access)** - Bestätigen Sie mit einer ARIA-Label-Code-Fix-Karte, ob Ihre bereitgestellte Änderung aktiv ist.
+- **Opportunity-Teststatus** - Alternativtext, fehlerhafte Backlinks und Core Web Vitals-Karten bleiben verfügbar, wenn keine aktuellen Probleme gefunden werden, und ihre Detailseiten unterscheiden eine leere Problemliste von einem abgeschlossenen monatlichen Optimierungskontingent.
+- **Barrierefreiheitsvorschläge** - Vorschläge mit herunterladbaren Code-Patches werden zuerst angezeigt, wodurch einsatzbereite Fehlerbehebungen leichter zu finden sind.
+- **Bereitstellungshandbuch für Formulare von Drittanbietern** - Hohe Formularansichten, niedrige Konversionsmöglichkeiten erklären jetzt, wenn ein Formular nicht in AEM verfasst und nicht automatisch bereitgestellt werden kann, und deaktivieren die Bereitstellung für diese Formulare.
+- **Gezielte Formularempfehlungen** - Formulargelegenheiten zeigen keine unvollständigen Empfehlungen mehr an, wie z. B. Empfehlungen ohne eine verwendbare Variante oder bereitstellbare Fehlerbehebung, oder ihre verknüpften Testvarianzen.
+
+### Fehlerbehebungen
+
+- Berichte zur Barrierefreiheit auf Mobilgeräten verwenden in ihren Problemdetails und CSV-Exporten jetzt die Ergebnisse des mobilen Scans anstelle der Desktop-Fehlerbehebungen. Einheitliche Berichte sind auch nicht mehr mit einem ersetzten ausführlichen Bericht verknüpft.
+- Es wurde ein Problem behoben, durch das Core Web Vitals-Empfehlungen für Seiten mit bezahltem Traffic ausgeblendet werden konnten.
+- Auf den Karten „Site-Geschwindigkeit“ und „Durchschnittliche Ladezeit“ auf der Startseite und im Sitezustandsmonitor wird jetzt die Sekundeneinheit in der ausgewählten Sprache angezeigt.
+- Generische Fehler beim Hinzufügen von Mitgliedern in Berechtigungen werden jetzt in der ausgewählten Sprache angezeigt.
+- Hrefang-Opportunity-Karten zeigen keine redundante Untertyp-Kennzeichnung mehr an.
+- Im Onboarding von Testversionen wird jetzt erklärt, warum eine Domain nicht hinzugefügt werden kann, anstatt einen generischen Fehler anzuzeigen.
+- Bei Opportunities in Alt-Text werden Bilder, die als dekorativ identifiziert werden, nicht mehr aufgeführt.
+- Der Platzhalter „NA“ auf der Startseite wird jetzt in der ausgewählten Sprache angezeigt.
 
 ## &#x200B;26. Oktober bis 1. November 2026 {#october-26-november-1-2026}
 
