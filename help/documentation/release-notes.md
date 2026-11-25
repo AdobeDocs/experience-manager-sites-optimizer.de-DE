@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: e522ca835da67851faebe486165ba8f7fc850998
+source-git-commit: 13b7b57ec635aa7d353bb3efe5edab8e1ea53ae8
 workflow-type: tm+mt
-source-wordcount: '4702'
+source-wordcount: '5248'
 ht-degree: 1%
 ---
 
@@ -19,23 +19,56 @@ Auf dieser Seite werden die neuesten Aktualisierungen, neuen Funktionen und Verb
 
 Mit **(Early Access)** gekennzeichnete Funktionen sind auf Anfrage verfügbar. Wenden Sie sich an Ihr Account Team oder Ihren Customer Success Engineer, um sie für Ihr Unternehmen zu aktivieren.
 
-## &#x200B;9. bis 12. November 2026 {#november-9-12-2026}
+## &#x200B;16. bis 18. November 2026 {#november-16-18-2026}
+
+### Neue Funktionen
+
+- **Bereitschaft für persönliche Agenten (Early Access)** - Überprüfen Sie den Bereitschaftswert Ihrer Site, die Ergebnisse getesteter Aufgaben und die priorisierten Verbesserungen für persönliche KI-Agenten, wenn Ergebnisse verfügbar sind.
+
+### Verbesserungen
+
+- **Export von bereitgestellten Fehlerbehebungen** - Exportieren Sie Fehlerbehebungen von der Registerkarte **bereitgestellt** in CSV mit Bereitstellungsdaten, einschließlich Bilddateinamen und URLs für Fehlerbehebungen bei ALT-Text.
+- **Konversionsraten für Paid Traffic (frühzeitiger Zugriff)** - Weitere Informationen finden Sie unter Konversionsraten pro Seite für Adobe Analytics im Bericht Paid Traffic und im entsprechenden CSV-Export, wenn für den ausgewählten Zeitraum Konversionsdaten verfügbar sind.
+- **Testeinblicke** - Die Testmetrikkarten passen sich jetzt an kleinere Bildschirme an und erklären, dass die Aktualisierung zusätzliche Barrierefreiheit und Site-Health-Einblicke erschließt.
+- **Jira Cloud-Verbindung** - In den Einstellungen wird Jira Cloud jetzt explizit in der Verbindungskarte und in der Aktion identifiziert, wodurch klargestellt wird, mit welchem Jira-Service eine Verbindung hergestellt werden kann.
+
+### Fehlerbehebungen
+
+- Der Site Health Monitor behält jetzt vorhandene Ergebnisse bei, wenn ein Audit deaktiviert ist, und verwendet eine konsistente Audit-Eignung für Scores und Problem-Registerkarten.
+- Die Kategoriebewertungen des Site-Health-Monitors bleiben über Seitenzeilen hinweg ausgerichtet, auch wenn einige Bewertungen fehlen oder Beschriftungen in anderen Sprachen umbrochen sind.
+- Kanonische Vorschläge empfehlen nicht mehr, eine Zuordnung zu ändern, die absichtlich erscheint, ohne die Überprüfungsauswahl zu erklären, und Anleitungen empfehlen jetzt, anstatt absolute URLs zu erfordern.
+- Fehlerkorrekturen mit Barrierefreiheits-Code, die jetzt live **werden** anstelle von **Patch-bereit** und Sie werden nicht mehr aufgefordert, die Bereitstellung erneut zu bestätigen.
+- Alt-Text **Details** zeigt keine Auswahl- oder Massenaktionssteuerelemente mehr an, wenn weder automatische Korrekturen noch die Erstellung von Jira-Tickets verfügbar ist.
+- Die Kacheln der Profilanzahl der Site enthalten nicht mehr das englische Wort „von“, wenn eine andere Sprache ausgewählt ist.
+
+## &#x200B;9. bis 15. November 2026 {#november-9-15-2026}
 
 ### Neue Funktionen
 
 - **Zusätzliche Barrierefreiheitsmöglichkeiten (Early Access)** - Suchen Sie nach Tastaturzugriff, Seitensprache und Titel, Datentabellen, Medien und Bewegung sowie Problemen mit Abstand und Zielgröße als separate Barrierefreiheitsmöglichkeiten, jeweils mit einer eigenen Detailseite.
+- **Personal Agent Traffic (Early Access)** - Überprüfen Sie den geschätzten Traffic von Personal AI-Agenten, einschließlich der täglichen Aktivität und der Seiten, die sie am häufigsten anfordern, wenn Traffic-Messungen für Ihre Site verfügbar sind.
 
 ### Verbesserungen
 
 - **Bedienfeld für PreFlight** - Der Abschnitt **Element** zeigt jetzt anstelle einer CSS-Auswahl eine Miniaturansicht oder einen lesbaren Text an und ermöglicht es Ihnen, den Text oder die CSS-Auswahl des Elements zu kopieren.
 - **Kanonische HTTPS-Prüfung vor einem Flug** - Die kanonische Prüfung kennzeichnet jetzt eine kanonische URL, die `http://` anstelle von `https://` verwendet, anstatt eine kanonische URL zu kennzeichnen, deren Protokoll sich vom Protokoll der Seite unterscheidet.
 - **Core Web Vitals Fix Priorization** - Auf der Registerkarte **Current** werden nun zuerst Core Web Vitals-Probleme mit den gründlich getesteten Code-Patches aufgeführt, sodass Sie mit den zuverlässigsten Fehlerbehebungen beginnen können.
+- **Core Web Vitals-Anleitung** - Nur-Anleitung-Vorschläge identifizieren jetzt die betroffene Metrik und den Fehlerbehebungstyp, sodass die empfohlenen Änderungen leichter zu verstehen sind, wenn kein Code-Patch verfügbar ist.
+- **Beschädigte interne Links in AEM Multi-Site-Manager (früher Zugriff)** - Wählen Sie beim Bereitstellen einer Fehlerbehebung für einen vererbten beschädigten internen Link für AEM Author aus, ob die Quellseite oder die lokale Kopie korrigiert werden soll.
+- **Aktionen zur Optimierung persönlicher Agenten (frühzeitiger Zugriff)** - Verknüpfte Opportunitys unterscheiden jetzt zwischen einsatzbereiten Fehlerbehebungen und Code-Patches, die überprüft werden müssen, und zeigen die Anzahl der einsatzbereiten und bereitgestellten Fehlerbehebungen an, sofern verfügbar.
+- **Ausschlüsse von Barrierefreiheitsberichten** - In Berichten wird nun angegeben, wie viele übersprungene Probleme sie ausschließen, wenn diese Informationen verfügbar sind. Meldungen zum Überspringen und Zurücksetzen erklären, dass Änderungen für den nächsten Barrierefreiheitsbericht gelten.
+- **Paid-Traffic-Berichte für Adobe Analytics (vorzeitiger Zugriff)** - Wechseln Sie im Paid-Traffic-Bericht zwischen der echten Benutzerüberwachung und Adobe Analytics, wenn für den ausgewählten Zeitraum Paid-Traffic-Daten für Adobe Analytics verfügbar sind.
 
 ### Fehlerbehebungen
 
 - Es wurde ein Problem behoben, durch das eine Opportunity sowohl in den Registerkarten **Aktuell** als auch **Bereitgestellt** ausgeblendet werden konnte.
 - Der Link KI-Benutzerrichtlinien in der KI-Offenlegung wird jetzt in der ausgewählten Sprache geöffnet.
 - Ankündigungen zu neuen Inhalten werden jetzt in vereinfachtem und traditionellem Chinesisch anstelle von Englisch angezeigt.
+- Ein Problem wurde behoben, das dazu führte, dass Benutzer mit der Rolle Automatischer Vorschlag fehlerhafte Link-, Alternativtext- und Metadatenvorschläge nicht bearbeiten konnten.
+- Core Web Vitals deaktiviert jetzt **Alle auswählen** wenn keine Vorschläge ausgewählt werden können, und erklärt, warum dies der Fall ist, auch wenn Patches nur zum Herunterladen verfügbar sind.
+- Bereitstellungsdialogfelder bleiben jetzt geöffnet, während eine Bereitstellungsanfrage verarbeitet wird, anstatt sofort geschlossen zu werden.
+- Die Bereitstellung von Alt-Text erklärt jetzt, wenn die Originalseite nicht ermittelt werden kann und das Ziel **Source** nicht verfügbar ist.
+- Die Auditabdeckung in den Einstellungen listet jetzt aktivierte Prüfungen der Umleitungskette anstelle von 404-Fehlerseitenprüfungen auf und beschreibt den Abschnitt als schreibgeschützte Ansicht der verfügbaren Audits.
 
 ## &#x200B;2. bis 8. November 2026 {#november-2-8-2026}
 
