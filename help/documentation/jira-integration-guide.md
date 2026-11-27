@@ -250,7 +250,7 @@ Verwenden Sie ein Ticket für ein einzelnes Problem, wenn eine Fehlerbehebung ei
    ![Fehlende Alternativtext-Opportunity mit einem ausgewählten Bild und der Aktion „Ticket erstellen“ verfügbar](./assets/jira-integration/alt-text-select-issue.png){align="center"}
 
 1. Wählen Sie **Ticket erstellen** aus.
-1. Behalten Sie im **Jira-Ticket erstellen** den vorausgefüllten **Ticketnamen**, z. B. `[ASO] Missing alt text – found on https://www.adobe.com/products/photoshop/generative-fill.html`, bei oder bearbeiten Sie ihn.
+1. Behalten Sie im **Jira-Ticket erstellen** den vorausgefüllten **Ticketnamen**, z. B. `[ASO] Missing alt text – found on https://www.adobe.com/de/products/photoshop/generative-fill.html`, bei oder bearbeiten Sie ihn.
 1. Überprüfen Sie **Problemname** und **Problembeschreibung**. Die Beschreibung listet die **Seiten-**), die **Bild-** URL) und den **Vorgeschlagenen Alternativtext**.
 
    ![Erstellen Sie das Jira-Ticket-Dialogfeld für fehlenden Alternativtext, in dem der Ticketname, das Projekt, der Problemtyp und ein Problemblock angezeigt werden](./assets/jira-integration/alt-text-dialog.png){align="center"}
@@ -261,15 +261,15 @@ Das Jira-Ticket listet die betroffene Seite auf, gefolgt vom Problem:
 
 ```markdown
 **Affected pages:**
-- https://www.adobe.com/products/photoshop/generative-fill.html
+- https://www.adobe.com/de/products/photoshop/generative-fill.html
 
 ---
 
-**[ASO] Missing alt text – found on https://www.adobe.com/products/photoshop/generative-fill.html**
+**[ASO] Missing alt text – found on https://www.adobe.com/de/products/photoshop/generative-fill.html**
 
-**Page URL:** https://www.adobe.com/products/photoshop/generative-fill.html
+**Page URL:** https://www.adobe.com/de/products/photoshop/generative-fill.html
 
-**Image URL:** https://www.adobe.com/cc-shared/fragments/products/photoshop/generative-fill/personalization/media_1986ceaab1420f3df0c4ff92b962e01bd402c0d53.jpg?width=750&format=jpg&optimize=medium
+**Image URL:** https://www.adobe.com/de/cc-shared/fragments/products/photoshop/generative-fill/personalization/media_1986ceaab1420f3df0c4ff92b962e01bd402c0d53.jpg?width=750&format=jpg&optimize=medium
 
 **Suggested alt text:** Photoshop Generate Similar displays three variations of a red-and-green tomato on a plate.
 ```
@@ -303,7 +303,7 @@ Sites Optimizer erstellt ein Ticket. Es werden die verweisenden Seiten aufgelist
 
 **Broken target URL:** https://www.adobe.com/support/flash/how/subjects/jpdemo/
 
-**Suggested redirect:** https://www.adobe.com/support/flash/
+**Suggested redirect:** https://www.adobe.com/de/support/flash/
 
 ---
 
@@ -311,7 +311,7 @@ Sites Optimizer erstellt ein Ticket. Es werden die verweisenden Seiten aufgelist
 
 **Broken target URL:** https://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash&P5_Language=English
 
-**Suggested redirect:** https://www.adobe.com/shockwave/download/
+**Suggested redirect:** https://www.adobe.com/de/shockwave/download/
 ```
 
 ![Jira-Ticket aus zwei defekten Backlinks erstellt, die die verweisenden Seiten und einen Abschnitt für jeden Backlink zeigen](./assets/jira-integration/broken-backlinks-jira-ticket.png){align="center"}
